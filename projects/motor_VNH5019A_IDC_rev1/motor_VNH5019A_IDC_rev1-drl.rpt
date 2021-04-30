@@ -1,0 +1,16 @@
+Drill report for /home/ted/kicad/projects/motor_VNH5019A_IDC_rev1/motor_VNH5019A_IDC_rev1.kicad_pcb
+Created on Wed 21 May 2014 08:28:52 PM PDT
+Drill report for plated through holes :
+T1  0.40mm  0.016"  (15 holes)
+T2  0.50mm  0.020"  (110 holes)
+
+Total plated holes count 125
+
+
+Drill report for unplated through holes :
+T1  1.70mm  0.067"  (4 holes)
+T2  3.00mm  0.118"  (4 holes)
+
+Total unplated holes count 8
+
+

@@ -1,0 +1,102 @@
+# EESchema Netlist Version 1.1 created  Tue 30 Mar 2010 06:01:50 PM PDT
+(
+ ( /4B3C71BF TED_SM3216-18_POL C11 10uF
+  ( 1 /+5v )
+  ( 2 GND )
+ )
+ ( /4BB29E91 TED_3.5_Stereo_ASJ-5-3 J4 3.5_STEREO
+  ( 1 GND )
+  ( 2 N-000016 )
+  ( 3 N-000016 )
+ )
+ ( /4B598186 TED_JMP_3x1 J5 Visible_or_Infrared
+  ( 1 N-000011 )
+  ( 2 /Sensors_Out )
+  ( 3 N-000012 )
+ )
+ ( /4B5986E1 TED_DC_2.1mm J6 DC_2.1mm
+  ( 1 /Vin )
+  ( 2 GND )
+ )
+ ( /4BB29E87 TED_3.5_Stereo_ASJ-5-3 J7 3.5_STEREO
+  ( 1 GND )
+  ( 2 /OpAmpOut )
+  ( 3 /OpAmpOut )
+ )
+ ( /4B59AD26 TED_JMP_3x1 J8 Sensors_or_AudioIn
+  ( 1 /Sensors_Out )
+  ( 2 /OpAmpIn )
+  ( 3 N-000016 )
+ )
+ ( /4BB0441F TED_TERMINAL_3.5MM_2PIN J9 TERMINAL_3.5MM_PCB_2PIN
+  ( 1 N-000016 )
+  ( 2 GND )
+ )
+ ( /4B597E64 TED_VAR_R2 R11 10k
+  ( 1 N-000013 )
+  ( 2 /OpAmpOut )
+  ( 3 ? )
+ )
+ ( /4B59AA41 TED_VAR_R2 R12 1k
+  ( 1 /+5v )
+  ( 2 /Sensors_Out )
+  ( 3 ? )
+ )
+ ( /4B59A145 TED_PIR_RE200B R13 PIR
+  ( 1 N-000012 )
+  ( 2 GND )
+  ( 3 ? )
+ )
+ ( /4B59A13C TED_photo-resistor R14 Photoresistor
+  ( 1 N-000011 )
+  ( 2 GND )
+ )
+ ( /4B59AAF4 TED_SM0805 R15 1k
+  ( 1 N-000013 )
+  ( 2 GND )
+ )
+ ( /4ADD1850 TED_TO220_NOHS U6 7805_NO_HS
+  ( 1 /Vin )
+  ( 2 GND )
+  ( 3 /+5v )
+ )
+ ( /4BB04474 TED_SOIC-8 U7 LM358
+  ( 1 /OpAmpOut )
+  ( 2 N-000013 )
+  ( 3 /OpAmpIn )
+  ( 4 GND )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 /+5v )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}

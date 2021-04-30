@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  Date: Wed 23 Dec 2009 10:38:53 PM PST
+#
+$CMP ZENER
+D Diode zener
+K DEV DIODE
+$ENDCMP
+#
+#End Doc Library

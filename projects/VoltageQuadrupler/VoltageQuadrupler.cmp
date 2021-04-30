@@ -1,0 +1,171 @@
+Cmp-Mod V01 Created by CvPcb (2013-08-24 BZR 4298)-stable date = Mon 09 Sep 2013 09:10:44 AM PDT
+
+BeginCmp
+TimeStamp = /5224110B;
+Reference = C1;
+ValeurCmp = .1uF;
+IdModule  = TED_ceramic_radial_5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52242069;
+Reference = C2;
+ValeurCmp = .1uF;
+IdModule  = TED_ceramic_radial_5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52241175;
+Reference = C3;
+ValeurCmp = .1uF;
+IdModule  = TED_ceramic_radial_5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52241387;
+Reference = C4;
+ValeurCmp = 1uF 63v;
+IdModule  = TED_C_RADIAL_ELECTROLYTIC_5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5224B3A7;
+Reference = C5;
+ValeurCmp = 1uF 63v;
+IdModule  = TED_C_RADIAL_ELECTROLYTIC_5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5224B484;
+Reference = C6;
+ValeurCmp = 1uF 63v;
+IdModule  = TED_C_RADIAL_ELECTROLYTIC_5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5224B55D;
+Reference = C7;
+ValeurCmp = 1uF 63v;
+IdModule  = TED_C_RADIAL_ELECTROLYTIC_5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /522C9325;
+Reference = C8;
+ValeurCmp = 1uF 63v;
+IdModule  = TED_C_RADIAL_ELECTROLYTIC_5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /522C9330;
+Reference = C9;
+ValeurCmp = 1uF 63v;
+IdModule  = TED_C_RADIAL_ELECTROLYTIC_5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /522C934F;
+Reference = C10;
+ValeurCmp = 680uF 63v;
+IdModule  = TED_C_RADIAL_ELECTROLYTIC_19mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5224B329;
+Reference = D1;
+ValeurCmp = 100V 300mA;
+IdModule  = TED_diode_axial_300mA_100V.;
+EndCmp
+
+BeginCmp
+TimeStamp = /5224B315;
+Reference = D2;
+ValeurCmp = 100V 300mA;
+IdModule  = TED_diode_axial_300mA_100V.;
+EndCmp
+
+BeginCmp
+TimeStamp = /5224B47C;
+Reference = D3;
+ValeurCmp = 100V 300mA;
+IdModule  = TED_diode_axial_300mA_100V.;
+EndCmp
+
+BeginCmp
+TimeStamp = /5224B476;
+Reference = D4;
+ValeurCmp = 100V 300mA;
+IdModule  = TED_diode_axial_300mA_100V.;
+EndCmp
+
+BeginCmp
+TimeStamp = /5224B557;
+Reference = D5;
+ValeurCmp = 100V 300mA;
+IdModule  = TED_diode_axial_300mA_100V.;
+EndCmp
+
+BeginCmp
+TimeStamp = /5224B551;
+Reference = D6;
+ValeurCmp = 100V 300mA;
+IdModule  = TED_diode_axial_300mA_100V.;
+EndCmp
+
+BeginCmp
+TimeStamp = /522C983D;
+Reference = D7;
+ValeurCmp = 100V 300mA;
+IdModule  = TED_diode_axial_300mA_100V.;
+EndCmp
+
+BeginCmp
+TimeStamp = /52240342;
+Reference = J1;
+ValeurCmp = DC_2.1MM;
+IdModule  = TED_DC_2.1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5224B716;
+Reference = J2;
+ValeurCmp = 3V 4V;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /5224B72A;
+Reference = J3;
+ValeurCmp = 1V 2V;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /52241265;
+Reference = R1;
+ValeurCmp = 910;
+IdModule  = TED_axial_resistor_halfwatt;
+EndCmp
+
+BeginCmp
+TimeStamp = /522411DC;
+Reference = R2;
+ValeurCmp = 100;
+IdModule  = TED_axial_resistor_halfwatt;
+EndCmp
+
+BeginCmp
+TimeStamp = /522DF238;
+Reference = R3;
+ValeurCmp = 100M;
+IdModule  = TED_axial_resistor_halfwatt;
+EndCmp
+
+BeginCmp
+TimeStamp = /5224039F;
+Reference = U1;
+ValeurCmp = NE555;
+IdModule  = TED_DIP-8;
+EndCmp
+
+EndListe

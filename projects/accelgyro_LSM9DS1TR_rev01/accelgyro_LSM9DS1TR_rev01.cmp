@@ -1,0 +1,59 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 1/2/2015 4:35:39 PM
+
+BeginCmp
+TimeStamp = /52959381;
+Reference = C1;
+ValeurCmp = 1uF;
+IdModule  = TED_SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A72FC4;
+Reference = C2;
+ValeurCmp = 1uF;
+IdModule  = TED_SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A72EF7;
+Reference = C3;
+ValeurCmp = 4.7uF;
+IdModule  = TED_c_elec_4.3x4.3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A5541B;
+Reference = C4;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5365C78C;
+Reference = H1;
+ValeurCmp = HOLE;
+IdModule  = TED_Hole_2_6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /539CBE67;
+Reference = H2;
+ValeurCmp = HOLE;
+IdModule  = TED_Hole_2_6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A72EE3;
+Reference = U1;
+ValeurCmp = FXOS8700CQ;
+IdModule  = TED_QFN16_3x5;
+EndCmp
+
+BeginCmp
+TimeStamp = /539B7C14;
+Reference = U2;
+ValeurCmp = RJ12;
+IdModule  = TED_RJ12_855135002;
+EndCmp
+
+EndListe

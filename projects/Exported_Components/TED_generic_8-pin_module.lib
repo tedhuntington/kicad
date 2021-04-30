@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Generic_8-pin_Module
+#
+DEF Generic_8-pin_Module U 0 20 Y Y 1 F N
+F0 "U" -5 -355 70 H V C CNN
+F1 "Generic_8-pin_Module" -5 355 70 H V C CNN
+F2 "" -10 -425 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -200 250 200 -250 0 0 0 N
+X Pin1 1 -250 150 50 R 30 30 1 1 P
+X Pin2 2 -250 50 50 R 30 30 1 1 P
+X Pin3 3 -250 -50 50 R 30 30 1 1 P
+X Pin4 4 -250 -150 50 R 30 30 1 1 P
+X Pin5 5 250 -150 50 L 30 30 1 1 P
+X Pin6 6 250 -50 50 L 30 30 1 1 P
+X Pin7 7 250 50 50 L 30 30 1 1 P
+X Pin8 8 250 150 50 L 30 30 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

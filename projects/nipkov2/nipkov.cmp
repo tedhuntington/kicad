@@ -1,0 +1,143 @@
+Cmp-Mod V01 Created by Cvpcb (20090502 SVN-R1750) date = Sun 17 May 2009 12:20:53 AM PDT
+
+BeginCmp
+TimeStamp = /49E6CB67;
+Reference = C1;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /49EA25FC;
+Reference = C2;
+ValeurCmp = 4.7uF;
+IdModule  = TED_SM3216-18_POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /49E6D69C;
+Reference = C3;
+ValeurCmp = 680uF;
+IdModule  = TED_C_RADIAL_2cm_x_2cm;
+EndCmp
+
+BeginCmp
+TimeStamp = /49E6C272;
+Reference = D1;
+ValeurCmp = tvs_250watt_6.8V;
+IdModule  = TED_DO-220AA;
+EndCmp
+
+BeginCmp
+TimeStamp = /49E6C244;
+Reference = D2;
+ValeurCmp = 5V;
+IdModule  = TED_ZENER_1.6X0.8MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F00354;
+Reference = J1;
+ValeurCmp = TERMINAL_3.5MM_PCB;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F003D6;
+Reference = J4;
+ValeurCmp = TERMINAL_3.5MM_PCB;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /49E54822;
+Reference = J5;
+ValeurCmp = TERMINAL_3.5MM_PCB;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F0044B;
+Reference = J6;
+ValeurCmp = TERMINAL_3.5MM_PCB;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F00431;
+Reference = J7;
+ValeurCmp = TERMINAL_3.5MM_PCB;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /49F003F7;
+Reference = J8;
+ValeurCmp = TERMINAL_3.5MM_PCB;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /49E6C218;
+Reference = Q1;
+ValeurCmp = IRF1405;
+IdModule  = TED_TO220;
+EndCmp
+
+BeginCmp
+TimeStamp = /49E6CB4F;
+Reference = R1;
+ValeurCmp = 1k;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /49E6CB3D;
+Reference = R2;
+ValeurCmp = 1k;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /49E6CB03;
+Reference = R3;
+ValeurCmp = 1M;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /49E6CB33;
+Reference = R4;
+ValeurCmp = 1k;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A0FBA6D;
+Reference = R5;
+ValeurCmp = 1k;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /49FBF1EC;
+Reference = U1;
+ValeurCmp = 7805;
+IdModule  = TED_TO220;
+EndCmp
+
+BeginCmp
+TimeStamp = /49E6BE35;
+Reference = U2;
+ValeurCmp = NE555;
+IdModule  = TED_DIL8;
+EndCmp
+
+BeginCmp
+TimeStamp = /49E68302;
+Reference = U3;
+ValeurCmp = OPA353;
+IdModule  = TED_SO08;
+EndCmp
+
+EndListe

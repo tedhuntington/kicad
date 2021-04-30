@@ -1,0 +1,20 @@
+# EESchema Netlist Version 1.1 created  Wed 01 Jul 2009 06:47:18 PM PDT
+(
+ ( /4A449E62 TED_SCREWLESS_TERM_2x1 J1 TERMINAL_2mil_PCB_2PIN
+  ( 1 N-000001 )
+  ( 2 N-000002 )
+ )
+ ( /4A4C0EC1 TED_photo-resistor R1 Photoresistor
+  ( 1 N-000001 )
+  ( 2 N-000002 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}

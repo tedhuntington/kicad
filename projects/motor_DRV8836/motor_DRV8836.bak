@@ -1,0 +1,666 @@
+EESchema Schematic File Version 2
+LIBS:ted_power
+LIBS:ted_capacitors
+LIBS:ted_connectors
+LIBS:TED_led
+LIBS:ted_regulators
+LIBS:ted_resistors
+LIBS:ted_switches
+LIBS:TED_transformer
+LIBS:ted_transistor
+LIBS:TED_zener
+LIBS:ted_ic
+LIBS:ted_inductors
+LIBS:ted_crystals
+LIBS:device
+LIBS:motor_DRV8836-cache
+EELAYER 24 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L DC_2.1MM J1
+U 1 1 52503907
+P 1870 3915
+F 0 "J1" H 1870 3365 60  0000 C CNN
+F 1 "Motor DC_2.1MM" H 1860 4305 60  0000 C CNN
+F 2 "TED_DC_2.1mm" H 1870 3430 60  0001 C CNN
+F 3 "" H 1870 3915 60  0000 C CNN
+F 4 "Jameco_GCD014A-R_or_Mouser_163_7620-E_or_163-2640-E(SMT)" H 1940 3270 60  0001 C CNN "Field4"
+	1    1870 3915
+	1    0    0    -1  
+$EndComp
+Text GLabel 1310 4250 0    39   Output ~ 0
+Vin
+$Comp
+L VIN #PWR01
+U 1 1 52503908
+P 1310 4120
+F 0 "#PWR01" H 1310 4070 20  0001 C CNN
+F 1 "VIN" H 1310 4220 30  0000 C CNN
+F 2 "" H 1310 4120 60  0000 C CNN
+F 3 "" H 1310 4120 60  0000 C CNN
+	1    1310 4120
+	1    0    0    -1  
+$EndComp
+Text Notes 1065 3970 0    39   ~ 0
++2 to +7v
+$Comp
+L GND #PWR02
+U 1 1 52503909
+P 2075 4410
+F 0 "#PWR02" H 2075 4485 30  0001 C CNN
+F 1 "GND" H 2075 4340 30  0000 C CNN
+F 2 "" H 2075 4410 60  0000 C CNN
+F 3 "" H 2075 4410 60  0000 C CNN
+	1    2075 4410
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2075 4320 2075 4410
+Wire Wire Line
+	1310 4330 1310 4120
+Wire Wire Line
+	1640 4330 1310 4330
+$Comp
+L HEADER_5X2 J5
+U 1 1 52427105
+P 8315 5175
+F 0 "J5" H 8335 4625 60  0000 C CNN
+F 1 "HEADER_5X2" V 8320 5175 60  0000 C CNN
+F 2 "" H 8315 5175 60  0000 C CNN
+F 3 "" H 8315 5175 60  0000 C CNN
+	1    8315 5175
+	1    0    0    -1  
+$EndComp
+Text GLabel 3780 1890 0    39   Input ~ 0
+ICSPDAT_M1+
+Text GLabel 3785 1990 0    39   Input ~ 0
+ICSPCLK_M1-
+Wire Wire Line
+	3865 1890 3780 1890
+Wire Wire Line
+	3865 1990 3785 1990
+Text GLabel 5605 1860 2    39   Output ~ 0
+Motor1+
+Text GLabel 5600 1960 2    39   Output ~ 0
+Motor1-
+Wire Wire Line
+	5545 1860 5605 1860
+Wire Wire Line
+	5545 1960 5600 1960
+Text GLabel 7905 4775 0    39   Input ~ 0
+Motor1+
+Text GLabel 7910 4975 0    39   Input ~ 0
+Motor2+
+Wire Wire Line
+	7905 4775 7965 4775
+Wire Wire Line
+	7910 4975 7965 4975
+Wire Wire Line
+	4615 5290 4615 5385
+$Comp
+L VIN #PWR03
+U 1 1 52427D61
+P 4615 5290
+F 0 "#PWR03" H 4615 5240 20  0001 C CNN
+F 1 "VIN" H 4615 5390 30  0000 C CNN
+F 2 "" H 4615 5290 60  0000 C CNN
+F 3 "" H 4615 5290 60  0000 C CNN
+	1    4615 5290
+	1    0    0    -1  
+$EndComp
+Text GLabel 4615 5340 0    39   Input ~ 0
+Vin
+Text GLabel 3225 2630 0    39   Input ~ 0
++2.8v
+Wire Wire Line
+	3225 2630 3870 2630
+Text GLabel 7905 5175 0    39   Input ~ 0
+Motor3+
+Text GLabel 7905 5375 0    39   Input ~ 0
+Motor4+
+Wire Wire Line
+	7905 5175 7965 5175
+Wire Wire Line
+	7905 5375 7960 5375
+Text GLabel 7915 5575 0    39   Input ~ 0
+Motor5+
+Wire Wire Line
+	7965 5575 7915 5575
+Text GLabel 8725 4775 2    39   Input ~ 0
+Motor1-
+Text GLabel 8720 4975 2    39   Input ~ 0
+Motor2-
+Wire Wire Line
+	8665 4775 8725 4775
+Wire Wire Line
+	8665 4975 8720 4975
+Text GLabel 8725 5175 2    39   Input ~ 0
+Motor3-
+Text GLabel 8720 5375 2    39   Input ~ 0
+Motor4-
+Wire Wire Line
+	8665 5175 8725 5175
+Wire Wire Line
+	8665 5375 8720 5375
+Text GLabel 8715 5575 2    39   Input ~ 0
+Motor5-
+Wire Wire Line
+	8715 5575 8665 5575
+Text GLabel 5595 2180 2    39   Output ~ 0
+Motor2+
+Text GLabel 5590 2280 2    39   Output ~ 0
+Motor2-
+Wire Wire Line
+	5540 2180 5595 2180
+Wire Wire Line
+	5540 2280 5590 2280
+Text GLabel 5585 3895 2    39   Output ~ 0
+Motor3+
+Text GLabel 5580 3995 2    39   Output ~ 0
+Motor3-
+Wire Wire Line
+	5525 3895 5585 3895
+Wire Wire Line
+	5525 3995 5580 3995
+Text GLabel 5575 4215 2    39   Output ~ 0
+Motor4+
+Text GLabel 5570 4315 2    39   Output ~ 0
+Motor4-
+Wire Wire Line
+	5520 4215 5575 4215
+Wire Wire Line
+	5520 4315 5570 4315
+Text GLabel 5900 5930 2    39   Output ~ 0
+Motor5+
+Text GLabel 5900 6030 2    39   Output ~ 0
+Motor5-
+Text GLabel 3780 2130 0    39   Input ~ 0
+M2+
+Text GLabel 3785 2230 0    39   Input ~ 0
+M2-
+Wire Wire Line
+	3865 2130 3780 2130
+Wire Wire Line
+	3865 2230 3785 2230
+Text GLabel 3760 3925 0    39   Input ~ 0
+M3+
+Text GLabel 3765 4025 0    39   Input ~ 0
+M3-
+Wire Wire Line
+	3845 3925 3760 3925
+Wire Wire Line
+	3845 4025 3765 4025
+Text GLabel 3760 4165 0    39   Input ~ 0
+M4+
+Text GLabel 3765 4265 0    39   Input ~ 0
+M4-
+Wire Wire Line
+	3845 4165 3760 4165
+Wire Wire Line
+	3845 4265 3765 4265
+Text GLabel 3615 5960 0    39   Input ~ 0
+M5+
+Text GLabel 3620 6060 0    39   Input ~ 0
+M5-
+$Comp
+L GND #PWR04
+U 1 1 52439488
+P 3745 2630
+F 0 "#PWR04" H 3745 2705 30  0001 C CNN
+F 1 "GND" H 3745 2560 30  0000 C CNN
+F 2 "" H 3745 2630 60  0000 C CNN
+F 3 "" H 3745 2630 60  0000 C CNN
+	1    3745 2630
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3745 2510 3745 2630
+$Comp
+L GND #PWR05
+U 1 1 524394F7
+P 4925 3020
+F 0 "#PWR05" H 4925 3095 30  0001 C CNN
+F 1 "GND" H 4925 2950 30  0000 C CNN
+F 2 "" H 4925 3020 60  0000 C CNN
+F 3 "" H 4925 3020 60  0000 C CNN
+	1    4925 3020
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4925 2900 4925 3020
+$Comp
+L GND #PWR06
+U 1 1 524394FE
+P 5065 3020
+F 0 "#PWR06" H 5065 3095 30  0001 C CNN
+F 1 "GND" H 5065 2950 30  0000 C CNN
+F 2 "" H 5065 3020 60  0000 C CNN
+F 3 "" H 5065 3020 60  0000 C CNN
+	1    5065 3020
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5065 2900 5065 3020
+$Comp
+L GND #PWR07
+U 1 1 5243952F
+P 4905 5055
+F 0 "#PWR07" H 4905 5130 30  0001 C CNN
+F 1 "GND" H 4905 4985 30  0000 C CNN
+F 2 "" H 4905 5055 60  0000 C CNN
+F 3 "" H 4905 5055 60  0000 C CNN
+	1    4905 5055
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4905 4935 4905 5055
+$Comp
+L GND #PWR08
+U 1 1 52439536
+P 5045 5055
+F 0 "#PWR08" H 5045 5130 30  0001 C CNN
+F 1 "GND" H 5045 4985 30  0000 C CNN
+F 2 "" H 5045 5055 60  0000 C CNN
+F 3 "" H 5045 5055 60  0000 C CNN
+	1    5045 5055
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5045 4935 5045 5055
+$Comp
+L GND #PWR09
+U 1 1 5243954B
+P 3675 6620
+F 0 "#PWR09" H 3675 6695 30  0001 C CNN
+F 1 "GND" H 3675 6550 30  0000 C CNN
+F 2 "" H 3675 6620 60  0000 C CNN
+F 3 "" H 3675 6620 60  0000 C CNN
+	1    3675 6620
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3675 6580 3675 6620
+$Comp
+L GND #PWR010
+U 1 1 5243956E
+P 4905 7090
+F 0 "#PWR010" H 4905 7165 30  0001 C CNN
+F 1 "GND" H 4905 7020 30  0000 C CNN
+F 2 "" H 4905 7090 60  0000 C CNN
+F 3 "" H 4905 7090 60  0000 C CNN
+	1    4905 7090
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4905 6970 4905 7090
+$Comp
+L GND #PWR011
+U 1 1 52439575
+P 5045 7090
+F 0 "#PWR011" H 5045 7165 30  0001 C CNN
+F 1 "GND" H 5045 7020 30  0000 C CNN
+F 2 "" H 5045 7090 60  0000 C CNN
+F 3 "" H 5045 7090 60  0000 C CNN
+	1    5045 7090
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5045 6970 5045 7090
+$Comp
+L C(SMALL) C3
+U 1 1 524CF7DE
+P 4615 5435
+F 0 "C3" H 4640 5485 30  0000 L CNN
+F 1 "10uF" H 4640 5390 30  0000 L CNN
+F 2 "" H 4615 5435 60  0000 C CNN
+F 3 "" H 4615 5435 60  0000 C CNN
+	1    4615 5435
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR012
+U 1 1 524CF8AC
+P 4615 5560
+F 0 "#PWR012" H 4615 5635 30  0001 C CNN
+F 1 "GND" H 4615 5490 30  0000 C CNN
+F 2 "" H 4615 5560 60  0000 C CNN
+F 3 "" H 4615 5560 60  0000 C CNN
+	1    4615 5560
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4615 5560 4615 5485
+Text GLabel 7815 3080 0    39   Output ~ 0
+ICSPDAT_M1+
+Text GLabel 8680 3085 2    39   Output ~ 0
+ICSPCLK_M1-
+Wire Wire Line
+	7900 3885 7815 3885
+Wire Wire Line
+	8600 3885 8680 3885
+Text GLabel 7810 3285 0    39   Output ~ 0
+M2+
+Text GLabel 8680 3285 2    39   Output ~ 0
+M2-
+Wire Wire Line
+	7895 3685 7810 3685
+Wire Wire Line
+	8600 3685 8680 3685
+Text GLabel 7815 3485 0    39   Output ~ 0
+M3+
+Text GLabel 8680 3485 2    39   Output ~ 0
+M3-
+Wire Wire Line
+	7900 3485 7815 3485
+Wire Wire Line
+	8600 3485 8680 3485
+Text GLabel 7810 3685 0    39   Output ~ 0
+M4+
+Text GLabel 8680 3685 2    39   Output ~ 0
+M4-
+Wire Wire Line
+	7895 3285 7810 3285
+Wire Wire Line
+	8600 3285 8680 3285
+Text GLabel 7815 3885 0    39   Output ~ 0
+M5+
+Text GLabel 8680 3885 2    39   Output ~ 0
+M5-
+Wire Wire Line
+	7815 3080 7900 3080
+Wire Wire Line
+	8600 3085 8680 3085
+Text GLabel 7505 2280 0    39   Output ~ 0
++2.8v
+$Comp
+L GND #PWR013
+U 1 1 52503C6E
+P 9340 2370
+F 0 "#PWR013" H 9340 2445 30  0001 C CNN
+F 1 "GND" H 9340 2300 30  0000 C CNN
+F 2 "" H 9340 2370 60  0000 C CNN
+F 3 "" H 9340 2370 60  0000 C CNN
+	1    9340 2370
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 2280 9340 2280
+Wire Wire Line
+	9340 2280 9340 2370
+Wire Wire Line
+	7505 2280 7900 2280
+Text Notes 8050 1300 0    79   ~ 0
+min logic high (for 7v) is 2.6v\n(typ low=.38Vcc typ high=.46Vcc max high=.5Vcc)
+Text Notes 1500 3150 0    79   ~ 0
+Vcc=2-7V
+Text Notes 8050 1550 0    79   ~ 0
+Vcc=6v, low=2.28v, high=2.76-3.5
+$Comp
+L DRV8836 U1
+U 1 1 529BA23B
+P 4670 2260
+F 0 "U1" H 4660 1840 60  0000 C CNN
+F 1 "DRV8836" H 4290 2800 60  0000 C CNN
+F 2 "" H 4670 2260 60  0000 C CNN
+F 3 "" H 4670 2260 60  0000 C CNN
+	1    4670 2260
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4615 5315 4920 5315
+Wire Wire Line
+	4920 5315 4920 5610
+Connection ~ 4615 5315
+$Comp
+L +2.8V #PWR014
+U 1 1 529BA7BD
+P 7695 2165
+F 0 "#PWR014" H 7695 2115 20  0001 C CNN
+F 1 "+2.8V" H 7695 2265 30  0000 C CNN
+F 2 "" H 7695 2165 60  0000 C CNN
+F 3 "" H 7695 2165 60  0000 C CNN
+	1    7695 2165
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7695 2165 7695 2280
+Connection ~ 7695 2280
+$Comp
+L +2.8V #PWR015
+U 1 1 529BA843
+P 3315 2515
+F 0 "#PWR015" H 3315 2465 20  0001 C CNN
+F 1 "+2.8V" H 3315 2615 30  0000 C CNN
+F 2 "" H 3315 2515 60  0000 C CNN
+F 3 "" H 3315 2515 60  0000 C CNN
+	1    3315 2515
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3315 2515 3315 2630
+Connection ~ 3315 2630
+Text GLabel 3205 4665 0    39   Input ~ 0
++2.8v
+Wire Wire Line
+	3205 4665 3850 4665
+$Comp
+L +2.8V #PWR016
+U 1 1 529BA861
+P 3295 4550
+F 0 "#PWR016" H 3295 4500 20  0001 C CNN
+F 1 "+2.8V" H 3295 4650 30  0000 C CNN
+F 2 "" H 3295 4550 60  0000 C CNN
+F 3 "" H 3295 4550 60  0000 C CNN
+	1    3295 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3295 4550 3295 4665
+Connection ~ 3295 4665
+Text GLabel 3205 6700 0    39   Input ~ 0
++2.8v
+Wire Wire Line
+	3205 6700 3850 6700
+Connection ~ 3295 6700
+Wire Wire Line
+	3870 2510 3745 2510
+$Comp
+L DRV8836 U2
+U 1 1 529BAB70
+P 4650 4295
+F 0 "U2" H 4640 3875 60  0000 C CNN
+F 1 "DRV8836" H 4270 4835 60  0000 C CNN
+F 2 "" H 4650 4295 60  0000 C CNN
+F 3 "" H 4650 4295 60  0000 C CNN
+	1    4650 4295
+	1    0    0    -1  
+$EndComp
+$Comp
+L DRV8836 U3
+U 1 1 529BAB89
+P 4650 6330
+F 0 "U3" H 4640 5910 60  0000 C CNN
+F 1 "DRV8836" H 4270 6870 60  0000 C CNN
+F 2 "" H 4650 6330 60  0000 C CNN
+F 3 "" H 4650 6330 60  0000 C CNN
+	1    4650 6330
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5525 5930 5900 5930
+Wire Wire Line
+	5630 5930 5630 6250
+Wire Wire Line
+	5630 6250 5520 6250
+Connection ~ 5630 5930
+Wire Wire Line
+	3675 6580 3850 6580
+$Comp
+L GND #PWR017
+U 1 1 529BADAE
+P 3675 4585
+F 0 "#PWR017" H 3675 4660 30  0001 C CNN
+F 1 "GND" H 3675 4515 30  0000 C CNN
+F 2 "" H 3675 4585 60  0000 C CNN
+F 3 "" H 3675 4585 60  0000 C CNN
+	1    3675 4585
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3675 4545 3675 4585
+Wire Wire Line
+	3675 4545 3850 4545
+Wire Wire Line
+	3615 5960 3845 5960
+Wire Wire Line
+	3765 5960 3765 6200
+Wire Wire Line
+	3765 6200 3845 6200
+Connection ~ 3765 5960
+Wire Wire Line
+	3620 6060 3845 6060
+Wire Wire Line
+	3715 6060 3715 6300
+Wire Wire Line
+	3715 6300 3845 6300
+Connection ~ 3715 6060
+Wire Wire Line
+	5525 6030 5900 6030
+Wire Wire Line
+	5685 6030 5685 6350
+Wire Wire Line
+	5685 6350 5520 6350
+Connection ~ 5685 6030
+Wire Wire Line
+	4615 3255 4615 3350
+$Comp
+L VIN #PWR018
+U 1 1 529BB0D7
+P 4615 3255
+F 0 "#PWR018" H 4615 3205 20  0001 C CNN
+F 1 "VIN" H 4615 3355 30  0000 C CNN
+F 2 "" H 4615 3255 60  0000 C CNN
+F 3 "" H 4615 3255 60  0000 C CNN
+	1    4615 3255
+	1    0    0    -1  
+$EndComp
+Text GLabel 4615 3305 0    39   Input ~ 0
+Vin
+$Comp
+L C(SMALL) C2
+U 1 1 529BB0DE
+P 4615 3400
+F 0 "C2" H 4640 3450 30  0000 L CNN
+F 1 "10uF" H 4640 3355 30  0000 L CNN
+F 2 "" H 4615 3400 60  0000 C CNN
+F 3 "" H 4615 3400 60  0000 C CNN
+	1    4615 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR019
+U 1 1 529BB0E4
+P 4615 3525
+F 0 "#PWR019" H 4615 3600 30  0001 C CNN
+F 1 "GND" H 4615 3455 30  0000 C CNN
+F 2 "" H 4615 3525 60  0000 C CNN
+F 3 "" H 4615 3525 60  0000 C CNN
+	1    4615 3525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4615 3525 4615 3450
+Wire Wire Line
+	4615 3280 4920 3280
+Wire Wire Line
+	4920 3280 4920 3575
+Connection ~ 4615 3280
+Wire Wire Line
+	4635 1220 4635 1315
+$Comp
+L VIN #PWR020
+U 1 1 529BB0F0
+P 4635 1220
+F 0 "#PWR020" H 4635 1170 20  0001 C CNN
+F 1 "VIN" H 4635 1320 30  0000 C CNN
+F 2 "" H 4635 1220 60  0000 C CNN
+F 3 "" H 4635 1220 60  0000 C CNN
+	1    4635 1220
+	1    0    0    -1  
+$EndComp
+Text GLabel 4635 1270 0    39   Input ~ 0
+Vin
+$Comp
+L C(SMALL) C1
+U 1 1 529BB0F7
+P 4635 1365
+F 0 "C1" H 4660 1415 30  0000 L CNN
+F 1 "10uF" H 4660 1320 30  0000 L CNN
+F 2 "" H 4635 1365 60  0000 C CNN
+F 3 "" H 4635 1365 60  0000 C CNN
+	1    4635 1365
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR021
+U 1 1 529BB0FD
+P 4635 1490
+F 0 "#PWR021" H 4635 1565 30  0001 C CNN
+F 1 "GND" H 4635 1420 30  0000 C CNN
+F 2 "" H 4635 1490 60  0000 C CNN
+F 3 "" H 4635 1490 60  0000 C CNN
+	1    4635 1490
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4635 1490 4635 1415
+Wire Wire Line
+	4635 1245 4940 1245
+Wire Wire Line
+	4940 1245 4940 1540
+Connection ~ 4635 1245
+$Comp
+L HEADER_10X2 J2
+U 1 1 5290DDD9
+P 8250 3180
+F 0 "J2" H 8245 2625 60  0000 C CNN
+F 1 "HEADER_10X2" V 8240 3225 60  0000 C CNN
+F 2 "" H 8250 3680 60  0000 C CNN
+F 3 "" H 8250 3680 60  0000 C CNN
+	1    8250 3180
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7900 4085
+NoConn ~ 8600 4085
+NoConn ~ 7895 2880
+NoConn ~ 7900 2680
+NoConn ~ 7900 2480
+NoConn ~ 8600 2480
+NoConn ~ 8600 2680
+NoConn ~ 8600 2880
+Wire Wire Line
+	3295 6585 3295 6700
+$Comp
+L +2.8V #PWR022
+U 1 1 529BA875
+P 3295 6585
+F 0 "#PWR022" H 3295 6535 20  0001 C CNN
+F 1 "+2.8V" H 3295 6685 30  0000 C CNN
+F 2 "" H 3295 6585 60  0000 C CNN
+F 3 "" H 3295 6585 60  0000 C CNN
+	1    3295 6585
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

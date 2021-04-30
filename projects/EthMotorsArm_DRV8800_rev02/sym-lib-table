@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name EthMotorsArm_DRV8800_rev02-rescue)(type Legacy)(uri ${KIPRJMOD}/EthMotorsArm_DRV8800_rev02-rescue.lib)(options "")(descr ""))
+)

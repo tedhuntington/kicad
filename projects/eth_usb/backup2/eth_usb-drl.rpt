@@ -1,0 +1,21 @@
+Drill report for /home/ted/kicad/projects/eth_usb/eth_usb.kicad_pcb
+Created on Mon 07 Oct 2013 08:26:37 PM PDT
+Drill report for plated through holes :
+T1  0.64mm  0.025"  (68 holes)
+T2  0.80mm  0.031"  (5 holes)
+T3  0.89mm  0.035"  (8 holes)
+T4  1.00mm  0.039"  (2 holes)
+T5  1.02mm  0.040"  (4 holes)
+T6  1.63mm  0.064"  (2 holes)
+T7  1.70mm  0.067"  (2 holes)
+T8  3.00mm  0.118"  (4 holes)
+T9  3.25mm  0.128"  (2 holes)
+
+Total plated holes count 97
+
+
+Drill report for unplated through holes :
+
+Total unplated holes count 0
+
+

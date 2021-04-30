@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0  Date: Sat 01 Aug 2009 01:26:20 AM PDT
+#
+$CMP MOSFET_N
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP NMOSFET_GDS
+F transistors/mos/*.*
+$ENDCMP
+#
+#End Doc Library

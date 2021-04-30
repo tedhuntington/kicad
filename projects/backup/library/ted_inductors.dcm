@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ferrite_bead
+D Resistance
+K R DEV
+$ENDCMP
+#
+#End Doc Library

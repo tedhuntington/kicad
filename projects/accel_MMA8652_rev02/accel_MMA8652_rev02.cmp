@@ -1,0 +1,52 @@
+Cmp-Mod V01 Created by CvPcb (2013-08-24 BZR 4298)-stable date = Sat 03 May 2014 09:53:40 PM PDT
+
+BeginCmp
+TimeStamp = /52959381;
+Reference = C1;
+ValeurCmp = 1uF;
+IdModule  = TED_SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5295936A;
+Reference = C2;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A554A9;
+Reference = C3;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A5541B;
+Reference = C4;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5365C78C;
+Reference = H1;
+ValeurCmp = HOLE;
+IdModule  = TED_Hole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A55745;
+Reference = J1;
+ValeurCmp = HEADER_3X2;
+IdModule  = TED_HEADER_3x2_SMT;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A5537C;
+Reference = U1;
+ValeurCmp = MMA8652;
+IdModule  = TED_DFN-10;
+EndCmp
+
+EndListe

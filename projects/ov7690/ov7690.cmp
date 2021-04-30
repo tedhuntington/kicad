@@ -1,0 +1,73 @@
+Cmp-Mod V01 Created by Cvpcb (20090530 SVN-R1798) date = Sun 30 Aug 2009 09:11:03 PM PDT
+
+BeginCmp
+TimeStamp = /4A871D52;
+Reference = C1;
+ValeurCmp = 10uF;
+IdModule  = TED_SM3216-18_POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A871D55;
+Reference = C2;
+ValeurCmp = 10uF;
+IdModule  = TED_SM3216-18_POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A871D32;
+Reference = C3;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A871D35;
+Reference = C4;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A9B4BCF;
+Reference = C5;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A8718F7;
+Reference = J1;
+ValeurCmp = IDE_10x2;
+IdModule  = TED_IDE_10x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A9B48A3;
+Reference = L1;
+ValeurCmp = 3.3uH;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A9B48C1;
+Reference = L2;
+ValeurCmp = 3.3uH;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A8716B7;
+Reference = U1;
+ValeurCmp = OV7690;
+IdModule  = TED_CSP3-20_WITH_GUIDES;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A9B4498;
+Reference = U2;
+ValeurCmp = Regulator_2.8V;
+IdModule  = TED_SOT-23-5;
+EndCmp
+
+EndListe

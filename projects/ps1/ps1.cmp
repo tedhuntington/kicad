@@ -1,0 +1,24 @@
+Cmp-Mod V01 Created by Cvpcb (20090530 SVN-R1798) date = Thu 25 Mar 2010 06:12:25 PM PDT
+
+BeginCmp
+TimeStamp = /4B491031;
+Reference = J8;
+ValeurCmp = TERMINAL_3.5MM_PCB_2PIN;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BAC0890;
+Reference = J9;
+ValeurCmp = JUMPER_2X1;
+IdModule  = TED_JMP_2x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BAC0857;
+Reference = J10;
+ValeurCmp = DC_2.1mm;
+IdModule  = TED_DC_2.1mm;
+EndCmp
+
+EndListe

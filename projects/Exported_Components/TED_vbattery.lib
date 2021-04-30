@@ -1,0 +1,18 @@
+EESchema-LIBRARY Version 2.3  Date: Thu 14 May 2015 10:44:53 PM PDT
+#encoding utf-8
+#
+# VBattery
+#
+DEF VBattery #PWR 0 0 N Y 1 F P
+F0 "#PWR" 0 -50 20 H I C CNN
+F1 "VBattery" 0 100 30 H V C CNN
+F2 "~" 0 0 60 H V C CNN
+F3 "~" 0 0 60 H V C CNN
+DRAW
+X VBattery 1 0 0 0 U 20 30 0 0 W N
+P 3 0 1 0  0 0  0 50  0 50 N
+P 7 0 1 0  0 80  30 50  -20 50  -30 50  0 80  0 80  0 80 F
+ENDDRAW
+ENDDEF
+#
+#End Library

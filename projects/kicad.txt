@@ -1,0 +1,20 @@
+kicad.txt
+
+1) thought about autorefresh after each graphic activity? - manual refresh is hassle.
+2) cannot get wires to connect to pins - all marked unconnected - but appear to be connected at highest resolution.
+3) CVpcb crashes after saving (possibly because library not in project folder?)
+4) Module editor cannot delete module (when library is not in project folder) - gives message: Impossible to get permissions for file '/root/kicad/projects/library/ted_diodes.$$$' (error 2: No such file or directory) and another window Librariri.cpp: rename err 2
+
+----
+
+PCB foot print library file <sockets.mod> could not be found in the default search paths.
+Could not open PCB foot print library document file </usr/local/share/kicad/template/connect.mdc>.
+Could not open PCB foot print library document file </usr/local/share/kicad/template/divers.mdc>.
+Could not open PCB foot print library document file </usr/local/share/kicad/template/led.mdc>.
+PCB foot print library file <dip_sockets.mod> could not be found in the default search paths.
+PCB foot print library file <2.mod> could not be found in the default search paths.
+PCB foot print library file <Terminal_3.mod> could not be found in the default search paths.
+
+
+Reading in netlists
+component j1 not found, etc - do I need to have the footprint name, or the module name, the .mod name, etc.? = no space in module name

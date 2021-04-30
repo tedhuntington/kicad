@@ -1,0 +1,129 @@
+Cmp-Mod V01 Created by CvPCB (20100330 SVN-R2491)-final date = Tue 30 Mar 2010 05:38:17 PM PDT
+
+BeginCmp
+TimeStamp = /4A63BBA9;
+Reference = C9;
+ValeurCmp = 18pF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A63BBC6;
+Reference = C10;
+ValeurCmp = 18pF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B3C71BF;
+Reference = C11;
+ValeurCmp = 10uF;
+IdModule  = TED_SM3216-18_POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A63B971;
+Reference = D5;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BAF34CB;
+Reference = D6;
+ValeurCmp = LASER;
+IdModule  = TED_TO-18;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BB298B6;
+Reference = J4;
+ValeurCmp = 3.5_STEREO;
+IdModule  = TED_3.5_Stereo_ASJ-5-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B598186;
+Reference = J5;
+ValeurCmp = PIC_or_Audio;
+IdModule  = TED_JMP_3x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B5986E1;
+Reference = J6;
+ValeurCmp = DC_2.1mm;
+IdModule  = TED_DC_2.1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BB298E0;
+Reference = J7;
+ValeurCmp = 3.5_STEREO;
+IdModule  = TED_3.5_Stereo_ASJ-5-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A63B974;
+Reference = R9;
+ValeurCmp = 100;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B597E59;
+Reference = R10;
+ValeurCmp = 10k;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B597E64;
+Reference = R11;
+ValeurCmp = 10k;
+IdModule  = TED_VAR_R2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B5D651A;
+Reference = R12;
+ValeurCmp = 1k;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B5D662C;
+Reference = R13;
+ValeurCmp = 20k;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A639A4F;
+Reference = U5;
+ValeurCmp = PIC16F716;
+IdModule  = TED_DIP-18;
+EndCmp
+
+BeginCmp
+TimeStamp = /4ADD1850;
+Reference = U6;
+ValeurCmp = 7805_NO_HS;
+IdModule  = TED_TO220_NOHS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BAF282C;
+Reference = U7;
+ValeurCmp = LM358;
+IdModule  = TED_SOIC-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A63BBCD;
+Reference = X2;
+ValeurCmp = 20MHz;
+IdModule  = TED_crystal_SMT_13x5mm;
+EndCmp
+
+EndListe

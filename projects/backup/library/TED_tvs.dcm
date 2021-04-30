@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  Date: Sat 12 Dec 2009 12:39:55 PM PST
+#
+$CMP TVS
+D Diode simple
+K DEV DIODE
+$ENDCMP
+#
+#End Doc Library

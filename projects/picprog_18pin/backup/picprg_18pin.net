@@ -1,0 +1,152 @@
+# EESchema Netlist Version 1.1 created  Thu 31 Dec 2009 01:43:00 AM PST
+(
+ ( /4A63BBA9 TED_SM0805 C9 18pF
+  ( 1 N-000003 )
+  ( 2 /GND )
+ )
+ ( /4A63BBC6 TED_SM0805 C10 18pF
+  ( 1 N-000006 )
+  ( 2 /GND )
+ )
+ ( /4B3C71BF TED_SM3216-18_POL C11 10uF
+  ( 1 /+5v )
+  ( 2 /GND )
+ )
+ ( /4A63B971 TED_SM1206 D5 LED
+  ( 1 /TestLED )
+  ( 2 N-000004 )
+ )
+ ( /4B35AC4D TED_diode_axial D6 12v
+  ( 1 /+12v )
+  ( 2 /GND )
+ )
+ ( /4A63A46A TED_CONNECTOR_POWER_2.5mm J3 DC_2.5mm_PCB
+  ( 1 /Vin )
+  ( 2 /GND )
+ )
+ ( /4ADD1B90 TED_SPDT_10SP001 J5 SPDT_Switch
+  ( 1 /+5v_usb )
+  ( 2 /+5v )
+  ( 3 /+5v_ext )
+ )
+ ( /4AE59BAD TED_SPDT_10SP001 J6 SPDT_Switch
+  ( 1 /+5v )
+  ( 2 /MCLR_PIN )
+  ( 3 /T2 )
+ )
+ ( /4B35AC32 TED_TERMINAL_3.5MM_2PIN J7 TERMINAL_3.5MM_PCB_2PIN
+  ( 1 /Vin )
+  ( 2 /GND )
+ )
+ ( /4B35AC0F TED_HEADER_6x1 J8 HEADER_6X1
+  ( 1 /MCLR )
+  ( 2 /+5v_usb )
+  ( 3 /GND )
+  ( 4 /IPSPDAT )
+  ( 5 /IPSPCLK )
+  ( 6 ? )
+ )
+ ( /4B35ACB9 TED_SOT-23_3pin Q1 NMOSFET_GSD
+  ( 1 /T1 )
+  ( 2 /GND )
+  ( 3 /T2 )
+ )
+ ( /4B35ACDD TED_SOT-23_3pin Q2 NMOSFET_GSD
+  ( 1 /MCLR )
+  ( 2 /GND )
+  ( 3 /T1 )
+ )
+ ( /4A63A2B6 TED_SM0805 R6 10k
+  ( 1 /+12v )
+  ( 2 /T2 )
+ )
+ ( /4A63B974 TED_SM0805 R9 560
+  ( 1 N-000004 )
+  ( 2 /GND )
+ )
+ ( /4AE59B47 TED_SM0805 R10 10k
+  ( 1 /+5v )
+  ( 2 /T1 )
+ )
+ ( /4B35ADAD TED_axial_resistor_halfwatt R11 390
+  ( 1 /Vin )
+  ( 2 /+12v )
+ )
+ ( /4A639A4F TED_DIP-18 U5 PIC16F716
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 /MCLR_PIN )
+  ( 5 /GND )
+  ( 6 /TestLED )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 ? )
+  ( 12 /IPSPCLK )
+  ( 13 /IPSPDAT )
+  ( 14 /+5v )
+  ( 15 N-000006 )
+  ( 16 N-000003 )
+  ( 17 ? )
+  ( 18 ? )
+ )
+ ( /4ADD1850 TED_TO220_NOHS U6 7805_NO_HS
+  ( 1 /+12v )
+  ( 2 /GND )
+  ( 3 /+5v_ext )
+ )
+ ( /4A63BBCD TED_crystal_SMT_13x5mm X2 20MHz
+  ( 1 N-000003 )
+  ( 2 N-000006 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component D5
+ D?
+ S*
+$endlist
+$component D6
+ D?
+ SO*
+ SM*
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}

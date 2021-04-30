@@ -1,0 +1,157 @@
+# EESchema Netlist Version 1.1 created  Wed 23 Dec 2009 07:52:23 PM PST
+(
+ ( /4B0F2397 TED_SM1206 D1 LED
+  ( 1 /LEDs )
+  ( 2 /GND )
+ )
+ ( /4B0F2340 TED_SM1206 D2 LED
+  ( 1 /LEDs )
+  ( 2 /GND )
+ )
+ ( /4B0F2541 TED_SM1206 D3 LED
+  ( 1 /LEDs )
+  ( 2 /GND )
+ )
+ ( /4B0F2540 TED_SM1206 D4 LED
+  ( 1 /LEDs )
+  ( 2 /GND )
+ )
+ ( /4B0F2551 TED_SM1206 D5 LED
+  ( 1 /LEDs )
+  ( 2 /GND )
+ )
+ ( /4B0F2550 TED_SM1206 D6 LED
+  ( 1 /LEDs )
+  ( 2 /GND )
+ )
+ ( /4B0F2553 TED_SM1206 D7 LED
+  ( 1 /LEDs )
+  ( 2 /GND )
+ )
+ ( /4B0F2552 TED_SM1206 D8 LED
+  ( 1 /LEDs )
+  ( 2 /GND )
+ )
+ ( /4B0F2558 TED_SM1206 D9 LED
+  ( 1 /LEDs )
+  ( 2 /GND )
+ )
+ ( /4B0F2557 TED_SM1206 D10 LED
+  ( 1 /LEDs )
+  ( 2 /GND )
+ )
+ ( /4B0F255A TED_SM1206 D11 LED
+  ( 1 /LEDs )
+  ( 2 /GND )
+ )
+ ( /4B0F2559 TED_SM1206 D12 LED
+  ( 1 /LEDs )
+  ( 2 /GND )
+ )
+ ( /4B0F255C TED_SM1206 D13 LED
+  ( 1 /LEDs )
+  ( 2 /GND )
+ )
+ ( /4B0F255B TED_SM1206 D14 LED
+  ( 1 /LEDs )
+  ( 2 /GND )
+ )
+ ( /4B0F255E TED_SM1206 D15 LED
+  ( 1 /LEDs )
+  ( 2 /GND )
+ )
+ ( /4B0F255D TED_SM1206 D16 LED
+  ( 1 /LEDs )
+  ( 2 /GND )
+ )
+ ( /4B0F22C3 TED_CONNECTOR_POWER_2.5mm J1 DC_2.5mm_PCB
+  ( 1 N-000001 )
+  ( 2 /GND )
+ )
+ ( /4B19E410 TED_SWITCH_SPST_MPB-129 J2 SPST_Switch
+  ( 1 N-000001 )
+  ( 2 /+24v )
+ )
+ ( /4B0F2411 TED_SM0805 R1 255
+  ( 1 /LEDs )
+  ( 2 /+5v )
+ )
+ ( /4B0F2320 TED_TO220_NOHS U1 7805_NO_HS
+  ( 1 /+24v )
+  ( 2 /GND )
+  ( 3 /+5v )
+ )
+)
+*
+{ Allowed footprints by component:
+$component D1
+ D?
+ S*
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component D3
+ D?
+ S*
+$endlist
+$component D4
+ D?
+ S*
+$endlist
+$component D5
+ D?
+ S*
+$endlist
+$component D6
+ D?
+ S*
+$endlist
+$component D7
+ D?
+ S*
+$endlist
+$component D8
+ D?
+ S*
+$endlist
+$component D9
+ D?
+ S*
+$endlist
+$component D10
+ D?
+ S*
+$endlist
+$component D11
+ D?
+ S*
+$endlist
+$component D12
+ D?
+ S*
+$endlist
+$component D13
+ D?
+ S*
+$endlist
+$component D14
+ D?
+ S*
+$endlist
+$component D15
+ D?
+ S*
+$endlist
+$component D16
+ D?
+ S*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}

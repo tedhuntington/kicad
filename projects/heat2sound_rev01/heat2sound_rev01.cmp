@@ -1,0 +1,94 @@
+Cmp-Mod V01 Created by CvPCB (20100330 SVN-R2491)-final date = Sun 06 Jun 2010 03:06:25 PM PDT
+
+BeginCmp
+TimeStamp = /4C0C123E;
+Reference = C1;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BAC20CF;
+Reference = J1;
+ValeurCmp = TERMINAL_3.5MM_PCB_2PIN;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BAC0857;
+Reference = J2;
+ValeurCmp = DC_2.1mm;
+IdModule  = TED_DC_2.1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C01D810;
+Reference = J3;
+ValeurCmp = JUMPER_3X1;
+IdModule  = TED_JMP_3x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C01D9BA;
+Reference = J4;
+ValeurCmp = TERMINAL_3.5MM_PCB_2PIN;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C01DA25;
+Reference = J5;
+ValeurCmp = 3.5_STEREO;
+IdModule  = TED_3.5_Stereo_ASJ-5-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C01DB2F;
+Reference = R1;
+ValeurCmp = 100;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C01DB36;
+Reference = R2;
+ValeurCmp = 100k;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C0C0F4C;
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C0C0F4B;
+Reference = R4;
+ValeurCmp = 100k;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C01D7F8;
+Reference = S1;
+ValeurCmp = THERMOPILE_MLX90247;
+IdModule  = TED_JMP_2x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C01DF2F;
+Reference = T1;
+ValeurCmp = TRANSFORMER;
+IdModule  = TED_Transformer_20x15mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C0C1225;
+Reference = U1;
+ValeurCmp = MCP6V02;
+IdModule  = TED_SOIC-8;
+EndCmp
+
+EndListe

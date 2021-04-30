@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name ted_transducers)(type KiCad)(uri C:/temparea/ted/kicad/projects/library/ted_transducers.pretty)(options "")(descr ""))
+)

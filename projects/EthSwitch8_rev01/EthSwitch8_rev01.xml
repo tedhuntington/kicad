@@ -1,0 +1,1851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/tedh/kicad/projects/EthSwitch8_rev01/EthSwitch8_rev01.sch</source>
+    <date>Wed 23 Aug 2017 09:49:18 AM PDT</date>
+    <tool>Eeschema 4.0.6-e0-6349~53~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>25 jul 2015</date>
+        <source>EthSwitch8_rev01.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/EthSwitch8_rev01_page4/" tstamps="/579CFC64/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>EthSwitch8_rev01_page4.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/EthSwitch8_rev01_page5/" tstamps="/579E375C/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>EthSwitch8_rev01_page5.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="H1">
+      <value>HOLE</value>
+      <footprint>ted_holes:TED_Hole_3mm</footprint>
+      <libsource lib="TED_holes" part="HOLE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52A15896</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>HOLE</value>
+      <footprint>ted_holes:TED_Hole_3mm</footprint>
+      <libsource lib="TED_holes" part="HOLE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52A158AA</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>HOLE</value>
+      <footprint>ted_holes:TED_Hole_3mm</footprint>
+      <libsource lib="TED_holes" part="HOLE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>540F9640</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>HOLE</value>
+      <footprint>ted_holes:TED_Hole_3mm</footprint>
+      <libsource lib="TED_holes" part="HOLE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579DE6F9</tstamp>
+    </comp>
+    <comp ref="FB1">
+      <value>500mA</value>
+      <footprint>ted_resistors:TED_SM0805_R</footprint>
+      <libsource lib="ted_inductors" part="ferrite_bead"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579E0C5F</tstamp>
+    </comp>
+    <comp ref="FB2">
+      <value>500mA</value>
+      <footprint>ted_resistors:TED_SM0805_R</footprint>
+      <libsource lib="ted_inductors" part="ferrite_bead"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579E0C72</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>ted_capacitors:TED_SM0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579E0C8B</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF</value>
+      <footprint>ted_capacitors:TED_SM0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579E0C98</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>0.1uF</value>
+      <footprint>ted_capacitors:TED_SM0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579E0CA5</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>0.1uF</value>
+      <footprint>ted_capacitors:TED_SM0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579E0CB2</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>0.1uF</value>
+      <footprint>ted_capacitors:TED_SM0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579E0CBF</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>0.1uF</value>
+      <footprint>ted_capacitors:TED_SM0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579E0CCC</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>0.1uF</value>
+      <footprint>ted_capacitors:TED_SM0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579E0CD9</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>0.1uF</value>
+      <footprint>ted_capacitors:TED_SM0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579E0CE6</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>0.1uF</value>
+      <footprint>ted_capacitors:TED_SM0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579E0CF3</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uF</value>
+      <footprint>ted_capacitors:TED_SM0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579E0D00</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>0.1uF</value>
+      <footprint>ted_capacitors:TED_SM0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579E0D07</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>0.1uF</value>
+      <footprint>ted_capacitors:TED_SM0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579E0D0E</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>0.1uF</value>
+      <footprint>ted_capacitors:TED_SM0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579E0D15</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>0.1uF</value>
+      <footprint>ted_capacitors:TED_SM0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579E0D1C</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>0.1uF</value>
+      <footprint>ted_capacitors:TED_SM0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579E0D23</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>0.1uF</value>
+      <footprint>ted_capacitors:TED_SM0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579E0D2A</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>0.1uF</value>
+      <footprint>ted_capacitors:TED_SM0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579E0D31</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>220uf</value>
+      <footprint>ted_capacitors:TED_SM3528_1311_ELEC_C</footprint>
+      <libsource lib="ted_capacitors" part="C_POL_small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579E0DE8</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>220uf</value>
+      <footprint>ted_capacitors:TED_SM3528_1311_ELEC_C</footprint>
+      <libsource lib="ted_capacitors" part="C_POL_small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579E0DF8</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>220uf</value>
+      <footprint>ted_capacitors:TED_SM3528_1311_ELEC_C</footprint>
+      <libsource lib="ted_capacitors" part="C_POL_small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579E0E17</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Terminal_2x1</value>
+      <footprint>ted_connectors:TED_TERMINAL_SPRING_2.54MM_2PIN_1989748</footprint>
+      <libsource lib="ted_connectors" part="Terminal_2x1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579F07D6</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>ted_capacitors:TED_SM0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579EFA94</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>ted_led:TED_SM1206_LED</footprint>
+      <libsource lib="TED_led" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A013BE</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>249</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A01ABE</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>AZ1084C</value>
+      <footprint>ted_regulators:TED_TO252-2</footprint>
+      <libsource lib="ted_regulators" part="AZ1084C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5855348F</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>HEADER_2X1</value>
+      <footprint>ted_connectors:TED_HEADER_2x1</footprint>
+      <libsource lib="ted_connectors" part="HEADER_2X1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59028CD6</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>HEADER_2X1</value>
+      <footprint>ted_connectors:TED_HEADER_2x1</footprint>
+      <libsource lib="ted_connectors" part="HEADER_2X1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5902C8E5</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>2k 1%</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page4/" tstamps="/579CFC64/"/>
+      <tstamp>579DF2B2</tstamp>
+    </comp>
+    <comp ref="C47">
+      <value>16pF</value>
+      <footprint>ted_capacitors:TED_SM0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/EthSwitch8_rev01_page4/" tstamps="/579CFC64/"/>
+      <tstamp>579DF343</tstamp>
+    </comp>
+    <comp ref="C48">
+      <value>16pF</value>
+      <footprint>ted_capacitors:TED_SM0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/EthSwitch8_rev01_page4/" tstamps="/579CFC64/"/>
+      <tstamp>579DF34A</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>25Mhz</value>
+      <footprint>ted_crystals:TED_crystal_FA-20H</footprint>
+      <libsource lib="ted_crystals" part="CRYSTAL_W_2GND"/>
+      <sheetpath names="/EthSwitch8_rev01_page4/" tstamps="/579CFC64/"/>
+      <tstamp>579DF351</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>249</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page4/" tstamps="/579CFC64/"/>
+      <tstamp>579DF38C</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>249</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page4/" tstamps="/579CFC64/"/>
+      <tstamp>579F9777</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>249</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page4/" tstamps="/579CFC64/"/>
+      <tstamp>579F98A3</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>249</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page4/" tstamps="/579CFC64/"/>
+      <tstamp>579F98B5</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>249</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page4/" tstamps="/579CFC64/"/>
+      <tstamp>579FA5CD</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>249</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page4/" tstamps="/579CFC64/"/>
+      <tstamp>579FA5DF</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>249</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page4/" tstamps="/579CFC64/"/>
+      <tstamp>579FA5F1</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>249</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page4/" tstamps="/579CFC64/"/>
+      <tstamp>579FA603</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>10k</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page4/" tstamps="/579CFC64/"/>
+      <tstamp>579FFB39</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>10k</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page4/" tstamps="/579CFC64/"/>
+      <tstamp>57A00C51</tstamp>
+    </comp>
+    <comp ref="R94">
+      <value>10k</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page4/" tstamps="/579CFC64/"/>
+      <tstamp>57A7CB15</tstamp>
+    </comp>
+    <comp ref="R93">
+      <value>10k</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page4/" tstamps="/579CFC64/"/>
+      <tstamp>57A7CF88</tstamp>
+    </comp>
+    <comp ref="R95">
+      <value>10k</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page4/" tstamps="/579CFC64/"/>
+      <tstamp>57A7D35D</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>TEST_PAD</value>
+      <footprint>ted_test_pads:TED_TEST_PAD</footprint>
+      <libsource lib="ted_test_pad" part="TEST_PAD"/>
+      <sheetpath names="/EthSwitch8_rev01_page4/" tstamps="/579CFC64/"/>
+      <tstamp>59050684</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>TEST_PAD</value>
+      <footprint>ted_test_pads:TED_TEST_PAD</footprint>
+      <libsource lib="ted_test_pad" part="TEST_PAD"/>
+      <sheetpath names="/EthSwitch8_rev01_page4/" tstamps="/579CFC64/"/>
+      <tstamp>59050969</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>TEST_PAD</value>
+      <footprint>ted_test_pads:TED_TEST_PAD</footprint>
+      <libsource lib="ted_test_pad" part="TEST_PAD"/>
+      <sheetpath names="/EthSwitch8_rev01_page4/" tstamps="/579CFC64/"/>
+      <tstamp>59050B72</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>TEST_PAD</value>
+      <footprint>ted_test_pads:TED_TEST_PAD</footprint>
+      <libsource lib="ted_test_pad" part="TEST_PAD"/>
+      <sheetpath names="/EthSwitch8_rev01_page4/" tstamps="/579CFC64/"/>
+      <tstamp>59050B79</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>TEST_PAD</value>
+      <footprint>ted_test_pads:TED_TEST_PAD</footprint>
+      <libsource lib="ted_test_pad" part="TEST_PAD"/>
+      <sheetpath names="/EthSwitch8_rev01_page4/" tstamps="/579CFC64/"/>
+      <tstamp>59050C30</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>TEST_PAD</value>
+      <footprint>ted_test_pads:TED_TEST_PAD</footprint>
+      <libsource lib="ted_test_pad" part="TEST_PAD"/>
+      <sheetpath names="/EthSwitch8_rev01_page4/" tstamps="/579CFC64/"/>
+      <tstamp>59050EA7</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>TEST_PAD</value>
+      <footprint>ted_test_pads:TED_TEST_PAD</footprint>
+      <libsource lib="ted_test_pad" part="TEST_PAD"/>
+      <sheetpath names="/EthSwitch8_rev01_page4/" tstamps="/579CFC64/"/>
+      <tstamp>59050EAE</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>TEST_PAD</value>
+      <footprint>ted_test_pads:TED_TEST_PAD</footprint>
+      <libsource lib="ted_test_pad" part="TEST_PAD"/>
+      <sheetpath names="/EthSwitch8_rev01_page4/" tstamps="/579CFC64/"/>
+      <tstamp>59050EB5</tstamp>
+    </comp>
+    <comp ref="P9">
+      <value>TEST_PAD</value>
+      <footprint>ted_test_pads:TED_TEST_PAD</footprint>
+      <libsource lib="ted_test_pad" part="TEST_PAD"/>
+      <sheetpath names="/EthSwitch8_rev01_page4/" tstamps="/579CFC64/"/>
+      <tstamp>59050EBC</tstamp>
+    </comp>
+    <comp ref="P10">
+      <value>TEST_PAD</value>
+      <footprint>ted_test_pads:TED_TEST_PAD</footprint>
+      <libsource lib="ted_test_pad" part="TEST_PAD"/>
+      <sheetpath names="/EthSwitch8_rev01_page4/" tstamps="/579CFC64/"/>
+      <tstamp>59050EC3</tstamp>
+    </comp>
+    <comp ref="P11">
+      <value>TEST_PAD</value>
+      <footprint>ted_test_pads:TED_TEST_PAD</footprint>
+      <libsource lib="ted_test_pad" part="TEST_PAD"/>
+      <sheetpath names="/EthSwitch8_rev01_page4/" tstamps="/579CFC64/"/>
+      <tstamp>59050F70</tstamp>
+    </comp>
+    <comp ref="P12">
+      <value>TEST_PAD</value>
+      <footprint>ted_test_pads:TED_TEST_PAD</footprint>
+      <libsource lib="ted_test_pad" part="TEST_PAD"/>
+      <sheetpath names="/EthSwitch8_rev01_page4/" tstamps="/579CFC64/"/>
+      <tstamp>59050F77</tstamp>
+    </comp>
+    <comp ref="P13">
+      <value>TEST_PAD</value>
+      <footprint>ted_test_pads:TED_TEST_PAD</footprint>
+      <libsource lib="ted_test_pad" part="TEST_PAD"/>
+      <sheetpath names="/EthSwitch8_rev01_page4/" tstamps="/579CFC64/"/>
+      <tstamp>59050F7E</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>RTL8309SB_PQFP</value>
+      <libsource lib="ted_ic" part="RTL8309SB_PQFP"/>
+      <sheetpath names="/EthSwitch8_rev01_page4/" tstamps="/579CFC64/"/>
+      <tstamp>596E0A25</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>49.9</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>579E3EA5</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>49.9</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>579E3EAC</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>49.9</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>579E3EB3</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>49.9</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>579E3EBA</tstamp>
+    </comp>
+    <comp ref="C49">
+      <value>0.1uF</value>
+      <footprint>ted_capacitors:TED_SM0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>579E3EC1</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>RJ45_12_PIN_UP</value>
+      <footprint>ted_connectors:TED_RJ45_12pin_Up_Bottom</footprint>
+      <libsource lib="ted_connectors" part="RJ45_12_PIN_UP"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>579ED734</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>RJ45_12_PIN_UP</value>
+      <footprint>ted_connectors:TED_RJ45_12pin_Up_Bottom</footprint>
+      <libsource lib="ted_connectors" part="RJ45_12_PIN_UP"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>579EEABB</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>RJ45_12_PIN_UP</value>
+      <footprint>ted_connectors:TED_RJ45_12pin_Up_Bottom</footprint>
+      <libsource lib="ted_connectors" part="RJ45_12_PIN_UP"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>579EEB74</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>RJ45_12_PIN_UP</value>
+      <footprint>ted_connectors:TED_RJ45_12pin_Up_Bottom</footprint>
+      <libsource lib="ted_connectors" part="RJ45_12_PIN_UP"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>579EEBFA</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>RJ45_12_PIN_UP</value>
+      <footprint>ted_connectors:TED_RJ45_12pin_Up_Bottom</footprint>
+      <libsource lib="ted_connectors" part="RJ45_12_PIN_UP"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>579EECA1</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>RJ45_12_PIN_UP</value>
+      <footprint>ted_connectors:TED_RJ45_12pin_Up_Bottom</footprint>
+      <libsource lib="ted_connectors" part="RJ45_12_PIN_UP"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>579EECA7</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>RJ45_12_PIN_UP</value>
+      <footprint>ted_connectors:TED_RJ45_12pin_Up_Bottom</footprint>
+      <libsource lib="ted_connectors" part="RJ45_12_PIN_UP"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>579EECAD</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>RJ45_12_PIN_UP</value>
+      <footprint>ted_connectors:TED_RJ45_12pin_Up_Bottom</footprint>
+      <libsource lib="ted_connectors" part="RJ45_12_PIN_UP"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>579EED0F</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>49.9</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>579F469D</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>49.9</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>579F46A3</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>49.9</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>579F46A9</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>49.9</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>579F46AF</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>ted_capacitors:TED_SM0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>579F46B5</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>49.9</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>579FF0F0</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>49.9</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>579FF0F6</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>49.9</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>579FF0FC</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>49.9</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>579FF102</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>0.1uF</value>
+      <footprint>ted_capacitors:TED_SM0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>579FF108</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>49.9</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>57A0149E</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>49.9</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>57A014A4</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>49.9</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>57A014AA</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>49.9</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>57A014B0</tstamp>
+    </comp>
+    <comp ref="C54">
+      <value>0.1uF</value>
+      <footprint>ted_capacitors:TED_SM0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>57A014B6</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>49.9</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>57A02723</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>49.9</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>57A02729</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>49.9</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>57A0272F</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>49.9</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>57A02735</tstamp>
+    </comp>
+    <comp ref="C57">
+      <value>0.1uF</value>
+      <footprint>ted_capacitors:TED_SM0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>57A0273B</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>49.9</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>57A03D78</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>49.9</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>57A03D7E</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>49.9</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>57A03D84</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>49.9</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>57A03D8A</tstamp>
+    </comp>
+    <comp ref="C60">
+      <value>0.1uF</value>
+      <footprint>ted_capacitors:TED_SM0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>57A03D90</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>49.9</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>57A0546D</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>49.9</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>57A05473</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>49.9</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>57A05479</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>49.9</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>57A0547F</tstamp>
+    </comp>
+    <comp ref="C63">
+      <value>0.1uF</value>
+      <footprint>ted_capacitors:TED_SM0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>57A05485</tstamp>
+    </comp>
+    <comp ref="R49">
+      <value>49.9</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>57A0663E</tstamp>
+    </comp>
+    <comp ref="R48">
+      <value>49.9</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>57A06644</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>49.9</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>57A0664A</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>49.9</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>57A06650</tstamp>
+    </comp>
+    <comp ref="C66">
+      <value>0.1uF</value>
+      <footprint>ted_capacitors:TED_SM0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/EthSwitch8_rev01_page5/" tstamps="/579E375C/"/>
+      <tstamp>57A06656</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="ted_regulators" part="AZ1084C">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AZ1084C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_out"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ted_capacitors" part="C(small)">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C(small)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ted_crystals" part="CRYSTAL_W_2GND">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">CRYSTAL_W_2GND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="power_in"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ted_capacitors" part="C_POL_small">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_POL_small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ted_connectors" part="HEADER_2X1">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_2X1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TED_holes" part="HOLE">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">HOLE</field>
+      </fields>
+      <pins>
+        <pin num="~" name="~" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="TED_led" part="LED">
+      <footprints>
+        <fp>D?</fp>
+        <fp>S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ted_connectors" part="RJ45_12_PIN_UP">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RJ45_12_PIN_UP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TD+" type="passive"/>
+        <pin num="2" name="TD-" type="passive"/>
+        <pin num="3" name="CT" type="passive"/>
+        <pin num="4" name="NC" type="passive"/>
+        <pin num="5" name="CT" type="passive"/>
+        <pin num="6" name="RD+" type="passive"/>
+        <pin num="7" name="RD-" type="passive"/>
+        <pin num="8" name="CHS_GROUND" type="passive"/>
+        <pin num="9" name="GreenLED+" type="passive"/>
+        <pin num="10" name="GreenLED-" type="passive"/>
+        <pin num="11" name="YellowLED-" type="power_in"/>
+        <pin num="12" name="YellowLED+" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ted_ic" part="RTL8309SB_PQFP">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RTL8309SB_PQFP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDDA" type="power_in"/>
+        <pin num="2" name="VSSA" type="power_in"/>
+        <pin num="3" name="TXON[1]" type="output"/>
+        <pin num="4" name="TXOP[1]" type="output"/>
+        <pin num="5" name="VSSA" type="power_in"/>
+        <pin num="6" name="RXIP[1]" type="input"/>
+        <pin num="7" name="RXIN[1]" type="input"/>
+        <pin num="8" name="VDDA" type="power_in"/>
+        <pin num="9" name="RXIN[2]" type="input"/>
+        <pin num="10" name="RXIP[2]" type="input"/>
+        <pin num="11" name="VSSA" type="power_in"/>
+        <pin num="12" name="TXOP[2]" type="output"/>
+        <pin num="13" name="TXON[2]" type="output"/>
+        <pin num="14" name="VDDA" type="power_in"/>
+        <pin num="15" name="TXON[3]" type="output"/>
+        <pin num="16" name="TXOP[3]" type="output"/>
+        <pin num="17" name="VSSA" type="power_in"/>
+        <pin num="18" name="RXIP[3]" type="input"/>
+        <pin num="19" name="RXIN[3]" type="input"/>
+        <pin num="20" name="VDDA" type="power_in"/>
+        <pin num="21" name="RXIN[4]" type="input"/>
+        <pin num="22" name="RXIP[4]" type="input"/>
+        <pin num="23" name="VSSA" type="power_in"/>
+        <pin num="24" name="TXOP[4]" type="output"/>
+        <pin num="25" name="TXON[4]" type="output"/>
+        <pin num="26" name="VDDA" type="power_in"/>
+        <pin num="27" name="TXON[5]" type="output"/>
+        <pin num="28" name="TXOP[5]" type="output"/>
+        <pin num="29" name="VSSA" type="power_in"/>
+        <pin num="30" name="RXIP[5]" type="input"/>
+        <pin num="31" name="RXIN[5]" type="input"/>
+        <pin num="32" name="VDDA" type="power_in"/>
+        <pin num="33" name="RXIN[6]" type="input"/>
+        <pin num="34" name="RXIP[6]" type="input"/>
+        <pin num="35" name="VSSA" type="power_in"/>
+        <pin num="36" name="TXOP[6]" type="output"/>
+        <pin num="37" name="TXON[6]" type="output"/>
+        <pin num="38" name="VDDA" type="power_in"/>
+        <pin num="39" name="RXIN[7]" type="input"/>
+        <pin num="40" name="RXIP[7]" type="input"/>
+        <pin num="41" name="VSSA" type="power_in"/>
+        <pin num="42" name="TXOP[7]" type="output"/>
+        <pin num="43" name="TXON[7]" type="output"/>
+        <pin num="44" name="VDDA" type="power_in"/>
+        <pin num="45" name="Test_Pin1" type="passive"/>
+        <pin num="46" name="NC" type="passive"/>
+        <pin num="47" name="RESET#" type="input"/>
+        <pin num="48" name="MII_FCTRL_STA" type="input"/>
+        <pin num="49" name="MII_SPD_STA" type="input"/>
+        <pin num="50" name="MII_DUP_STA" type="input"/>
+        <pin num="51" name="MII_LNK_STA#" type="input"/>
+        <pin num="52" name="VDDD" type="power_in"/>
+        <pin num="53" name="VSSD" type="power_in"/>
+        <pin num="54" name="SCL_MDC" type="BiDi"/>
+        <pin num="55" name="SDA_MDIO" type="BiDi"/>
+        <pin num="56" name="MTXC/PRXC" type="BiDi"/>
+        <pin num="57" name="MTXEN/PRXDV" type="output"/>
+        <pin num="58" name="MTXD[0]/PRXD[0]" type="BiDi"/>
+        <pin num="59" name="MTXD[1]/PRXD[1]" type="BiDi"/>
+        <pin num="60" name="MTXD[2]/PRXD[2]" type="BiDi"/>
+        <pin num="61" name="MTXD[3]/PRXD[3]" type="BiDi"/>
+        <pin num="62" name="VDDIO" type="power_in"/>
+        <pin num="63" name="VSSIO" type="power_in"/>
+        <pin num="64" name="MCOL/PCOL" type="BiDi"/>
+        <pin num="65" name="MRXC/PTXC" type="BiDi"/>
+        <pin num="66" name="MRXDV/PTXEN" type="input"/>
+        <pin num="67" name="MRXD[0]/PTXD[0]" type="input"/>
+        <pin num="68" name="MRXD[1]/PTXD[1]" type="input"/>
+        <pin num="69" name="MRXD[2]/PTXD[2]" type="input"/>
+        <pin num="70" name="MRXD[3]/PTXD[3]" type="BiDi"/>
+        <pin num="71" name="VDDD" type="power_in"/>
+        <pin num="72" name="VSSD" type="power_in"/>
+        <pin num="73" name="P7_LED[3]/Dis_FC_AutoOff" type="BiDi"/>
+        <pin num="74" name="P7_LED[2]/Port_LED_LOC" type="BiDi"/>
+        <pin num="75" name="P7_LED[1]/LED_BLNK_TIME" type="BiDi"/>
+        <pin num="76" name="P7_LED[0]/Dis_ARPVLAN" type="BiDi"/>
+        <pin num="77" name="P6_LED[3]/Dis_LeakyVLAN" type="BiDi"/>
+        <pin num="78" name="P6_LED[2]/Dis_VLAN" type="BiDi"/>
+        <pin num="79" name="VDDD" type="power_in"/>
+        <pin num="80" name="VSSD" type="power_in"/>
+        <pin num="81" name="P6_LED[1]/QWeight[1]" type="BiDi"/>
+        <pin num="82" name="P6_LED[0]/QWeight[0]" type="BiDi"/>
+        <pin num="83" name="P5_LED[3]/Dis_DS_Pri" type="BiDi"/>
+        <pin num="84" name="P5_LED[2]/Dis_VLAN_Pri" type="BiDi"/>
+        <pin num="85" name="P5_LED[1]/Sel_PortPri[1]" type="BiDi"/>
+        <pin num="86" name="P5_LED[0]/Sel_PortPri[0]" type="BiDi"/>
+        <pin num="87" name="VDDD" type="power_in"/>
+        <pin num="88" name="VSSD" type="power_in"/>
+        <pin num="89" name="P4_LED[3]/Max_Pause_Count" type="BiDi"/>
+        <pin num="90" name="P4_LED[2]/Max_Pkt_Len" type="BiDi"/>
+        <pin num="91" name="P4_LED[1]/En_Agr2_Back" type="BiDi"/>
+        <pin num="92" name="P4_LED[0]/En_48pass1" type="BiDi"/>
+        <pin num="93" name="P3_LED[3]/En_Defer" type="BiDi"/>
+        <pin num="94" name="P3_LED[2]/En_Forward" type="BiDi"/>
+        <pin num="95" name="VDDD" type="power_in"/>
+        <pin num="96" name="VSSD" type="power_in"/>
+        <pin num="97" name="P3_LED[1]/Dis_Trunk" type="BiDi"/>
+        <pin num="98" name="P3_LED[0]/LED_MODE[2]" type="BiDi"/>
+        <pin num="99" name="P2_LED[3]/LED_MODE[1]" type="BiDi"/>
+        <pin num="100" name="P2_LED[2]/LED_MODE[0]" type="BiDi"/>
+        <pin num="101" name="P2_LED[1]/MII_MODE[1]" type="BiDi"/>
+        <pin num="102" name="P2_LED[0]/MII_MODE[0]" type="BiDi"/>
+        <pin num="103" name="En_AutoXover/P1_LED[3]" type="BiDi"/>
+        <pin num="104" name="En_ANEG/P1_LED[2]" type="BiDi"/>
+        <pin num="105" name="En_FCTRL/P1_LED[1]" type="BiDi"/>
+        <pin num="106" name="En_BKPRS/P1_LED[0]" type="BiDi"/>
+        <pin num="107" name="VDDD" type="power_in"/>
+        <pin num="108" name="VSSD" type="power_in"/>
+        <pin num="109" name="Force_Duplex/P0_LED[3]" type="BiDi"/>
+        <pin num="110" name="Force_Speed/P0_LED[2]" type="BiDi"/>
+        <pin num="111" name="En_BRD_CTRL/P0_LED[1]" type="BiDi"/>
+        <pin num="112" name="En_RST_BLNK/P0_LED[0]" type="BiDi"/>
+        <pin num="113" name="EnEEPROM/LoopLED#" type="BiDi"/>
+        <pin num="114" name="VDDD" type="power_in"/>
+        <pin num="115" name="VSSD" type="power_in"/>
+        <pin num="116" name="Test_pin2" type="passive"/>
+        <pin num="117" name="VSSPLL" type="power_in"/>
+        <pin num="118" name="X1" type="input"/>
+        <pin num="119" name="X2" type="output"/>
+        <pin num="120" name="VDDPLL" type="power_in"/>
+        <pin num="121" name="Test_pin3" type="passive"/>
+        <pin num="122" name="IBREF" type="output"/>
+        <pin num="123" name="VDDA" type="power_in"/>
+        <pin num="124" name="TXON[0]" type="output"/>
+        <pin num="125" name="TXOP[0]" type="output"/>
+        <pin num="126" name="VSSA" type="power_in"/>
+        <pin num="127" name="RXIP[0]" type="input"/>
+        <pin num="128" name="RXIN[0]" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ted_resistors" part="R_small">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ted_test_pad" part="TEST_PAD">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">TEST_PAD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ted_connectors" part="Terminal_2x1">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Terminal_2x1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ted_inductors" part="ferrite_bead">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">ferrite_bead</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="ted_resistors">
+      <uri>/home/tedh/kicad/projects/library/ted_resistors.lib</uri>
+    </library>
+    <library logical="ted_connectors">
+      <uri>/home/tedh/kicad/projects/library/ted_connectors.lib</uri>
+    </library>
+    <library logical="ted_capacitors">
+      <uri>/home/tedh/kicad/projects/library/ted_capacitors.lib</uri>
+    </library>
+    <library logical="ted_crystals">
+      <uri>/home/tedh/kicad/projects/library/ted_crystals.lib</uri>
+    </library>
+    <library logical="TED_holes">
+      <uri>/home/tedh/kicad/projects/library/TED_holes.lib</uri>
+    </library>
+    <library logical="ted_ic">
+      <uri>/home/tedh/kicad/projects/library/ted_ic.lib</uri>
+    </library>
+    <library logical="ted_inductors">
+      <uri>/home/tedh/kicad/projects/library/ted_inductors.lib</uri>
+    </library>
+    <library logical="TED_led">
+      <uri>/home/tedh/kicad/projects/library/TED_led.lib</uri>
+    </library>
+    <library logical="ted_test_pad">
+      <uri>/home/tedh/kicad/projects/library/ted_test_pad.lib</uri>
+    </library>
+    <library logical="ted_regulators">
+      <uri>/home/tedh/kicad/projects/library/ted_regulators.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="AGND">
+      <node ref="U3" pin="17"/>
+      <node ref="U3" pin="126"/>
+      <node ref="C23" pin="2"/>
+      <node ref="U3" pin="41"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C49" pin="2"/>
+      <node ref="U10" pin="8"/>
+      <node ref="U3" pin="23"/>
+      <node ref="U4" pin="8"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U3" pin="35"/>
+      <node ref="U3" pin="11"/>
+      <node ref="U5" pin="8"/>
+      <node ref="U9" pin="8"/>
+      <node ref="FB2" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U7" pin="8"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="U6" pin="8"/>
+      <node ref="U3" pin="29"/>
+      <node ref="U11" pin="8"/>
+      <node ref="C60" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J2" pin="2"/>
+      <node ref="C66" pin="2"/>
+      <node ref="U8" pin="8"/>
+      <node ref="C26" pin="2"/>
+      <node ref="C54" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="C57" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C63" pin="2"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="R93" pin="1"/>
+      <node ref="U3" pin="108"/>
+      <node ref="X1" pin="4"/>
+      <node ref="C48" pin="2"/>
+      <node ref="C47" pin="1"/>
+      <node ref="U3" pin="53"/>
+      <node ref="R20" pin="2"/>
+      <node ref="R22" pin="2"/>
+      <node ref="U3" pin="88"/>
+      <node ref="U3" pin="96"/>
+      <node ref="U3" pin="117"/>
+      <node ref="U3" pin="115"/>
+      <node ref="U3" pin="72"/>
+      <node ref="U3" pin="80"/>
+      <node ref="U3" pin="63"/>
+      <node ref="X1" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="FB2" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C25" pin="2"/>
+    </net>
+    <net code="3" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="4" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="5" name="VDDD">
+      <node ref="U3" pin="79"/>
+      <node ref="C11" pin="1"/>
+      <node ref="FB1" pin="1"/>
+      <node ref="U3" pin="52"/>
+      <node ref="U3" pin="107"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U3" pin="114"/>
+      <node ref="U3" pin="87"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C25" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="U3" pin="95"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="U3" pin="71"/>
+      <node ref="C19" pin="1"/>
+    </net>
+    <net code="6" name="Net-(H1-Pad~)">
+      <node ref="H1" pin="~"/>
+    </net>
+    <net code="7" name="VDDIO">
+      <node ref="D1" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U3" pin="62"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U4" pin="9"/>
+      <node ref="U10" pin="9"/>
+      <node ref="U6" pin="9"/>
+      <node ref="R95" pin="1"/>
+      <node ref="U8" pin="9"/>
+      <node ref="U5" pin="9"/>
+      <node ref="U11" pin="9"/>
+      <node ref="U7" pin="9"/>
+      <node ref="U9" pin="9"/>
+      <node ref="R94" pin="1"/>
+    </net>
+    <net code="8" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="9" name="Net-(H2-Pad~)">
+      <node ref="H2" pin="~"/>
+    </net>
+    <net code="11" name="VDDA">
+      <node ref="R41" pin="1"/>
+      <node ref="U6" pin="3"/>
+      <node ref="C23" pin="1"/>
+      <node ref="U4" pin="3"/>
+      <node ref="U4" pin="5"/>
+      <node ref="R37" pin="1"/>
+      <node ref="R30" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R10" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R8" pin="1"/>
+      <node ref="C49" pin="1"/>
+      <node ref="U10" pin="3"/>
+      <node ref="R40" pin="2"/>
+      <node ref="C60" pin="1"/>
+      <node ref="U5" pin="5"/>
+      <node ref="R39" pin="1"/>
+      <node ref="U9" pin="3"/>
+      <node ref="R38" pin="2"/>
+      <node ref="U9" pin="5"/>
+      <node ref="U10" pin="5"/>
+      <node ref="R32" pin="2"/>
+      <node ref="R33" pin="1"/>
+      <node ref="R36" pin="2"/>
+      <node ref="R29" pin="1"/>
+      <node ref="R28" pin="2"/>
+      <node ref="R24" pin="2"/>
+      <node ref="R26" pin="1"/>
+      <node ref="R43" pin="1"/>
+      <node ref="C63" pin="1"/>
+      <node ref="R31" pin="1"/>
+      <node ref="R42" pin="2"/>
+      <node ref="R49" pin="1"/>
+      <node ref="U7" pin="3"/>
+      <node ref="U7" pin="5"/>
+      <node ref="U6" pin="5"/>
+      <node ref="C54" pin="1"/>
+      <node ref="U8" pin="3"/>
+      <node ref="U8" pin="5"/>
+      <node ref="R48" pin="2"/>
+      <node ref="R46" pin="2"/>
+      <node ref="R47" pin="1"/>
+      <node ref="C66" pin="1"/>
+      <node ref="R45" pin="1"/>
+      <node ref="R44" pin="2"/>
+      <node ref="R34" pin="2"/>
+      <node ref="U11" pin="3"/>
+      <node ref="U11" pin="5"/>
+      <node ref="U5" pin="3"/>
+      <node ref="C57" pin="1"/>
+      <node ref="R35" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="FB1" pin="2"/>
+      <node ref="U3" pin="20"/>
+      <node ref="C24" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="U3" pin="123"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C22" pin="1"/>
+      <node ref="U3" pin="32"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="U3" pin="14"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U3" pin="44"/>
+      <node ref="U3" pin="120"/>
+      <node ref="U3" pin="38"/>
+      <node ref="U3" pin="26"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="12" name="Net-(H3-Pad~)">
+      <node ref="H3" pin="~"/>
+    </net>
+    <net code="13" name="Net-(H4-Pad~)">
+      <node ref="H4" pin="~"/>
+    </net>
+    <net code="14" name="X2">
+      <node ref="C47" pin="2"/>
+      <node ref="X1" pin="3"/>
+      <node ref="U3" pin="119"/>
+    </net>
+    <net code="15" name="MRXD[3]">
+      <node ref="U3" pin="70"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="16" name="MRXD[2]">
+      <node ref="U3" pin="69"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="17" name="MRXD[1]">
+      <node ref="U3" pin="68"/>
+      <node ref="P3" pin="1"/>
+    </net>
+    <net code="18" name="MRXD[0]">
+      <node ref="P4" pin="1"/>
+      <node ref="U3" pin="67"/>
+    </net>
+    <net code="19" name="MRXDV">
+      <node ref="P5" pin="1"/>
+      <node ref="U3" pin="66"/>
+    </net>
+    <net code="20" name="MRXC">
+      <node ref="P6" pin="1"/>
+      <node ref="U3" pin="65"/>
+    </net>
+    <net code="21" name="Net-(U3-Pad54)">
+      <node ref="U3" pin="54"/>
+    </net>
+    <net code="22" name="Net-(R95-Pad2)">
+      <node ref="U3" pin="55"/>
+      <node ref="R95" pin="2"/>
+    </net>
+    <net code="23" name="MTXEN">
+      <node ref="U3" pin="57"/>
+      <node ref="P12" pin="1"/>
+    </net>
+    <net code="24" name="MTXD[3]">
+      <node ref="U3" pin="61"/>
+      <node ref="P8" pin="1"/>
+    </net>
+    <net code="25" name="MTXD[2]">
+      <node ref="P9" pin="1"/>
+      <node ref="U3" pin="60"/>
+    </net>
+    <net code="26" name="MTXD[1]">
+      <node ref="U3" pin="59"/>
+      <node ref="P10" pin="1"/>
+    </net>
+    <net code="27" name="MTXD[0]">
+      <node ref="U3" pin="58"/>
+      <node ref="P11" pin="1"/>
+    </net>
+    <net code="28" name="MCOL">
+      <node ref="U3" pin="64"/>
+      <node ref="P7" pin="1"/>
+    </net>
+    <net code="29" name="MTXC">
+      <node ref="P13" pin="1"/>
+      <node ref="U3" pin="56"/>
+    </net>
+    <net code="30" name="Net-(R22-Pad1)">
+      <node ref="U3" pin="102"/>
+      <node ref="R22" pin="1"/>
+    </net>
+    <net code="31" name="Net-(U3-Pad98)">
+      <node ref="U3" pin="98"/>
+    </net>
+    <net code="32" name="Net-(R93-Pad2)">
+      <node ref="U3" pin="113"/>
+      <node ref="R93" pin="2"/>
+    </net>
+    <net code="33" name="Net-(R94-Pad2)">
+      <node ref="R94" pin="2"/>
+      <node ref="U3" pin="47"/>
+    </net>
+    <net code="34" name="GreenLED7">
+      <node ref="U11" pin="10"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="35" name="Net-(U3-Pad92)">
+      <node ref="U3" pin="92"/>
+    </net>
+    <net code="36" name="Net-(U3-Pad45)">
+      <node ref="U3" pin="45"/>
+    </net>
+    <net code="37" name="Net-(U3-Pad116)">
+      <node ref="U3" pin="116"/>
+    </net>
+    <net code="38" name="Net-(U3-Pad121)">
+      <node ref="U3" pin="121"/>
+    </net>
+    <net code="39" name="Net-(U3-Pad112)">
+      <node ref="U3" pin="112"/>
+    </net>
+    <net code="40" name="Net-(U3-Pad106)">
+      <node ref="U3" pin="106"/>
+    </net>
+    <net code="41" name="Net-(U3-Pad105)">
+      <node ref="U3" pin="105"/>
+    </net>
+    <net code="42" name="Net-(U3-Pad86)">
+      <node ref="U3" pin="86"/>
+    </net>
+    <net code="43" name="Net-(U3-Pad82)">
+      <node ref="U3" pin="82"/>
+    </net>
+    <net code="44" name="Net-(U3-Pad76)">
+      <node ref="U3" pin="76"/>
+    </net>
+    <net code="45" name="Net-(U3-Pad50)">
+      <node ref="U3" pin="50"/>
+    </net>
+    <net code="46" name="Net-(U3-Pad49)">
+      <node ref="U3" pin="49"/>
+    </net>
+    <net code="47" name="Net-(U3-Pad48)">
+      <node ref="U3" pin="48"/>
+    </net>
+    <net code="48" name="Net-(R20-Pad1)">
+      <node ref="U3" pin="51"/>
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="49" name="TXP3">
+      <node ref="U3" pin="18"/>
+      <node ref="R30" pin="1"/>
+      <node ref="U7" pin="1"/>
+    </net>
+    <net code="50" name="RXN7">
+      <node ref="U3" pin="39"/>
+      <node ref="R49" pin="2"/>
+      <node ref="U11" pin="7"/>
+    </net>
+    <net code="51" name="TXN3">
+      <node ref="R31" pin="2"/>
+      <node ref="U7" pin="2"/>
+      <node ref="U3" pin="19"/>
+    </net>
+    <net code="52" name="RXP5">
+      <node ref="U9" pin="6"/>
+      <node ref="U3" pin="28"/>
+      <node ref="R40" pin="1"/>
+    </net>
+    <net code="53" name="Net-(U3-Pad89)">
+      <node ref="U3" pin="89"/>
+    </net>
+    <net code="54" name="Net-(U3-Pad97)">
+      <node ref="U3" pin="97"/>
+    </net>
+    <net code="55" name="Net-(U3-Pad77)">
+      <node ref="U3" pin="77"/>
+    </net>
+    <net code="56" name="TXN6">
+      <node ref="U3" pin="37"/>
+      <node ref="R43" pin="2"/>
+      <node ref="U10" pin="2"/>
+    </net>
+    <net code="57" name="RXN5">
+      <node ref="R41" pin="2"/>
+      <node ref="U9" pin="7"/>
+      <node ref="U3" pin="27"/>
+    </net>
+    <net code="58" name="Net-(U3-Pad46)">
+      <node ref="U3" pin="46"/>
+    </net>
+    <net code="59" name="Net-(U3-Pad109)">
+      <node ref="U3" pin="109"/>
+    </net>
+    <net code="60" name="TXN0">
+      <node ref="R8" pin="2"/>
+      <node ref="U3" pin="128"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="61" name="TXP0">
+      <node ref="R7" pin="1"/>
+      <node ref="U3" pin="127"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="62" name="RXP0">
+      <node ref="U3" pin="125"/>
+      <node ref="U4" pin="6"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="63" name="RXN0">
+      <node ref="R10" pin="2"/>
+      <node ref="U3" pin="124"/>
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="64" name="Net-(R27-Pad1)">
+      <node ref="R27" pin="1"/>
+      <node ref="U3" pin="104"/>
+    </net>
+    <net code="65" name="Net-(U3-Pad103)">
+      <node ref="U3" pin="103"/>
+    </net>
+    <net code="66" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="U3" pin="122"/>
+    </net>
+    <net code="67" name="Net-(U3-Pad111)">
+      <node ref="U3" pin="111"/>
+    </net>
+    <net code="68" name="Net-(U3-Pad101)">
+      <node ref="U3" pin="101"/>
+    </net>
+    <net code="69" name="Net-(U3-Pad99)">
+      <node ref="U3" pin="99"/>
+    </net>
+    <net code="70" name="RXN4">
+      <node ref="U8" pin="7"/>
+      <node ref="R37" pin="2"/>
+      <node ref="U3" pin="21"/>
+    </net>
+    <net code="71" name="TXP7">
+      <node ref="R46" pin="1"/>
+      <node ref="U11" pin="1"/>
+      <node ref="U3" pin="42"/>
+    </net>
+    <net code="72" name="RXP4">
+      <node ref="R36" pin="1"/>
+      <node ref="U3" pin="22"/>
+      <node ref="U8" pin="6"/>
+    </net>
+    <net code="73" name="TXP2">
+      <node ref="R24" pin="1"/>
+      <node ref="U6" pin="1"/>
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="74" name="Net-(U3-Pad91)">
+      <node ref="U3" pin="91"/>
+    </net>
+    <net code="75" name="Net-(U3-Pad81)">
+      <node ref="U3" pin="81"/>
+    </net>
+    <net code="76" name="TXN5">
+      <node ref="U9" pin="2"/>
+      <node ref="R39" pin="2"/>
+      <node ref="U3" pin="31"/>
+    </net>
+    <net code="77" name="RXP7">
+      <node ref="R48" pin="1"/>
+      <node ref="U11" pin="6"/>
+      <node ref="U3" pin="40"/>
+    </net>
+    <net code="78" name="TXP5">
+      <node ref="R38" pin="1"/>
+      <node ref="U9" pin="1"/>
+      <node ref="U3" pin="30"/>
+    </net>
+    <net code="79" name="RXP2">
+      <node ref="R28" pin="1"/>
+      <node ref="U3" pin="10"/>
+      <node ref="U6" pin="6"/>
+    </net>
+    <net code="80" name="RXN2">
+      <node ref="U3" pin="9"/>
+      <node ref="U6" pin="7"/>
+      <node ref="R29" pin="2"/>
+    </net>
+    <net code="81" name="RXP3">
+      <node ref="R32" pin="1"/>
+      <node ref="U3" pin="16"/>
+      <node ref="U7" pin="6"/>
+    </net>
+    <net code="82" name="Net-(U3-Pad85)">
+      <node ref="U3" pin="85"/>
+    </net>
+    <net code="83" name="Net-(U3-Pad75)">
+      <node ref="U3" pin="75"/>
+    </net>
+    <net code="84" name="TXN4">
+      <node ref="U8" pin="2"/>
+      <node ref="U3" pin="25"/>
+      <node ref="R35" pin="2"/>
+    </net>
+    <net code="85" name="RXN3">
+      <node ref="R33" pin="2"/>
+      <node ref="U7" pin="7"/>
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="86" name="RXP6">
+      <node ref="U3" pin="34"/>
+      <node ref="U10" pin="6"/>
+      <node ref="R44" pin="1"/>
+    </net>
+    <net code="87" name="TXP4">
+      <node ref="R34" pin="1"/>
+      <node ref="U3" pin="24"/>
+      <node ref="U8" pin="1"/>
+    </net>
+    <net code="88" name="Net-(U3-Pad93)">
+      <node ref="U3" pin="93"/>
+    </net>
+    <net code="89" name="Net-(U3-Pad83)">
+      <node ref="U3" pin="83"/>
+    </net>
+    <net code="90" name="Net-(U3-Pad73)">
+      <node ref="U3" pin="73"/>
+    </net>
+    <net code="91" name="TXN7">
+      <node ref="R47" pin="2"/>
+      <node ref="U11" pin="2"/>
+      <node ref="U3" pin="43"/>
+    </net>
+    <net code="92" name="RXN6">
+      <node ref="U3" pin="33"/>
+      <node ref="U10" pin="7"/>
+      <node ref="R45" pin="2"/>
+    </net>
+    <net code="93" name="TXN2">
+      <node ref="U3" pin="13"/>
+      <node ref="U6" pin="2"/>
+      <node ref="R26" pin="2"/>
+    </net>
+    <net code="94" name="Net-(R15-Pad1)">
+      <node ref="U3" pin="74"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="95" name="TXP6">
+      <node ref="R42" pin="1"/>
+      <node ref="U3" pin="36"/>
+      <node ref="U10" pin="1"/>
+    </net>
+    <net code="96" name="GreenLED1">
+      <node ref="R27" pin="2"/>
+      <node ref="U5" pin="10"/>
+    </net>
+    <net code="97" name="Net-(R21-Pad1)">
+      <node ref="U3" pin="90"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="98" name="GreenLED6">
+      <node ref="R17" pin="2"/>
+      <node ref="U10" pin="10"/>
+    </net>
+    <net code="99" name="Net-(R17-Pad1)">
+      <node ref="R17" pin="1"/>
+      <node ref="U3" pin="78"/>
+    </net>
+    <net code="100" name="GreenLED5">
+      <node ref="R19" pin="2"/>
+      <node ref="U9" pin="10"/>
+    </net>
+    <net code="101" name="Net-(R19-Pad1)">
+      <node ref="R19" pin="1"/>
+      <node ref="U3" pin="84"/>
+    </net>
+    <net code="102" name="GreenLED4">
+      <node ref="R21" pin="2"/>
+      <node ref="U8" pin="10"/>
+    </net>
+    <net code="103" name="GreenLED3">
+      <node ref="U7" pin="10"/>
+      <node ref="R23" pin="2"/>
+    </net>
+    <net code="104" name="Net-(R23-Pad1)">
+      <node ref="R23" pin="1"/>
+      <node ref="U3" pin="94"/>
+    </net>
+    <net code="105" name="GreenLED2">
+      <node ref="U6" pin="10"/>
+      <node ref="R25" pin="2"/>
+    </net>
+    <net code="106" name="Net-(R25-Pad1)">
+      <node ref="U3" pin="100"/>
+      <node ref="R25" pin="1"/>
+    </net>
+    <net code="107" name="X1">
+      <node ref="U3" pin="118"/>
+      <node ref="C48" pin="1"/>
+      <node ref="X1" pin="1"/>
+    </net>
+    <net code="108" name="GreenLED0">
+      <node ref="R5" pin="2"/>
+      <node ref="U4" pin="10"/>
+    </net>
+    <net code="109" name="Net-(R5-Pad1)">
+      <node ref="U3" pin="110"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="110" name="RXN1">
+      <node ref="R14" pin="2"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U5" pin="7"/>
+    </net>
+    <net code="111" name="RXP1">
+      <node ref="R13" pin="1"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="112" name="TXP1">
+      <node ref="U5" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="113" name="TXN1">
+      <node ref="U5" pin="2"/>
+      <node ref="U3" pin="7"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="114" name="Net-(U10-Pad4)">
+      <node ref="U10" pin="4"/>
+    </net>
+    <net code="115" name="Net-(R13-Pad2)">
+      <node ref="R14" pin="1"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="116" name="Net-(R11-Pad2)">
+      <node ref="R12" pin="1"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="117" name="Net-(U8-Pad12)">
+      <node ref="U8" pin="12"/>
+    </net>
+    <net code="118" name="Net-(U5-Pad12)">
+      <node ref="U5" pin="12"/>
+    </net>
+    <net code="119" name="Net-(U7-Pad11)">
+      <node ref="U7" pin="11"/>
+    </net>
+    <net code="120" name="Net-(U7-Pad12)">
+      <node ref="U7" pin="12"/>
+    </net>
+    <net code="121" name="Net-(U7-Pad4)">
+      <node ref="U7" pin="4"/>
+    </net>
+    <net code="122" name="Net-(U6-Pad12)">
+      <node ref="U6" pin="12"/>
+    </net>
+    <net code="123" name="Net-(U6-Pad11)">
+      <node ref="U6" pin="11"/>
+    </net>
+    <net code="124" name="Net-(U6-Pad4)">
+      <node ref="U6" pin="4"/>
+    </net>
+    <net code="125" name="Net-(U8-Pad4)">
+      <node ref="U8" pin="4"/>
+    </net>
+    <net code="126" name="Net-(U8-Pad11)">
+      <node ref="U8" pin="11"/>
+    </net>
+    <net code="127" name="Net-(U5-Pad11)">
+      <node ref="U5" pin="11"/>
+    </net>
+    <net code="128" name="Net-(U9-Pad4)">
+      <node ref="U9" pin="4"/>
+    </net>
+    <net code="129" name="Net-(U9-Pad11)">
+      <node ref="U9" pin="11"/>
+    </net>
+    <net code="130" name="Net-(U9-Pad12)">
+      <node ref="U9" pin="12"/>
+    </net>
+    <net code="131" name="Net-(U11-Pad12)">
+      <node ref="U11" pin="12"/>
+    </net>
+    <net code="132" name="Net-(U11-Pad11)">
+      <node ref="U11" pin="11"/>
+    </net>
+    <net code="133" name="Net-(U11-Pad4)">
+      <node ref="U11" pin="4"/>
+    </net>
+    <net code="134" name="Net-(U10-Pad12)">
+      <node ref="U10" pin="12"/>
+    </net>
+    <net code="135" name="Net-(U10-Pad11)">
+      <node ref="U10" pin="11"/>
+    </net>
+    <net code="136" name="Net-(U4-Pad11)">
+      <node ref="U4" pin="11"/>
+    </net>
+    <net code="137" name="Net-(U4-Pad12)">
+      <node ref="U4" pin="12"/>
+    </net>
+    <net code="138" name="Net-(U5-Pad4)">
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="139" name="Net-(U4-Pad4)">
+      <node ref="U4" pin="4"/>
+    </net>
+  </nets>
+</export>

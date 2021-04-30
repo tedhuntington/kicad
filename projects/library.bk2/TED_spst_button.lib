@@ -1,0 +1,17 @@
+EESchema-LIBRARY Version 2.3  Date: Wed 23 Dec 2009 05:14:03 PM PST
+#
+# SPST_Button
+#
+DEF SPST_Button J 0 40 Y Y 1 F N
+F0 "J" -15 -105 60 H V C CNN
+F1 "SPST_Button" 50 260 60 H V C CNN
+F2 "TED_SPST_MPB-129" 25 -200 60 H V C CNN
+F4 "All_Electronics_MPB-129" 80 -305 60 H I C CNN
+DRAW
+P 2 0 1 0  70 0  -95 200 N
+X COM 2 370 0 300 L 50 50 1 1 P
+X L1 1 -395 0 300 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  Date: Tue 22 Sep 2009 09:19:15 PM PDT
+#
+$CMP 74VHC154
+D 8 bits Register, 3 state Out
+K TTL REG DFF DFF8 3State
+$ENDCMP
+#
+#End Doc Library

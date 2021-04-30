@@ -1,0 +1,23 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MOV
+D Resistance
+K R DEV
+$ENDCMP
+#
+$CMP R
+D Resistance
+K R DEV
+$ENDCMP
+#
+$CMP VAR_R
+D Resistance
+K R DEV
+$ENDCMP
+#
+$CMP VAR_R3
+D Resistance
+K R DEV
+$ENDCMP
+#
+#End Doc Library

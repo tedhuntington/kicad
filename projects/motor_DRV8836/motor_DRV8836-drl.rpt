@@ -1,0 +1,16 @@
+Drill report for /home/ted/kicad/projects/motor_DRV8836/motor_DRV8836.kicad_pcb
+Created on Mon 02 Dec 2013 12:58:08 PM PST
+Drill report for plated through holes :
+T1  0.30mm  0.012"  (9 holes)
+T2  0.40mm  0.016"  (11 holes)
+T3  1.00mm  0.039"  (20 holes)
+
+Total plated holes count 40
+
+
+Drill report for unplated through holes :
+T1  1.70mm  0.067"  (2 holes)
+
+Total unplated holes count 2
+
+

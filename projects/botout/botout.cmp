@@ -1,0 +1,94 @@
+Cmp-Mod V01 Created by Cvpcb (20090530 SVN-R1798) date = Sun 29 Nov 2009 10:49:44 AM PST
+
+BeginCmp
+TimeStamp = /4B12BD63;
+Reference = C1;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B12BD2F;
+Reference = C2;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B12BC9D;
+Reference = C3;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B12BCF4;
+Reference = C4;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B12BD84;
+Reference = C5;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B115E4E;
+Reference = J4;
+ValeurCmp = IDE_10x2;
+IdModule  = TED_IDE_10x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B12B0AE;
+Reference = J5;
+ValeurCmp = IDE_5x2;
+IdModule  = TED_IDE_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B12B684;
+Reference = J6;
+ValeurCmp = IDE_5x2;
+IdModule  = TED_IDE_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B12AE92;
+Reference = U1;
+ValeurCmp = 74VHC573;
+IdModule  = TED_DIP-20;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B12AE4B;
+Reference = U2;
+ValeurCmp = 74HC540;
+IdModule  = TED_DIP-20;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B12AE03;
+Reference = U3;
+ValeurCmp = 74VHC154;
+IdModule  = TED_DIP-24;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B12AE2A;
+Reference = U4;
+ValeurCmp = 74VHC154;
+IdModule  = TED_DIP-24;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B12B509;
+Reference = U5;
+ValeurCmp = 74VHC573;
+IdModule  = TED_DIP-20;
+EndCmp
+
+EndListe

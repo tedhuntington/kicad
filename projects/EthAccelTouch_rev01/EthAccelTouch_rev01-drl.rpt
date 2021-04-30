@@ -1,0 +1,17 @@
+Drill report for /home/ted/kicad/projects/EthAccelTouch_rev01/EthAccelTouch_rev01.kicad_pcb
+Created on Sun 04 May 2014 09:37:07 AM PDT
+Drill report for plated through holes :
+T1  0.40mm  0.016"  (80 holes)
+T2  0.60mm  0.024"  (5 holes)
+T3  1.00mm  0.039"  (6 holes)
+
+Total plated holes count 91
+
+
+Drill report for unplated through holes :
+T1  1.70mm  0.067"  (2 holes)
+T2  3.25mm  0.128"  (5 holes)
+
+Total unplated holes count 7
+
+

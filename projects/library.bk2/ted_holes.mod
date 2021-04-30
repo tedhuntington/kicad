@@ -1,0 +1,23 @@
+PCBNEW-LibModule-V1  Sun 01 Sep 2013 12:24:55 PM PDT
+# encoding utf-8
+Units mm
+$INDEX
+TED_Hole
+$EndINDEX
+$MODULE TED_Hole
+Po 0 0 0 15 52239442 00000000 ~~
+Li TED_Hole
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -2 1 1 0 0.15 N V 21 N "Hole"
+T1 0 2 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "1" C 2.5 2.5 0 0 0
+Dr 2.5 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE TED_Hole
+$EndLIBRARY

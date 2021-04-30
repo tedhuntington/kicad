@@ -1,0 +1,426 @@
+# EESchema Netlist Version 1.1 created  Mon 27 Sep 2010 12:08:51 AM PDT
+(
+ ( /4CA042DF $noname  D3 LED {Lib=LED}
+  (    1 GND )
+  (    2 N-000022 )
+ )
+ ( /4C42223B $noname  R15 300 {Lib=R_SMALL}
+  (    1 N-000022 )
+  (    2 N-000026 )
+ )
+ ( /4C4221C8 $noname  Q9 PMOSFET_GDS {Lib=PMOSFET_GDS}
+  (    1 N-000025 )
+  (    2 N-000024 )
+  (    3 /+24v )
+ )
+ ( /4C4221B6 $noname  Q8 PMOSFET_GDS {Lib=PMOSFET_GDS}
+  (    1 N-000027 )
+  (    2 N-000030 )
+  (    3 /+24v )
+ )
+ ( /4C421E27 $noname  R13 10k {Lib=R_SMALL}
+  (    1 +12V )
+  (    2 N-000019 )
+ )
+ ( /4C421E0D $noname  R10 10k {Lib=R_SMALL}
+  (    1 +12V )
+  (    2 N-000021 )
+ )
+ ( /4C421E09 $noname  R9 10k {Lib=R_SMALL}
+  (    1 /+24v )
+  (    2 N-000020 )
+ )
+ ( /4C421DF5 $noname  R11 10k {Lib=R_SMALL}
+  (    1 /+24v )
+  (    2 N-000027 )
+ )
+ ( /4C421DDA $noname  R12 10k {Lib=R_SMALL}
+  (    1 /+24v )
+  (    2 N-000025 )
+ )
+ ( /4C421D97 $noname  R14 10k {Lib=R_SMALL}
+  (    1 /+24v )
+  (    2 N-000028 )
+ )
+ ( /4C4219E6 $noname  Q11 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 N-000008 )
+  (    2 N-000019 )
+  (    3 GND )
+ )
+ ( /4C4219D9 $noname  Q10 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 N-000028 )
+  (    2 N-000025 )
+  (    3 +12V )
+ )
+ ( /4C4219C8 $noname  Q12 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 N-000010 )
+  (    2 N-000028 )
+  (    3 GND )
+ )
+ ( /4C4219C0 $noname  Q6 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 N-000010 )
+  (    2 GND )
+  (    3 N-000021 )
+ )
+ ( /4C4219B4 $noname  Q7 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 N-000020 )
+  (    2 +12V )
+  (    3 N-000027 )
+ )
+ ( /4C421966 $noname  Q5 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 N-000008 )
+  (    2 GND )
+  (    3 N-000020 )
+ )
+ ( /4C1C04EE TED_SPST_MPB-129  J10 SPST_BUTTON {Lib=SPST_BUTTON}
+  (    1 GND )
+  (    2 /PRG_MCLR )
+ )
+ ( /4C1C0468 TED_TERMINAL_3.5MM_2PIN  J9 TRM_3.5MM_2P {Lib=TRM_3.5MM_2P}
+  (    1 N-000024 )
+  (    2 N-000030 )
+ )
+ ( /4C1C03FF TED_TERMINAL_3.5MM_2PIN  J11 TRM_3.5MM_2P {Lib=TRM_3.5MM_2P}
+  (    1 /SDI )
+  (    2 GND )
+ )
+ ( /4C1C03FA TED_TERMINAL_3.5MM_2PIN  J13 TRM_3.5MM_2P {Lib=TRM_3.5MM_2P}
+  (    1 /SCK )
+  (    2 /SDO )
+ )
+ ( /4C1C03F2 TED_TERMINAL_3.5MM_2PIN  J12 TRM_3.5MM_2P {Lib=TRM_3.5MM_2P}
+  (    1 /3.3v )
+  (    2 /5v )
+ )
+ ( /4C167328 $noname  R8 10k {Lib=R}
+  (    1 /PRG_MCLR )
+  (    2 /3.3v )
+ )
+ ( /4C05C330 $noname  Q4 NMOSFET_GDS {Lib=NMOSFET_GDS}
+  (    1 N-000019 )
+  (    2 N-000024 )
+  (    3 N-000023 )
+ )
+ ( /4C05C329 $noname  Q2 NMOSFET_GDS {Lib=NMOSFET_GDS}
+  (    1 N-000021 )
+  (    2 N-000030 )
+  (    3 N-000023 )
+ )
+ ( /4C04C2D6 $noname  D2 SMCJ51CA {Lib=TVS}
+  (    1 N-000030 )
+  (    2 N-000024 )
+ )
+ ( /4C04B432 $noname  R7 .01 {Lib=R}
+  (    1 N-000023 )
+  (    2 GND )
+ )
+ ( /4C04B1D1 TED_TERMINAL_3.5MM_2PIN  J8 TERMINAL_3.5MM_PCB_2PIN {Lib=TERMINAL_3.5MM_PCB_2PIN}
+  (    1 /+24v )
+  (    2 ? )
+ )
+ ( /4C04B17F TED_TERMINAL_3.5MM_2PIN  J7 TERMINAL_3.5MM_PCB_2PIN {Lib=TERMINAL_3.5MM_PCB_2PIN}
+  (    1 +12V )
+  (    2 GND )
+ )
+ ( /4C04AB40 $noname  U4 PIC24HJ12GP201 {Lib=PIC24HJ12GP201}
+  (    1 /PRG_MCLR )
+  (    2 N-000023 )
+  (    3 N-000008 )
+  (    4 /IPSPDAT )
+  (    5 /IPSPCLK )
+  (    6 N-000012 )
+  (    7 N-000013 )
+  (    8 /SCK )
+  (    9 N-000010 )
+  (   10 N-000026 )
+  (   11 /SDO )
+  (   12 /SDI )
+  (   13 GND )
+  (   14 N-000017 )
+  (   15 /SDO )
+  (   16 /SDI )
+  (   17 GND )
+  (   18 /3.3v )
+ )
+ ( /4C035E50 $noname  C9 10uF_tant {Lib=C_POL_SMALL}
+  (    1 N-000017 )
+  (    2 GND )
+ )
+ ( /4C035D95 $noname  C8 .1uF_10v {Lib=C(SMALL)}
+  (    1 /3.3v )
+  (    2 GND )
+ )
+ ( /4C035C2D $noname  C7 18pF {Lib=C}
+  (    1 N-000016 )
+  (    2 GND )
+ )
+ ( /4C035C08 $noname  C5 18pF {Lib=C}
+  (    1 N-000012 )
+  (    2 GND )
+ )
+ ( /4C035BBB $noname  R6 442 {Lib=R}
+  (    1 N-000016 )
+  (    2 N-000013 )
+ )
+ ( /4C034F77 $noname  J3 HEADER_6X1 {Lib=HEADER_6X1}
+  (    1 /PRG_MCLR )
+  (    2 /3.3v )
+  (    3 GND )
+  (    4 /IPSPDAT )
+  (    5 /IPSPCLK )
+  (    6 ? )
+ )
+ ( /4C034E4A $noname  R5 1M {Lib=R}
+  (    1 N-000013 )
+  (    2 N-000012 )
+ )
+ ( /4C034E2D $noname  X1 10MHz {Lib=CRYSTAL}
+  (    1 N-000016 )
+  (    2 N-000012 )
+ )
+ ( /4BDE5195 $noname  C3 10uF_10v {Lib=C}
+  (    1 /3.3v )
+  (    2 GND )
+ )
+ ( /4BDE497C $noname  U1 REGULATOR_3.3V {Lib=REGULATOR_3.3V}
+  (    1 GND )
+  (    2 /3.3v )
+  (    3 /5v )
+ )
+ ( /4BDE4964 TED_DC_2.1mm  J1 DC_2.1MM {Lib=DC_2.1MM}
+  (    1 /5v )
+  (    2 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component D3
+ D?
+ S*
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "+12V" "+12V"
+ J7 1
+ Q10 3
+ Q7 2
+ R10 1
+ R13 1
+Net 2 "/5v" "5v"
+ U1 3
+ J1 1
+ J12 2
+Net 4 "/+24v" "+24v"
+ R14 1
+ R12 1
+ R11 1
+ R9 1
+ Q8 3
+ Q9 3
+ J8 1
+Net 5 "/SDO" "SDO"
+ J13 2
+ U4 11
+ U4 15
+Net 6 "/SCK" "SCK"
+ U4 8
+ J13 1
+Net 7 "/SDI" "SDI"
+ U4 16
+ U4 12
+ J11 1
+Net 8 "" ""
+ Q11 1
+ Q5 1
+ U4 3
+Net 9 "GND" "GND"
+ C9 2
+ C8 2
+ C7 2
+ C5 2
+ J10 1
+ J7 2
+ Q5 2
+ J3 3
+ D3 1
+ R7 2
+ C3 2
+ U1 1
+ J11 2
+ J1 2
+ Q6 2
+ U4 13
+ Q12 3
+ U4 17
+ Q11 3
+Net 10 "" ""
+ U4 9
+ Q6 1
+ Q12 1
+Net 12 "" ""
+ C5 1
+ R5 2
+ X1 2
+ U4 6
+Net 13 "" ""
+ U4 7
+ R6 2
+ R5 1
+Net 14 "/IPSPCLK" "IPSPCLK"
+ J3 5
+ U4 5
+Net 15 "/IPSPDAT" "IPSPDAT"
+ J3 4
+ U4 4
+Net 16 "" ""
+ X1 1
+ C7 1
+ R6 1
+Net 17 "" ""
+ C9 1
+ U4 14
+Net 18 "/3.3v" "3.3v"
+ U4 18
+ R8 2
+ C8 1
+ J12 1
+ J3 2
+ U1 2
+ C3 1
+Net 19 "" ""
+ R13 2
+ Q4 1
+ Q11 2
+Net 20 "" ""
+ Q5 3
+ R9 2
+ Q7 1
+Net 21 "" ""
+ Q2 1
+ R10 2
+ Q6 3
+Net 22 "" ""
+ D3 2
+ R15 1
+Net 23 "" ""
+ U4 2
+ R7 1
+ Q4 3
+ Q2 3
+Net 24 "" ""
+ Q4 2
+ J9 1
+ Q9 2
+ D2 2
+Net 25 "" ""
+ Q10 2
+ R12 2
+ Q9 1
+Net 26 "" ""
+ U4 10
+ R15 2
+Net 27 "" ""
+ R11 2
+ Q7 3
+ Q8 1
+Net 28 "" ""
+ R14 2
+ Q12 2
+ Q10 1
+Net 29 "/PRG_MCLR" "PRG_MCLR"
+ R8 1
+ J10 2
+ J3 1
+ U4 1
+Net 30 "" ""
+ D2 1
+ Q2 2
+ J9 2
+ Q8 2
+}
+#End

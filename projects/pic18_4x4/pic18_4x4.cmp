@@ -1,0 +1,101 @@
+Cmp-Mod V01 Created by Cvpcb (20090530 SVN-R1798) date = Sat 21 Nov 2009 10:43:36 AM PST
+
+BeginCmp
+TimeStamp = /4AE126E3;
+Reference = C1;
+ValeurCmp = 10uF;
+IdModule  = TED_SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AE127E1;
+Reference = C2;
+ValeurCmp = 15-33pF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AE127E6;
+Reference = C3;
+ValeurCmp = 15-33pF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B07A1B2;
+Reference = C4;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4ABB36DF;
+Reference = J1;
+ValeurCmp = IDE_10x2;
+IdModule  = TED_IDE_10x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4ABF9492;
+Reference = J2;
+ValeurCmp = JUMPER_2X1;
+IdModule  = TED_JMP_2x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AED0588;
+Reference = J3;
+ValeurCmp = SPST_Switch;
+IdModule  = TED_SPST_MPB-129;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B07A153;
+Reference = J4;
+ValeurCmp = USB;
+IdModule  = TED_USB-B_On_Component_Side;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B0833D7;
+Reference = J5;
+ValeurCmp = 3.5_STEREO_SMT;
+IdModule  = TED_3.5_Stereo;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B0833B6;
+Reference = J6;
+ValeurCmp = RCA_MONO_PC;
+IdModule  = TED_RCA_MONO_220572;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AE5341F;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AED0632;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B0728AF;
+Reference = U1;
+ValeurCmp = PIC18F2455;
+IdModule  = TED_DIP-28;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AE126A1;
+Reference = X1;
+ValeurCmp = 20mhz;
+IdModule  = TED_crystal_SMT_13x5mm;
+EndCmp
+
+EndListe

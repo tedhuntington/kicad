@@ -1,0 +1,146 @@
+# EESchema Netlist Version 1.1 created  Mon 29 Mar 2010 01:45:39 AM PDT
+(
+ ( /4AE126E3 TED_SM3216-18_POL C1 10uF
+  ( 1 /+5v )
+  ( 2 GND )
+ )
+ ( /4AE127E1 TED_SM0805 C2 15-33pF
+  ( 1 /OSC1 )
+  ( 2 GND )
+ )
+ ( /4AE127E6 TED_SM0805 C3 15-33pF
+  ( 1 /OSC2 )
+  ( 2 GND )
+ )
+ ( /4B07A1B2 TED_SM0805 C4 .1uF
+  ( 1 /USB_SHELL )
+  ( 2 GND )
+ )
+ ( /4B3B18ED TED_SM3216-18_POL C7 .47uF
+  ( 1 /Vusb )
+  ( 2 GND )
+ )
+ ( /4B3B18A6 TED_SM3216-18_POL C8 10uF
+  ( 1 /+5v )
+  ( 2 GND )
+ )
+ ( /4ABB36DF TED_IDE_10x2 J1 IDE_10x2
+  ( 1 GND )
+  ( 2 /B7 )
+  ( 3 /B6 )
+  ( 4 /B5 )
+  ( 5 /B4 )
+  ( 6 /B3 )
+  ( 7 /B2 )
+  ( 8 /B1 )
+  ( 9 /B0 )
+  ( 10 /+5v )
+  ( 11 /+5v )
+  ( 12 /A0 )
+  ( 13 /A1 )
+  ( 14 /A2 )
+  ( 15 /A3 )
+  ( 16 /A4 )
+  ( 17 /A5 )
+  ( 18 /C1 )
+  ( 19 /C2 )
+  ( 20 GND )
+ )
+ ( /4AED0588 TED_SWITCH_SPST_MPB-129 J3 SPST_Switch
+  ( 1 /MCLR )
+  ( 2 GND )
+ )
+ ( /4B07A153 TED_USB-B_On_Component_Side J4 USB
+  ( 1 /+5v )
+  ( 2 /D- )
+  ( 3 /D+ )
+  ( 4 GND )
+  ( 5 /USB_SHELL )
+ )
+ ( /4AED0632 TED_SM0805 R2 10k
+  ( 1 /+5v )
+  ( 2 /MCLR )
+ )
+ ( /4B3B1861 TED_SM0805 R5 1M
+  ( 1 /OSC2 )
+  ( 2 /OSC1 )
+ )
+ ( /4BB06042 TED_DIP-28 U1 PIC18F2455
+  ( 1 /MCLR )
+  ( 2 /A0 )
+  ( 3 /A1 )
+  ( 4 /A2 )
+  ( 5 /A3 )
+  ( 6 /A4 )
+  ( 7 /A5 )
+  ( 8 GND )
+  ( 9 /OSC1 )
+  ( 10 /OSC2 )
+  ( 11 ? )
+  ( 12 /C1 )
+  ( 13 /C2 )
+  ( 14 /Vusb )
+  ( 15 /D- )
+  ( 16 /D+ )
+  ( 17 ? )
+  ( 18 ? )
+  ( 19 GND )
+  ( 20 /+5v )
+  ( 21 /B0 )
+  ( 22 /B1 )
+  ( 23 /B2 )
+  ( 24 /B3 )
+  ( 25 /B4 )
+  ( 26 /B5 )
+  ( 27 /B6 )
+  ( 28 /B7 )
+ )
+ ( /4AE126A1 TED_crystal_SMT_13x5mm X1 20mhz
+  ( 1 /OSC1 )
+  ( 2 /OSC2 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}

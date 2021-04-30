@@ -1,0 +1,114 @@
+EESchema-DOCLIB  Version 2.0  Date: 8/13/2014 1:23:16 PM
+#
+$CMP 74HC540
+D 8 bits Register, 3 state Out
+K TTL REG DFF DFF8 3State
+$ENDCMP
+#
+$CMP 74VHC154
+D 8 bits Register, 3 state Out
+K TTL REG DFF DFF8 3State
+$ENDCMP
+#
+$CMP 74VHC573
+D 8 bits Register, 3 state Out
+K TTL REG DFF DFF8 3State
+$ENDCMP
+#
+$CMP 74VHC574
+D 8 bits Register, 3 state Out
+K TTL REG DFF DFF8 3State
+$ENDCMP
+#
+$CMP AD8628
+D Op amp.
+K AmpliOp
+F ../docs/opa353
+$ENDCMP
+#
+$CMP AD8629
+D Op amp.
+K AmpliOp
+F ../docs/opa353
+$ENDCMP
+#
+$CMP FAN7382
+F ns/lm555.pdf
+$ENDCMP
+#
+$CMP HIP4081A
+F ns/lm555.pdf
+$ENDCMP
+#
+$CMP LM358
+D Op amp.
+K AmpliOp
+F ../docs/opa353
+$ENDCMP
+#
+$CMP LVDS_DIFF_DRV
+D Op amp.
+K AmpliOp
+F ../docs/opa353
+$ENDCMP
+#
+$CMP LVDS_DIFF_RCVR
+D Op amp.
+K AmpliOp
+F ../docs/opa353
+$ENDCMP
+#
+$CMP LVDS_DIFFERENTIAL_DRIVER
+D Op amp.
+K AmpliOp
+F ../docs/opa353
+$ENDCMP
+#
+$CMP LVDS_DIFFERENTIAL_RECEIVER
+D Op amp.
+K AmpliOp
+F ../docs/opa353
+$ENDCMP
+#
+$CMP MCP6V02
+D Op amp.
+K AmpliOp
+F ../docs/opa353
+$ENDCMP
+#
+$CMP MCP73113
+D Op amp.
+K AmpliOp
+F ../docs/opa353
+$ENDCMP
+#
+$CMP NE555
+F ns/lm555.pdf
+$ENDCMP
+#
+$CMP NE556
+F ns/lm555.pdf
+$ENDCMP
+#
+$CMP NJM2073
+F ns/lm555.pdf
+$ENDCMP
+#
+$CMP OPA353
+D Op amp.
+K AmpliOp
+F ../docs/opa353
+$ENDCMP
+#
+$CMP OPAMP
+D Op amp.
+K AmpliOp
+F ../docs/opa353
+$ENDCMP
+#
+$CMP TLC5510A
+D DAC (4 outputs)
+K DAC CAN
+$ENDCMP
+#
+#End Doc Library

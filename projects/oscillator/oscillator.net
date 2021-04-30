@@ -1,0 +1,100 @@
+# EESchema Netlist Version 1.1 created  Sun 23 May 2010 07:20:34 PM PDT
+(
+ ( /4BAC642F $noname  C1 10uF {Lib=C_POL}
+  (    1 N-000005 )
+  (    2 /GND )
+ )
+ ( /4BAC5A70 TED_3.5_Stereo  J14 3.5_STEREO {Lib=3.5_STEREO}
+  (    1 /GND )
+  (    2 N-000004 )
+  (    3 N-000004 )
+ )
+ ( /4BAC2CFD $noname  Q1 BJT_N_TYPE {Lib=BJT_N_TYPE}
+  (    1 /GND )
+  (    2 /transbase )
+  (    3 N-000004 )
+ )
+ ( /4BAC20E2 TED_TERMINAL_3.5MM_2PIN  J13 TERMINAL_3.5MM_PCB_2PIN {Lib=TERMINAL_3.5MM_PCB_2PIN}
+  (    1 /cap2 )
+  (    2 /GND )
+ )
+ ( /4BAC20DC TED_TERMINAL_3.5MM_2PIN  J12 TERMINAL_3.5MM_PCB_2PIN {Lib=TERMINAL_3.5MM_PCB_2PIN}
+  (    1 /GND )
+  (    2 /transbase )
+ )
+ ( /4BAC20CF TED_TERMINAL_3.5MM_2PIN  J11 TERMINAL_3.5MM_PCB_2PIN {Lib=TERMINAL_3.5MM_PCB_2PIN}
+  (    1 /cap2 )
+  (    2 /transbase )
+ )
+ ( /4BAC2092 $noname  R2 70k {Lib=R}
+  (    1 N-000004 )
+  (    2 /cap2 )
+ )
+ ( /4BAC207A $noname  R1 1k {Lib=R}
+  (    1 N-000005 )
+  (    2 N-000004 )
+ )
+ ( /4BAC0890 $noname  J9 JUMPER_2X1 {Lib=JUMPER_2X1}
+  (    1 N-000004 )
+  (    2 /GND )
+ )
+ ( /4BAC0857 DC_2.1mm  J10 DC_2.1mm {Lib=DC_2.1mm}
+  (    1 N-000005 )
+  (    2 /GND )
+ )
+ ( /4B491031 TED_TERMINAL_3.5MM_2PIN  J8 TERMINAL_3.5MM_PCB_2PIN {Lib=TERMINAL_3.5MM_PCB_2PIN}
+  (    1 /GND )
+  (    2 N-000004 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "/GND" "GND"
+ Q1 1
+ J13 2
+ J12 1
+ J14 1
+ C1 2
+ J8 1
+ J10 2
+ J9 2
+Net 2 "/cap2" "cap2"
+ J11 1
+ R2 2
+ J13 1
+Net 3 "/transbase" "transbase"
+ Q1 2
+ J12 2
+ J11 2
+Net 4 "" ""
+ J14 3
+ J14 2
+ R2 1
+ J9 1
+ J8 2
+ R1 2
+ Q1 3
+Net 5 "" ""
+ J10 1
+ R1 1
+ C1 1
+}
+#End

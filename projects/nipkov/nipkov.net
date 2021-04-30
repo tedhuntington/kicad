@@ -1,0 +1,149 @@
+# EESchema Netlist Version 1.1 created  Sun 17 May 2009 12:20:53 AM PDT
+(
+ ( /49E6CB67 TED_SM0805 C1 .1uF
+  ( 1 /THR )
+  ( 2 /GND )
+ )
+ ( /49EA25FC TED_SM3216-18_POL C2 4.7uF
+  ( 1 /+5V )
+  ( 2 /GND )
+ )
+ ( /49E6D69C TED_C_RADIAL_2cm_x_2cm C3 680uF
+  ( 1 /+24V )
+  ( 2 /GND )
+ )
+ ( /49E6C272 TED_DO-220AA D1 tvs_250watt_6.8V
+  ( 1 /MOTOR )
+  ( 2 /+24V )
+ )
+ ( /49E6C244 TED_ZENER_1.6X0.8MM D2 5V
+  ( 1 /GND )
+  ( 2 N-000001 )
+ )
+ ( /49F00354 TED_TERMINAL_3.5MM_2PIN J1 TERMINAL_3.5MM_PCB
+  ( 1 /+24V )
+  ( 2 /GND )
+ )
+ ( /49F003D6 TED_TERMINAL_3.5MM_2PIN J4 TERMINAL_3.5MM_PCB
+  ( 1 N-000005 )
+  ( 2 N-000011 )
+ )
+ ( /49E54822 TED_TERMINAL_3.5MM_2PIN J5 TERMINAL_3.5MM_PCB
+  ( 1 N-000003 )
+  ( 2 N-000002 )
+ )
+ ( /49F0044B TED_TERMINAL_3.5MM_2PIN J6 TERMINAL_3.5MM_PCB
+  ( 1 /SPEED )
+  ( 2 /THR )
+ )
+ ( /49F00431 TED_TERMINAL_3.5MM_2PIN J7 TERMINAL_3.5MM_PCB
+  ( 1 /MOTOR )
+  ( 2 /+24V )
+ )
+ ( /49F003F7 TED_TERMINAL_3.5MM_2PIN J8 TERMINAL_3.5MM_PCB
+  ( 1 /GND )
+  ( 2 N-000001 )
+ )
+ ( /49E6C218 TED_TO220 Q1 IRF1405
+  ( 1 N-000004 )
+  ( 2 /GND )
+  ( 3 /MOTOR )
+  ( 4 /GND )
+ )
+ ( /49E6CB4F TED_SM0805 R1 1k
+  ( 1 /+5V )
+  ( 2 /SPEED )
+ )
+ ( /49E6CB3D TED_SM0805 R2 1k
+  ( 1 N-000013 )
+  ( 2 /GND )
+ )
+ ( /49E6CB03 TED_SM0805 R3 1M
+  ( 1 N-000011 )
+  ( 2 /GND )
+ )
+ ( /49E6CB33 TED_SM0805 R4 1k
+  ( 1 N-000003 )
+  ( 2 N-000013 )
+ )
+ ( /4A0FBA6D TED_SM0805 R5 1k
+  ( 1 N-000001 )
+  ( 2 N-000002 )
+ )
+ ( /49FBF1EC TED_TO220 U1 7805
+  ( 1 /+24V )
+  ( 2 /GND )
+  ( 3 /+5V )
+  ( 4 /GND )
+ )
+ ( /49E6BE35 TED_DIL8 U2 NE555
+  ( 1 /GND )
+  ( 2 /THR )
+  ( 3 N-000004 )
+  ( 4 /+5V )
+  ( 5 ? )
+  ( 6 /THR )
+  ( 7 /SPEED )
+  ( 8 /+5V )
+ )
+ ( /49E68302 TED_SO08 U3 OPA353
+  ( 2 N-000013 )
+  ( 3 N-000011 )
+  ( 4 /GND )
+  ( 6 N-000002 )
+  ( 7 /+5V )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component D2
+ D?
+ SO*
+ SM*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}

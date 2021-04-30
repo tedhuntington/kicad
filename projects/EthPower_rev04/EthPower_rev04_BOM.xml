@@ -1,0 +1,20 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>EthPower_rev04 BOM</title>
+</head>
+<body>
+<h1>EthPower_rev04</h1>
+<h2></h2>
+<p>Sat 13 Aug 2016 04:15:53 PM PDT</p>
+<p>Eeschema 4.0.2+e4-6225~38~ubuntu14.04.1-stable</p>
+<p><b>Component Count:</b>94</p>
+<table>
+<tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th></tr><tr><td>C11, C21, C12, C8, C16, C5, C18, C10, C1, C7, </td><td>10</td><td>.1uF</td><td>capacitors:SM0603_C</td></tr><tr><td>C13, </td><td>1</td><td>680uF</td><td>capacitors:c_elec_radial_13mm</td></tr><tr><td>C14, </td><td>1</td><td>10uF (low ESR 1ohm)</td><td>capacitors:SM0805_C</td></tr><tr><td>C19, C20, </td><td>2</td><td>9pF</td><td>capacitors:SM0603_C</td></tr><tr><td>C2, C15, </td><td>2</td><td>1uF</td><td>capacitors:SM0603_C</td></tr><tr><td>C4, C3, </td><td>2</td><td>10pF</td><td>capacitors:SM0603_C</td></tr><tr><td>C9, </td><td>1</td><td>470uF</td><td>capacitors:c_elec_radial_13mm</td></tr><tr><td>D2, </td><td>1</td><td>SS36</td><td>diodes:DO-214AC</td></tr><tr><td>D4, D3, D1, D5, D6, </td><td>5</td><td>LED</td><td>led:SM1206_LED</td></tr><tr><td>FB1, </td><td>1</td><td>500mA</td><td>resistors:SM0805_R</td></tr><tr><td>H1, H2, H4, H3, </td><td>4</td><td>HOLE</td><td>holes:Hole_3mm</td></tr><tr><td>J1, </td><td>1</td><td>HEADER_6X1</td><td>connectors:HEADER_6x1</td></tr><tr><td>J10, J11, </td><td>2</td><td>DC_2.1MM</td><td>connectors:2.1mm_DC_SMD</td></tr><tr><td>J2, J4, </td><td>2</td><td>JUMPER_2X1</td><td>connectors:HEADER_2x1_SMT</td></tr><tr><td>J5, J3, J6, J7, </td><td>4</td><td>Trmnl_2x1</td><td>connectors:TERMINAL_3.5MM_2PIN</td></tr><tr><td>J8, </td><td>1</td><td>TERMINAL_3X1</td><td>connectors:TERMINAL_3.5MM_3PIN</td></tr><tr><td>L2, </td><td>1</td><td>33uH (L40)</td><td>inductors:INDUCTOR_12x12_SMD</td></tr><tr><td>P3, P1, P2, P4, P5, </td><td>5</td><td>TEST_PAD</td><td>test_pads:TEST_PAD</td></tr><tr><td>Q1, Q2, </td><td>2</td><td>NMOSFET_GSD</td><td>transistors:SOT-23</td></tr><tr><td>Q5, Q4, Q3, </td><td>3</td><td>NMOSFET_GDS</td><td>transistors:D2PAK</td></tr><tr><td>R14, </td><td>1</td><td>4.7k</td><td>resistors:SM0603_R</td></tr><tr><td>R15, R13, </td><td>2</td><td>249</td><td>resistors:SM0603_R</td></tr><tr><td>R16, </td><td>1</td><td>10k 1%</td><td>resistors:SM0603_R</td></tr><tr><td>R17, R19, R18, R22, R25, R24, R27, R37, </td><td>8</td><td>1M</td><td>resistors:SM0603_R</td></tr><tr><td>R20, R28, </td><td>2</td><td>68k</td><td>resistors:SM0603_R</td></tr><tr><td>R21, </td><td>1</td><td>100k</td><td>resistors:SM0603_R</td></tr><tr><td>R23, </td><td>1</td><td>0.1</td><td>resistors:SM0805_R</td></tr><tr><td>R26, R34, R30, </td><td>3</td><td>150</td><td>resistors:SM0603_R</td></tr><tr><td>R29, R36, </td><td>2</td><td>0</td><td>resistors:SM0603_R</td></tr><tr><td>R31, </td><td>1</td><td>0.01</td><td>resistors:SM1206_R</td></tr><tr><td>R32, </td><td>1</td><td>0.05</td><td>resistors:SM1206_R</td></tr><tr><td>R35, R33, </td><td>2</td><td>2k</td><td>resistors:SM0603_R</td></tr><tr><td>R4, </td><td>1</td><td>12.1k 1%</td><td>resistors:SM0603_R</td></tr><tr><td>R5, </td><td>1</td><td>10</td><td>resistors:SM0603_R</td></tr><tr><td>R7, R6, R2, R1, R3, R8, </td><td>6</td><td>33</td><td>resistors:SM0603_R</td></tr><tr><td>R9, R10, R11, R12, </td><td>4</td><td>49.9</td><td>resistors:SM0603_R</td></tr><tr><td>U1, </td><td>1</td><td>RJ45_12_PIN</td><td>connectors:RJ45_12pin_Top</td></tr><tr><td>U2, </td><td>1</td><td>LAN8720A</td><td>ICs:QFN24+1</td></tr><tr><td>U4, </td><td>1</td><td>PIC32MX664F128H</td><td>ICs:QFN64+1</td></tr><tr><td>U5, </td><td>1</td><td>LM2596-3.3</td><td>ICs:TO263</td></tr><tr><td>X1, </td><td>1</td><td>25Mhz</td><td>crystals:crystal_FA-20H</td></tr><tr><td>X2, </td><td>1</td><td>24MHz</td><td>crystals:crystal_TSX3225</td></tr><!--TABLEROW-->
+</table>
+</body>
+</html>
+

@@ -1,0 +1,19 @@
+Drill report for /home/ted/kicad/projects/eth_motors_production/motor_VNH5019A_production-15_2_.kicad_pcb
+Created on Tue 18 Feb 2014 09:28:57 PM PST
+Drill report for plated through holes :
+T1  0.40mm  0.016"  (10 holes)
+T2  0.51mm  0.020"  (3828 holes)
+T3  1.00mm  0.039"  (12 holes)
+
+Total plated holes count 3850
+
+
+Drill report for unplated through holes :
+T1  1.70mm  0.067"  (4 holes)
+T2  1.73mm  0.068"  (120 holes)
+T3  3.17mm  0.125"  (120 holes)
+T4  3.25mm  0.128"  (12 holes)
+
+Total unplated holes count 256
+
+

@@ -1,0 +1,66 @@
+Cmp-Mod V01 Created by CvPcb (2013-08-24 BZR 4298)-stable date = Sat 05 Oct 2013 09:28:08 AM PDT
+
+BeginCmp
+TimeStamp = /524CF96D;
+Reference = C22;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /524CF7DE;
+Reference = C23;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /524CF97B;
+Reference = C24;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52503907;
+Reference = J1;
+ValeurCmp = Motor DC_2.1MM;
+IdModule  = TED_DC_2.1mm_SMT;
+EndCmp
+
+BeginCmp
+TimeStamp = /5250399A;
+Reference = J2;
+ValeurCmp = HEADER_9X2;
+IdModule  = TED_HEADER_9x2_TOP;
+EndCmp
+
+BeginCmp
+TimeStamp = /52427105;
+Reference = J5;
+ValeurCmp = HEADER_5X2;
+IdModule  = TED_HEADER_5x2_SMT;
+EndCmp
+
+BeginCmp
+TimeStamp = /524270E7;
+Reference = U5;
+ValeurCmp = L293DD;
+IdModule  = SO20;
+EndCmp
+
+BeginCmp
+TimeStamp = /524270B5;
+Reference = U6;
+ValeurCmp = L293DD;
+IdModule  = SO20;
+EndCmp
+
+BeginCmp
+TimeStamp = /524270C9;
+Reference = U7;
+ValeurCmp = L293DD;
+IdModule  = SO20;
+EndCmp
+
+EndListe

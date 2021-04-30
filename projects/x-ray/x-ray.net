@@ -1,0 +1,177 @@
+# EESchema Netlist Version 1.1 created  Sun 05 Sep 2010 08:43:34 PM PDT
+(
+ ( /4C0BD85A TED_SM0805 C1 .1uF_50v
+  ( 1 N-000013 )
+  ( 2 GND )
+ )
+ ( /4C0BD84F TED_SM0805 C2 .01uF_50v
+  ( 1 N-000012 )
+  ( 2 GND )
+ )
+ ( /4C54FDCE TED_SOD-123 D1 15v
+  ( 1 N-000006 )
+  ( 2 GND )
+ )
+ ( /4C6907A9 TED_diode_axial D3 200v
+  ( 1 N-000017 )
+  ( 2 GND )
+ )
+ ( /4C69079E TED_diode_axial D4 100v
+  ( 1 N-000003 )
+  ( 2 GND )
+ )
+ ( /4C81FF55 TED_SOD-80_Minimelf D5 DIODE
+  ( 1 N-000006 )
+  ( 2 N-000010 )
+ )
+ ( /4BDE4964 TED_DC_2.1mm J1 DC_2.1MM
+  ( 1 /5v )
+  ( 2 GND )
+ )
+ ( /4C0BD9A4 TED_TERMINAL_3.5MM_2PIN J3 TERM_3.5MM_2PIN
+  ( 1 N-000011 )
+  ( 2 GND )
+ )
+ ( /4C0BFC7D TED_TERMINAL_3.5MM_2PIN J5 TERM_3.5MM_2PIN
+  ( 1 /5v )
+  ( 2 GND )
+ )
+ ( /4C690165 TED_JMP_2x1 J6 SPST_SWITCH
+  ( 1 N-000008 )
+  ( 2 N-000005 )
+ )
+ ( /4C69017E TED_octal_tube_socket J7 OCTAL_TUBE_SOCKET
+  ( 1 ? )
+  ( 2 N-000005 )
+  ( 3 N-000017 )
+  ( 4 ? )
+  ( 5 GND )
+  ( 6 ? )
+  ( 7 N-000003 )
+  ( 8 GND )
+ )
+ ( /4C69016C TED_JMP_2x1 J8 SPST_SWITCH
+  ( 1 N-000004 )
+  ( 2 N-000011 )
+ )
+ ( /4C690CD6 TED_TERMINAL_3.5MM_2PIN J9 TRM_3.5MM_2P
+  ( 1 N-000016 )
+  ( 2 N-000016 )
+ )
+ ( /4C550B8C TED_varistor_MOV MOV?1 50v_cutoff
+  ( 1 N-000019 )
+  ( 2 N-000004 )
+ )
+ ( /4C0BD8C8 TED_TO220_NOHS Q1 NMOSFET_GDS
+  ( 1 N-000006 )
+  ( 2 N-000019 )
+  ( 3 N-000004 )
+ )
+ ( /4C0BD7FF TED_SM0805 R1 5k
+  ( 1 /5v )
+  ( 2 N-000014 )
+ )
+ ( /4C0BD807 TED_VAR_R R2 100k
+  ( 1 N-000014 )
+  ( 2 N-000013 )
+ )
+ ( /4C690518 TED_VAR_R R3 10k
+  ( 1 GND )
+  ( 2 N-000018 )
+ )
+ ( /4C690553 TED_SM0805 R4 240
+  ( 1 N-000008 )
+  ( 2 N-000018 )
+ )
+ ( /4C68FF38 TED_VAR_R R5 100k
+  ( 1 /5v )
+  ( 2 N-000019 )
+ )
+ ( /4C81FF79 TED_SM0805 R6 1k
+  ( 1 N-000006 )
+  ( 2 GND )
+ )
+ ( /4C0BD728 TED_DIP-8 U1 NE555
+  ( 1 GND )
+  ( 2 N-000013 )
+  ( 3 N-000010 )
+  ( 4 /5v )
+  ( 5 N-000012 )
+  ( 6 N-000013 )
+  ( 7 N-000014 )
+  ( 8 /5v )
+ )
+ ( /4C690502 TED_TO220_NOHS U2 LM317
+  ( 1 N-000018 )
+  ( 2 N-000008 )
+  ( 3 /5v )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ D?
+ SO*
+ SM*
+$endlist
+$component D3
+ D?
+ SO*
+ SM*
+$endlist
+$component D4
+ D?
+ SO*
+ SM*
+$endlist
+$component D5
+ D?
+ S*
+$endlist
+$component MOV?1
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}

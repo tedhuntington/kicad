@@ -1,0 +1,28 @@
+EESchema-DOCLIB  Version 2.0  Date: Fri 10 Sep 2010 10:08:44 PM PDT
+#
+$CMP DIODE
+D Diode simple
+K DEV DIODE
+$ENDCMP
+#
+$CMP LASER
+D Diode simple
+K DEV DIODE
+$ENDCMP
+#
+$CMP LED
+D Diode simple
+K DEV DIODE
+$ENDCMP
+#
+$CMP TVS
+D Diode simple
+K DEV DIODE
+$ENDCMP
+#
+$CMP ZENER
+D Diode zener
+K DEV DIODE
+$ENDCMP
+#
+#End Doc Library

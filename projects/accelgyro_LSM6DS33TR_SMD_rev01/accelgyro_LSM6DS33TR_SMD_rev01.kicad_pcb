@@ -1,0 +1,3667 @@
+(kicad_pcb (version 4) (host pcbnew 4.0.6-e0-6349~53~ubuntu16.04.1)
+
+  (general
+    (links 283)
+    (no_connects 0)
+    (area 135.149999 91.849999 185.250001 141.950001)
+    (thickness 1.6)
+    (drawings 12)
+    (tracks 70)
+    (zones 0)
+    (modules 270)
+    (nets 8)
+  )
+
+  (page A)
+  (layers
+    (0 F.Cu signal)
+    (31 B.Cu signal)
+    (32 B.Adhes user)
+    (33 F.Adhes user)
+    (34 B.Paste user)
+    (35 F.Paste user)
+    (36 B.SilkS user)
+    (37 F.SilkS user)
+    (38 B.Mask user)
+    (39 F.Mask user)
+    (40 Dwgs.User user)
+    (41 Cmts.User user)
+    (42 Eco1.User user)
+    (43 Eco2.User user)
+    (44 Edge.Cuts user)
+  )
+
+  (setup
+    (last_trace_width 0.5)
+    (user_trace_width 0.1)
+    (user_trace_width 0.15)
+    (user_trace_width 0.2)
+    (user_trace_width 0.25)
+    (user_trace_width 0.3)
+    (user_trace_width 0.35)
+    (user_trace_width 0.4)
+    (user_trace_width 0.5)
+    (user_trace_width 0.6)
+    (user_trace_width 0.7)
+    (user_trace_width 0.8)
+    (user_trace_width 1)
+    (trace_clearance 0.05)
+    (zone_clearance 0.508)
+    (zone_45_only yes)
+    (trace_min 0.1)
+    (segment_width 0.2)
+    (edge_width 0.1)
+    (via_size 0.7)
+    (via_drill 0.4)
+    (via_min_size 0.7)
+    (via_min_drill 0.4)
+    (uvia_size 0.4)
+    (uvia_drill 0.127)
+    (uvias_allowed no)
+    (uvia_min_size 0.4)
+    (uvia_min_drill 0.127)
+    (pcb_text_width 0.3)
+    (pcb_text_size 1.5 1.5)
+    (mod_edge_width 0.15)
+    (mod_text_size 1 1)
+    (mod_text_width 0.15)
+    (pad_size 0.6 0.6)
+    (pad_drill 0.3)
+    (pad_to_mask_clearance 0)
+    (aux_axis_origin 0 0)
+    (visible_elements 7FFFFFFF)
+    (pcbplotparams
+      (layerselection 0x000fc_80000001)
+      (usegerberextensions true)
+      (excludeedgelayer true)
+      (linewidth 0.150000)
+      (plotframeref false)
+      (viasonmask false)
+      (mode 1)
+      (useauxorigin false)
+      (hpglpennumber 1)
+      (hpglpenspeed 20)
+      (hpglpendiameter 15)
+      (hpglpenoverlay 2)
+      (psnegative false)
+      (psa4output false)
+      (plotreference true)
+      (plotvalue true)
+      (plotinvisibletext false)
+      (padsonsilk false)
+      (subtractmaskfromsilk false)
+      (outputformat 1)
+      (mirror false)
+      (drillshape 0)
+      (scaleselection 1)
+      (outputdirectory PCB))
+  )
+
+  (net 0 "")
+  (net 1 GND)
+  (net 2 SCL)
+  (net 3 SDA)
+  (net 4 Vdd)
+  (net 5 INT1)
+  (net 6 INT2)
+  (net 7 "Net-(U1-Pad14)")
+
+  (net_class Default "This is the default net class."
+    (clearance 0.05)
+    (trace_width 0.5)
+    (via_dia 0.7)
+    (via_drill 0.4)
+    (uvia_dia 0.4)
+    (uvia_drill 0.127)
+    (add_net GND)
+    (add_net INT1)
+    (add_net INT2)
+    (add_net "Net-(U1-Pad14)")
+    (add_net SCL)
+    (add_net SDA)
+    (add_net Vdd)
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 58216155)
+    (at 137.3 102.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 58216151)
+    (at 137.3 101.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 5821614D)
+    (at 137.3 100.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 58216149)
+    (at 137.3 99.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 58216145)
+    (at 137.3 98.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 58216141)
+    (at 137.3 103.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 5821613D)
+    (at 137.3 104.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 58216139)
+    (at 155.5 112.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 58216135)
+    (at 156.5 112.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 58216119)
+    (at 157.5 111.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 58216115)
+    (at 156.5 111.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 58216111)
+    (at 155.5 111.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 5821610D)
+    (at 157.5 110.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 58216109)
+    (at 156.5 110.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 58216105)
+    (at 155.5 110.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 582160EB)
+    (at 161.5 107.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 582160E7)
+    (at 160.5 107.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 582160E3)
+    (at 159.5 107.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 582160DF)
+    (at 158.5 107.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 582160DB)
+    (at 161.5 106.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 582160D7)
+    (at 160.5 106.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 582160D3)
+    (at 159.5 106.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 582160CF)
+    (at 158.5 106.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 582160CB)
+    (at 158.5 108.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 582160C7)
+    (at 159.5 108.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 582160C3)
+    (at 160.5 108.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 582160BF)
+    (at 161.5 108.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 582160BB)
+    (at 158.5 109.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 582160B7)
+    (at 159.5 109.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 582160B3)
+    (at 160.5 109.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 582160AF)
+    (at 161.5 109.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 582160AB)
+    (at 158.5 110.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 582160A7)
+    (at 159.5 110.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 582160A3)
+    (at 160.5 110.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 5821609F)
+    (at 161.5 110.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 5821609B)
+    (at 158.5 111.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 58216097)
+    (at 159.5 111.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 58216093)
+    (at 160.5 111.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 5821608F)
+    (at 161.5 111.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:TED_RJ12_855135002 (layer F.Cu) (tedit 57C7A1FE) (tstamp 539CC027)
+    (at 151.9 98.6 270)
+    (path /539B7C14)
+    (fp_text reference U2 (at 2.5 -11.8 270) (layer F.SilkS)
+      (effects (font (size 1.2 1.2) (thickness 0.09906)))
+    )
+    (fp_text value RJ12 (at -2.2 -11.7 270) (layer F.SilkS)
+      (effects (font (size 1.2 1.2) (thickness 0.09906)))
+    )
+    (fp_line (start -6.605 -7.54) (end 6.605 -7.54) (layer F.SilkS) (width 0.254))
+    (fp_line (start 6.605 -7.54) (end 6.605 7.54) (layer F.SilkS) (width 0.254))
+    (fp_line (start 6.605 7.54) (end -6.605 7.54) (layer F.SilkS) (width 0.254))
+    (fp_line (start -6.605 7.54) (end -6.605 -7.54) (layer F.SilkS) (width 0.254))
+    (pad 6 smd rect (at -3.175 7.9 270) (size 0.76 5) (layers F.Cu F.Paste F.Mask)
+      (net 4 Vdd) (clearance 0.2))
+    (pad 4 smd rect (at -0.635 7.9 270) (size 0.76 5) (layers F.Cu F.Paste F.Mask)
+      (net 5 INT1) (clearance 0.2))
+    (pad 2 smd rect (at 1.905 7.9 270) (size 0.76 5) (layers F.Cu F.Paste F.Mask)
+      (net 3 SDA) (clearance 0.2))
+    (pad 3 smd rect (at 0.635 7.9 270) (size 0.76 5) (layers F.Cu F.Paste F.Mask)
+      (net 2 SCL) (clearance 0.2))
+    (pad 1 smd rect (at 3.175 7.9 270) (size 0.76 5) (layers F.Cu F.Paste F.Mask)
+      (net 1 GND) (clearance 0.2))
+    (pad 5 smd rect (at -1.905 7.9 270) (size 0.76 5) (layers F.Cu F.Paste F.Mask)
+      (net 6 INT2) (clearance 0.2))
+    (pad PAD smd rect (at 0 -8.15 270) (size 8.8 4.5) (layers F.Cu F.Paste F.Mask))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B603)
+    (at 152.8 104.2)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B5FB)
+    (at 153.8 104.2)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B5F7)
+    (at 152.6 102.6)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B5EF)
+    (at 151.6 102.6)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B5E7)
+    (at 152.4 101.4)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B5E3)
+    (at 151.4 101.4)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B5DF)
+    (at 150 100)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B5DB)
+    (at 151 100)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B5CF)
+    (at 147.6 97.2)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B5C7)
+    (at 149.6 98.6)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B5C3)
+    (at 148.6 98.6)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B5BF)
+    (at 160.9 104.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B5BB)
+    (at 159.9 104.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B5B7)
+    (at 161.9 104.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B5B3)
+    (at 162.9 104.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B5AF)
+    (at 161.9 105.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B5AB)
+    (at 162.9 105.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B596)
+    (at 147.2 107.8)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B589)
+    (at 148.2 106.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B585)
+    (at 147.2 106.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B581)
+    (at 146.2 106.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B57D)
+    (at 145.2 106.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B579)
+    (at 144.3 105.9)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B571)
+    (at 143.2 104.9)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B56D)
+    (at 144.2 104.9)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B569)
+    (at 145.2 104.9)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B565)
+    (at 146.2 104.9)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B561)
+    (at 147.2 104.9)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B55D)
+    (at 148.2 104.9)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B53D)
+    (at 148.2 103.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B539)
+    (at 147.2 103.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B535)
+    (at 146.2 103.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B531)
+    (at 145.2 103.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B52D)
+    (at 144.2 103.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B529)
+    (at 143.2 103.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B524)
+    (at 142.2 103.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B4C0)
+    (at 161.5 112.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B4BC)
+    (at 160.5 112.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B4B8)
+    (at 159.5 112.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B4B4)
+    (at 158.5 112.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B413)
+    (at 157.5 112.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B38D)
+    (at 167.9 112.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B389)
+    (at 166.9 112.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B385)
+    (at 165.9 112.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B379)
+    (at 167.9 111.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B375)
+    (at 166.9 111.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B365)
+    (at 167.9 110.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B361)
+    (at 166.9 110.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B351)
+    (at 167.9 109.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B34D)
+    (at 166.9 109.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B33D)
+    (at 167.9 108.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B339)
+    (at 166.9 108.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B329)
+    (at 167.9 107.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B325)
+    (at 166.9 107.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B321)
+    (at 165.9 107.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B315)
+    (at 167.9 106.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B311)
+    (at 166.9 106.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B30D)
+    (at 165.9 106.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B301)
+    (at 167.9 105.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B2FD)
+    (at 166.9 105.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B2F9)
+    (at 165.9 105.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B2F5)
+    (at 164.9 105.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B2F1)
+    (at 163.9 105.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B2ED)
+    (at 167.9 104.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B2E9)
+    (at 166.9 104.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B2E5)
+    (at 165.9 104.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B2E1)
+    (at 164.9 104.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B2DD)
+    (at 163.9 104.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B2D9)
+    (at 167.9 103.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B2D5)
+    (at 166.9 103.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B2D1)
+    (at 165.9 103.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B2CD)
+    (at 164.9 103.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B2C9)
+    (at 163.9 103.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B2C5)
+    (at 167.9 102.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B2C1)
+    (at 166.9 102.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B2BD)
+    (at 165.9 102.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B2B9)
+    (at 164.9 102.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B2B5)
+    (at 163.9 102.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B2B1)
+    (at 167.9 101.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B2AD)
+    (at 166.9 101.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B2A9)
+    (at 165.9 101.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B2A5)
+    (at 164.9 101.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B2A1)
+    (at 163.9 101.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B29D)
+    (at 167.9 100.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B299)
+    (at 166.9 100.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B295)
+    (at 165.9 100.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B291)
+    (at 164.9 100.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B28D)
+    (at 163.9 100.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B289)
+    (at 167.9 99.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B285)
+    (at 166.9 99.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B281)
+    (at 165.9 99.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B27D)
+    (at 164.9 99.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B279)
+    (at 163.9 99.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B275)
+    (at 167.9 98.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B271)
+    (at 166.9 98.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B26D)
+    (at 165.9 98.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B269)
+    (at 164.9 98.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B265)
+    (at 163.9 98.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B261)
+    (at 167.9 97.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B25D)
+    (at 166.9 97.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B259)
+    (at 165.9 97.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B255)
+    (at 164.9 97.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B251)
+    (at 163.9 97.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B24D)
+    (at 167.9 96.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B249)
+    (at 166.9 96.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B245)
+    (at 165.9 96.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B241)
+    (at 164.9 96.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B23D)
+    (at 163.9 96.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B239)
+    (at 167.9 95.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B235)
+    (at 166.9 95.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B231)
+    (at 165.9 95.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B22D)
+    (at 164.9 95.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B229)
+    (at 163.9 95.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B225)
+    (at 167.9 94.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B221)
+    (at 166.9 94.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B21D)
+    (at 165.9 94.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B219)
+    (at 164.9 94.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B087)
+    (at 163.9 94.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B083)
+    (at 154.9 100.7)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B07F)
+    (at 155.9 100.7)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B07B)
+    (at 156.9 100.7)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B077)
+    (at 156.9 99.2)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B073)
+    (at 155.9 99.2)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B06F)
+    (at 154.9 99.2)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B06B)
+    (at 153.9 99.2)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B067)
+    (at 151.9 97.7)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B063)
+    (at 152.9 97.7)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B05F)
+    (at 153.9 97.7)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B05B)
+    (at 154.9 97.7)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B057)
+    (at 155.9 97.7)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B053)
+    (at 156.9 97.7)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B04F)
+    (at 156.9 96.1)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B04B)
+    (at 155.9 96.1)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B047)
+    (at 154.9 96.1)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B043)
+    (at 153.9 96.1)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B03F)
+    (at 152.9 96.1)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B03B)
+    (at 151.9 96.1)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B037)
+    (at 150.9 96.1)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B033)
+    (at 150.9 94.6)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B02F)
+    (at 151.9 94.6)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B02B)
+    (at 152.9 94.6)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B027)
+    (at 153.9 94.6)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B023)
+    (at 154.9 94.6)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B01F)
+    (at 155.9 94.6)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B01B)
+    (at 156.9 94.6)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B012)
+    (at 149.9 94.6)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B00E)
+    (at 167.9 93.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B00A)
+    (at 166.9 93.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B006)
+    (at 165.9 93.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7B002)
+    (at 164.9 93.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AFFE)
+    (at 163.9 93.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AFFA)
+    (at 162.9 93.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AFF6)
+    (at 161.9 93.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AFF2)
+    (at 160.9 93.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AFEE)
+    (at 159.9 93.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AFEA)
+    (at 158.9 93.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AFE6)
+    (at 157.9 93.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AFE2)
+    (at 156.9 93.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AFDE)
+    (at 155.9 93.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AFDA)
+    (at 154.9 93.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AFD6)
+    (at 153.9 93.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AFD2)
+    (at 152.9 93.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AFCE)
+    (at 151.9 93.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AFCA)
+    (at 150.9 93.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AFC6)
+    (at 149.9 93.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AFC2)
+    (at 148.9 93.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AFBE)
+    (at 147.9 93.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AFBA)
+    (at 146.9 93.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AFB6)
+    (at 145.9 93.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AF62)
+    (at 145.6 112.6)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AF31)
+    (at 142.6 110.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AF2D)
+    (at 143.6 110.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AEE1)
+    (at 144.6 112.6)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AEDD)
+    (at 143.6 112.6)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AED9)
+    (at 142.6 112.6)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AEC9)
+    (at 144.6 111.6)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AEC5)
+    (at 143.6 111.6)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AEC1)
+    (at 142.6 111.6)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AE04)
+    (at 137.4 112.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AE00)
+    (at 137.4 111.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7ADFC)
+    (at 137.4 110.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7ADF8)
+    (at 137.4 109.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7ADF4)
+    (at 137.4 108.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7ADF0)
+    (at 137.4 107.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7ADEC)
+    (at 137.4 106.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7ADDB)
+    (at 137.4 105.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7ADCB)
+    (at 136.3 112.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7ADC7)
+    (at 136.3 111.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7ADC3)
+    (at 136.3 110.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7ADBF)
+    (at 136.3 109.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7ADBB)
+    (at 136.3 108.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7ADB7)
+    (at 136.3 107.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7ADB3)
+    (at 136.3 106.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7ADAF)
+    (at 136.3 105.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7ADAB)
+    (at 136.3 104.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7ADA7)
+    (at 136.3 103.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7ABA8)
+    (at 136.3 98.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7ADA2)
+    (at 136.3 99.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AD9E)
+    (at 136.3 100.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AD9A)
+    (at 136.3 101.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AD96)
+    (at 136.3 102.5)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AD6C)
+    (at 143.6 93.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AD68)
+    (at 138.3 97.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AD64)
+    (at 137.3 97.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AD60)
+    (at 136.3 97.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AD5C)
+    (at 141.3 93.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AD58)
+    (at 144.9 93.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AD54)
+    (at 138.3 96.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AD50)
+    (at 137.3 96.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AD4C)
+    (at 136.3 96.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AD48)
+    (at 142.4 93.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AD44)
+    (at 139.3 95.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AD40)
+    (at 138.3 95.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AD3C)
+    (at 137.3 95.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AD38)
+    (at 136.3 95.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AD34)
+    (at 140.3 94.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AD30)
+    (at 139.3 94.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AD2C)
+    (at 138.3 94.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AD28)
+    (at 137.3 94.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AD24)
+    (at 136.3 94.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AD20)
+    (at 140.3 93.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AD1C)
+    (at 139.3 93.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AD18)
+    (at 138.3 93.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AD14)
+    (at 137.3 93.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_connectors:VIA-0.6mm (layer F.Cu) (tedit 57C7A46B) (tstamp 57C7AB0C)
+    (at 136.3 93.3)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.001)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module ted_ICs:LGA-16 (layer F.Cu) (tedit 582003D6) (tstamp 58215EAB)
+    (at 152 108.8)
+    (path /581FBBF3)
+    (fp_text reference U1 (at 0 -2.7) (layer F.SilkS)
+      (effects (font (size 0.7 0.7) (thickness 0.175)))
+    )
+    (fp_text value LSM6DS33 (at 0.1 2.9) (layer F.SilkS)
+      (effects (font (size 0.7 0.7) (thickness 0.17)))
+    )
+    (fp_circle (center -2 -1.8) (end -1.9 -1.8) (layer F.SilkS) (width 0.15))
+    (fp_line (start 1.5 -1.5) (end 1.5 1.5) (layer F.SilkS) (width 0.20066))
+    (fp_line (start 1.5 1.5) (end -1.5 1.5) (layer F.SilkS) (width 0.20066))
+    (fp_line (start -1.5 -1.5) (end -1.5 1.5) (layer F.SilkS) (width 0.20066))
+    (fp_line (start -1.5 -1.5) (end 1.5 -1.5) (layer F.SilkS) (width 0.20066))
+    (pad 9 smd rect (at 1.225 1 270) (size 0.25 0.35) (layers F.Cu F.Paste F.Mask)
+      (net 1 GND))
+    (pad 10 smd rect (at 1.225 0.5 270) (size 0.25 0.35) (layers F.Cu F.Paste F.Mask)
+      (net 1 GND))
+    (pad 14 smd rect (at 0.5 -1.225 270) (size 0.35 0.25) (layers F.Cu F.Paste F.Mask)
+      (net 7 "Net-(U1-Pad14)"))
+    (pad 13 smd rect (at 1.225 -1 270) (size 0.25 0.35) (layers F.Cu F.Paste F.Mask)
+      (net 1 GND))
+    (pad 1 smd rect (at -1.225 -1 270) (size 0.25 0.35) (layers F.Cu F.Paste F.Mask)
+      (net 4 Vdd))
+    (pad 5 smd rect (at -1.225 1 270) (size 0.25 0.35) (layers F.Cu F.Paste F.Mask)
+      (net 4 Vdd))
+    (pad 2 smd rect (at -1.225 -0.5 270) (size 0.25 0.35) (layers F.Cu F.Paste F.Mask)
+      (net 2 SCL))
+    (pad 16 smd rect (at -0.5 -1.225 270) (size 0.35 0.25) (layers F.Cu F.Paste F.Mask)
+      (net 4 Vdd))
+    (pad 3 smd rect (at -1.225 0 270) (size 0.25 0.35) (layers F.Cu F.Paste F.Mask)
+      (net 3 SDA))
+    (pad 4 smd rect (at -1.225 0.5 270) (size 0.25 0.35) (layers F.Cu F.Paste F.Mask)
+      (net 1 GND))
+    (pad 12 smd rect (at 1.225 -0.5 270) (size 0.25 0.35) (layers F.Cu F.Paste F.Mask)
+      (net 1 GND))
+    (pad 11 smd rect (at 1.225 0 270) (size 0.25 0.35) (layers F.Cu F.Paste F.Mask)
+      (net 1 GND))
+    (pad 15 smd rect (at 0 -1.225 270) (size 0.35 0.25) (layers F.Cu F.Paste F.Mask)
+      (net 1 GND))
+    (pad 7 smd rect (at 0 1.225 270) (size 0.35 0.25) (layers F.Cu F.Paste F.Mask)
+      (net 5 INT1))
+    (pad 8 smd rect (at 0.5 1.225 270) (size 0.35 0.25) (layers F.Cu F.Paste F.Mask)
+      (net 1 GND))
+    (pad 6 smd rect (at -0.5 1.225 270) (size 0.35 0.25) (layers F.Cu F.Paste F.Mask)
+      (net 6 INT2))
+  )
+
+  (module ted_holes:TED_Hole_3mm (layer F.Cu) (tedit 0) (tstamp 597D0283)
+    (at 140 108.8)
+    (path /5365C78C)
+    (fp_text reference H1 (at -0.05 -2.425) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value HOLE (at 0.25 2.6) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module ted_holes:TED_Hole_3mm (layer F.Cu) (tedit 0) (tstamp 597D0287)
+    (at 164 108.8)
+    (path /539CBE67)
+    (fp_text reference H2 (at -0.05 -2.425) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value HOLE (at 0.25 2.6) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module ted_capacitors:TED_SM0603_C (layer F.Cu) (tedit 597D1920) (tstamp 58215E92)
+    (at 156 108.25)
+    (descr "SMT capacitor, 0603")
+    (path /52A5541B)
+    (fp_text reference C4 (at 1.75 1.25) (layer F.SilkS)
+      (effects (font (size 0.6 0.6) (thickness 0.15)))
+    )
+    (fp_text value .1uF (at 0 1.3) (layer F.SilkS)
+      (effects (font (size 0.6 0.6) (thickness 0.15)))
+    )
+    (fp_line (start -1.25 -0.57) (end 1.25 -0.57) (layer F.SilkS) (width 0.127))
+    (fp_line (start 1.27 -0.57) (end 1.27 0.57) (layer F.SilkS) (width 0.127))
+    (fp_line (start 1.25 0.57) (end -1.25 0.57) (layer F.SilkS) (width 0.127))
+    (fp_line (start -1.27 0.57) (end -1.27 -0.57) (layer F.SilkS) (width 0.127))
+    (pad 2 smd rect (at 0.75184 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
+      (net 1 GND) (clearance 0.1))
+    (pad 1 smd rect (at -0.75184 0) (size 0.9 1) (layers F.Cu F.Paste F.Mask)
+      (net 4 Vdd) (clearance 0.1))
+    (model smd/capacitors/c_0603.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module ted_capacitors:TED_SM0603_C (layer F.Cu) (tedit 597D1923) (tstamp 58215E86)
+    (at 156 106.5)
+    (descr "SMT capacitor, 0603")
+    (path /581FC78E)
+    (fp_text reference C1 (at -2 -0.5) (layer F.SilkS)
+      (effects (font (size 0.6 0.6) (thickness 0.15)))
+    )
+    (fp_text value .1uF (at 2.5 -0.75) (layer F.SilkS)
+      (effects (font (size 0.6 0.6) (thickness 0.15)))
+    )
+    (fp_line (start -1.25 -0.57) (end 1.25 -0.57) (layer F.SilkS) (width 0.127))
+    (fp_line (start 1.27 -0.57) (end 1.27 0.57) (layer F.SilkS) (width 0.127))
+    (fp_line (start 1.25 0.57) (end -1.25 0.57) (layer F.SilkS) (width 0.127))
+    (fp_line (start -1.27 0.57) (end -1.27 -0.57) (layer F.SilkS) (width 0.127))
+    (pad 2 smd rect (at 0.75184 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
+      (net 1 GND) (clearance 0.1))
+    (pad 1 smd rect (at -0.75184 0) (size 0.9 1) (layers F.Cu F.Paste F.Mask)
+      (net 4 Vdd) (clearance 0.1))
+    (model smd/capacitors/c_0603.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (gr_text "GPL License" (at 151.3 94.2) (layer B.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
+  )
+  (gr_line (start 135.2 141.9) (end 185.2 141.9) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 185.2 91.9) (end 185.2 141.9) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 185.2 91.9) (end 185.2 92) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 135.2 91.9) (end 185.2 91.9) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 135.2 91.9) (end 135.2 141.9) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_text 07/29/2017 (at 163.5 92.9) (layer F.SilkS)
+    (effects (font (size 0.7 0.8) (thickness 0.125)))
+  )
+  (gr_text -X (at 136.9 105.9) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.25)))
+  )
+  (gr_text -Y (at 146.4 110.8) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.25)))
+  )
+  (gr_text +X (at 166.3 105) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.25)))
+  )
+  (gr_text +Y (at 142.4 93) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.25)))
+  )
+  (gr_text accelgyro_LSM6DS33TR_SMD_rev01 (at 150.6 103.7) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
+
+  (segment (start 150.775 109.3) (end 149.5 109.3) (width 0.25) (layer F.Cu) (net 1))
+  (via (at 149.5 109.3) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 1))
+  (segment (start 152 107.575) (end 152 107.9) (width 0.25) (layer F.Cu) (net 1))
+  (segment (start 152.4 108.3) (end 153.225 108.3) (width 0.25) (layer F.Cu) (net 1) (tstamp 5823B5F9))
+  (segment (start 152 107.9) (end 152.4 108.3) (width 0.25) (layer F.Cu) (net 1) (tstamp 5823B5F7))
+  (segment (start 153.225 107.8) (end 154 107.8) (width 0.25) (layer F.Cu) (net 1))
+  (via (at 154.2 109) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 1))
+  (segment (start 154.2 108) (end 154.2 109) (width 0.25) (layer F.Cu) (net 1) (tstamp 5823B5DD))
+  (segment (start 154 107.8) (end 154.2 108) (width 0.25) (layer F.Cu) (net 1) (tstamp 5823B5DC))
+  (segment (start 153.225 108.3) (end 153.9 108.3) (width 0.25) (layer F.Cu) (net 1))
+  (segment (start 154.2 108.6) (end 154.2 109) (width 0.25) (layer F.Cu) (net 1) (tstamp 5823B5D9))
+  (segment (start 153.9 108.3) (end 154.2 108.6) (width 0.25) (layer F.Cu) (net 1) (tstamp 5823B5D4))
+  (segment (start 153.225 108.8) (end 154 108.8) (width 0.25) (layer F.Cu) (net 1))
+  (segment (start 153.9 109.3) (end 154.2 109) (width 0.25) (layer F.Cu) (net 1) (tstamp 5823B5C6))
+  (segment (start 153.9 109.3) (end 153.225 109.3) (width 0.25) (layer F.Cu) (net 1))
+  (segment (start 154 108.8) (end 154.2 109) (width 0.25) (layer F.Cu) (net 1) (tstamp 5823B5CF))
+  (segment (start 153.225 109.8) (end 154.1 109.8) (width 0.25) (layer F.Cu) (net 1))
+  (via (at 154.3 110) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 1))
+  (segment (start 154.1 109.8) (end 154.3 110) (width 0.25) (layer F.Cu) (net 1) (tstamp 5823B5C2))
+  (segment (start 152.5 110.025) (end 152.5 110.6) (width 0.25) (layer F.Cu) (net 1))
+  (via (at 153 111.1) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 1))
+  (segment (start 152.5 110.6) (end 153 111.1) (width 0.25) (layer F.Cu) (net 1) (tstamp 5823B5BE))
+  (segment (start 144 101.775) (end 142.025 101.775) (width 0.25) (layer F.Cu) (net 1))
+  (segment (start 142.025 101.775) (end 141.9 101.9) (width 0.25) (layer F.Cu) (net 1) (tstamp 57C79CA3))
+  (segment (start 149.95 107.2) (end 149.95 108.05) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 149.95 107.2) (end 149.95 102.75) (width 0.25) (layer F.Cu) (net 2) (tstamp 5823B427))
+  (segment (start 149.95 102.75) (end 146.735 99.235) (width 0.25) (layer F.Cu) (net 2) (tstamp 58215FE6))
+  (segment (start 144 99.235) (end 146.735 99.235) (width 0.25) (layer F.Cu) (net 2) (tstamp 58215FE9))
+  (segment (start 150.2 108.3) (end 150.775 108.3) (width 0.25) (layer F.Cu) (net 2) (tstamp 5823B61B))
+  (segment (start 149.95 108.05) (end 150.2 108.3) (width 0.25) (layer F.Cu) (net 2) (tstamp 5823B619))
+  (segment (start 149.25 107.3) (end 149.25 108.15) (width 0.25) (layer F.Cu) (net 3))
+  (segment (start 147.005 100.505) (end 149.25 103.25) (width 0.25) (layer F.Cu) (net 3) (tstamp 58215FCC))
+  (segment (start 149.25 103.25) (end 149.25 107.3) (width 0.25) (layer F.Cu) (net 3) (tstamp 58215FCE))
+  (segment (start 144 100.505) (end 147.005 100.505) (width 0.25) (layer F.Cu) (net 3))
+  (segment (start 149.9 108.8) (end 150.775 108.8) (width 0.25) (layer F.Cu) (net 3) (tstamp 5823B61F))
+  (segment (start 149.25 108.15) (end 149.9 108.8) (width 0.25) (layer F.Cu) (net 3) (tstamp 5823B61E))
+  (segment (start 150.775 109.8) (end 151 109.8) (width 0.25) (layer F.Cu) (net 4))
+  (segment (start 151.5 109.3) (end 151.5 107.575) (width 0.25) (layer F.Cu) (net 4) (tstamp 5823B640))
+  (segment (start 151 109.8) (end 151.5 109.3) (width 0.25) (layer F.Cu) (net 4) (tstamp 5823B63C))
+  (segment (start 151.5 107.575) (end 151.5 107.1) (width 0.25) (layer F.Cu) (net 4))
+  (segment (start 154 107) (end 155.24816 108.24816) (width 0.25) (layer F.Cu) (net 4) (tstamp 5823B5F2))
+  (segment (start 151.6 107) (end 154 107) (width 0.25) (layer F.Cu) (net 4) (tstamp 5823B5F1))
+  (segment (start 151.5 107.1) (end 151.6 107) (width 0.25) (layer F.Cu) (net 4) (tstamp 5823B5EF))
+  (segment (start 155.24816 108.24816) (end 155.24816 108.25) (width 0.25) (layer F.Cu) (net 4) (tstamp 5823B5F4))
+  (segment (start 150.775 107.8) (end 150.775 106.925) (width 0.25) (layer F.Cu) (net 4))
+  (segment (start 151.2 106.5) (end 155.24816 106.5) (width 0.25) (layer F.Cu) (net 4) (tstamp 5823B5EC))
+  (segment (start 150.775 106.925) (end 151.2 106.5) (width 0.25) (layer F.Cu) (net 4) (tstamp 5823B5E9))
+  (segment (start 155.24816 106.5) (end 155.24816 108.25) (width 0.7) (layer F.Cu) (net 4) (status 20))
+  (segment (start 144 95.425) (end 148.175 95.425) (width 0.7) (layer F.Cu) (net 4))
+  (segment (start 155.24816 102.49816) (end 155.24816 106.5) (width 0.7) (layer F.Cu) (net 4) (tstamp 58215F31))
+  (segment (start 148.175 95.425) (end 155.24816 102.49816) (width 0.7) (layer F.Cu) (net 4) (tstamp 58215F2F))
+  (segment (start 144.175 95.6) (end 144 95.425) (width 0.25) (layer F.Cu) (net 4) (tstamp 57C7A2E0))
+  (segment (start 152 110.025) (end 152 111.3) (width 0.25) (layer F.Cu) (net 5) (status 10))
+  (segment (start 140.285 97.965) (end 144 97.965) (width 0.25) (layer F.Cu) (net 5) (tstamp 58216028))
+  (segment (start 138.75 99.5) (end 140.285 97.965) (width 0.25) (layer F.Cu) (net 5) (tstamp 58216023))
+  (segment (start 138.75 104) (end 138.75 99.5) (width 0.25) (layer F.Cu) (net 5) (tstamp 58216021))
+  (segment (start 148.9 111.75) (end 138.75 104) (width 0.25) (layer F.Cu) (net 5) (tstamp 5821601D))
+  (segment (start 151.4 111.75) (end 148.9 111.75) (width 0.25) (layer F.Cu) (net 5) (tstamp 5821601C))
+  (segment (start 152 111.3) (end 151.4 111.75) (width 0.25) (layer F.Cu) (net 5) (tstamp 58216019))
+  (segment (start 144 96.695) (end 140.555 96.695) (width 0.25) (layer F.Cu) (net 6))
+  (segment (start 140.555 96.695) (end 140.5 96.75) (width 0.25) (layer F.Cu) (net 6) (tstamp 5821604D))
+  (segment (start 151.5 110.025) (end 151.5 110.7) (width 0.25) (layer F.Cu) (net 6) (status 10))
+  (segment (start 140 97.25) (end 140.5 96.75) (width 0.25) (layer F.Cu) (net 6) (tstamp 5821603C))
+  (via (at 140 97.25) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 6))
+  (segment (start 140 99.25) (end 140 97.25) (width 0.25) (layer B.Cu) (net 6) (tstamp 58216039))
+  (via (at 140 99.25) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 6))
+  (segment (start 140 103.75) (end 140 99.25) (width 0.25) (layer F.Cu) (net 6) (tstamp 58216033))
+  (segment (start 149.45 111.1) (end 140 103.75) (width 0.25) (layer F.Cu) (net 6) (tstamp 5821602F))
+  (segment (start 150.95 111.1) (end 149.45 111.1) (width 0.25) (layer F.Cu) (net 6) (tstamp 5821602D))
+  (segment (start 151.5 110.7) (end 150.95 111.1) (width 0.25) (layer F.Cu) (net 6) (tstamp 5821602C))
+
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 539B87D1) (hatch edge 0.508)
+    (connect_pads (clearance 0.5))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 135.2 91.9) (xy 168.3 91.9) (xy 168.3 113.1) (xy 135.2 113.1)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 168.173 112.973) (xy 135.877 112.973) (xy 135.877 109.22123) (xy 137.872632 109.22123) (xy 138.195766 110.003274)
+        (xy 138.793578 110.602131) (xy 139.575057 110.92663) (xy 140.42123 110.927368) (xy 141.203274 110.604234) (xy 141.802131 110.006422)
+        (xy 142.12663 109.224943) (xy 142.126633 109.22123) (xy 161.872632 109.22123) (xy 162.195766 110.003274) (xy 162.793578 110.602131)
+        (xy 163.575057 110.92663) (xy 164.42123 110.927368) (xy 165.203274 110.604234) (xy 165.802131 110.006422) (xy 166.12663 109.224943)
+        (xy 166.127368 108.37877) (xy 165.804234 107.596726) (xy 165.206422 106.997869) (xy 164.424943 106.67337) (xy 163.57877 106.672632)
+        (xy 162.796726 106.995766) (xy 162.197869 107.593578) (xy 161.87337 108.375057) (xy 161.872632 109.22123) (xy 142.126633 109.22123)
+        (xy 142.127368 108.37877) (xy 141.804234 107.596726) (xy 141.206422 106.997869) (xy 140.424943 106.67337) (xy 139.57877 106.672632)
+        (xy 138.796726 106.995766) (xy 138.197869 107.593578) (xy 137.87337 108.375057) (xy 137.872632 109.22123) (xy 135.877 109.22123)
+        (xy 135.877 97.443485) (xy 139.02283 97.443485) (xy 139.171256 97.802703) (xy 139.248 97.879581) (xy 139.248 98.620205)
+        (xy 139.172222 98.695851) (xy 139.02317 99.05481) (xy 139.02283 99.443485) (xy 139.171256 99.802703) (xy 139.445851 100.077778)
+        (xy 139.80481 100.22683) (xy 140.193485 100.22717) (xy 140.552703 100.078744) (xy 140.827778 99.804149) (xy 140.97683 99.44519)
+        (xy 140.97717 99.056515) (xy 140.828744 98.697297) (xy 140.752 98.620419) (xy 140.752 97.879795) (xy 140.827778 97.804149)
+        (xy 140.97683 97.44519) (xy 140.97717 97.056515) (xy 140.828744 96.697297) (xy 140.554149 96.422222) (xy 140.19519 96.27317)
+        (xy 139.806515 96.27283) (xy 139.447297 96.421256) (xy 139.172222 96.695851) (xy 139.02317 97.05481) (xy 139.02283 97.443485)
+        (xy 135.877 97.443485) (xy 135.877 92.577) (xy 168.173 92.577)
+      )
+    )
+  )
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 57C7A2E7) (hatch edge 0.508)
+    (connect_pads (clearance 0.5))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 135.2 91.9) (xy 135.2 113.1) (xy 168 113.1) (xy 168.3 91.9)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 167.874785 112.973) (xy 135.877 112.973) (xy 135.877 109.22123) (xy 137.872632 109.22123) (xy 138.195766 110.003274)
+        (xy 138.793578 110.602131) (xy 139.575057 110.92663) (xy 140.42123 110.927368) (xy 141.203274 110.604234) (xy 141.802131 110.006422)
+        (xy 142.12663 109.224943) (xy 142.127368 108.37877) (xy 141.804234 107.596726) (xy 141.206422 106.997869) (xy 140.424943 106.67337)
+        (xy 139.57877 106.672632) (xy 138.796726 106.995766) (xy 138.197869 107.593578) (xy 137.87337 108.375057) (xy 137.872632 109.22123)
+        (xy 135.877 109.22123) (xy 135.877 99.5) (xy 137.998 99.5) (xy 137.998 104) (xy 138.007853 104.049533)
+        (xy 138.00467 104.099933) (xy 138.036225 104.192168) (xy 138.055243 104.287778) (xy 138.0833 104.329768) (xy 138.099647 104.377551)
+        (xy 138.164098 104.450691) (xy 138.218256 104.531744) (xy 138.260246 104.559801) (xy 138.293635 104.597691) (xy 148.443635 112.347691)
+        (xy 148.531168 112.390598) (xy 148.612222 112.444757) (xy 148.661754 112.45461) (xy 148.707101 112.476838) (xy 148.804389 112.482982)
+        (xy 148.9 112.502) (xy 151.4 112.502) (xy 151.492482 112.483604) (xy 151.586632 112.478472) (xy 151.635079 112.45524)
+        (xy 151.687778 112.444757) (xy 151.766178 112.392372) (xy 151.8512 112.3516) (xy 152.4512 111.9016) (xy 152.48707 111.861594)
+        (xy 152.531744 111.831744) (xy 152.584128 111.753346) (xy 152.647077 111.683139) (xy 152.664907 111.632452) (xy 152.694757 111.587778)
+        (xy 152.713152 111.4953) (xy 152.744442 111.406349) (xy 152.741518 111.352698) (xy 152.752 111.3) (xy 152.752 110.834714)
+        (xy 152.984699 110.738327) (xy 153.163327 110.559698) (xy 153.197582 110.477) (xy 153.38825 110.477) (xy 153.47125 110.56)
+        (xy 153.52631 110.56) (xy 153.759699 110.463327) (xy 153.938327 110.284698) (xy 154.035 110.051309) (xy 154.035 110.02125)
+        (xy 153.87625 109.8625) (xy 153.860525 109.8625) (xy 153.938327 109.784698) (xy 154.015596 109.598154) (xy 154.035 109.57875)
+        (xy 154.035 109.52125) (xy 154.015596 109.501846) (xy 153.938327 109.315302) (xy 153.923025 109.3) (xy 153.938327 109.284698)
+        (xy 154.015596 109.098154) (xy 154.035 109.07875) (xy 154.035 109.02125) (xy 154.015596 109.001846) (xy 153.938327 108.815302)
+        (xy 153.923025 108.8) (xy 153.938327 108.784698) (xy 154.015596 108.598154) (xy 154.035 108.57875) (xy 154.035 108.52125)
+        (xy 154.015596 108.501846) (xy 153.938327 108.315302) (xy 153.923025 108.3) (xy 153.938327 108.284698) (xy 154.015596 108.098154)
+        (xy 154.025131 108.088619) (xy 154.158877 108.222365) (xy 154.158877 108.75) (xy 154.202597 108.982352) (xy 154.339917 109.195753)
+        (xy 154.549443 109.338917) (xy 154.79816 109.389283) (xy 155.69816 109.389283) (xy 155.930512 109.345563) (xy 155.988986 109.307936)
+        (xy 156.175951 109.38538) (xy 156.46609 109.38538) (xy 156.62484 109.22663) (xy 156.62484 108.377) (xy 156.87884 108.377)
+        (xy 156.87884 109.22663) (xy 157.03759 109.38538) (xy 157.327729 109.38538) (xy 157.561118 109.288707) (xy 157.628595 109.22123)
+        (xy 161.872632 109.22123) (xy 162.195766 110.003274) (xy 162.793578 110.602131) (xy 163.575057 110.92663) (xy 164.42123 110.927368)
+        (xy 165.203274 110.604234) (xy 165.802131 110.006422) (xy 166.12663 109.224943) (xy 166.127368 108.37877) (xy 165.804234 107.596726)
+        (xy 165.206422 106.997869) (xy 164.424943 106.67337) (xy 163.57877 106.672632) (xy 162.796726 106.995766) (xy 162.197869 107.593578)
+        (xy 161.87337 108.375057) (xy 161.872632 109.22123) (xy 157.628595 109.22123) (xy 157.739747 109.110079) (xy 157.83642 108.87669)
+        (xy 157.83642 108.53575) (xy 157.67767 108.377) (xy 156.87884 108.377) (xy 156.62484 108.377) (xy 156.60484 108.377)
+        (xy 156.60484 108.123) (xy 156.62484 108.123) (xy 156.62484 106.627) (xy 156.87884 106.627) (xy 156.87884 108.123)
+        (xy 157.67767 108.123) (xy 157.83642 107.96425) (xy 157.83642 107.62331) (xy 157.739747 107.389921) (xy 157.724826 107.375)
+        (xy 157.739747 107.360079) (xy 157.83642 107.12669) (xy 157.83642 106.78575) (xy 157.67767 106.627) (xy 156.87884 106.627)
+        (xy 156.62484 106.627) (xy 156.60484 106.627) (xy 156.60484 106.373) (xy 156.62484 106.373) (xy 156.62484 105.52337)
+        (xy 156.87884 105.52337) (xy 156.87884 106.373) (xy 157.67767 106.373) (xy 157.83642 106.21425) (xy 157.83642 105.87331)
+        (xy 157.739747 105.639921) (xy 157.561118 105.461293) (xy 157.327729 105.36462) (xy 157.03759 105.36462) (xy 156.87884 105.52337)
+        (xy 156.62484 105.52337) (xy 156.46609 105.36462) (xy 156.22516 105.36462) (xy 156.22516 102.49816) (xy 156.15079 102.124278)
+        (xy 155.939003 101.807317) (xy 148.865843 94.734157) (xy 148.663936 94.599247) (xy 148.548882 94.52237) (xy 148.175 94.448)
+        (xy 146.708802 94.448) (xy 146.5 94.405717) (xy 141.5 94.405717) (xy 141.267648 94.449437) (xy 141.054247 94.586757)
+        (xy 140.911083 94.796283) (xy 140.860717 95.045) (xy 140.860717 95.805) (xy 140.886683 95.943) (xy 140.555 95.943)
+        (xy 140.267222 96.000243) (xy 140.094215 96.115843) (xy 140.023256 96.163256) (xy 139.913588 96.272924) (xy 139.806515 96.27283)
+        (xy 139.447297 96.421256) (xy 139.172222 96.695851) (xy 139.02317 97.05481) (xy 139.02283 97.443485) (xy 139.171256 97.802703)
+        (xy 139.27744 97.909072) (xy 138.218256 98.968256) (xy 138.055243 99.212222) (xy 137.998 99.5) (xy 135.877 99.5)
+        (xy 135.877 94.2) (xy 157.160717 94.2) (xy 157.160717 103) (xy 157.204437 103.232352) (xy 157.341757 103.445753)
+        (xy 157.551283 103.588917) (xy 157.8 103.639283) (xy 162.3 103.639283) (xy 162.532352 103.595563) (xy 162.745753 103.458243)
+        (xy 162.888917 103.248717) (xy 162.939283 103) (xy 162.939283 94.2) (xy 162.895563 93.967648) (xy 162.758243 93.754247)
+        (xy 162.548717 93.611083) (xy 162.3 93.560717) (xy 157.8 93.560717) (xy 157.567648 93.604437) (xy 157.354247 93.741757)
+        (xy 157.211083 93.951283) (xy 157.160717 94.2) (xy 135.877 94.2) (xy 135.877 92.577) (xy 168.163407 92.577)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 140.904437 99.847352) (xy 140.917248 99.867261) (xy 140.911083 99.876283) (xy 140.860717 100.125) (xy 140.860717 100.885)
+        (xy 140.904437 101.117352) (xy 140.918582 101.139333) (xy 140.865 101.268691) (xy 140.865 101.48925) (xy 141.02375 101.648)
+        (xy 143.873 101.648) (xy 143.873 101.628) (xy 144.127 101.628) (xy 144.127 101.648) (xy 144.147 101.648)
+        (xy 144.147 101.902) (xy 144.127 101.902) (xy 144.127 102.63125) (xy 144.28575 102.79) (xy 146.62631 102.79)
+        (xy 146.859699 102.693327) (xy 147.038327 102.514698) (xy 147.135 102.281309) (xy 147.135 102.06075) (xy 146.976252 101.902002)
+        (xy 147.135 101.902002) (xy 147.135 101.851788) (xy 148.498 103.518353) (xy 148.498 108.15) (xy 148.555243 108.437778)
+        (xy 148.718256 108.681744) (xy 149.368256 109.331744) (xy 149.612222 109.494757) (xy 149.9 109.552) (xy 149.965286 109.552)
+        (xy 149.978947 109.584979) (xy 149.960717 109.675) (xy 149.960717 109.925) (xy 150.004437 110.157352) (xy 150.127116 110.348)
+        (xy 149.708017 110.348) (xy 140.752 103.382209) (xy 140.752 102.06075) (xy 140.865 102.06075) (xy 140.865 102.281309)
+        (xy 140.961673 102.514698) (xy 141.140301 102.693327) (xy 141.37369 102.79) (xy 143.71425 102.79) (xy 143.873 102.63125)
+        (xy 143.873 101.902) (xy 141.02375 101.902) (xy 140.865 102.06075) (xy 140.752 102.06075) (xy 140.752 99.879795)
+        (xy 140.827778 99.804149) (xy 140.874938 99.690576)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 154.27116 102.902846) (xy 154.27116 105.660665) (xy 154.211486 105.748) (xy 151.2 105.748) (xy 150.912222 105.805243)
+        (xy 150.810353 105.87331) (xy 150.702 105.945709) (xy 150.702 102.75) (xy 150.676581 102.622213) (xy 150.656883 102.493447)
+        (xy 150.648075 102.478902) (xy 150.644757 102.462222) (xy 150.572376 102.353897) (xy 150.504896 102.242463) (xy 147.289897 98.727463)
+        (xy 147.276191 98.717394) (xy 147.266744 98.703256) (xy 147.15843 98.630883) (xy 147.091367 98.581616) (xy 147.139283 98.345)
+        (xy 147.139283 97.585) (xy 147.095563 97.352648) (xy 147.082752 97.332739) (xy 147.088917 97.323717) (xy 147.139283 97.075)
+        (xy 147.139283 96.402) (xy 147.770314 96.402)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 58215F70) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (keepout (tracks allowed) (vias allowed) (copperpour not_allowed))
+    (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 153 107.35) (xy 153 110.35) (xy 153.5 110.35) (xy 153.5 107.35)
+      )
+    )
+  )
+)

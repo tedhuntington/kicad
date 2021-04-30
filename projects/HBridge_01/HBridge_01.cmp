@@ -1,0 +1,234 @@
+Cmp-Mod V01 Created by CvPCB (20100330 SVN-R2491)-final date = Fri 18 Jun 2010 04:46:57 PM PDT
+
+BeginCmp
+TimeStamp = /4BDE5195;
+Reference = C3;
+ValeurCmp = 10uF_10v;
+IdModule  = TED_SM3216-18_POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C035C08;
+Reference = C5;
+ValeurCmp = 36pF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C035C2D;
+Reference = C7;
+ValeurCmp = 36pF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C035D95;
+Reference = C8;
+ValeurCmp = .1uF_10v;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C035E50;
+Reference = C9;
+ValeurCmp = 10uF_(tant);
+IdModule  = TED_SM3216-18_POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C04CA59;
+Reference = C10;
+ValeurCmp = 10uF_20v;
+IdModule  = TED_SM3216-18_POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C04BC2D;
+Reference = C11;
+ValeurCmp = 1uF_50v;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C04BC38;
+Reference = C12;
+ValeurCmp = .1uF_50v;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C04BC0B;
+Reference = D1;
+ValeurCmp = 78-LL4448;
+IdModule  = TED_SOD-80_Minimelf;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C04C2D6;
+Reference = D2;
+ValeurCmp = SMCJ51CA;
+IdModule  = TED_DO-214AB;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C04BC1B;
+Reference = D3;
+ValeurCmp = 78-LL4448;
+IdModule  = TED_SOD-80_Minimelf;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDE4964;
+Reference = J1;
+ValeurCmp = DC_2.1MM;
+IdModule  = TED_DC_2.1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C034F77;
+Reference = J3;
+ValeurCmp = HEADER_6X1;
+IdModule  = TED_HEADER_6x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C04B17F;
+Reference = J7;
+ValeurCmp = TERMINAL_3.5MM_PCB_2PIN;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C04B1D1;
+Reference = J8;
+ValeurCmp = TERMINAL_3.5MM_PCB_2PIN;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C1C0468;
+Reference = J9;
+ValeurCmp = TRM_3.5MM_2P;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C1C04EE;
+Reference = J10;
+ValeurCmp = SPST_BUTTON;
+IdModule  = TED_SPST_MPB-129;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C1C03FF;
+Reference = J11;
+ValeurCmp = TRM_3.5MM_2P;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C1C03F2;
+Reference = J12;
+ValeurCmp = TRM_3.5MM_2P;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C1C03FA;
+Reference = J13;
+ValeurCmp = TRM_3.5MM_2P;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C05C2FC;
+Reference = Q1;
+ValeurCmp = NMOSFET_GDS;
+IdModule  = TED_TO220_NOHS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C05C329;
+Reference = Q2;
+ValeurCmp = NMOSFET_GDS;
+IdModule  = TED_TO220_NOHS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C05C31D;
+Reference = Q3;
+ValeurCmp = NMOSFET_GDS;
+IdModule  = TED_TO220_NOHS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C05C330;
+Reference = Q4;
+ValeurCmp = NMOSFET_GDS;
+IdModule  = TED_TO220_NOHS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C034E4A;
+Reference = R5;
+ValeurCmp = 1M;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C035BBB;
+Reference = R6;
+ValeurCmp = 442;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C04B432;
+Reference = R7;
+ValeurCmp = .01;
+IdModule  = TED_SM3264;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C167328;
+Reference = R8;
+ValeurCmp = 10k;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDE497C;
+Reference = U1;
+ValeurCmp = REGULATOR_3.3V;
+IdModule  = TED_TO220_NOHS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C04B039;
+Reference = U2;
+ValeurCmp = FAN7382;
+IdModule  = TED_DIP-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C04B0BB;
+Reference = U3;
+ValeurCmp = FAN7382;
+IdModule  = TED_DIP-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C04AB40;
+Reference = U4;
+ValeurCmp = PIC24HJ12GP201;
+IdModule  = TED_DIP-18;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C034E2D;
+Reference = X1;
+ValeurCmp = 10MHz;
+IdModule  = TED_crystal_SMT_13x5mm;
+EndCmp
+
+EndListe

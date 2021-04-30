@@ -1,0 +1,395 @@
+Cmp-Mod V01 Created by CvPCB (20100330 SVN-R2491)-final date = Sat 28 Aug 2010 11:28:15 PM PDT
+
+BeginCmp
+TimeStamp = /4C79D700;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D711;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D6EE;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D6FF;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D6ED;
+Reference = D5;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D511;
+Reference = D6;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D701;
+Reference = D7;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D710;
+Reference = D8;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D6EF;
+Reference = D9;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D6FE;
+Reference = D10;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D6EC;
+Reference = D11;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D52F;
+Reference = D12;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D703;
+Reference = D13;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D70E;
+Reference = D14;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D6F1;
+Reference = D15;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D6FC;
+Reference = D16;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D6EA;
+Reference = D17;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D536;
+Reference = D18;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D702;
+Reference = D19;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D70F;
+Reference = D20;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D6F0;
+Reference = D21;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D6FD;
+Reference = D22;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D6EB;
+Reference = D23;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D535;
+Reference = D24;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D707;
+Reference = D25;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D70A;
+Reference = D26;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D6F5;
+Reference = D27;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D6F8;
+Reference = D28;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D6E6;
+Reference = D29;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D53D;
+Reference = D30;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D706;
+Reference = D31;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D70B;
+Reference = D32;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D6F4;
+Reference = D33;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D6F9;
+Reference = D34;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D6E7;
+Reference = D35;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D53C;
+Reference = D36;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D704;
+Reference = D37;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D70D;
+Reference = D38;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D6F2;
+Reference = D39;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D6FB;
+Reference = D40;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D6E9;
+Reference = D41;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D53A;
+Reference = D42;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D705;
+Reference = D43;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D70C;
+Reference = D44;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D6F3;
+Reference = D45;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D6FA;
+Reference = D46;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D6E8;
+Reference = D47;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D53B;
+Reference = D48;
+ValeurCmp = LED;
+IdModule  = TED_LED_THROUGH_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C0428BF;
+Reference = J5;
+ValeurCmp = DC_2.1MM;
+IdModule  = TED_DC_2.1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D4C1;
+Reference = J6;
+ValeurCmp = TRM_3.5MM_2P;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79D735;
+Reference = R2;
+ValeurCmp = 100k;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79FD61;
+Reference = R3;
+ValeurCmp = 10;
+IdModule  = TED_axial_resistor_halfwatt;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79FC9E;
+Reference = R4;
+ValeurCmp = 10;
+IdModule  = TED_axial_resistor_halfwatt;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79FD4D;
+Reference = R5;
+ValeurCmp = 10;
+IdModule  = TED_axial_resistor_halfwatt;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79FD59;
+Reference = R6;
+ValeurCmp = 10;
+IdModule  = TED_axial_resistor_halfwatt;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C79FD58;
+Reference = R7;
+ValeurCmp = 10;
+IdModule  = TED_axial_resistor_halfwatt;
+EndCmp
+
+EndListe

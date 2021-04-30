@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Terminal_2x1-RESCUE-EthSwitch_rev03
+#
+DEF Terminal_2x1-RESCUE-EthSwitch_rev03 J 0 40 Y Y 1 F N
+F0 "J" 0 -250 60 H V C CNN
+F1 "Terminal_2x1-RESCUE-EthSwitch_rev03" -10 225 60 H V C CNN
+F2 "" 65 -530 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+C -141 8 90 0 1 0 N
+C 136 3 90 0 1 0 N
+S -250 160 250 -160 0 1 0 N
+P 2 0 1 0 -230 0 -50 0 N
+P 2 0 1 0 -140 -85 -140 100 N
+P 2 0 1 0 135 -90 135 95 N
+P 2 0 1 0 225 0 45 0 N
+X 1 1 -140 -385 300 U 47 47 1 1 P
+X 2 2 135 -390 300 U 47 47 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

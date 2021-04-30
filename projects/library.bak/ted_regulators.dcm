@@ -1,0 +1,81 @@
+EESchema-DOCLIB  Version 2.0  Date: 1/27/2014 3:31:48 PM
+#
+$CMP 7803
+D Linear Regulator +5V
+K POWER REGUL
+F regulator/lm78*.*
+$ENDCMP
+#
+$CMP 7804
+D Linear Regulator +5V
+K POWER REGUL
+F regulator/lm78*.*
+$ENDCMP
+#
+$CMP 7805
+D Linear Regulator +5V
+K POWER REGUL
+F regulator/lm78*.*
+$ENDCMP
+#
+$CMP 7805_NO_HS
+D Linear Regulator +5V
+K POWER REGUL
+F regulator/lm78*.*
+$ENDCMP
+#
+$CMP 7809
+D Linear Regulator +5V
+K POWER REGUL
+F regulator/lm78*.*
+$ENDCMP
+#
+$CMP 7812
+D Linear Regulator +5V
+K POWER REGUL
+F regulator/lm78*.*
+$ENDCMP
+#
+$CMP LD1086V33
+D Linear Regulator +5V
+K POWER REGUL
+F regulator/lm78*.*
+$ENDCMP
+#
+$CMP LM317
+D Linear Regulator variable
+K POWER REGUL
+F regulator/lm78*.*
+$ENDCMP
+#
+$CMP REGULATOR_1.8V
+D Linear Regulator +5V
+K POWER REGUL
+F regulator/lm78*.*
+$ENDCMP
+#
+$CMP Regulator_2.85V
+D Linear Regulator +5V
+K POWER REGUL
+F regulator/lm78*.*
+$ENDCMP
+#
+$CMP REGULATOR_2.8V
+D Linear Regulator +5V
+K POWER REGUL
+F regulator/lm78*.*
+$ENDCMP
+#
+$CMP REGULATOR_2.8V_W_EN
+D Linear Regulator +5V
+K POWER REGUL
+F regulator/lm78*.*
+$ENDCMP
+#
+$CMP REGULATOR_3.3V
+D Linear Regulator +5V
+K POWER REGUL
+F regulator/lm78*.*
+$ENDCMP
+#
+#End Doc Library

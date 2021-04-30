@@ -1,0 +1,17 @@
+EESchema-LIBRARY Version 2.3  Date: Sun 17 May 2015 03:50:33 PM PDT
+#encoding utf-8
+#
+# GndBattery
+#
+DEF GndBattery #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 0 30 H I C CNN
+F1 "GndBattery" 0 -70 30 H V C CNN
+F2 "~" 0 0 60 H V C CNN
+F3 "~" 0 0 60 H V C CNN
+DRAW
+P 4 0 1 4  -50 0  0 -50  50 0  -50 0 N
+X GNDBATTERY 1 0 0 0 U 30 30 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library

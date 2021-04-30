@@ -1,0 +1,1404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/temparea/ted/kicad/projects/HumidityTempSensor/HumidityTempSensor.sch</source>
+    <date>6/15/2018 4:09:38 PM</date>
+    <tool>Eeschema 4.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>HumidityTempSensor.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/HumidityTempSensor_page02/" tstamps="/59F79D5E/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>HumidityTempSensor_page02.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/HumidityTempSensor_page02/HumidityTempSensor_page2/" tstamps="/59F79D5E/5AB2DCE4/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>HumidityTempSensor_page2.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U2">
+      <value>BME280</value>
+      <footprint>ted_ICs:LGA-8</footprint>
+      <libsource lib="ted_ic" part="BME280"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>59FB9B3B</tstamp>
+    </comp>
+    <comp ref="T1">
+      <value>Thermistor</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="HumidityTempSensor-rescue" part="Thermistor-RESCUE-HumidityTempSensor"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5A04B3F5</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>32.768 kHz</value>
+      <footprint>ted_crystals:TED_crystal_CFPX-217</footprint>
+      <libsource lib="ted_crystals" part="CRYSTAL"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5A04E0C5</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>6.8pF</value>
+      <footprint>ted_capacitors:TED_SM1608_0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5A04E436</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>6.8pF</value>
+      <footprint>ted_capacitors:TED_SM1608_0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5A04E537</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>MCP7940N</value>
+      <footprint>ted_ICs:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <libsource lib="HumidityTempSensor-rescue" part="MCP7940N-RESCUE-HumidityTempSensor"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5A04E9D6</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>330</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5A0A6EFD</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>AZ1117IH</value>
+      <footprint>ted_transistors:SOT-23</footprint>
+      <libsource lib="ted_regulators" part="AZ1117IH"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5A0A7CFB</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>INDUCTOR</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="HumidityTempSensor-rescue" part="INDUCTOR-RESCUE-HumidityTempSensor"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5A0E46F2</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>ted_capacitors:TED_SM1608_0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5A0E498A</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>33n</value>
+      <footprint>ted_capacitors:TED_SM1608_0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5A0E4B11</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>ted_capacitors:TED_SM1608_0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5A0E907D</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>33n</value>
+      <footprint>ted_capacitors:TED_SM1608_0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5A0E9083</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>ted_capacitors:TED_SM1608_0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5A0EA058</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>33n</value>
+      <footprint>ted_capacitors:TED_SM1608_0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5A0EA05E</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>ted_capacitors:TED_SM1608_0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5A0EA129</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>33n</value>
+      <footprint>ted_capacitors:TED_SM1608_0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5A0EA12F</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>1uF</value>
+      <footprint>ted_capacitors:TED_SM1608_0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5A0EAD12</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>1uF</value>
+      <footprint>ted_capacitors:TED_SM1608_0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5A0EBBAA</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>IDC_5x2</value>
+      <footprint>ted_connectors:TED_IDC_5x2_SMD</footprint>
+      <libsource lib="ted_connectors" part="IDC_5x2"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5A0F6D3E</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>tactile_switch</value>
+      <footprint>ted_switches:TED_TACTILE_SWITCH_6x6_SMD</footprint>
+      <libsource lib="ted_switches" part="tactile_switch"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5A10190B</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>DC_2.1mm_3pin</value>
+      <footprint>ted_connectors:TED_2.1mm_DC_SMD</footprint>
+      <libsource lib="ted_connectors" part="DC_2.1mm_3pin"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5AA71176</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>BAJ0BC0FP-E2</value>
+      <footprint>ted_ICs:TO-252-3_TabPin4</footprint>
+      <libsource lib="ted_regulators" part="BAJ0BC0FP-E2"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5AA71FD1</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>HEADER_4X1</value>
+      <footprint>ted_connectors:TED_HEADER_4x1</footprint>
+      <libsource lib="ted_connectors" part="HEADER_4X1"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5AA84E5B</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>Rotary_Encoder_Switch</value>
+      <footprint>ted_encoders:TED_Encoder_w_Switch</footprint>
+      <libsource lib="ted_switches" part="Rotary_Encoder_Switch"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5AB2A8B5</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>HEADER_4x2</value>
+      <footprint>ted_connectors:TED_HEADER_4x2</footprint>
+      <libsource lib="ted_connectors" part="HEADER_4x2"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5B05FD46</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>SAMD20G14A-AU</value>
+      <footprint>ted_ICs:TED_TQFP48</footprint>
+      <libsource lib="ted_ic" part="SAMD20G14A-AU"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5B08A550</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>Micro_SD_Card</value>
+      <footprint>ted_connectors:microSD_Card_Receptacle_Molex_1051620001</footprint>
+      <libsource lib="ted_connectors" part="Micro_SD_Card"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5B0F22C7</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>1k</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5B184117</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>ted_led:TED_SM1206_LED</footprint>
+      <libsource lib="HumidityTempSensor-rescue" part="LED-RESCUE-HumidityTempSensor"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5A1046A6</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>100k</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5B189961</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>39</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5B189C56</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>100nF</value>
+      <footprint>ted_capacitors:TED_SM1608_0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5B189F62</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>100k</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5B18CD03</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>4.7k</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5B1B254E</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>4.7k</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5B1B287A</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100nF</value>
+      <footprint>ted_capacitors:TED_SM1608_0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5B1B2D6C</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>100nF</value>
+      <footprint>ted_capacitors:TED_SM1608_0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5B1B303F</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>4.7k</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5B1F20E4</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>4.7k</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5B1F20F1</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>4.7k</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5B1F622F</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>4.7k</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5B1F623C</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>4.7k</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5B1F9409</tstamp>
+    </comp>
+    <comp ref="B1">
+      <value>Battery</value>
+      <footprint>ted_connectors:TED_CR2032_Battery_Holder_BC_2003</footprint>
+      <libsource lib="ted_power" part="Battery"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5B1FB9CC</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>ted_capacitors:TED_SM1608_0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5B220AE5</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>ted_capacitors:TED_SM1608_0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5B220B9C</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>100n</value>
+      <footprint>ted_capacitors:TED_SM1608_0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5B220C62</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>27k</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5B220D87</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>27k</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5B220E3C</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>27k</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5B220E97</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>10k</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/HumidityTempSensor_page02/" tstamps="/59F79D5E/"/>
+      <tstamp>5B22C33A</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>HEADER_2X1</value>
+      <footprint>ted_connectors:TED_HEADER_2x1</footprint>
+      <libsource lib="ted_connectors" part="HEADER_2X1"/>
+      <sheetpath names="/HumidityTempSensor_page02/HumidityTempSensor_page2/" tstamps="/59F79D5E/5AB2DCE4/"/>
+      <tstamp>5AB2ED92</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>HEADER_2X1</value>
+      <footprint>ted_connectors:TED_HEADER_2x1</footprint>
+      <libsource lib="ted_connectors" part="HEADER_2X1"/>
+      <sheetpath names="/HumidityTempSensor_page02/HumidityTempSensor_page2/" tstamps="/59F79D5E/5AB2DCE4/"/>
+      <tstamp>5AB2ED99</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>HEADER_2X1</value>
+      <footprint>ted_connectors:TED_HEADER_2x1</footprint>
+      <libsource lib="ted_connectors" part="HEADER_2X1"/>
+      <sheetpath names="/HumidityTempSensor_page02/HumidityTempSensor_page2/" tstamps="/59F79D5E/5AB2DCE4/"/>
+      <tstamp>5AB2EDA0</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>HEADER_2X1</value>
+      <footprint>ted_connectors:TED_HEADER_2x1</footprint>
+      <libsource lib="ted_connectors" part="HEADER_2X1"/>
+      <sheetpath names="/HumidityTempSensor_page02/HumidityTempSensor_page2/" tstamps="/59F79D5E/5AB2DCE4/"/>
+      <tstamp>5AB2EDA7</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>HEADER_2X1</value>
+      <footprint>ted_connectors:TED_HEADER_2x1</footprint>
+      <libsource lib="ted_connectors" part="HEADER_2X1"/>
+      <sheetpath names="/HumidityTempSensor_page02/HumidityTempSensor_page2/" tstamps="/59F79D5E/5AB2DCE4/"/>
+      <tstamp>5AB2EDAE</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>HEADER_2X1</value>
+      <footprint>ted_connectors:TED_HEADER_2x1</footprint>
+      <libsource lib="ted_connectors" part="HEADER_2X1"/>
+      <sheetpath names="/HumidityTempSensor_page02/HumidityTempSensor_page2/" tstamps="/59F79D5E/5AB2DCE4/"/>
+      <tstamp>5AB2EDB5</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>200</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/HumidityTempSensor_page02/HumidityTempSensor_page2/" tstamps="/59F79D5E/5AB2DCE4/"/>
+      <tstamp>5AB2EE08</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>NMOSFET_GSD</value>
+      <footprint>ted_transistors:SOT-23</footprint>
+      <libsource lib="ted_transistor" part="NMOSFET_GSD"/>
+      <sheetpath names="/HumidityTempSensor_page02/HumidityTempSensor_page2/" tstamps="/59F79D5E/5AB2DCE4/"/>
+      <tstamp>5AB2EE17</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>200</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/HumidityTempSensor_page02/HumidityTempSensor_page2/" tstamps="/59F79D5E/5AB2DCE4/"/>
+      <tstamp>5AB2EE2A</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>NMOSFET_GSD</value>
+      <footprint>ted_transistors:SOT-23</footprint>
+      <libsource lib="ted_transistor" part="NMOSFET_GSD"/>
+      <sheetpath names="/HumidityTempSensor_page02/HumidityTempSensor_page2/" tstamps="/59F79D5E/5AB2DCE4/"/>
+      <tstamp>5AB2EE33</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>NMOSFET_GSD</value>
+      <footprint>ted_transistors:SOT-23</footprint>
+      <libsource lib="ted_transistor" part="NMOSFET_GSD"/>
+      <sheetpath names="/HumidityTempSensor_page02/HumidityTempSensor_page2/" tstamps="/59F79D5E/5AB2DCE4/"/>
+      <tstamp>5AB2EE4E</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/HumidityTempSensor_page02/HumidityTempSensor_page2/" tstamps="/59F79D5E/5AB2DCE4/"/>
+      <tstamp>5AB2EE63</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>NMOSFET_GSD</value>
+      <footprint>ted_transistors:SOT-23</footprint>
+      <libsource lib="ted_transistor" part="NMOSFET_GSD"/>
+      <sheetpath names="/HumidityTempSensor_page02/HumidityTempSensor_page2/" tstamps="/59F79D5E/5AB2DCE4/"/>
+      <tstamp>5AB2EE70</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/HumidityTempSensor_page02/HumidityTempSensor_page2/" tstamps="/59F79D5E/5AB2DCE4/"/>
+      <tstamp>5AB2EE85</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>200</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/HumidityTempSensor_page02/HumidityTempSensor_page2/" tstamps="/59F79D5E/5AB2DCE4/"/>
+      <tstamp>5AB2F486</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>NMOSFET_GSD</value>
+      <footprint>ted_transistors:SOT-23</footprint>
+      <libsource lib="ted_transistor" part="NMOSFET_GSD"/>
+      <sheetpath names="/HumidityTempSensor_page02/HumidityTempSensor_page2/" tstamps="/59F79D5E/5AB2DCE4/"/>
+      <tstamp>5AB2F48E</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>200</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/HumidityTempSensor_page02/HumidityTempSensor_page2/" tstamps="/59F79D5E/5AB2DCE4/"/>
+      <tstamp>5AB2F4A0</tstamp>
+    </comp>
+    <comp ref="Q12">
+      <value>NMOSFET_GSD</value>
+      <footprint>ted_transistors:SOT-23</footprint>
+      <libsource lib="ted_transistor" part="NMOSFET_GSD"/>
+      <sheetpath names="/HumidityTempSensor_page02/HumidityTempSensor_page2/" tstamps="/59F79D5E/5AB2DCE4/"/>
+      <tstamp>5AB2F4A8</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>NMOSFET_GSD</value>
+      <footprint>ted_transistors:SOT-23</footprint>
+      <libsource lib="ted_transistor" part="NMOSFET_GSD"/>
+      <sheetpath names="/HumidityTempSensor_page02/HumidityTempSensor_page2/" tstamps="/59F79D5E/5AB2DCE4/"/>
+      <tstamp>5AB2F4C2</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/HumidityTempSensor_page02/HumidityTempSensor_page2/" tstamps="/59F79D5E/5AB2DCE4/"/>
+      <tstamp>5AB2F4D6</tstamp>
+    </comp>
+    <comp ref="Q9">
+      <value>NMOSFET_GSD</value>
+      <footprint>ted_transistors:SOT-23</footprint>
+      <libsource lib="ted_transistor" part="NMOSFET_GSD"/>
+      <sheetpath names="/HumidityTempSensor_page02/HumidityTempSensor_page2/" tstamps="/59F79D5E/5AB2DCE4/"/>
+      <tstamp>5AB2F4E2</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/HumidityTempSensor_page02/HumidityTempSensor_page2/" tstamps="/59F79D5E/5AB2DCE4/"/>
+      <tstamp>5AB2F4F6</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>200</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/HumidityTempSensor_page02/HumidityTempSensor_page2/" tstamps="/59F79D5E/5AB2DCE4/"/>
+      <tstamp>5AB2F888</tstamp>
+    </comp>
+    <comp ref="Q11">
+      <value>NMOSFET_GSD</value>
+      <footprint>ted_transistors:SOT-23</footprint>
+      <libsource lib="ted_transistor" part="NMOSFET_GSD"/>
+      <sheetpath names="/HumidityTempSensor_page02/HumidityTempSensor_page2/" tstamps="/59F79D5E/5AB2DCE4/"/>
+      <tstamp>5AB2F890</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>NMOSFET_GSD</value>
+      <footprint>ted_transistors:SOT-23</footprint>
+      <libsource lib="ted_transistor" part="NMOSFET_GSD"/>
+      <sheetpath names="/HumidityTempSensor_page02/HumidityTempSensor_page2/" tstamps="/59F79D5E/5AB2DCE4/"/>
+      <tstamp>5AB2F8A4</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/HumidityTempSensor_page02/HumidityTempSensor_page2/" tstamps="/59F79D5E/5AB2DCE4/"/>
+      <tstamp>5AB2F8B8</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>200</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/HumidityTempSensor_page02/HumidityTempSensor_page2/" tstamps="/59F79D5E/5AB2DCE4/"/>
+      <tstamp>5AB2F8C8</tstamp>
+    </comp>
+    <comp ref="Q10">
+      <value>NMOSFET_GSD</value>
+      <footprint>ted_transistors:SOT-23</footprint>
+      <libsource lib="ted_transistor" part="NMOSFET_GSD"/>
+      <sheetpath names="/HumidityTempSensor_page02/HumidityTempSensor_page2/" tstamps="/59F79D5E/5AB2DCE4/"/>
+      <tstamp>5AB2F8D0</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>NMOSFET_GSD</value>
+      <footprint>ted_transistors:SOT-23</footprint>
+      <libsource lib="ted_transistor" part="NMOSFET_GSD"/>
+      <sheetpath names="/HumidityTempSensor_page02/HumidityTempSensor_page2/" tstamps="/59F79D5E/5AB2DCE4/"/>
+      <tstamp>5AB2F8E4</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>ted_resistors:TED_SM0603_R</footprint>
+      <libsource lib="ted_resistors" part="R_small"/>
+      <sheetpath names="/HumidityTempSensor_page02/HumidityTempSensor_page2/" tstamps="/59F79D5E/5AB2DCE4/"/>
+      <tstamp>5AB2F8F8</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="ted_regulators" part="AZ1117IH">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AZ1117IH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_out"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ted_regulators" part="BAJ0BC0FP-E2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BAJ0BC0FP-E2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vin" type="power_out"/>
+        <pin num="2" name="N/C" type="NotConnected"/>
+        <pin num="3" name="Vout" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ted_ic" part="BME280">
+      <docs>ns/lm555.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BME280</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="CSB" type="passive"/>
+        <pin num="3" name="SDI/SDO" type="passive"/>
+        <pin num="4" name="SCK" type="passive"/>
+        <pin num="5" name="SDO" type="passive"/>
+        <pin num="6" name="VDDIO" type="power_in"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ted_power" part="Battery">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">B</field>
+        <field name="Value">Battery</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ted_capacitors" part="C(small)">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C(small)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ted_crystals" part="CRYSTAL">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">CRYSTAL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ted_connectors" part="DC_2.1mm_3pin">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DC_2.1mm_3pin</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="SHUNT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ted_connectors" part="HEADER_2X1">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_2X1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ted_connectors" part="HEADER_4X1">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_4X1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ted_connectors" part="HEADER_4x2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_4x2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ted_connectors" part="IDC_5x2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">IDC_5x2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HumidityTempSensor-rescue" part="INDUCTOR-RESCUE-HumidityTempSensor">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR-RESCUE-HumidityTempSensor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HumidityTempSensor-rescue" part="LED-RESCUE-HumidityTempSensor">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-RESCUE-HumidityTempSensor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HumidityTempSensor-rescue" part="MCP7940N-RESCUE-HumidityTempSensor">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP7940N-RESCUE-HumidityTempSensor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="X1" type="passive"/>
+        <pin num="2" name="X2" type="passive"/>
+        <pin num="3" name="VBAT" type="power_in"/>
+        <pin num="4" name="VSS" type="power_in"/>
+        <pin num="5" name="SDA" type="passive"/>
+        <pin num="6" name="SCL" type="passive"/>
+        <pin num="7" name="MFP" type="passive"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ted_connectors" part="Micro_SD_Card">
+      <description>Micro SD Card Socket</description>
+      <docs>http://katalog.we-online.de/em/datasheet/693072010801.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Micro_SD_Card</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DAT2" type="BiDi"/>
+        <pin num="2" name="DAT3/CD" type="BiDi"/>
+        <pin num="3" name="CMD" type="input"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="CLK" type="input"/>
+        <pin num="6" name="VSS" type="power_in"/>
+        <pin num="7" name="DAT0" type="input"/>
+        <pin num="8" name="DAT1" type="input"/>
+        <pin num="9" name="DET" type="passive"/>
+        <pin num="10" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ted_transistor" part="NMOSFET_GSD">
+      <docs>transistors/mos/*.*</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">NMOSFET_GSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ted_resistors" part="R_small">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ted_switches" part="Rotary_Encoder_Switch">
+      <description>Rotary encoder, dual channel, incremental quadrate outputs, with switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Rotary_Encoder_Switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="input"/>
+        <pin num="2" name="C" type="input"/>
+        <pin num="3" name="B" type="input"/>
+        <pin num="4" name="~" type="input"/>
+        <pin num="5" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ted_ic" part="SAMD20G14A-AU">
+      <aliases>
+        <alias>SAMD20G15A-AU</alias>
+        <alias>SAMD20G16A-AU</alias>
+        <alias>SAMD20G17A-AU</alias>
+        <alias>SAMD20G18A-AU</alias>
+      </aliases>
+      <description>TQFP48, 16K Flash, 2K RAM, 48MHz, CortexM0+</description>
+      <docs>http://www.atmel.com/Images/Atmel-42129-SAM-D20_Datasheet.pdf</docs>
+      <footprints>
+        <fp>TQFP48</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SAMD20G14A-AU</field>
+        <field name="Footprint">TQFP48</field>
+      </fields>
+      <pins>
+        <pin num="1" name="XIN32/TC2WO0/SERCOM1P0/PA00" type="BiDi"/>
+        <pin num="2" name="XOUT32/TC2WO1/SERCOM1P1/PA01" type="BiDi"/>
+        <pin num="3" name="VOUT/Y0/AIN0/PA02" type="BiDi"/>
+        <pin num="4" name="Y1/AIN1/VREFA/VREFP/PA03" type="BiDi"/>
+        <pin num="5" name="GNDANA" type="power_in"/>
+        <pin num="6" name="VDDANA" type="power_in"/>
+        <pin num="7" name="PB08/AIN2/Y14/SERCOM4P0/TC4WO0" type="BiDi"/>
+        <pin num="8" name="PB09/AIN3/Y15/SERCOM4P1/TC4WO1" type="BiDi"/>
+        <pin num="9" name="TC0WO0/SERCOM0P0/Y2/AIN0/AIN4/VREFB/PA04" type="BiDi"/>
+        <pin num="10" name="TC0W01/SERCOM0P1/Y3/AIN1/AIN5/PA05" type="BiDi"/>
+        <pin num="11" name="TC1WO0/SERCOM0P2/Y4/AIN2/AIN6/PA06" type="BiDi"/>
+        <pin num="12" name="TC1WO1/SERCOM0P3/Y5/AIN3/AIN7/PA07" type="BiDi"/>
+        <pin num="13" name="TC0WO0/SERCOM2P0/SERCOM0P0/X0/AIN16/NMI/PA08" type="BiDi"/>
+        <pin num="14" name="TC0WO1/SERCOM2P1/SERCOM0P1/X1/AIN17/PA09" type="BiDi"/>
+        <pin num="15" name="GCLKIO4/TC1WO0/SERCOM2P2/SERCOM0P2/X2/AIN18/PA10" type="BiDi"/>
+        <pin num="16" name="GCLKIO5/TC1WO1/SERCOM2P3/SERCOM0P3/X3/AIN19/PA11" type="BiDi"/>
+        <pin num="17" name="VDDIO" type="power_in"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="PB10/SECOM4P2/TC5WO0/GCLKIO4" type="BiDi"/>
+        <pin num="20" name="PB11/SERCOM4P3/TC5WO1/GCLKIO5" type="BiDi"/>
+        <pin num="21" name="ACCMP0/TC2WO0/SERCOM4P0/SERCOM2P0/PA12" type="BiDi"/>
+        <pin num="22" name="ACCMP1/TC2WO1/SERCOM4P1/SERCOM2P1/PA13" type="BiDi"/>
+        <pin num="23" name="XIN/GCLKIO0/TC3WO0/SERCOM4P2/SERCOM2P2/PA14" type="BiDi"/>
+        <pin num="24" name="XOUT/GCLKIO1/TC3WO1/SERCOM4P3/SERCOM2P3/PA15" type="BiDi"/>
+        <pin num="25" name="GCLKIO2/TC2WO0/SERCOM3P0/SERCOM1P0/X4/PA16" type="BiDi"/>
+        <pin num="26" name="GCLKIO3/TC2WO1/SERCOM3P1/SERCOM1P1/X5/PA17" type="BiDi"/>
+        <pin num="27" name="ACCMP0/TC3WO0/SERCOM3P2/SERCOM1P2/X6/PA18" type="BiDi"/>
+        <pin num="28" name="ACCMP1/TC3WO1/SERCOM3P3/SERCOM1P3/X7/PA19" type="BiDi"/>
+        <pin num="29" name="GCLKIO4/TC7WO0/SERCOM3P2/SERCOM5P2/X8/PA20" type="BiDi"/>
+        <pin num="30" name="GCLKIO5/TC7WO1/SERCOM3P3/SERCOM5P3/X9/PA21" type="BiDi"/>
+        <pin num="31" name="GCLKIO6/TC4WO0/SERCOM5P0/SERCOM3P0/X10/PA22" type="BiDi"/>
+        <pin num="32" name="GCLKIO7/TC4WO1/SERCOM5P1/SERCOM3P1/X11/PA23" type="BiDi"/>
+        <pin num="33" name="TC5WO0/SERCOM5P2/SERCOM3P2/PA24" type="BiDi"/>
+        <pin num="34" name="TC5WO1/SERCOM5P3/SERCOM3P3/PA25" type="BiDi"/>
+        <pin num="35" name="GND" type="power_in"/>
+        <pin num="36" name="VDDIO" type="power_in"/>
+        <pin num="37" name="PB22/SERCOM5P2/TC7WO0/GCLKIO0" type="BiDi"/>
+        <pin num="38" name="PB23/SERCOM5P3/TC7WO1/GCLKIO1" type="BiDi"/>
+        <pin num="39" name="GCLKIO0/PA27" type="BiDi"/>
+        <pin num="40" name="~RESET~" type="input"/>
+        <pin num="41" name="GCLKIO0/PA28" type="BiDi"/>
+        <pin num="42" name="GND" type="power_in"/>
+        <pin num="43" name="VDDCORE" type="passive"/>
+        <pin num="44" name="VDDIN" type="power_in"/>
+        <pin num="45" name="GCLKIO0/SWCLK/TC1WO0/SERCOM1P2/PA30" type="BiDi"/>
+        <pin num="46" name="SWDIO/TC1WO1/SERCOM1P3/PA31" type="BiDi"/>
+        <pin num="47" name="PB02/AIN10/Y8/SERCOM5P0/TC6WO0" type="BiDi"/>
+        <pin num="48" name="PB03/AIN11/Y9/SERCOM5P1/TC6WO1" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="HumidityTempSensor-rescue" part="Thermistor-RESCUE-HumidityTempSensor">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">Thermistor-RESCUE-HumidityTempSensor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ted_switches" part="tactile_switch">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">tactile_switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="ted_connectors">
+      <uri>C:\temparea\ted\kicad\projects\library\ted_connectors.lib</uri>
+    </library>
+    <library logical="ted_crystals">
+      <uri>C:\temparea\ted\kicad\projects\library\ted_crystals.lib</uri>
+    </library>
+    <library logical="ted_resistors">
+      <uri>C:\temparea\ted\kicad\projects\library\ted_resistors.lib</uri>
+    </library>
+    <library logical="ted_capacitors">
+      <uri>C:\temparea\ted\kicad\projects\library\ted_capacitors.lib</uri>
+    </library>
+    <library logical="ted_power">
+      <uri>C:\temparea\ted\kicad\projects\library\ted_power.lib</uri>
+    </library>
+    <library logical="ted_transistor">
+      <uri>C:\temparea\ted\kicad\projects\library\ted_transistor.lib</uri>
+    </library>
+    <library logical="ted_regulators">
+      <uri>C:\temparea\ted\kicad\projects\library\ted_regulators.lib</uri>
+    </library>
+    <library logical="ted_ic">
+      <uri>C:\temparea\ted\kicad\projects\library\ted_ic.lib</uri>
+    </library>
+    <library logical="HumidityTempSensor-rescue">
+      <uri>C:\temparea\ted\kicad\projects\HumidityTempSensor\HumidityTempSensor-rescue.lib</uri>
+    </library>
+    <library logical="ted_switches">
+      <uri>C:\temparea\ted\kicad\projects\library\ted_switches.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="~SD_CS">
+      <node ref="U3" pin="37"/>
+      <node ref="J12" pin="2"/>
+    </net>
+    <net code="2" name="SD_MISO">
+      <node ref="J12" pin="3"/>
+      <node ref="U3" pin="38"/>
+    </net>
+    <net code="3" name="~SDCardDetect">
+      <node ref="U3" pin="39"/>
+      <node ref="J12" pin="9"/>
+      <node ref="R22" pin="2"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="U2" pin="5"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U6" pin="4"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="U2" pin="7"/>
+      <node ref="R28" pin="2"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U3" pin="42"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="B1" pin="2"/>
+      <node ref="J3" pin="3"/>
+      <node ref="U5" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="J3" pin="5"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="J7" pin="2"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="J10" pin="2"/>
+      <node ref="Q8" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="Q6" pin="2"/>
+      <node ref="J11" pin="2"/>
+      <node ref="J8" pin="2"/>
+      <node ref="J9" pin="2"/>
+      <node ref="J6" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J4" pin="1"/>
+      <node ref="J5" pin="2"/>
+      <node ref="SW1" pin="5"/>
+      <node ref="Q9" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="U3" pin="18"/>
+      <node ref="Q11" pin="2"/>
+      <node ref="Q7" pin="2"/>
+      <node ref="Q10" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="U3" pin="35"/>
+      <node ref="Q12" pin="2"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="J12" pin="10"/>
+      <node ref="J12" pin="6"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C16" pin="2"/>
+    </net>
+    <net code="5" name="SD_MOSI">
+      <node ref="U3" pin="47"/>
+      <node ref="J12" pin="8"/>
+    </net>
+    <net code="6" name="Net-(J12-Pad1)">
+      <node ref="J12" pin="1"/>
+    </net>
+    <net code="7" name="Net-(J12-Pad7)">
+      <node ref="J12" pin="7"/>
+    </net>
+    <net code="8" name="SD_SCK">
+      <node ref="J12" pin="5"/>
+      <node ref="U3" pin="48"/>
+    </net>
+    <net code="9" name="Baro_SDA">
+      <node ref="U2" pin="3"/>
+      <node ref="U3" pin="25"/>
+      <node ref="R23" pin="2"/>
+    </net>
+    <net code="10" name="Baro_SCL">
+      <node ref="U2" pin="4"/>
+      <node ref="U3" pin="26"/>
+      <node ref="R24" pin="2"/>
+    </net>
+    <net code="11" name="~RESET">
+      <node ref="C15" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R15" pin="2"/>
+      <node ref="U3" pin="40"/>
+      <node ref="J3" pin="10"/>
+    </net>
+    <net code="12" name="Net-(D1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="13" name="Net-(J2-Pad3)">
+      <node ref="R2" pin="2"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="14" name="Net-(R27-Pad2)">
+      <node ref="SW1" pin="4"/>
+      <node ref="R27" pin="2"/>
+    </net>
+    <net code="15" name="Net-(R25-Pad1)">
+      <node ref="R25" pin="1"/>
+      <node ref="SW1" pin="3"/>
+    </net>
+    <net code="16" name="Encoder_A">
+      <node ref="U3" pin="30"/>
+      <node ref="R26" pin="2"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="17" name="Encoder_B">
+      <node ref="R25" pin="2"/>
+      <node ref="U3" pin="29"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="18" name="Net-(R26-Pad1)">
+      <node ref="SW1" pin="1"/>
+      <node ref="R26" pin="1"/>
+    </net>
+    <net code="19" name="Net-(U3-Pad34)">
+      <node ref="U3" pin="34"/>
+    </net>
+    <net code="20" name="Thermistor">
+      <node ref="R28" pin="1"/>
+      <node ref="T1" pin="1"/>
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="21" name="DimP0+">
+      <node ref="U3" pin="19"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="22" name="DimP1+">
+      <node ref="Q2" pin="1"/>
+      <node ref="U3" pin="20"/>
+    </net>
+    <net code="23" name="DimP2+">
+      <node ref="Q1" pin="1"/>
+      <node ref="U3" pin="21"/>
+    </net>
+    <net code="24" name="DimP3+">
+      <node ref="Q9" pin="1"/>
+      <node ref="U3" pin="22"/>
+    </net>
+    <net code="25" name="DimP4+">
+      <node ref="Q8" pin="1"/>
+      <node ref="U3" pin="23"/>
+    </net>
+    <net code="26" name="DimP5+">
+      <node ref="U3" pin="24"/>
+      <node ref="Q7" pin="1"/>
+    </net>
+    <net code="27" name="Net-(U3-Pad4)">
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="28" name="Net-(U3-Pad10)">
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="29" name="Net-(U3-Pad41)">
+      <node ref="U3" pin="41"/>
+    </net>
+    <net code="30" name="Net-(U3-Pad3)">
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="31" name="Net-(U3-Pad28)">
+      <node ref="U3" pin="28"/>
+    </net>
+    <net code="32" name="Net-(U3-Pad27)">
+      <node ref="U3" pin="27"/>
+    </net>
+    <net code="33" name="Encoder_Switch">
+      <node ref="R27" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="U3" pin="33"/>
+    </net>
+    <net code="34" name="RTC_SCL">
+      <node ref="R20" pin="2"/>
+      <node ref="U3" pin="8"/>
+      <node ref="U6" pin="6"/>
+    </net>
+    <net code="35" name="RTC_SDA">
+      <node ref="R21" pin="2"/>
+      <node ref="U6" pin="5"/>
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="36" name="MFP">
+      <node ref="U3" pin="9"/>
+      <node ref="R18" pin="2"/>
+      <node ref="U6" pin="7"/>
+    </net>
+    <net code="37" name="ESP_RX_SAM_TX">
+      <node ref="J5" pin="8"/>
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="38" name="ESP_TX_SAM_RX">
+      <node ref="U3" pin="14"/>
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="39" name="XIN32">
+      <node ref="U3" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="U6" pin="1"/>
+      <node ref="X1" pin="2"/>
+    </net>
+    <net code="40" name="XOUT32">
+      <node ref="X1" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="41" name="LCD_SDA">
+      <node ref="R19" pin="2"/>
+      <node ref="U3" pin="31"/>
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="42" name="LCD_SCL">
+      <node ref="U3" pin="32"/>
+      <node ref="R17" pin="2"/>
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="43" name="ESP_GPIO_2">
+      <node ref="J5" pin="4"/>
+      <node ref="U3" pin="16"/>
+    </net>
+    <net code="44" name="Net-(B1-Pad1)">
+      <node ref="U6" pin="3"/>
+      <node ref="B1" pin="1"/>
+    </net>
+    <net code="45" name="~ESP_Reset">
+      <node ref="U3" pin="12"/>
+      <node ref="J5" pin="5"/>
+    </net>
+    <net code="46" name="ESP_GPIO_0">
+      <node ref="J5" pin="6"/>
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="47" name="Net-(J3-Pad7)">
+      <node ref="J3" pin="7"/>
+    </net>
+    <net code="48" name="SWDCLK">
+      <node ref="R16" pin="2"/>
+      <node ref="J3" pin="4"/>
+      <node ref="U3" pin="45"/>
+    </net>
+    <net code="49" name="Net-(J3-Pad6)">
+      <node ref="J3" pin="6"/>
+    </net>
+    <net code="50" name="Net-(J3-Pad8)">
+      <node ref="J3" pin="8"/>
+    </net>
+    <net code="51" name="Net-(J3-Pad9)">
+      <node ref="J3" pin="9"/>
+    </net>
+    <net code="52" name="VDDCORE">
+      <node ref="R23" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="R24" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="R17" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="J5" pin="7"/>
+      <node ref="D1" pin="2"/>
+      <node ref="R15" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="T1" pin="2"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U2" pin="6"/>
+      <node ref="L1" pin="1"/>
+      <node ref="J5" pin="3"/>
+      <node ref="J12" pin="4"/>
+      <node ref="U3" pin="17"/>
+      <node ref="U3" pin="44"/>
+      <node ref="U3" pin="36"/>
+      <node ref="R19" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U3" pin="43"/>
+      <node ref="R22" pin="1"/>
+      <node ref="R21" pin="1"/>
+      <node ref="R16" pin="1"/>
+      <node ref="U6" pin="8"/>
+      <node ref="U5" pin="3"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="53" name="VCC_EXT">
+      <node ref="J1" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="54" name="VCC">
+      <node ref="R7" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="U5" pin="2"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="55" name="VDDANA">
+      <node ref="C13" pin="1"/>
+      <node ref="U3" pin="6"/>
+      <node ref="C11" pin="1"/>
+      <node ref="L1" pin="2"/>
+    </net>
+    <net code="56" name="SWDIO">
+      <node ref="U3" pin="46"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="57" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="58" name="Net-(Q1-Pad3)">
+      <node ref="Q4" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="59" name="Net-(Q12-Pad1)">
+      <node ref="Q9" pin="3"/>
+      <node ref="Q12" pin="1"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="60" name="Dim2+">
+      <node ref="R6" pin="2"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="J7" pin="1"/>
+    </net>
+    <net code="61" name="Dim3+">
+      <node ref="J10" pin="1"/>
+      <node ref="R14" pin="2"/>
+      <node ref="Q12" pin="3"/>
+    </net>
+    <net code="62" name="Dim5+">
+      <node ref="Q10" pin="3"/>
+      <node ref="J11" pin="1"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="63" name="Net-(Q10-Pad1)">
+      <node ref="Q10" pin="1"/>
+      <node ref="R9" pin="2"/>
+      <node ref="Q7" pin="3"/>
+    </net>
+    <net code="64" name="Dim4+">
+      <node ref="R13" pin="2"/>
+      <node ref="Q11" pin="3"/>
+      <node ref="J8" pin="1"/>
+    </net>
+    <net code="65" name="Net-(Q11-Pad1)">
+      <node ref="Q11" pin="1"/>
+      <node ref="R10" pin="2"/>
+      <node ref="Q8" pin="3"/>
+    </net>
+    <net code="66" name="Net-(Q3-Pad3)">
+      <node ref="Q5" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="Q3" pin="3"/>
+    </net>
+    <net code="67" name="Dim0+">
+      <node ref="Q5" pin="3"/>
+      <node ref="R7" pin="2"/>
+      <node ref="J6" pin="1"/>
+    </net>
+    <net code="68" name="Dim1+">
+      <node ref="J9" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="Q6" pin="3"/>
+    </net>
+    <net code="69" name="Net-(Q2-Pad3)">
+      <node ref="Q2" pin="3"/>
+      <node ref="R4" pin="2"/>
+      <node ref="Q6" pin="1"/>
+    </net>
+  </nets>
+</export>

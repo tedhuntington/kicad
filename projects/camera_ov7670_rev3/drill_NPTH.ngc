@@ -1,0 +1,26 @@
+( pcb2gcode 1.1.4 )
+
+( This file uses 1 drill bit sizes. )
+
+G94     ( Inches per minute feed rate. )
+G20     ( Units == INCHES.             )
+G90     ( Absolute coordinates.        )
+S13000  ( RPM spindle speed.           )
+
+G00 Z1.57480 ( Retract )
+T1
+M5      ( Spindle stop.                )
+M6      ( Tool change.                 )
+(MSG, CHANGE TOOL BIT: to drill size 3.00000 mm)
+M0      ( Temporary machine stop.      )
+M3      ( Spindle on clockwise.        )
+
+G81 R0.78740 Z0.44094 F5.11811 X-5.59055 Y-4.04331
+X-5.59055 Y-4.77559
+
+
+G00 Z1.57480 ( All done -- retract )
+
+M9 ( Coolant off. )
+M2 ( Program end. )
+

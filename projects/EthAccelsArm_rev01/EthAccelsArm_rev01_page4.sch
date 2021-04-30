@@ -1,0 +1,1659 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title ""
+Date "9 sep 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 1640 1930 0    60   ~ 0
+pins:\n1: GND\n2: SDA\n3: SCL\n4: INT\n5: NC\n6: VDD
+$Comp
+L ted_connectors:RJ12 U3
+U 1 1 5B87BAA7
+P 2855 2005
+F 0 "U3" H 2855 1665 60  0000 C CNN
+F 1 "RJ12" H 2865 2335 60  0000 C CNN
+F 2 "ted_connectors:TED_RJ12_855135002" H 2855 2005 60  0001 C CNN
+F 3 "" H 2855 2005 60  0000 C CNN
+	1    2855 2005
+	1    0    0    -1  
+$EndComp
+Text GLabel 3585 1885 2    51   BiDi ~ 0
+SDA0
+$Comp
+L ower:VDD #PWR031
+U 1 1 5B87C23D
+P 3490 2140
+F 0 "#PWR031" H 3490 2090 20  0001 C CNN
+F 1 "VDD" H 3490 2240 30  0000 C CNN
+F 2 "~" H 3490 2140 60  0000 C CNN
+F 3 "~" H 3490 2140 60  0000 C CNN
+	1    3490 2140
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3490 2205 3490 2140
+$Comp
+L ted_resistors:R_small R6
+U 1 1 5B87C244
+P 3425 1885
+F 0 "R6" V 3475 1885 30  0000 C CNN
+F 1 "33" V 3425 1885 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" V 3375 1785 60  0001 C CNN
+F 3 "" V 3475 1885 60  0001 C CNN
+	1    3425 1885
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3165 2205 3490 2205
+NoConn ~ 3165 2125
+$Comp
+L ted_resistors:R_small R20
+U 1 1 5B87C505
+P 3585 1690
+F 0 "R20" V 3635 1690 30  0000 C CNN
+F 1 "2.4k" V 3585 1690 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" V 3535 1590 60  0001 C CNN
+F 3 "" V 3635 1690 60  0001 C CNN
+	1    3585 1690
+	-1   0    0    1   
+$EndComp
+$Comp
+L ted_resistors:R_small R22
+U 1 1 5B87C5A2
+P 3975 1705
+F 0 "R22" V 4025 1705 30  0000 C CNN
+F 1 "2.4k" V 3975 1705 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" V 3925 1605 60  0001 C CNN
+F 3 "" V 4025 1705 60  0001 C CNN
+	1    3975 1705
+	-1   0    0    1   
+$EndComp
+$Comp
+L ower:VDD #PWR032
+U 1 1 5B87C5D0
+P 3585 1505
+F 0 "#PWR032" H 3585 1455 20  0001 C CNN
+F 1 "VDD" H 3585 1605 30  0000 C CNN
+F 2 "~" H 3585 1505 60  0000 C CNN
+F 3 "~" H 3585 1505 60  0000 C CNN
+	1    3585 1505
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3585 1570 3585 1505
+$Comp
+L ower:VDD #PWR033
+U 1 1 5B87C6F2
+P 3975 1525
+F 0 "#PWR033" H 3975 1475 20  0001 C CNN
+F 1 "VDD" H 3975 1625 30  0000 C CNN
+F 2 "~" H 3975 1525 60  0000 C CNN
+F 3 "~" H 3975 1525 60  0000 C CNN
+	1    3975 1525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3975 1585 3975 1525
+$Comp
+L ower:GND #PWR034
+U 1 1 5B87C79D
+P 3310 1705
+F 0 "#PWR034" H 3310 1705 30  0001 C CNN
+F 1 "GND" H 3310 1635 30  0001 C CNN
+F 2 "" H 3310 1705 60  0000 C CNN
+F 3 "" H 3310 1705 60  0000 C CNN
+	1    3310 1705
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3165 1805 3220 1805
+Wire Wire Line
+	3220 1805 3220 1630
+Wire Wire Line
+	3220 1630 3310 1630
+Wire Wire Line
+	3310 1630 3310 1705
+Wire Wire Line
+	3165 1885 3305 1885
+Wire Wire Line
+	3545 1885 3585 1885
+Wire Wire Line
+	3585 1885 3585 1810
+Wire Wire Line
+	3165 1965 3975 1965
+Wire Wire Line
+	3975 1965 3975 1825
+Text GLabel 3975 1965 2    51   Input ~ 0
+SCL0
+Text GLabel 3205 2045 2    51   Output ~ 0
+INT4
+Wire Wire Line
+	3165 2045 3205 2045
+$Comp
+L ted_connectors:RJ12 U2
+U 1 1 5B886B29
+P 2845 3470
+F 0 "U2" H 2845 3130 60  0000 C CNN
+F 1 "RJ12" H 2855 3800 60  0000 C CNN
+F 2 "ted_connectors:TED_RJ12_855135002" H 2845 3470 60  0001 C CNN
+F 3 "" H 2845 3470 60  0000 C CNN
+	1    2845 3470
+	1    0    0    -1  
+$EndComp
+Text GLabel 3575 3350 2    51   BiDi ~ 0
+SDA1
+$Comp
+L ower:VDD #PWR035
+U 1 1 5B886B30
+P 3480 3605
+F 0 "#PWR035" H 3480 3555 20  0001 C CNN
+F 1 "VDD" H 3480 3705 30  0000 C CNN
+F 2 "~" H 3480 3605 60  0000 C CNN
+F 3 "~" H 3480 3605 60  0000 C CNN
+	1    3480 3605
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3480 3670 3480 3605
+$Comp
+L ted_resistors:R_small R5
+U 1 1 5B886B37
+P 3415 3350
+F 0 "R5" V 3465 3350 30  0000 C CNN
+F 1 "33" V 3415 3350 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" V 3365 3250 60  0001 C CNN
+F 3 "" V 3465 3350 60  0001 C CNN
+	1    3415 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3155 3670 3480 3670
+NoConn ~ 3155 3590
+$Comp
+L ted_resistors:R_small R19
+U 1 1 5B886B3F
+P 3575 3155
+F 0 "R19" V 3625 3155 30  0000 C CNN
+F 1 "2.4k" V 3575 3155 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" V 3525 3055 60  0001 C CNN
+F 3 "" V 3625 3155 60  0001 C CNN
+	1    3575 3155
+	-1   0    0    1   
+$EndComp
+$Comp
+L ted_resistors:R_small R21
+U 1 1 5B886B45
+P 3965 3170
+F 0 "R21" V 4015 3170 30  0000 C CNN
+F 1 "2.4k" V 3965 3170 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" V 3915 3070 60  0001 C CNN
+F 3 "" V 4015 3170 60  0001 C CNN
+	1    3965 3170
+	-1   0    0    1   
+$EndComp
+$Comp
+L ower:VDD #PWR036
+U 1 1 5B886B4B
+P 3575 2970
+F 0 "#PWR036" H 3575 2920 20  0001 C CNN
+F 1 "VDD" H 3575 3070 30  0000 C CNN
+F 2 "~" H 3575 2970 60  0000 C CNN
+F 3 "~" H 3575 2970 60  0000 C CNN
+	1    3575 2970
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3575 3035 3575 2970
+$Comp
+L ower:VDD #PWR037
+U 1 1 5B886B52
+P 3965 2990
+F 0 "#PWR037" H 3965 2940 20  0001 C CNN
+F 1 "VDD" H 3965 3090 30  0000 C CNN
+F 2 "~" H 3965 2990 60  0000 C CNN
+F 3 "~" H 3965 2990 60  0000 C CNN
+	1    3965 2990
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3965 3050 3965 2990
+$Comp
+L ower:GND #PWR038
+U 1 1 5B886B59
+P 3300 3170
+F 0 "#PWR038" H 3300 3170 30  0001 C CNN
+F 1 "GND" H 3300 3100 30  0001 C CNN
+F 2 "" H 3300 3170 60  0000 C CNN
+F 3 "" H 3300 3170 60  0000 C CNN
+	1    3300 3170
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3155 3270 3210 3270
+Wire Wire Line
+	3210 3270 3210 3095
+Wire Wire Line
+	3210 3095 3300 3095
+Wire Wire Line
+	3300 3095 3300 3170
+Wire Wire Line
+	3155 3350 3295 3350
+Wire Wire Line
+	3535 3350 3575 3350
+Wire Wire Line
+	3575 3350 3575 3275
+Wire Wire Line
+	3155 3430 3965 3430
+Wire Wire Line
+	3965 3430 3965 3290
+Text GLabel 3965 3430 2    51   Input ~ 0
+SCL1
+Text GLabel 3195 3510 2    51   Output ~ 0
+INT5
+Wire Wire Line
+	3155 3510 3195 3510
+$Comp
+L ted_connectors:RJ12 U4
+U 1 1 5B886CAE
+P 5130 2410
+F 0 "U4" H 5130 2070 60  0000 C CNN
+F 1 "RJ12" H 5140 2740 60  0000 C CNN
+F 2 "ted_connectors:TED_RJ12_855135002" H 5130 2410 60  0001 C CNN
+F 3 "" H 5130 2410 60  0000 C CNN
+	1    5130 2410
+	1    0    0    -1  
+$EndComp
+Text GLabel 5860 2290 2    51   BiDi ~ 0
+SDA2
+$Comp
+L ower:VDD #PWR039
+U 1 1 5B886CB5
+P 5765 2545
+F 0 "#PWR039" H 5765 2495 20  0001 C CNN
+F 1 "VDD" H 5765 2645 30  0000 C CNN
+F 2 "~" H 5765 2545 60  0000 C CNN
+F 3 "~" H 5765 2545 60  0000 C CNN
+	1    5765 2545
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5765 2610 5765 2545
+$Comp
+L ted_resistors:R_small R23
+U 1 1 5B886CBC
+P 5700 2290
+F 0 "R23" V 5750 2290 30  0000 C CNN
+F 1 "33" V 5700 2290 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" V 5650 2190 60  0001 C CNN
+F 3 "" V 5750 2290 60  0001 C CNN
+	1    5700 2290
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5440 2610 5765 2610
+NoConn ~ 5440 2530
+$Comp
+L ted_resistors:R_small R24
+U 1 1 5B886CC4
+P 5860 2095
+F 0 "R24" V 5910 2095 30  0000 C CNN
+F 1 "2.4k" V 5860 2095 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" V 5810 1995 60  0001 C CNN
+F 3 "" V 5910 2095 60  0001 C CNN
+	1    5860 2095
+	-1   0    0    1   
+$EndComp
+$Comp
+L ted_resistors:R_small R25
+U 1 1 5B886CCA
+P 6250 2110
+F 0 "R25" V 6300 2110 30  0000 C CNN
+F 1 "2.4k" V 6250 2110 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" V 6200 2010 60  0001 C CNN
+F 3 "" V 6300 2110 60  0001 C CNN
+	1    6250 2110
+	-1   0    0    1   
+$EndComp
+$Comp
+L ower:VDD #PWR040
+U 1 1 5B886CD0
+P 5860 1910
+F 0 "#PWR040" H 5860 1860 20  0001 C CNN
+F 1 "VDD" H 5860 2010 30  0000 C CNN
+F 2 "~" H 5860 1910 60  0000 C CNN
+F 3 "~" H 5860 1910 60  0000 C CNN
+	1    5860 1910
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5860 1975 5860 1910
+$Comp
+L ower:VDD #PWR041
+U 1 1 5B886CD7
+P 6250 1930
+F 0 "#PWR041" H 6250 1880 20  0001 C CNN
+F 1 "VDD" H 6250 2030 30  0000 C CNN
+F 2 "~" H 6250 1930 60  0000 C CNN
+F 3 "~" H 6250 1930 60  0000 C CNN
+	1    6250 1930
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 1990 6250 1930
+$Comp
+L ower:GND #PWR042
+U 1 1 5B886CDE
+P 5585 2110
+F 0 "#PWR042" H 5585 2110 30  0001 C CNN
+F 1 "GND" H 5585 2040 30  0001 C CNN
+F 2 "" H 5585 2110 60  0000 C CNN
+F 3 "" H 5585 2110 60  0000 C CNN
+	1    5585 2110
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5440 2210 5495 2210
+Wire Wire Line
+	5495 2210 5495 2035
+Wire Wire Line
+	5495 2035 5585 2035
+Wire Wire Line
+	5585 2035 5585 2110
+Wire Wire Line
+	5440 2290 5580 2290
+Wire Wire Line
+	5820 2290 5860 2290
+Wire Wire Line
+	5860 2290 5860 2215
+Wire Wire Line
+	5440 2370 6250 2370
+Wire Wire Line
+	6250 2370 6250 2230
+Text GLabel 6250 2370 2    51   Input ~ 0
+SCL2
+Text GLabel 5480 2450 2    51   Output ~ 0
+INT8
+Wire Wire Line
+	5440 2450 5480 2450
+Text GLabel 8560 2290 3    51   Output ~ 0
+AD0[1]
+Text GLabel 8405 5755 3    51   Output ~ 0
+AD1[6]
+Text GLabel 8605 5745 3    51   Output ~ 0
+AD1[7]
+Text GLabel 8805 5775 3    51   Output ~ 0
+AD1[8]
+Text GLabel 9005 5790 3    51   Output ~ 0
+AD1[9]
+Text GLabel 8760 2290 3    51   Output ~ 0
+AD0[2]
+Text GLabel 8960 2280 3    51   Output ~ 0
+AD0[3]
+Text GLabel 9160 2260 3    51   Output ~ 0
+AD0[4]
+Text GLabel 9360 2255 3    51   Output ~ 0
+AD0[5]
+Text GLabel 9560 2260 3    51   Output ~ 0
+AD0[6]
+Text GLabel 9760 2255 3    51   Output ~ 0
+AD0[7]
+Text GLabel 8370 3945 3    51   Output ~ 0
+AD0[10]
+Text GLabel 8570 3940 3    51   Output ~ 0
+AD0[11]
+Text GLabel 8770 3945 3    51   Output ~ 0
+AD0[12]
+Text GLabel 8970 3955 3    51   Output ~ 0
+AD0[13]
+Text GLabel 9170 3950 3    51   Output ~ 0
+AD0[14]
+Text GLabel 9370 3960 3    51   Output ~ 0
+AD0[15]
+$Comp
+L ted_resistors:R_small R32
+U 1 1 5BAD9C13
+P 8255 2355
+F 0 "R32" V 8305 2355 30  0000 C CNN
+F 1 "100k" V 8255 2355 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" V 8205 2255 60  0001 C CNN
+F 3 "" V 8305 2355 60  0001 C CNN
+	1    8255 2355
+	1    0    0    -1  
+$EndComp
+$Comp
+L ower:VDD #PWR046
+U 1 1 5BAD9C19
+P 8255 2210
+F 0 "#PWR046" H 8255 2160 20  0001 C CNN
+F 1 "VDD" H 8255 2310 30  0000 C CNN
+F 2 "~" H 8255 2210 60  0000 C CNN
+F 3 "~" H 8255 2210 60  0000 C CNN
+	1    8255 2210
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8255 2235 8255 2210
+Text Notes 2365 1100 0    39   ~ 0
+Note: Only certain SERCOM ports handle I2C
+Text GLabel 9570 3985 3    51   Output ~ 0
+AD1[4]
+Text GLabel 9770 3985 3    51   Output ~ 0
+AD1[5]
+Text GLabel 9205 5770 3    51   Output ~ 0
+AD1[10]
+Text GLabel 9405 5750 3    51   Output ~ 0
+AD1[11]
+Text GLabel 9605 5765 3    51   Output ~ 0
+AD1[12]
+Text GLabel 9805 5740 3    51   Output ~ 0
+AD1[13]
+$Comp
+L ted_connectors:Terminal_8x1 J?
+U 1 1 5CD4C7D5
+P 9060 1910
+F 0 "J?" H 9060 1660 60  0000 C CNN
+F 1 "Terminal_8x1" H 9060 2060 60  0000 C CNN
+F 2 "" H 9125 1380 60  0001 C CNN
+F 3 "" H 9410 1910 60  0000 C CNN
+	1    9060 1910
+	1    0    0    -1  
+$EndComp
+$Comp
+L ted_connectors:Terminal_8x1 J?
+U 1 1 5CD4CF40
+P 9070 3545
+F 0 "J?" H 9070 3295 60  0000 C CNN
+F 1 "Terminal_8x1" H 9070 3695 60  0000 C CNN
+F 2 "" H 9135 3015 60  0001 C CNN
+F 3 "" H 9420 3545 60  0000 C CNN
+	1    9070 3545
+	1    0    0    -1  
+$EndComp
+$Comp
+L ted_connectors:Terminal_8x1 J?
+U 1 1 5CD4CFEC
+P 9105 5300
+F 0 "J?" H 9105 5050 60  0000 C CNN
+F 1 "Terminal_8x1" H 9105 5450 60  0000 C CNN
+F 2 "" H 9170 4770 60  0001 C CNN
+F 3 "" H 9455 5300 60  0000 C CNN
+	1    9105 5300
+	1    0    0    -1  
+$EndComp
+Text GLabel 8360 2285 3    51   Output ~ 0
+AD0[0]
+Wire Wire Line
+	8360 2110 8360 2195
+Wire Wire Line
+	8360 2195 8290 2195
+Wire Wire Line
+	8290 2195 8290 2475
+Wire Wire Line
+	8290 2475 8255 2475
+Connection ~ 8360 2195
+$Comp
+L ted_resistors:R_small R?
+U 1 1 5CD4EBD2
+P 9700 5770
+F 0 "R?" V 9750 5770 30  0000 C CNN
+F 1 "100k" V 9700 5770 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" V 9650 5670 60  0001 C CNN
+F 3 "" V 9750 5770 60  0001 C CNN
+	1    9700 5770
+	1    0    0    -1  
+$EndComp
+$Comp
+L ower:VDD #PWR?
+U 1 1 5CD4EBD8
+P 9700 5625
+F 0 "#PWR?" H 9700 5575 20  0001 C CNN
+F 1 "VDD" H 9700 5725 30  0000 C CNN
+F 2 "~" H 9700 5625 60  0000 C CNN
+F 3 "~" H 9700 5625 60  0000 C CNN
+	1    9700 5625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 5650 9700 5625
+Wire Wire Line
+	9805 5610 9735 5610
+Wire Wire Line
+	9735 5610 9735 5890
+Wire Wire Line
+	9735 5890 9700 5890
+$Comp
+L ted_resistors:R_small R?
+U 1 1 5CD4EC62
+P 8460 2335
+F 0 "R?" V 8510 2335 30  0000 C CNN
+F 1 "100k" V 8460 2335 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" V 8410 2235 60  0001 C CNN
+F 3 "" V 8510 2335 60  0001 C CNN
+	1    8460 2335
+	1    0    0    -1  
+$EndComp
+$Comp
+L ower:VDD #PWR?
+U 1 1 5CD4EC68
+P 8460 2190
+F 0 "#PWR?" H 8460 2140 20  0001 C CNN
+F 1 "VDD" H 8460 2290 30  0000 C CNN
+F 2 "~" H 8460 2190 60  0000 C CNN
+F 3 "~" H 8460 2190 60  0000 C CNN
+	1    8460 2190
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8460 2215 8460 2190
+Wire Wire Line
+	8495 2175 8495 2455
+Wire Wire Line
+	8495 2455 8460 2455
+$Comp
+L ted_resistors:R_small R?
+U 1 1 5CD4F025
+P 8655 2365
+F 0 "R?" V 8705 2365 30  0000 C CNN
+F 1 "100k" V 8655 2365 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" V 8605 2265 60  0001 C CNN
+F 3 "" V 8705 2365 60  0001 C CNN
+	1    8655 2365
+	1    0    0    -1  
+$EndComp
+$Comp
+L ower:VDD #PWR?
+U 1 1 5CD4F02B
+P 8655 2220
+F 0 "#PWR?" H 8655 2170 20  0001 C CNN
+F 1 "VDD" H 8655 2320 30  0000 C CNN
+F 2 "~" H 8655 2220 60  0000 C CNN
+F 3 "~" H 8655 2220 60  0000 C CNN
+	1    8655 2220
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8655 2245 8655 2220
+Wire Wire Line
+	8690 2205 8690 2485
+Wire Wire Line
+	8690 2485 8655 2485
+$Comp
+L ted_resistors:R_small R?
+U 1 1 5CD4F099
+P 8855 2370
+F 0 "R?" V 8905 2370 30  0000 C CNN
+F 1 "100k" V 8855 2370 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" V 8805 2270 60  0001 C CNN
+F 3 "" V 8905 2370 60  0001 C CNN
+	1    8855 2370
+	1    0    0    -1  
+$EndComp
+$Comp
+L ower:VDD #PWR?
+U 1 1 5CD4F09F
+P 8855 2225
+F 0 "#PWR?" H 8855 2175 20  0001 C CNN
+F 1 "VDD" H 8855 2325 30  0000 C CNN
+F 2 "~" H 8855 2225 60  0000 C CNN
+F 3 "~" H 8855 2225 60  0000 C CNN
+	1    8855 2225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8855 2250 8855 2225
+Wire Wire Line
+	8960 2210 8890 2210
+Wire Wire Line
+	8890 2210 8890 2490
+Wire Wire Line
+	8890 2490 8855 2490
+$Comp
+L ted_resistors:R_small R?
+U 1 1 5CD4F134
+P 9055 2355
+F 0 "R?" V 9105 2355 30  0000 C CNN
+F 1 "100k" V 9055 2355 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" V 9005 2255 60  0001 C CNN
+F 3 "" V 9105 2355 60  0001 C CNN
+	1    9055 2355
+	1    0    0    -1  
+$EndComp
+$Comp
+L ower:VDD #PWR?
+U 1 1 5CD4F13A
+P 9055 2210
+F 0 "#PWR?" H 9055 2160 20  0001 C CNN
+F 1 "VDD" H 9055 2310 30  0000 C CNN
+F 2 "~" H 9055 2210 60  0000 C CNN
+F 3 "~" H 9055 2210 60  0000 C CNN
+	1    9055 2210
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9055 2235 9055 2210
+Wire Wire Line
+	9160 2195 9090 2195
+Wire Wire Line
+	9090 2195 9090 2475
+Wire Wire Line
+	9090 2475 9055 2475
+$Comp
+L ted_resistors:R_small R?
+U 1 1 5CD4F1A8
+P 9255 2350
+F 0 "R?" V 9305 2350 30  0000 C CNN
+F 1 "100k" V 9255 2350 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" V 9205 2250 60  0001 C CNN
+F 3 "" V 9305 2350 60  0001 C CNN
+	1    9255 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L ower:VDD #PWR?
+U 1 1 5CD4F1AE
+P 9255 2205
+F 0 "#PWR?" H 9255 2155 20  0001 C CNN
+F 1 "VDD" H 9255 2305 30  0000 C CNN
+F 2 "~" H 9255 2205 60  0000 C CNN
+F 3 "~" H 9255 2205 60  0000 C CNN
+	1    9255 2205
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9255 2230 9255 2205
+Wire Wire Line
+	9360 2190 9290 2190
+Wire Wire Line
+	9290 2190 9290 2470
+Wire Wire Line
+	9290 2470 9255 2470
+$Comp
+L ted_resistors:R_small R?
+U 1 1 5CD4F231
+P 9465 2350
+F 0 "R?" V 9515 2350 30  0000 C CNN
+F 1 "100k" V 9465 2350 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" V 9415 2250 60  0001 C CNN
+F 3 "" V 9515 2350 60  0001 C CNN
+	1    9465 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L ower:VDD #PWR?
+U 1 1 5CD4F237
+P 9465 2205
+F 0 "#PWR?" H 9465 2155 20  0001 C CNN
+F 1 "VDD" H 9465 2305 30  0000 C CNN
+F 2 "~" H 9465 2205 60  0000 C CNN
+F 3 "~" H 9465 2205 60  0000 C CNN
+	1    9465 2205
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9465 2230 9465 2205
+Wire Wire Line
+	9560 2190 9500 2190
+Wire Wire Line
+	9500 2190 9500 2470
+Wire Wire Line
+	9500 2470 9465 2470
+$Comp
+L ted_resistors:R_small R?
+U 1 1 5CD4F2AB
+P 9660 2345
+F 0 "R?" V 9710 2345 30  0000 C CNN
+F 1 "100k" V 9660 2345 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" V 9610 2245 60  0001 C CNN
+F 3 "" V 9710 2345 60  0001 C CNN
+	1    9660 2345
+	1    0    0    -1  
+$EndComp
+$Comp
+L ower:VDD #PWR?
+U 1 1 5CD4F2B1
+P 9660 2200
+F 0 "#PWR?" H 9660 2150 20  0001 C CNN
+F 1 "VDD" H 9660 2300 30  0000 C CNN
+F 2 "~" H 9660 2200 60  0000 C CNN
+F 3 "~" H 9660 2200 60  0000 C CNN
+	1    9660 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9660 2225 9660 2200
+Wire Wire Line
+	9760 2185 9695 2185
+Wire Wire Line
+	9695 2185 9695 2465
+Wire Wire Line
+	9695 2465 9660 2465
+Wire Wire Line
+	8560 2110 8560 2175
+Wire Wire Line
+	8495 2175 8560 2175
+Connection ~ 8560 2175
+Wire Wire Line
+	8760 2110 8760 2205
+Wire Wire Line
+	8690 2205 8760 2205
+Connection ~ 8760 2205
+Wire Wire Line
+	8960 2110 8960 2210
+Connection ~ 8960 2210
+Wire Wire Line
+	9160 2110 9160 2195
+Connection ~ 9160 2195
+Wire Wire Line
+	9360 2110 9360 2190
+Connection ~ 9360 2190
+Wire Wire Line
+	9560 2110 9560 2190
+Connection ~ 9560 2190
+Wire Wire Line
+	9760 2110 9760 2185
+Connection ~ 9760 2185
+$Comp
+L ted_connectors:Terminal_8x1 J?
+U 1 1 5CD515F5
+P 9015 1360
+F 0 "J?" H 9015 1110 60  0000 C CNN
+F 1 "Terminal_8x1" H 9015 1510 60  0000 C CNN
+F 2 "" H 9080 830 60  0001 C CNN
+F 3 "" H 9365 1360 60  0000 C CNN
+	1    9015 1360
+	1    0    0    -1  
+$EndComp
+$Comp
+L ower:GND #PWR?
+U 1 1 5CD518E8
+P 8315 1610
+F 0 "#PWR?" H 8315 1610 30  0001 C CNN
+F 1 "GND" H 8315 1540 30  0001 C CNN
+F 2 "" H 8315 1610 60  0000 C CNN
+F 3 "" H 8315 1610 60  0000 C CNN
+	1    8315 1610
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8315 1610 8315 1560
+$Comp
+L ower:GND #PWR?
+U 1 1 5CD5192F
+P 8515 1610
+F 0 "#PWR?" H 8515 1610 30  0001 C CNN
+F 1 "GND" H 8515 1540 30  0001 C CNN
+F 2 "" H 8515 1610 60  0000 C CNN
+F 3 "" H 8515 1610 60  0000 C CNN
+	1    8515 1610
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8515 1610 8515 1560
+$Comp
+L ower:GND #PWR?
+U 1 1 5CD51976
+P 8715 1610
+F 0 "#PWR?" H 8715 1610 30  0001 C CNN
+F 1 "GND" H 8715 1540 30  0001 C CNN
+F 2 "" H 8715 1610 60  0000 C CNN
+F 3 "" H 8715 1610 60  0000 C CNN
+	1    8715 1610
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8715 1610 8715 1560
+$Comp
+L ower:GND #PWR?
+U 1 1 5CD519BD
+P 8915 1610
+F 0 "#PWR?" H 8915 1610 30  0001 C CNN
+F 1 "GND" H 8915 1540 30  0001 C CNN
+F 2 "" H 8915 1610 60  0000 C CNN
+F 3 "" H 8915 1610 60  0000 C CNN
+	1    8915 1610
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8915 1610 8915 1560
+$Comp
+L ower:GND #PWR?
+U 1 1 5CD51A42
+P 9115 1610
+F 0 "#PWR?" H 9115 1610 30  0001 C CNN
+F 1 "GND" H 9115 1540 30  0001 C CNN
+F 2 "" H 9115 1610 60  0000 C CNN
+F 3 "" H 9115 1610 60  0000 C CNN
+	1    9115 1610
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9115 1610 9115 1560
+$Comp
+L ower:GND #PWR?
+U 1 1 5CD51A89
+P 9315 1610
+F 0 "#PWR?" H 9315 1610 30  0001 C CNN
+F 1 "GND" H 9315 1540 30  0001 C CNN
+F 2 "" H 9315 1610 60  0000 C CNN
+F 3 "" H 9315 1610 60  0000 C CNN
+	1    9315 1610
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9315 1610 9315 1560
+$Comp
+L ower:GND #PWR?
+U 1 1 5CD51AD0
+P 9515 1610
+F 0 "#PWR?" H 9515 1610 30  0001 C CNN
+F 1 "GND" H 9515 1540 30  0001 C CNN
+F 2 "" H 9515 1610 60  0000 C CNN
+F 3 "" H 9515 1610 60  0000 C CNN
+	1    9515 1610
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9515 1610 9515 1560
+$Comp
+L ower:GND #PWR?
+U 1 1 5CD51B17
+P 9715 1610
+F 0 "#PWR?" H 9715 1610 30  0001 C CNN
+F 1 "GND" H 9715 1540 30  0001 C CNN
+F 2 "" H 9715 1610 60  0000 C CNN
+F 3 "" H 9715 1610 60  0000 C CNN
+	1    9715 1610
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9715 1610 9715 1560
+$Comp
+L ted_connectors:Terminal_8x1 J?
+U 1 1 5CD52543
+P 9045 2970
+F 0 "J?" H 9045 2720 60  0000 C CNN
+F 1 "Terminal_8x1" H 9045 3120 60  0000 C CNN
+F 2 "" H 9110 2440 60  0001 C CNN
+F 3 "" H 9395 2970 60  0000 C CNN
+	1    9045 2970
+	1    0    0    -1  
+$EndComp
+$Comp
+L ower:GND #PWR?
+U 1 1 5CD52549
+P 8345 3220
+F 0 "#PWR?" H 8345 3220 30  0001 C CNN
+F 1 "GND" H 8345 3150 30  0001 C CNN
+F 2 "" H 8345 3220 60  0000 C CNN
+F 3 "" H 8345 3220 60  0000 C CNN
+	1    8345 3220
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8345 3220 8345 3170
+$Comp
+L ower:GND #PWR?
+U 1 1 5CD52550
+P 8545 3220
+F 0 "#PWR?" H 8545 3220 30  0001 C CNN
+F 1 "GND" H 8545 3150 30  0001 C CNN
+F 2 "" H 8545 3220 60  0000 C CNN
+F 3 "" H 8545 3220 60  0000 C CNN
+	1    8545 3220
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8545 3220 8545 3170
+$Comp
+L ower:GND #PWR?
+U 1 1 5CD52557
+P 8745 3220
+F 0 "#PWR?" H 8745 3220 30  0001 C CNN
+F 1 "GND" H 8745 3150 30  0001 C CNN
+F 2 "" H 8745 3220 60  0000 C CNN
+F 3 "" H 8745 3220 60  0000 C CNN
+	1    8745 3220
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8745 3220 8745 3170
+$Comp
+L ower:GND #PWR?
+U 1 1 5CD5255E
+P 8945 3220
+F 0 "#PWR?" H 8945 3220 30  0001 C CNN
+F 1 "GND" H 8945 3150 30  0001 C CNN
+F 2 "" H 8945 3220 60  0000 C CNN
+F 3 "" H 8945 3220 60  0000 C CNN
+	1    8945 3220
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8945 3220 8945 3170
+$Comp
+L ower:GND #PWR?
+U 1 1 5CD52565
+P 9145 3220
+F 0 "#PWR?" H 9145 3220 30  0001 C CNN
+F 1 "GND" H 9145 3150 30  0001 C CNN
+F 2 "" H 9145 3220 60  0000 C CNN
+F 3 "" H 9145 3220 60  0000 C CNN
+	1    9145 3220
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9145 3220 9145 3170
+$Comp
+L ower:GND #PWR?
+U 1 1 5CD5256C
+P 9345 3220
+F 0 "#PWR?" H 9345 3220 30  0001 C CNN
+F 1 "GND" H 9345 3150 30  0001 C CNN
+F 2 "" H 9345 3220 60  0000 C CNN
+F 3 "" H 9345 3220 60  0000 C CNN
+	1    9345 3220
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9345 3220 9345 3170
+$Comp
+L ower:GND #PWR?
+U 1 1 5CD52573
+P 9545 3220
+F 0 "#PWR?" H 9545 3220 30  0001 C CNN
+F 1 "GND" H 9545 3150 30  0001 C CNN
+F 2 "" H 9545 3220 60  0000 C CNN
+F 3 "" H 9545 3220 60  0000 C CNN
+	1    9545 3220
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9545 3220 9545 3170
+$Comp
+L ower:GND #PWR?
+U 1 1 5CD5257A
+P 9745 3220
+F 0 "#PWR?" H 9745 3220 30  0001 C CNN
+F 1 "GND" H 9745 3150 30  0001 C CNN
+F 2 "" H 9745 3220 60  0000 C CNN
+F 3 "" H 9745 3220 60  0000 C CNN
+	1    9745 3220
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9745 3220 9745 3170
+$Comp
+L ted_connectors:Terminal_8x1 J?
+U 1 1 5CD52827
+P 9060 4725
+F 0 "J?" H 9060 4475 60  0000 C CNN
+F 1 "Terminal_8x1" H 9060 4875 60  0000 C CNN
+F 2 "" H 9125 4195 60  0001 C CNN
+F 3 "" H 9410 4725 60  0000 C CNN
+	1    9060 4725
+	1    0    0    -1  
+$EndComp
+$Comp
+L ower:GND #PWR?
+U 1 1 5CD5282D
+P 8360 4975
+F 0 "#PWR?" H 8360 4975 30  0001 C CNN
+F 1 "GND" H 8360 4905 30  0001 C CNN
+F 2 "" H 8360 4975 60  0000 C CNN
+F 3 "" H 8360 4975 60  0000 C CNN
+	1    8360 4975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8360 4975 8360 4925
+$Comp
+L ower:GND #PWR?
+U 1 1 5CD52834
+P 8560 4975
+F 0 "#PWR?" H 8560 4975 30  0001 C CNN
+F 1 "GND" H 8560 4905 30  0001 C CNN
+F 2 "" H 8560 4975 60  0000 C CNN
+F 3 "" H 8560 4975 60  0000 C CNN
+	1    8560 4975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8560 4975 8560 4925
+$Comp
+L ower:GND #PWR?
+U 1 1 5CD5283B
+P 8760 4975
+F 0 "#PWR?" H 8760 4975 30  0001 C CNN
+F 1 "GND" H 8760 4905 30  0001 C CNN
+F 2 "" H 8760 4975 60  0000 C CNN
+F 3 "" H 8760 4975 60  0000 C CNN
+	1    8760 4975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8760 4975 8760 4925
+$Comp
+L ower:GND #PWR?
+U 1 1 5CD52842
+P 8960 4975
+F 0 "#PWR?" H 8960 4975 30  0001 C CNN
+F 1 "GND" H 8960 4905 30  0001 C CNN
+F 2 "" H 8960 4975 60  0000 C CNN
+F 3 "" H 8960 4975 60  0000 C CNN
+	1    8960 4975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8960 4975 8960 4925
+$Comp
+L ower:GND #PWR?
+U 1 1 5CD52849
+P 9160 4975
+F 0 "#PWR?" H 9160 4975 30  0001 C CNN
+F 1 "GND" H 9160 4905 30  0001 C CNN
+F 2 "" H 9160 4975 60  0000 C CNN
+F 3 "" H 9160 4975 60  0000 C CNN
+	1    9160 4975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9160 4975 9160 4925
+$Comp
+L ower:GND #PWR?
+U 1 1 5CD52850
+P 9360 4975
+F 0 "#PWR?" H 9360 4975 30  0001 C CNN
+F 1 "GND" H 9360 4905 30  0001 C CNN
+F 2 "" H 9360 4975 60  0000 C CNN
+F 3 "" H 9360 4975 60  0000 C CNN
+	1    9360 4975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9360 4975 9360 4925
+$Comp
+L ower:GND #PWR?
+U 1 1 5CD52857
+P 9560 4975
+F 0 "#PWR?" H 9560 4975 30  0001 C CNN
+F 1 "GND" H 9560 4905 30  0001 C CNN
+F 2 "" H 9560 4975 60  0000 C CNN
+F 3 "" H 9560 4975 60  0000 C CNN
+	1    9560 4975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9560 4975 9560 4925
+$Comp
+L ower:GND #PWR?
+U 1 1 5CD5285E
+P 9760 4975
+F 0 "#PWR?" H 9760 4975 30  0001 C CNN
+F 1 "GND" H 9760 4905 30  0001 C CNN
+F 2 "" H 9760 4975 60  0000 C CNN
+F 3 "" H 9760 4975 60  0000 C CNN
+	1    9760 4975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9760 4975 9760 4925
+$Comp
+L ted_resistors:R_small R?
+U 1 1 5CD53FE3
+P 8265 4015
+F 0 "R?" V 8315 4015 30  0000 C CNN
+F 1 "100k" V 8265 4015 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" V 8215 3915 60  0001 C CNN
+F 3 "" V 8315 4015 60  0001 C CNN
+	1    8265 4015
+	1    0    0    -1  
+$EndComp
+$Comp
+L ower:VDD #PWR?
+U 1 1 5CD53FE9
+P 8265 3870
+F 0 "#PWR?" H 8265 3820 20  0001 C CNN
+F 1 "VDD" H 8265 3970 30  0000 C CNN
+F 2 "~" H 8265 3870 60  0000 C CNN
+F 3 "~" H 8265 3870 60  0000 C CNN
+	1    8265 3870
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8265 3895 8265 3870
+Wire Wire Line
+	8370 3855 8300 3855
+Wire Wire Line
+	8300 3855 8300 4135
+Wire Wire Line
+	8300 4135 8265 4135
+$Comp
+L ted_resistors:R_small R?
+U 1 1 5CD54087
+P 8465 4020
+F 0 "R?" V 8515 4020 30  0000 C CNN
+F 1 "100k" V 8465 4020 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" V 8415 3920 60  0001 C CNN
+F 3 "" V 8515 4020 60  0001 C CNN
+	1    8465 4020
+	1    0    0    -1  
+$EndComp
+$Comp
+L ower:VDD #PWR?
+U 1 1 5CD5408D
+P 8465 3875
+F 0 "#PWR?" H 8465 3825 20  0001 C CNN
+F 1 "VDD" H 8465 3975 30  0000 C CNN
+F 2 "~" H 8465 3875 60  0000 C CNN
+F 3 "~" H 8465 3875 60  0000 C CNN
+	1    8465 3875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8465 3900 8465 3875
+Wire Wire Line
+	8570 3860 8500 3860
+Wire Wire Line
+	8500 3860 8500 4140
+Wire Wire Line
+	8500 4140 8465 4140
+$Comp
+L ted_resistors:R_small R?
+U 1 1 5CD54106
+P 8655 4015
+F 0 "R?" V 8705 4015 30  0000 C CNN
+F 1 "100k" V 8655 4015 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" V 8605 3915 60  0001 C CNN
+F 3 "" V 8705 4015 60  0001 C CNN
+	1    8655 4015
+	1    0    0    -1  
+$EndComp
+$Comp
+L ower:VDD #PWR?
+U 1 1 5CD5410C
+P 8655 3870
+F 0 "#PWR?" H 8655 3820 20  0001 C CNN
+F 1 "VDD" H 8655 3970 30  0000 C CNN
+F 2 "~" H 8655 3870 60  0000 C CNN
+F 3 "~" H 8655 3870 60  0000 C CNN
+	1    8655 3870
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8655 3895 8655 3870
+Wire Wire Line
+	8690 3855 8770 3855
+Wire Wire Line
+	8690 3855 8690 4135
+Wire Wire Line
+	8690 4135 8655 4135
+$Comp
+L ted_resistors:R_small R?
+U 1 1 5CD54192
+P 8865 4020
+F 0 "R?" V 8915 4020 30  0000 C CNN
+F 1 "100k" V 8865 4020 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" V 8815 3920 60  0001 C CNN
+F 3 "" V 8915 4020 60  0001 C CNN
+	1    8865 4020
+	1    0    0    -1  
+$EndComp
+$Comp
+L ower:VDD #PWR?
+U 1 1 5CD54198
+P 8865 3875
+F 0 "#PWR?" H 8865 3825 20  0001 C CNN
+F 1 "VDD" H 8865 3975 30  0000 C CNN
+F 2 "~" H 8865 3875 60  0000 C CNN
+F 3 "~" H 8865 3875 60  0000 C CNN
+	1    8865 3875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8865 3900 8865 3875
+Wire Wire Line
+	8970 3860 8900 3860
+Wire Wire Line
+	8900 3860 8900 4140
+Wire Wire Line
+	8900 4140 8865 4140
+$Comp
+L ted_resistors:R_small R?
+U 1 1 5CD5427F
+P 9070 4015
+F 0 "R?" V 9120 4015 30  0000 C CNN
+F 1 "100k" V 9070 4015 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" V 9020 3915 60  0001 C CNN
+F 3 "" V 9120 4015 60  0001 C CNN
+	1    9070 4015
+	1    0    0    -1  
+$EndComp
+$Comp
+L ower:VDD #PWR?
+U 1 1 5CD54285
+P 9070 3870
+F 0 "#PWR?" H 9070 3820 20  0001 C CNN
+F 1 "VDD" H 9070 3970 30  0000 C CNN
+F 2 "~" H 9070 3870 60  0000 C CNN
+F 3 "~" H 9070 3870 60  0000 C CNN
+	1    9070 3870
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9070 3895 9070 3870
+Wire Wire Line
+	9170 3855 9105 3855
+Wire Wire Line
+	9105 3855 9105 4135
+Wire Wire Line
+	9105 4135 9070 4135
+$Comp
+L ted_resistors:R_small R?
+U 1 1 5CD54367
+P 9270 4010
+F 0 "R?" V 9320 4010 30  0000 C CNN
+F 1 "100k" V 9270 4010 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" V 9220 3910 60  0001 C CNN
+F 3 "" V 9320 4010 60  0001 C CNN
+	1    9270 4010
+	1    0    0    -1  
+$EndComp
+$Comp
+L ower:VDD #PWR?
+U 1 1 5CD5436D
+P 9270 3865
+F 0 "#PWR?" H 9270 3815 20  0001 C CNN
+F 1 "VDD" H 9270 3965 30  0000 C CNN
+F 2 "~" H 9270 3865 60  0000 C CNN
+F 3 "~" H 9270 3865 60  0000 C CNN
+	1    9270 3865
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9270 3890 9270 3865
+Wire Wire Line
+	9370 3850 9305 3850
+Wire Wire Line
+	9305 3850 9305 4130
+Wire Wire Line
+	9305 4130 9270 4130
+$Comp
+L ted_resistors:R_small R?
+U 1 1 5CD5443A
+P 9465 4015
+F 0 "R?" V 9515 4015 30  0000 C CNN
+F 1 "100k" V 9465 4015 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" V 9415 3915 60  0001 C CNN
+F 3 "" V 9515 4015 60  0001 C CNN
+	1    9465 4015
+	1    0    0    -1  
+$EndComp
+$Comp
+L ower:VDD #PWR?
+U 1 1 5CD54440
+P 9465 3870
+F 0 "#PWR?" H 9465 3820 20  0001 C CNN
+F 1 "VDD" H 9465 3970 30  0000 C CNN
+F 2 "~" H 9465 3870 60  0000 C CNN
+F 3 "~" H 9465 3870 60  0000 C CNN
+	1    9465 3870
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9465 3895 9465 3870
+Wire Wire Line
+	9570 3855 9500 3855
+Wire Wire Line
+	9500 3855 9500 4135
+Wire Wire Line
+	9500 4135 9465 4135
+$Comp
+L ted_resistors:R_small R?
+U 1 1 5CD544FA
+P 9665 4025
+F 0 "R?" V 9715 4025 30  0000 C CNN
+F 1 "100k" V 9665 4025 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" V 9615 3925 60  0001 C CNN
+F 3 "" V 9715 4025 60  0001 C CNN
+	1    9665 4025
+	1    0    0    -1  
+$EndComp
+$Comp
+L ower:VDD #PWR?
+U 1 1 5CD54500
+P 9665 3880
+F 0 "#PWR?" H 9665 3830 20  0001 C CNN
+F 1 "VDD" H 9665 3980 30  0000 C CNN
+F 2 "~" H 9665 3880 60  0000 C CNN
+F 3 "~" H 9665 3880 60  0000 C CNN
+	1    9665 3880
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9665 3905 9665 3880
+Wire Wire Line
+	9770 3865 9700 3865
+Wire Wire Line
+	9700 3865 9700 4145
+Wire Wire Line
+	9700 4145 9665 4145
+$Comp
+L ted_resistors:R_small R?
+U 1 1 5CD54735
+P 8300 5770
+F 0 "R?" V 8350 5770 30  0000 C CNN
+F 1 "100k" V 8300 5770 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" V 8250 5670 60  0001 C CNN
+F 3 "" V 8350 5770 60  0001 C CNN
+	1    8300 5770
+	1    0    0    -1  
+$EndComp
+$Comp
+L ower:VDD #PWR?
+U 1 1 5CD5473B
+P 8300 5625
+F 0 "#PWR?" H 8300 5575 20  0001 C CNN
+F 1 "VDD" H 8300 5725 30  0000 C CNN
+F 2 "~" H 8300 5625 60  0000 C CNN
+F 3 "~" H 8300 5625 60  0000 C CNN
+	1    8300 5625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 5650 8300 5625
+Wire Wire Line
+	8405 5610 8335 5610
+Wire Wire Line
+	8335 5610 8335 5890
+Wire Wire Line
+	8335 5890 8300 5890
+$Comp
+L ted_resistors:R_small R?
+U 1 1 5CD5491F
+P 8500 5780
+F 0 "R?" V 8550 5780 30  0000 C CNN
+F 1 "100k" V 8500 5780 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" V 8450 5680 60  0001 C CNN
+F 3 "" V 8550 5780 60  0001 C CNN
+	1    8500 5780
+	1    0    0    -1  
+$EndComp
+$Comp
+L ower:VDD #PWR?
+U 1 1 5CD54925
+P 8500 5635
+F 0 "#PWR?" H 8500 5585 20  0001 C CNN
+F 1 "VDD" H 8500 5735 30  0000 C CNN
+F 2 "~" H 8500 5635 60  0000 C CNN
+F 3 "~" H 8500 5635 60  0000 C CNN
+	1    8500 5635
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 5660 8500 5635
+Wire Wire Line
+	8605 5620 8535 5620
+Wire Wire Line
+	8535 5620 8535 5900
+Wire Wire Line
+	8535 5900 8500 5900
+$Comp
+L ted_resistors:R_small R?
+U 1 1 5CD549AC
+P 8700 5760
+F 0 "R?" V 8750 5760 30  0000 C CNN
+F 1 "100k" V 8700 5760 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" V 8650 5660 60  0001 C CNN
+F 3 "" V 8750 5760 60  0001 C CNN
+	1    8700 5760
+	1    0    0    -1  
+$EndComp
+$Comp
+L ower:VDD #PWR?
+U 1 1 5CD549B2
+P 8700 5615
+F 0 "#PWR?" H 8700 5565 20  0001 C CNN
+F 1 "VDD" H 8700 5715 30  0000 C CNN
+F 2 "~" H 8700 5615 60  0000 C CNN
+F 3 "~" H 8700 5615 60  0000 C CNN
+	1    8700 5615
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 5640 8700 5615
+Wire Wire Line
+	8805 5600 8735 5600
+Wire Wire Line
+	8735 5600 8735 5880
+Wire Wire Line
+	8735 5880 8700 5880
+$Comp
+L ted_resistors:R_small R?
+U 1 1 5CD54A26
+P 8900 5770
+F 0 "R?" V 8950 5770 30  0000 C CNN
+F 1 "100k" V 8900 5770 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" V 8850 5670 60  0001 C CNN
+F 3 "" V 8950 5770 60  0001 C CNN
+	1    8900 5770
+	1    0    0    -1  
+$EndComp
+$Comp
+L ower:VDD #PWR?
+U 1 1 5CD54A2C
+P 8900 5625
+F 0 "#PWR?" H 8900 5575 20  0001 C CNN
+F 1 "VDD" H 8900 5725 30  0000 C CNN
+F 2 "~" H 8900 5625 60  0000 C CNN
+F 3 "~" H 8900 5625 60  0000 C CNN
+	1    8900 5625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 5650 8900 5625
+Wire Wire Line
+	9005 5610 8935 5610
+Wire Wire Line
+	8935 5610 8935 5890
+Wire Wire Line
+	8935 5890 8900 5890
+$Comp
+L ted_resistors:R_small R?
+U 1 1 5CD54A8F
+P 9100 5775
+F 0 "R?" V 9150 5775 30  0000 C CNN
+F 1 "100k" V 9100 5775 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" V 9050 5675 60  0001 C CNN
+F 3 "" V 9150 5775 60  0001 C CNN
+	1    9100 5775
+	1    0    0    -1  
+$EndComp
+$Comp
+L ower:VDD #PWR?
+U 1 1 5CD54A95
+P 9100 5630
+F 0 "#PWR?" H 9100 5580 20  0001 C CNN
+F 1 "VDD" H 9100 5730 30  0000 C CNN
+F 2 "~" H 9100 5630 60  0000 C CNN
+F 3 "~" H 9100 5630 60  0000 C CNN
+	1    9100 5630
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 5655 9100 5630
+Wire Wire Line
+	9205 5615 9135 5615
+Wire Wire Line
+	9135 5615 9135 5895
+Wire Wire Line
+	9135 5895 9100 5895
+$Comp
+L ted_resistors:R_small R?
+U 1 1 5CD54B2D
+P 9300 5765
+F 0 "R?" V 9350 5765 30  0000 C CNN
+F 1 "100k" V 9300 5765 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" V 9250 5665 60  0001 C CNN
+F 3 "" V 9350 5765 60  0001 C CNN
+	1    9300 5765
+	1    0    0    -1  
+$EndComp
+$Comp
+L ower:VDD #PWR?
+U 1 1 5CD54B33
+P 9300 5620
+F 0 "#PWR?" H 9300 5570 20  0001 C CNN
+F 1 "VDD" H 9300 5720 30  0000 C CNN
+F 2 "~" H 9300 5620 60  0000 C CNN
+F 3 "~" H 9300 5620 60  0000 C CNN
+	1    9300 5620
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 5645 9300 5620
+Wire Wire Line
+	9405 5605 9335 5605
+Wire Wire Line
+	9335 5605 9335 5885
+Wire Wire Line
+	9335 5885 9300 5885
+$Comp
+L ted_resistors:R_small R?
+U 1 1 5CD54BA8
+P 9500 5770
+F 0 "R?" V 9550 5770 30  0000 C CNN
+F 1 "100k" V 9500 5770 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" V 9450 5670 60  0001 C CNN
+F 3 "" V 9550 5770 60  0001 C CNN
+	1    9500 5770
+	1    0    0    -1  
+$EndComp
+$Comp
+L ower:VDD #PWR?
+U 1 1 5CD54BAE
+P 9500 5625
+F 0 "#PWR?" H 9500 5575 20  0001 C CNN
+F 1 "VDD" H 9500 5725 30  0000 C CNN
+F 2 "~" H 9500 5625 60  0000 C CNN
+F 3 "~" H 9500 5625 60  0000 C CNN
+	1    9500 5625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 5650 9500 5625
+Wire Wire Line
+	9605 5610 9535 5610
+Wire Wire Line
+	9535 5610 9535 5890
+Wire Wire Line
+	9535 5890 9500 5890
+Wire Wire Line
+	8405 5500 8405 5610
+Connection ~ 8405 5610
+Wire Wire Line
+	8605 5500 8605 5620
+Connection ~ 8605 5620
+Wire Wire Line
+	8805 5500 8805 5600
+Connection ~ 8805 5600
+Wire Wire Line
+	9005 5500 9005 5610
+Connection ~ 9005 5610
+Wire Wire Line
+	9205 5500 9205 5615
+Connection ~ 9205 5615
+Wire Wire Line
+	9405 5500 9405 5605
+Connection ~ 9405 5605
+Wire Wire Line
+	9605 5500 9605 5610
+Connection ~ 9605 5610
+Wire Wire Line
+	9805 5500 9805 5610
+Connection ~ 9805 5610
+Wire Wire Line
+	8370 3745 8370 3855
+Connection ~ 8370 3855
+Wire Wire Line
+	8570 3745 8570 3860
+Connection ~ 8570 3860
+Wire Wire Line
+	8770 3745 8770 3855
+Connection ~ 8770 3855
+Wire Wire Line
+	8970 3745 8970 3860
+Connection ~ 8970 3860
+Wire Wire Line
+	9170 3745 9170 3855
+Connection ~ 9170 3855
+Wire Wire Line
+	9370 3745 9370 3850
+Connection ~ 9370 3850
+Wire Wire Line
+	9570 3745 9570 3855
+Connection ~ 9570 3855
+Wire Wire Line
+	9770 3745 9770 3865
+Connection ~ 9770 3865
+Text Notes 8080 885  0    60   ~ 0
+24 Analog inputs with 100k resistors to VDD
+Text Notes 3935 1280 0    60   ~ 0
+3 I2C PORTS FOR ACCELEROMETERS/GYROSCOPES
+Wire Wire Line
+	8360 2195 8360 2285
+Wire Wire Line
+	8560 2175 8560 2290
+Wire Wire Line
+	8760 2205 8760 2290
+Wire Wire Line
+	8960 2210 8960 2280
+Wire Wire Line
+	9160 2195 9160 2260
+Wire Wire Line
+	9360 2190 9360 2255
+Wire Wire Line
+	9560 2190 9560 2260
+Wire Wire Line
+	9760 2185 9760 2255
+Wire Wire Line
+	8405 5610 8405 5755
+Wire Wire Line
+	8605 5620 8605 5745
+Wire Wire Line
+	8805 5600 8805 5775
+Wire Wire Line
+	9005 5610 9005 5790
+Wire Wire Line
+	9205 5615 9205 5770
+Wire Wire Line
+	9405 5605 9405 5750
+Wire Wire Line
+	9605 5610 9605 5765
+Wire Wire Line
+	9805 5610 9805 5740
+Wire Wire Line
+	8370 3855 8370 3945
+Wire Wire Line
+	8570 3860 8570 3940
+Wire Wire Line
+	8770 3855 8770 3945
+Wire Wire Line
+	8970 3860 8970 3955
+Wire Wire Line
+	9170 3855 9170 3950
+Wire Wire Line
+	9370 3850 9370 3960
+Wire Wire Line
+	9570 3855 9570 3985
+Wire Wire Line
+	9770 3865 9770 3985
+$EndSCHEMATC

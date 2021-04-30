@@ -1,0 +1,20 @@
+EESchema-LIBRARY Version 2.3  Date: Thu 14 May 2015 10:39:43 PM PDT
+#encoding utf-8
+#
+# DC_2.1mm_3pin
+#
+DEF DC_2.1mm_3pin J 0 40 Y Y 1 F N
+F0 "J" 0 -350 60 H V C CNN
+F1 "DC_2.1mm_3pin" 0 350 60 H V C CNN
+F2 "~" 0 -485 60 H I C CNN
+F3 "~" 0 0 60 H V C CNN
+DRAW
+C 0 0 127 0 1 0 N
+S -415 270 415 -285 0 1 0 N
+X VCC 1 -230 -405 118 U 59 59 1 1 P
+X GND 2 205 -405 118 U 59 59 1 1 P
+X SHUNT 3 535 155 118 L 59 59 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

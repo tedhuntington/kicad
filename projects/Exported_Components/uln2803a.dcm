@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ULN2801A
+D Darlington Transistor Arrays
+K darlington transistor array
+F http://www.promelec.ru/pdf/1536.pdf
+$ENDCMP
+#
+$CMP ULN2802A
+D Darlington Transistor Arrays
+K darlington transistor array
+F http://www.promelec.ru/pdf/1536.pdf
+$ENDCMP
+#
+$CMP ULN2803A
+D Darlington Transistor Arrays
+K darlington transistor array
+F http://www.ti.com/lit/ds/symlink/uln2803a.pdf
+$ENDCMP
+#
+$CMP ULN2804A
+D Darlington Transistor Arrays
+K darlington transistor array
+F http://www.promelec.ru/pdf/1536.pdf
+$ENDCMP
+#
+$CMP ULN2805A
+D Darlington Transistor Arrays
+K darlington transistor array
+F http://www.promelec.ru/pdf/1536.pdf
+$ENDCMP
+#
+#End Doc Library

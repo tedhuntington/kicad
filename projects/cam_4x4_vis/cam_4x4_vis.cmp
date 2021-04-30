@@ -1,0 +1,311 @@
+Cmp-Mod V01 Genere par PcbNew le Fri 15 Jan 2010 11:19:49 PM PST
+
+BeginCmp
+TimeStamp = /4ABF9DAF;
+Reference = C1;
+ValeurCmp = 10uF;
+IdModule  = TED_SM3216-18_POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B5134E4;
+Reference = C2;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B5133F7;
+Reference = C3;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B5134C2;
+Reference = C4;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B5134FA;
+Reference = C5;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AB98EEB;
+Reference = F1;
+ValeurCmp = Photoresistor;
+IdModule  = TED_photo-resistor_vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AB98EF6;
+Reference = F2;
+ValeurCmp = PHOTORESISTOR;
+IdModule  = TED_photo-resistor_vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AB98EFA;
+Reference = F3;
+ValeurCmp = PHOTORESISTOR;
+IdModule  = TED_photo-resistor_vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AB98EFD;
+Reference = F4;
+ValeurCmp = PHOTORESISTOR;
+IdModule  = TED_photo-resistor_vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AB98F00;
+Reference = F5;
+ValeurCmp = PHOTORESISTOR;
+IdModule  = TED_photo-resistor_vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AB98F02;
+Reference = F6;
+ValeurCmp = PHOTORESISTOR;
+IdModule  = TED_photo-resistor_vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AB98F04;
+Reference = F7;
+ValeurCmp = PHOTORESISTOR;
+IdModule  = TED_PHOTO-RESISTOR_VERTICAL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AB98F06;
+Reference = F8;
+ValeurCmp = PHOTORESISTOR;
+IdModule  = TED_PHOTO-RESISTOR_VERTICAL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AB98F09;
+Reference = F9;
+ValeurCmp = PHOTORESISTOR;
+IdModule  = TED_PHOTO-RESISTOR_VERTICAL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AB98F0B;
+Reference = F10;
+ValeurCmp = PHOTORESISTOR;
+IdModule  = TED_PHOTO-RESISTOR_VERTICAL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AB98F0E;
+Reference = F11;
+ValeurCmp = PHOTORESISTOR;
+IdModule  = TED_PHOTO-RESISTOR_VERTICAL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AB98F11;
+Reference = F12;
+ValeurCmp = PHOTORESISTOR;
+IdModule  = TED_PHOTO-RESISTOR_VERTICAL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AB98F14;
+Reference = F13;
+ValeurCmp = PHOTORESISTOR;
+IdModule  = TED_PHOTO-RESISTOR_VERTICAL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AB98F16;
+Reference = F14;
+ValeurCmp = PHOTORESISTOR;
+IdModule  = TED_PHOTO-RESISTOR_VERTICAL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AB98F18;
+Reference = F15;
+ValeurCmp = PHOTORESISTOR;
+IdModule  = TED_PHOTO-RESISTOR_VERTICAL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AB98F1A;
+Reference = F16;
+ValeurCmp = PHOTORESISTOR;
+IdModule  = TED_PHOTO-RESISTOR_VERTICAL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4ABB36DF;
+Reference = J1;
+ValeurCmp = IDE_10x2;
+IdModule  = TED_IDE_10x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AB9A5E8;
+Reference = J2;
+ValeurCmp = RCA_MONO_PC;
+IdModule  = TED_RCA_MONO_220572;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AB992BE;
+Reference = Q1;
+ValeurCmp = NMOSFET_GSD;
+IdModule  = TED_SOT-23-3pin_Copper_Side;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AB992C0;
+Reference = Q2;
+ValeurCmp = NMOSFET_GSD;
+IdModule  = TED_SOT-23-3pin_Copper_Side;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AB992C2;
+Reference = Q3;
+ValeurCmp = NMOSFET_GSD;
+IdModule  = TED_SOT-23-3pin_Copper_Side;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AB992C4;
+Reference = Q4;
+ValeurCmp = NMOSFET_GSD;
+IdModule  = TED_SOT-23-3pin_Copper_Side;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AB992C7;
+Reference = Q5;
+ValeurCmp = NMOSFET_GSD;
+IdModule  = TED_SOT-23-3pin_Copper_Side;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AB992C9;
+Reference = Q6;
+ValeurCmp = NMOSFET_GSD;
+IdModule  = TED_SOT-23-3pin_Copper_Side;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AB992CC;
+Reference = Q7;
+ValeurCmp = NMOSFET_GSD;
+IdModule  = TED_SOT-23-3pin_Copper_Side;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AB992D1;
+Reference = Q8;
+ValeurCmp = NMOSFET_GSD;
+IdModule  = TED_SOT-23-3pin_Copper_Side;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AB992E0;
+Reference = Q9;
+ValeurCmp = NMOSFET_GSD;
+IdModule  = TED_SOT-23-3pin_Copper_Side;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AB992E2;
+Reference = Q10;
+ValeurCmp = NMOSFET_GSD;
+IdModule  = TED_SOT-23-3pin_Copper_Side;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AB992E6;
+Reference = Q11;
+ValeurCmp = NMOSFET_GSD;
+IdModule  = TED_SOT-23-3pin_Copper_Side;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AB992E8;
+Reference = Q12;
+ValeurCmp = NMOSFET_GSD;
+IdModule  = TED_SOT-23-3pin_Copper_Side;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AB992EB;
+Reference = Q13;
+ValeurCmp = NMOSFET_GSD;
+IdModule  = TED_SOT-23-3pin_Copper_Side;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AB992ED;
+Reference = Q14;
+ValeurCmp = NMOSFET_GSD;
+IdModule  = TED_SOT-23-3pin_Copper_Side;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AB992EF;
+Reference = Q15;
+ValeurCmp = NMOSFET_GSD;
+IdModule  = TED_SOT-23-3pin_Copper_Side;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AB992F1;
+Reference = Q16;
+ValeurCmp = NMOSFET_GSD;
+IdModule  = TED_SOT-23-3pin_Copper_Side;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AB99057;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = TED_VAR_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AB9A1DD;
+Reference = U1;
+ValeurCmp = 74VHC154;
+IdModule  = TED_DIP-24;
+EndCmp
+
+BeginCmp
+TimeStamp = /4ABB02BA;
+Reference = U2;
+ValeurCmp = 74HC540;
+IdModule  = TED_DIP-20;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AB9A105;
+Reference = U3;
+ValeurCmp = 74VHC573;
+IdModule  = TED_DIP-20;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AB9A10D;
+Reference = U4;
+ValeurCmp = 74VHC573;
+IdModule  = TED_DIP-20;
+EndCmp
+
+EndListe

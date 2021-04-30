@@ -1,0 +1,65 @@
+# EESchema Netlist Version 1.1 created  Sat 01 Aug 2009 02:47:27 PM PDT
+(
+ ( /4A6D659C TED_SM0805 C1 3.3nF
+  ( 1 /Xout )
+  ( 2 /GND )
+ )
+ ( /4A6D65A4 TED_SM0805 C2 3.3nF
+  ( 1 /Zout )
+  ( 2 /GND )
+ )
+ ( /4A6D65A2 TED_SM0805 C3 3.3nF
+  ( 1 /Yout )
+  ( 2 /GND )
+ )
+ ( /4A6D6556 TED_SM0805 C4 .1uF
+  ( 1 N-000006 )
+  ( 2 /GND )
+ )
+ ( /4A6D5A07 TED_IDE_5x2 J1 IDE_5x2
+  ( 1 /Xout )
+  ( 2 /Yout )
+  ( 3 /Zout )
+  ( 4 N-000005 )
+  ( 5 N-000002 )
+  ( 6 N-000001 )
+  ( 7 /GND )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 N-000006 )
+ )
+ ( /4A6D5A4B TED_LGA-14 U1 MMA733
+  ( 2 /Xout )
+  ( 3 /Yout )
+  ( 4 /Zout )
+  ( 5 /GND )
+  ( 6 N-000006 )
+  ( 7 N-000005 )
+  ( 10 N-000002 )
+  ( 13 N-000001 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}

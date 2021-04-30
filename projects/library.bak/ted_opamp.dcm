@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0  Date: Wed 15 Apr 2009 08:48:44 PM EDT
+#
+$CMP TL071
+D Op amp.
+K AmpliOp
+F AmpliOp.sch
+$ENDCMP
+#
+#End Doc Library

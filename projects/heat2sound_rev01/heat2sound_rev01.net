@@ -1,0 +1,98 @@
+# EESchema Netlist Version 1.1 created  Sun 06 Jun 2010 03:06:25 PM PDT
+(
+ ( /4C0C123E TED_SM0805 C1 .1uF
+  ( 1 N-000013 )
+  ( 2 GND )
+ )
+ ( /4BAC20CF TED_TERMINAL_3.5MM_2PIN J1 TERMINAL_3.5MM_PCB_2PIN
+  ( 1 GND )
+  ( 2 N-000008 )
+ )
+ ( /4BAC0857 TED_DC_2.1mm J2 DC_2.1mm
+  ( 1 N-000013 )
+  ( 2 GND )
+ )
+ ( /4C01D810 TED_JMP_3x1 J3 JUMPER_3X1
+  ( 1 N-000008 )
+  ( 2 N-000007 )
+  ( 3 N-000011 )
+ )
+ ( /4C01D9BA TED_TERMINAL_3.5MM_2PIN J4 TERMINAL_3.5MM_PCB_2PIN
+  ( 1 N-000004 )
+  ( 2 GND )
+ )
+ ( /4C01DA25 TED_3.5_Stereo_ASJ-5-3 J5 3.5_STEREO
+  ( 1 N-000014 )
+  ( 2 N-000012 )
+  ( 3 N-000012 )
+ )
+ ( /4C01DB2F TED_SM0805 R1 100
+  ( 1 N-000015 )
+  ( 2 GND )
+ )
+ ( /4C01DB36 TED_SM0805 R2 100k
+  ( 1 N-000006 )
+  ( 2 N-000015 )
+ )
+ ( /4C0C0F4C TED_SM0805 R3 10k
+  ( 1 N-000005 )
+  ( 2 GND )
+ )
+ ( /4C0C0F4B TED_SM0805 R4 100k
+  ( 1 N-000004 )
+  ( 2 N-000005 )
+ )
+ ( /4C01D7F8 TED_JMP_2x2 S1 THERMOPILE_MLX90247
+  ( 1 N-000011 )
+  ( 2 ? )
+  ( 3 GND )
+  ( 4 ? )
+ )
+ ( /4C01DF2F TED_Transformer_20x15mm T1 TRANSFORMER
+  ( 1 N-000004 )
+  ( 2 GND )
+  ( 3 ? )
+  ( 4 N-000014 )
+  ( 5 ? )
+  ( 6 N-000012 )
+ )
+ ( /4C0C1225 TED_SOIC-8 U1 MCP6V02
+  ( 1 N-000006 )
+  ( 2 N-000015 )
+  ( 3 N-000007 )
+  ( 4 GND )
+  ( 5 N-000006 )
+  ( 6 N-000005 )
+  ( 7 N-000004 )
+  ( 8 N-000013 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}

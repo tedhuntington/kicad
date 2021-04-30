@@ -1,0 +1,167 @@
+# EESchema Netlist Version 1.1 created  Tue 26 Jan 2010 12:02:12 AM PST
+(
+ ( /4A63BBA9 TED_SM0805 C9 18pF
+  ( 1 N-000005 )
+  ( 2 /GND )
+ )
+ ( /4A63BBC6 TED_SM0805 C10 18pF
+  ( 1 N-000007 )
+  ( 2 /GND )
+ )
+ ( /4B3C71BF TED_SM3216-18_POL C11 10uF
+  ( 1 /+5v )
+  ( 2 /GND )
+ )
+ ( /4A63B971 TED_LED_THROUGH_HOLE D5 LED
+  ( 1 /LED_Int1 )
+  ( 2 N-000004 )
+ )
+ ( /4B597CB9 TED_LED_THROUGH_HOLE D6 LED
+  ( 1 /LED_Int1 )
+  ( 2 N-000004 )
+ )
+ ( /4B597CB8 TED_LED_THROUGH_HOLE D7 LED
+  ( 1 /LED_Int1 )
+  ( 2 N-000004 )
+ )
+ ( /4B597CAF TED_LED_THROUGH_HOLE D8 LED
+  ( 1 /LED_Int1 )
+  ( 2 N-000004 )
+ )
+ ( /4B59813D TED_3.5_Stereo J4 3.5_STEREO_SMT
+  ( 2 /GND )
+  ( 3 N-000002 )
+  ( 4 N-000002 )
+ )
+ ( /4B598186 TED_JMP_3x1 J5 PIC_or_Audio
+  ( 1 N-000003 )
+  ( 2 /LED_Int1 )
+  ( 3 N-000001 )
+ )
+ ( /4B5986E1 TED_DC_2.1mm J6 DC_2.1mm
+  ( 1 /Vin )
+  ( 2 /GND )
+ )
+ ( /4B5EA0DF TED_3.5_Stereo J7 3.5_STEREO_SMT
+  ( 2 /GND )
+  ( 3 /LED_Int1 )
+  ( 4 /LED_Int1 )
+ )
+ ( /4A63B974 TED_SM0805 R9 560
+  ( 1 N-000004 )
+  ( 2 /GND )
+ )
+ ( /4B597E59 TED_SM0805 R10 10k
+  ( 1 /+5v )
+  ( 2 /Light_F2 )
+ )
+ ( /4B597E64 TED_VAR_R2 R11 10k
+  ( 1 /GND )
+  ( 2 /Light_F2 )
+  ( 3 ? )
+ )
+ ( /4B5D651A TED_SM0805 R12 1k
+  ( 1 N-000008 )
+  ( 2 /GND )
+ )
+ ( /4B5D662C TED_SM0805 R13 20k
+  ( 1 N-000001 )
+  ( 2 N-000008 )
+ )
+ ( /4A639A4F TED_DIP-18 U5 PIC16F716
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 /+5v )
+  ( 5 /GND )
+  ( 6 N-000003 )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 /+5v )
+  ( 15 N-000007 )
+  ( 16 N-000005 )
+  ( 17 /Light_F2 )
+  ( 18 ? )
+ )
+ ( /4ADD1850 TED_TO220_NOHS U6 7805_NO_HS
+  ( 1 /Vin )
+  ( 2 /GND )
+  ( 3 /+5v )
+ )
+ ( /4B5D6404 TED_SOIC-8 U7 OPA353
+  ( 2 N-000008 )
+  ( 3 N-000002 )
+  ( 4 /GND )
+  ( 6 N-000001 )
+  ( 7 /+5v )
+ )
+ ( /4A63BBCD TED_crystal_SMT_13x5mm X2 20MHz
+  ( 1 N-000005 )
+  ( 2 N-000007 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component D5
+ D?
+ S*
+$endlist
+$component D6
+ D?
+ S*
+$endlist
+$component D7
+ D?
+ S*
+$endlist
+$component D8
+ D?
+ S*
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}

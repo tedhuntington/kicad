@@ -1,0 +1,39 @@
+PCBNEW-LibDoc----V1  Sun 23 Aug 2009 12:59:55 AM PDT
+#
+$MODULE 2cm x 2cm capacitor
+Li 2cm x 2cm capacitor
+Cd Condensateur e = 1 pas
+Kw C
+$EndMODULE
+#
+$MODULE 2cm x 2cm capacitor
+Li 2cm x 2cm capacitor
+Cd Condensateur e = 1 pas
+Kw C
+$EndMODULE
+#
+$MODULE C 2cm x 2cm
+Li C 2cm x 2cm
+Cd Condensateur e = 1 pas
+Kw C
+$EndMODULE
+#
+$MODULE C Radial 2cm x 2cm
+Li C Radial 2cm x 2cm
+Cd Condensateur e = 1 pas
+Kw C
+$EndMODULE
+#
+$MODULE C_RADIAL_2cm_x_2cm
+Li C_RADIAL_2cm_x_2cm
+Cd Condensateur e = 1 pas
+Kw C
+$EndMODULE
+#
+$MODULE TED_C_RADIAL_2cm_x_2cm
+Li TED_C_RADIAL_2cm_x_2cm
+Cd Condensateur e = 1 pas
+Kw C
+$EndMODULE
+#
+$EndLIBDOC

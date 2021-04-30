@@ -1,0 +1,155 @@
+# EESchema Netlist Version 1.1 created  Mon 14 Jun 2010 08:42:16 PM PDT
+(
+ ( /4C0BFAAF $noname  R3 100k {Lib=VAR_R_SMALL}
+  (    1 N-000003 )
+  (    2 N-000012 )
+ )
+ ( /4C0BFC7D TED_TERM_3.5MM_2PIN  J5 TERM_3.5MM_2PIN {Lib=TERM_3.5MM_2PIN}
+  (    1 /5v )
+  (    2 GND )
+ )
+ ( /4C0BDC5A $noname  D1 TVS {Lib=TVS}
+  (    1 N-000003 )
+  (    2 GND )
+ )
+ ( /4C0BD9B2 TED_TERM_3.5MM_2PIN  J4 TERM_3.5MM_2PIN {Lib=TERM_3.5MM_2PIN}
+  (    1 N-000004 )
+  (    2 N-000006 )
+ )
+ ( /4C0BD9A4 TED_TERM_3.5MM_2PIN  J3 TERM_3.5MM_2PIN {Lib=TERM_3.5MM_2PIN}
+  (    1 N-000003 )
+  (    2 GND )
+ )
+ ( /4C0BD978 $noname  T1 8:1200 {Lib=TRANSFORMER}
+  (    1 N-000012 )
+  (    2 GND )
+  (    3 ? )
+  (    4 N-000006 )
+  (    5 ? )
+  (    6 N-000004 )
+ )
+ ( /4C0BD91F TED_3.5_Stereo_ASJ-5-3  J2 3.5_STEREO {Lib=3.5_STEREO}
+  (    1 GND )
+  (    2 N-000003 )
+  (    3 N-000003 )
+ )
+ ( /4C0BD8C8 $noname  Q1 NMOSFET_GDS {Lib=NMOSFET_GDS}
+  (    1 N-000009 )
+  (    2 /5v )
+  (    3 N-000003 )
+ )
+ ( /4C0BD85A $noname  C1 1uF_50v {Lib=C(SMALL)}
+  (    1 N-000008 )
+  (    2 GND )
+ )
+ ( /4C0BD84F $noname  C2 .01uF_50v {Lib=C(SMALL)}
+  (    1 N-000010 )
+  (    2 GND )
+ )
+ ( /4C0BD807 $noname  R2 100k {Lib=VAR_R_SMALL}
+  (    1 N-000011 )
+  (    2 N-000008 )
+ )
+ ( /4C0BD7FF $noname  R1 5k {Lib=R_SMALL}
+  (    1 /5v )
+  (    2 N-000011 )
+ )
+ ( /4C0BD728 $noname  U1 NE555 {Lib=NE555}
+  (    1 GND )
+  (    2 N-000008 )
+  (    3 N-000009 )
+  (    4 /5v )
+  (    5 N-000010 )
+  (    6 N-000008 )
+  (    7 N-000011 )
+  (    8 /5v )
+ )
+ ( /4BDE4964 TED_DC_2.1mm  J1 DC_2.1MM {Lib=DC_2.1MM}
+  (    1 /5v )
+  (    2 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R3
+ R?
+ SM0603
+ SM0805
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "/5v" "5v"
+ U1 4
+ U1 8
+ J1 1
+ R1 1
+ J5 1
+ Q1 2
+Net 2 "GND" "GND"
+ C1 2
+ C2 2
+ J3 2
+ T1 2
+ J2 1
+ U1 1
+ D1 2
+ J5 2
+ J1 2
+Net 3 "" ""
+ R3 1
+ D1 1
+ Q1 3
+ J3 1
+ J2 3
+ J2 2
+Net 4 "" ""
+ J4 1
+ T1 6
+Net 6 "" ""
+ J4 2
+ T1 4
+Net 8 "" ""
+ C1 1
+ R2 2
+ U1 2
+ U1 6
+Net 9 "" ""
+ Q1 1
+ U1 3
+Net 10 "" ""
+ U1 5
+ C2 1
+Net 11 "" ""
+ R2 1
+ U1 7
+ R1 2
+Net 12 "" ""
+ T1 1
+ R3 2
+}
+#End

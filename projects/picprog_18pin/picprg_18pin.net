@@ -1,0 +1,199 @@
+# EESchema Netlist Version 1.1 created  Sat 29 May 2010 11:47:02 PM PDT
+(
+ ( /4B3C71BF $noname  C11 10uF {Lib=C_POL}
+  (    1 /+5v )
+  (    2 GND )
+ )
+ ( /4B35ACDD $noname  Q2 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 /MCLR )
+  (    2 GND )
+  (    3 /T1 )
+ )
+ ( /4B35ACB9 $noname  Q1 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 /T1 )
+  (    2 GND )
+  (    3 /T2 )
+ )
+ ( /4B35AC32 TED_TERMINAL_3.5MM_2PIN  J7 TERMINAL_3.5MM_PCB_2PIN {Lib=TERMINAL_3.5MM_PCB_2PIN}
+  (    1 /+12v )
+  (    2 GND )
+ )
+ ( /4B35AC0F $noname  J8 HEADER_6X1 {Lib=HEADER_6X1}
+  (    1 /MCLR )
+  (    2 /+5v )
+  (    3 GND )
+  (    4 /IPSPDAT )
+  (    5 /IPSPCLK )
+  (    6 ? )
+ )
+ ( /4AE59BAD SPDT_Switch  J6 SPDT_Switch {Lib=SPDT_Switch}
+  (    1 /+5v )
+  (    2 /MCLR_PIN )
+  (    3 /T2 )
+ )
+ ( /4AE59B47 $noname  R10 10k {Lib=R}
+  (    1 /+5v )
+  (    2 /T1 )
+ )
+ ( /4ADD1B90 SPDT_Switch  J5 SPDT_Switch {Lib=SPDT_Switch}
+  (    1 /+5v )
+  (    2 /+5v )
+  (    3 /+5v_ext )
+ )
+ ( /4ADD1850 $noname  U6 7805_NO_HS {Lib=7805_NO_HS}
+  (    1 /+12v )
+  (    2 GND )
+  (    3 /+5v_ext )
+ )
+ ( /4A63BBCD $noname  X2 20MHz {Lib=CRYSTAL}
+  (    1 N-000015 )
+  (    2 N-000019 )
+ )
+ ( /4A63BBC6 $noname  C10 18pF {Lib=C}
+  (    1 N-000019 )
+  (    2 GND )
+ )
+ ( /4A63BBA9 $noname  C9 18pF {Lib=C}
+  (    1 N-000015 )
+  (    2 GND )
+ )
+ ( /4A63B974 $noname  R9 560 {Lib=R}
+  (    1 N-000018 )
+  (    2 GND )
+ )
+ ( /4A63B971 $noname  D5 LED {Lib=LED}
+  (    1 /TestLED )
+  (    2 N-000018 )
+ )
+ ( /4A63A46A TED_CONNECTOR_POWER_2.5mm  J3 DC_2.5mm_PCB {Lib=DC_2.5mm_PCB}
+  (    1 /+12v )
+  (    2 GND )
+ )
+ ( /4A63A2B6 $noname  R6 10k {Lib=R}
+  (    1 /+12v )
+  (    2 /T2 )
+ )
+ ( /4A639A4F $noname  U5 PIC16F716 {Lib=PIC16F716}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 /MCLR_PIN )
+  (    5 GND )
+  (    6 /TestLED )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 /IPSPCLK )
+  (   13 /IPSPDAT )
+  (   14 /+5v )
+  (   15 N-000019 )
+  (   16 N-000015 )
+  (   17 ? )
+  (   18 ? )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+$endlist
+$component D5
+ D?
+ S*
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "GND" "GND"
+ Q1 2
+ J7 2
+ J8 3
+ U5 5
+ J3 2
+ R9 2
+ C9 2
+ C10 2
+ U6 2
+ C11 2
+ Q2 2
+Net 4 "/MCLR_PIN" "MCLR_PIN"
+ U5 4
+ J6 2
+Net 6 "/MCLR" "MCLR"
+ Q2 1
+ J8 1
+Net 7 "/+5v_ext" "+5v_ext"
+ J5 3
+ U6 3
+Net 15 "" ""
+ U5 16
+ X2 1
+ C9 1
+Net 17 "/TestLED" "TestLED"
+ U5 6
+ D5 1
+Net 18 "" ""
+ D5 2
+ R9 1
+Net 19 "" ""
+ X2 2
+ C10 1
+ U5 15
+Net 21 "/IPSPCLK" "IPSPCLK"
+ J8 5
+ U5 12
+Net 22 "/+12v" "+12v"
+ U6 1
+ J3 1
+ J7 1
+ R6 1
+Net 23 "/T1" "T1"
+ Q2 3
+ Q1 1
+ R10 2
+Net 24 "/+5v" "+5v"
+ J8 2
+ J5 1
+ J5 2
+ J6 1
+ R10 1
+ C11 1
+ U5 14
+Net 25 "/IPSPDAT" "IPSPDAT"
+ U5 13
+ J8 4
+Net 26 "/T2" "T2"
+ Q1 3
+ R6 2
+ J6 3
+}
+#End

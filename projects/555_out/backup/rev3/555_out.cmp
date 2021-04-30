@@ -1,0 +1,101 @@
+Cmp-Mod V01 Created by CvPCB (20100330 SVN-R2491)-final date = Sun 06 Jun 2010 12:54:31 PM PDT
+
+BeginCmp
+TimeStamp = /4C0BD85A;
+Reference = C1;
+ValeurCmp = 1uF_50v;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C0BD84F;
+Reference = C2;
+ValeurCmp = .01uF_50v;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C0BDC5A;
+Reference = D1;
+ValeurCmp = TVS;
+IdModule  = TED_DO-214AB;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDE4964;
+Reference = J1;
+ValeurCmp = DC_2.1MM;
+IdModule  = TED_DC_2.1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C0BD91F;
+Reference = J2;
+ValeurCmp = 3.5_STEREO;
+IdModule  = TED_3.5_Stereo_ASJ-5-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C0BD9A4;
+Reference = J3;
+ValeurCmp = TERM_3.5MM_2PIN;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C0BD9B2;
+Reference = J4;
+ValeurCmp = TERM_3.5MM_2PIN;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C0BFC7D;
+Reference = J5;
+ValeurCmp = TERM_3.5MM_2PIN;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C0BD8C8;
+Reference = Q1;
+ValeurCmp = NMOSFET_GDS;
+IdModule  = TED_TO220_NOHS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C0BD7FF;
+Reference = R1;
+ValeurCmp = 5k;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C0BD807;
+Reference = R2;
+ValeurCmp = 100k;
+IdModule  = TED_VAR_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C0BFAAF;
+Reference = R3;
+ValeurCmp = 100k;
+IdModule  = TED_VAR_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C0BD978;
+Reference = T1;
+ValeurCmp = 8:1200;
+IdModule  = TED_Transformer_20x15mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C0BD728;
+Reference = U1;
+ValeurCmp = NE555;
+IdModule  = TED_DIP-8;
+EndCmp
+
+EndListe

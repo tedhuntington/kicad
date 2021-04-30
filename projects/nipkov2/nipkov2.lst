@@ -1,0 +1,51 @@
+eeschema (20090413 SVN-R1715)  >> Creation date: Sat 18 Apr 2009 10:35:15 PM EDT
+
+#Cmp ( order = Reference )
+| C1         .1uF        
+| C2         4.7uF       
+| C3         680uF       
+| D1         tvs 250watt 6.8V
+| D2         5V          
+| J1         TERMINAL_3.5MM_PCB
+| J2         TERMINAL_3.5MM_PCB
+| J3         TERMINAL_3.5MM_PCB
+| J4         TERMINAL_3.5MM_PCB
+| J5         TERMINAL_3.5MM_PCB
+| J6         TERMINAL_3.5MM_PCB
+| J7         TERMINAL_3.5MM_PCB
+| J8         TERMINAL_3.5MM_PCB
+| Q1         IRF1405     
+| R1         1k          
+| R2         1k          
+| R3         1M          
+| R4         1k          
+| U1         LM7805      
+| U2         NE555       
+| U3         OPA353      
+#End Cmp
+
+#Cmp ( order = Value )
+| .1uF         C1        
+| 1k           R1        
+| 1k           R2        
+| 1k           R4        
+| 1M           R3        
+| 4.7uF        C2        
+| 5V           D2        
+| 680uF        C3        
+| IRF1405      Q1        
+| LM7805       U1        
+| NE555        U2        
+| OPA353       U3        
+| TERMINAL_3.5MM_PCB J1        
+| TERMINAL_3.5MM_PCB J2        
+| TERMINAL_3.5MM_PCB J3        
+| TERMINAL_3.5MM_PCB J4        
+| TERMINAL_3.5MM_PCB J5        
+| TERMINAL_3.5MM_PCB J6        
+| TERMINAL_3.5MM_PCB J7        
+| TERMINAL_3.5MM_PCB J8        
+| tvs 250watt 6.8V D1        
+#End Cmp
+
+#End List

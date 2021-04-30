@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0  Date: Sun 28 Mar 2010 11:17:01 PM PDT
+#
+$CMP LM358
+D Op amp.
+K AmpliOp
+F ../docs/opa353
+$ENDCMP
+#
+#End Doc Library

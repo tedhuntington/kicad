@@ -1,0 +1,146 @@
+# EESchema Netlist Version 1.1 created  Sat 18 Apr 2009 06:37:29 PM EDT
+(
+ ( /49E6CB67 C Radial 2cm x 2cm C1 .1uF
+  ( 1 ? )
+  ( 2 ? )
+ )
+ ( /49EA25FC SM3216-18 C2 4.7uF
+  ( 1 ? )
+  ( 2 ? )
+ )
+ ( /49E6D69C $noname$ C3 680uF
+  ( 1 ? )
+  ( 2 ? )
+ )
+ ( /49E6C272 $noname$ D1 tvs_250watt_6.8V
+  ( 1 ? )
+  ( 2 ? )
+ )
+ ( /49E6C244 $noname$ D2 5V
+  ( 1 ? )
+  ( 2 ? )
+ )
+ ( /49E547E2 $noname$ J1 TERMINAL_3.5MM_PCB
+  ( 1 ? )
+  ( 2 ? )
+ )
+ ( /49E548CF $noname$ J2 TERMINAL_3.5MM_PCB
+  ( 1 ? )
+  ( 2 ? )
+ )
+ ( /49E550E4 $noname$ J3 TERMINAL_3.5MM_PCB
+  ( 1 ? )
+  ( 2 ? )
+ )
+ ( /49E548D6 $noname$ J4 TERMINAL_3.5MM_PCB
+  ( 1 ? )
+  ( 2 ? )
+ )
+ ( /49E547F9 $noname$ J5 TERMINAL_3.5MM_PCB
+  ( 1 ? )
+  ( 2 ? )
+ )
+ ( /49E54836 $noname$ J6 TERMINAL_3.5MM_PCB
+  ( 1 ? )
+  ( 2 ? )
+ )
+ ( /49E550D6 $noname$ J7 TERMINAL_3.5MM_PCB
+  ( 1 ? )
+  ( 2 ? )
+ )
+ ( /49E54822 $noname$ J8 TERMINAL_3.5MM_PCB
+  ( 1 ? )
+  ( 2 ? )
+ )
+ ( /49E6C218 $noname$ Q1 IRF1405
+  ( D GND )
+  ( G ? )
+  ( S ? )
+ )
+ ( /49E6CB4F $noname$ R1 1k
+  ( 1 ? )
+  ( 2 ? )
+ )
+ ( /49E6CB3D $noname$ R2 1k
+  ( 1 ? )
+  ( 2 ? )
+ )
+ ( /49E6CB03 $noname$ R3 1M
+  ( 1 ? )
+  ( 2 ? )
+ )
+ ( /49E6CB33 $noname$ R4 1k
+  ( 1 ? )
+  ( 2 ? )
+ )
+ ( /49E6BF44 $noname$ U1 LM7805
+  ( GND ? )
+  ( VI ? )
+  ( VO ? )
+ )
+ ( /49E6BE35 $noname$ U2 NE555
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 ? )
+ )
+ ( /49E68302 $noname$ U3 OPA353
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 ? )
+  ( 6 ? )
+  ( 7 ? )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component D2
+ D?
+ SO*
+ SM*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}

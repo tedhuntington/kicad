@@ -1,0 +1,237 @@
+# EESchema Netlist Version 1.1 created  Fri 18 Jun 2010 02:56:25 PM PDT
+(
+ ( /4C01DB16 TED_SM0805 C1 .1uF
+  ( 1 N-000001 )
+  ( 2 GND )
+ )
+ ( /4C1BC00F TED_SM0805 C2 10uF
+  ( 1 N-000006 )
+  ( 2 N-000007 )
+ )
+ ( /4C1BC03F TED_SM0805 C3 10uF
+  ( 1 N-000021 )
+  ( 2 N-000027 )
+ )
+ ( /4C1BE775 TED_SM0805 C4 .1uF
+  ( 1 N-000013 )
+  ( 2 GND )
+ )
+ ( /4C1BE8E1 TED_SM0805 C5 1uF
+  ( 1 N-000010 )
+  ( 2 ? )
+ )
+ ( /4C1BE900 TED_SM0805 C6 1uF
+  ( 1 N-000011 )
+  ( 2 GND )
+ )
+ ( /4C1BE904 TED_SM0805 C7 1uF
+  ( 1 N-000008 )
+  ( 2 N-000010 )
+ )
+ ( /4C1BE90A TED_SM0805 C8 1uF
+  ( 1 /-5v )
+  ( 2 N-000011 )
+ )
+ ( /4C1BEA36 TED_SM3216-18_POL C9 10uF
+  ( 1 /-5v )
+  ( 2 GND )
+ )
+ ( /4C1BEAEF TED_SM0805 C10 .1uF
+  ( 1 N-000005 )
+  ( 2 GND )
+ )
+ ( /4C1BE915 TED_SOD-80_Minimelf D1 DIODE
+  ( 1 GND )
+  ( 2 N-000010 )
+ )
+ ( /4C1BE95E TED_SOD-80_Minimelf D2 DIODE
+  ( 1 N-000010 )
+  ( 2 N-000011 )
+ )
+ ( /4C1BE946 TED_SOD-80_Minimelf D3 DIODE
+  ( 1 N-000011 )
+  ( 2 N-000008 )
+ )
+ ( /4C1BE995 TED_SOD-80_Minimelf D4 DIODE
+  ( 1 N-000008 )
+  ( 2 /-5v )
+ )
+ ( /4BAC20CF TED_TERMINAL_3.5MM_2PIN J1 TERMINAL_3.5MM_PCB_2PIN
+  ( 1 N-000020 )
+  ( 2 N-000016 )
+ )
+ ( /4BAC0857 TED_DC_2.1mm J2 DC_2.1mm
+  ( 1 N-000001 )
+  ( 2 GND )
+ )
+ ( /4C01D810 TED_JMP_3x1 J3 JUMPER_3X1
+  ( 1 N-000016 )
+  ( 2 N-000006 )
+  ( 3 N-000017 )
+ )
+ ( /4C01D9BA TED_TERMINAL_3.5MM_2PIN J4 TERMINAL_3.5MM_PCB_2PIN
+  ( 1 N-000014 )
+  ( 2 GND )
+ )
+ ( /4C01DA25 TED_3.5_Stereo_ASJ-5-3 J5 3.5_STEREO
+  ( 1 N-000025 )
+  ( 2 N-000028 )
+  ( 3 N-000028 )
+ )
+ ( /4C1BBFA6 TED_JMP_3x1 J6 JUMPER_3X1
+  ( 1 N-000020 )
+  ( 2 N-000021 )
+  ( 3 N-000022 )
+ )
+ ( /4C1BE6C3 TED_JMP_3x1 J7 JUMPER_3X1
+  ( 1 /-5v )
+  ( 2 N-000015 )
+  ( 3 GND )
+ )
+ ( /4C01DB2F TED_SM0805 R1 10k
+  ( 1 N-000027 )
+  ( 2 GND )
+ )
+ ( /4C01DB36 TED_SM0805 R2 10M
+  ( 1 N-000014 )
+  ( 2 N-000027 )
+ )
+ ( /4C1BBFFB TED_SM0805 R3 10k
+  ( 1 N-000007 )
+  ( 2 GND )
+ )
+ ( /4C1BE7BD TED_SM0805 R4 5k
+  ( 1 N-000001 )
+  ( 2 ? )
+ )
+ ( /4C1BE7C2 TED_SM0805 R5 100k
+  ( 1 N-000026 )
+  ( 2 N-000013 )
+ )
+ ( /4C01D7F8 TED_JMP_2x2 S1 THERMOPILE_MLX90247
+  ( 1 N-000017 )
+  ( 2 ? )
+  ( 3 N-000022 )
+  ( 4 ? )
+ )
+ ( /4C01DF2F TED_Transformer_20x15mm T1 TRANSFORMER
+  ( 1 N-000014 )
+  ( 2 GND )
+  ( 3 ? )
+  ( 4 N-000025 )
+  ( 5 ? )
+  ( 6 N-000028 )
+ )
+ ( /4C01D9A1 TED_SOIC-8 U1 OPAMP
+  ( 2 N-000027 )
+  ( 3 N-000007 )
+  ( 4 N-000015 )
+  ( 6 N-000014 )
+  ( 7 N-000001 )
+ )
+ ( /4C1BE6D4 TED_DIP-8 U2 NE555
+  ( 1 GND )
+  ( 2 N-000013 )
+  ( 3 ? )
+  ( 4 N-000001 )
+  ( 5 N-000005 )
+  ( 6 N-000013 )
+  ( 7 N-000026 )
+  ( 8 N-000001 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component D3
+ D?
+ S*
+$endlist
+$component D4
+ D?
+ S*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}

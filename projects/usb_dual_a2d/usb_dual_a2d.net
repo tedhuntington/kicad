@@ -1,0 +1,619 @@
+# EESchema Netlist Version 1.1 created  Wed 02 Sep 2009 07:22:09 PM PDT
+(
+ ( /4A62C97F TED_SM0805 C1 .1uF
+  ( 1 /+5v )
+  ( 2 /GND )
+ )
+ ( /4A62CC20 TED_SM0805 C2 .1uF
+  ( 1 /+3.3v )
+  ( 2 /GND )
+ )
+ ( /4A62C64E TED_SM0805 C3 .1uF
+  ( 1 /+3.3v )
+  ( 2 /GND )
+ )
+ ( /4A62C5AD TED_SM3216-18_POL C4 2.2uF
+  ( 1 /+3.3v )
+  ( 2 /GND )
+ )
+ ( /4A62C9B6 TED_SM3216-18_POL C5 10uF_low_ESR
+  ( 1 /+3.3v )
+  ( 2 /GND )
+ )
+ ( /4A62C4BB TED_SM0805 C6 12pF
+  ( 1 /XTALOUT )
+  ( 2 /GND )
+ )
+ ( /4A62C4AA TED_SM0805 C7 12pF
+  ( 1 /XTALIN )
+  ( 2 /GND )
+ )
+ ( /4A62C5F4 TED_SM0805 C8 .1uF
+  ( 1 N-000009 )
+  ( 2 /GND )
+ )
+ ( /4A6BFC37 TED_SM3216-18_POL C9 4.7uF
+  ( 1 /+5v )
+  ( 2 /GND )
+ )
+ ( /4A6BFC3B TED_SM3216-18_POL C10 4.7uF
+  ( 1 /+5v )
+  ( 2 /GND )
+ )
+ ( /4A6BFC40 TED_SM3216-18_POL C11 4.7uF
+  ( 1 /+4v )
+  ( 2 /GND )
+ )
+ ( /4A6BFC53 TED_SM3216-18_POL C12 4.7uF
+  ( 1 /+5v )
+  ( 2 /GND )
+ )
+ ( /4A6BFC56 TED_SM3216-18_POL C13 4.7uF
+  ( 1 /+5v )
+  ( 2 /GND )
+ )
+ ( /4A6BFC59 TED_SM3216-18_POL C14 4.7uF
+  ( 1 /+4v )
+  ( 2 /GND )
+ )
+ ( /4A6BFC32 TED_SM3216-18_POL C15 4.7uF
+  ( 1 /+5v )
+  ( 2 /GND )
+ )
+ ( /4A6C06FE TED_SM3216-18_POL C16 4.7uF
+  ( 1 /+5v )
+  ( 2 /GND )
+ )
+ ( /4A6BF673 TED_SM0805 C17 36pF
+  ( 1 N-000025 )
+  ( 2 /GND )
+ )
+ ( /4A6BFBBB TED_SM0805 C18 100pF
+  ( 1 /Ain1 )
+  ( 2 /GND )
+ )
+ ( /4A6BFBBE TED_SM0805 C19 100pF
+  ( 1 /Ain2 )
+  ( 2 /GND )
+ )
+ ( /4A6BFC4F TED_SM3216-18_POL C20 4.7uF
+  ( 1 /+5v )
+  ( 2 /GND )
+ )
+ ( /4A6BFC5C TED_SM3216-18_POL C21 4.7uF
+  ( 1 /+5v )
+  ( 2 /GND )
+ )
+ ( /4A6BFCB6 TED_SM3216-18_POL C22 4.7uF
+  ( 1 /+4v )
+  ( 2 /GND )
+ )
+ ( /4A6BFCC3 TED_SM0805 C23 .1uF
+  ( 1 /+4v )
+  ( 2 /GND )
+ )
+ ( /4A6BFCB2 TED_SM3216-18_POL C24 4.7uF
+  ( 1 /+4v )
+  ( 2 /GND )
+ )
+ ( /4A6BF67D TED_SM0805 C25 36pF
+  ( 1 N-000005 )
+  ( 2 /GND )
+ )
+ ( /4A6BFCBF TED_SM0805 C26 .1uF
+  ( 1 /+4v )
+  ( 2 /GND )
+ )
+ ( /4A62CAC3 TED_SM1206 D1 RED_LED
+  ( 1 N-000008 )
+  ( 2 /GND )
+ )
+ ( /4A62CAA7 TED_SM1206 D2 GREEN_LED
+  ( 1 N-000007 )
+  ( 2 /GND )
+ )
+ ( /4A627253 TED_USB J1 USB
+  ( 1 /+5v )
+  ( 2 /DMINUS )
+  ( 3 /DPLUS )
+  ( 4 /GND )
+  ( 5 N-000009 )
+ )
+ ( /4A6BF3B8 TED_RCA_MONO_220572 J2 RCA_MONO_PC
+  ( 1 /GND )
+  ( 2 N-000028 )
+ )
+ ( /4A6BF561 TED_RCA_MONO_220572 J3 RCA_MONO_PC
+  ( 1 /GND )
+  ( 2 N-000026 )
+ )
+ ( /4A6BF558 TED_3.5_Stereo J4 3.5_STEREO_SMT
+  ( 2 /GND )
+  ( 3 N-000026 )
+  ( 4 N-000026 )
+ )
+ ( /4A6BF3D4 TED_3.5_Stereo J5 3.5_STEREO_SMT
+  ( 2 /GND )
+  ( 3 N-000028 )
+  ( 4 N-000028 )
+ )
+ ( /4A6BF3EF TED_SCREWLESS_TERM_2x1 J6 5v_GND
+  ( 1 /GND )
+  ( 2 N-000026 )
+ )
+ ( /4A6BF3F6 TED_SCREWLESS_TERM_2x1 J7 30v_15v
+  ( 1 N-000003 )
+  ( 2 N-000013 )
+ )
+ ( /4A6BF3A6 TED_SCREWLESS_TERM_2x1 J8 5v_GND
+  ( 1 /GND )
+  ( 2 N-000028 )
+ )
+ ( /4A6BF3E1 TED_SCREWLESS_TERM_2x1 J9 30v_15v
+  ( 1 N-000018 )
+  ( 2 N-000002 )
+ )
+ ( /4A62CAC9 TED_SM0805 R1 560
+  ( 1 N-000008 )
+  ( 2 /+5v )
+ )
+ ( /4A62CAF2 TED_SM0805 R2 390
+  ( 1 N-000007 )
+  ( 2 /+3.3v )
+ )
+ ( /4A62C330 TED_SM0805 R3 2.2k
+  ( 1 /+3.3v )
+  ( 2 /SDA )
+ )
+ ( /4A62C341 TED_SM0805 R4 2.2k
+  ( 1 /+3.3v )
+  ( 2 /SCL )
+ )
+ ( /4A62C3A6 TED_SM0805 R5 100k
+  ( 1 /+3.3v )
+  ( 2 N-000010 )
+ )
+ ( /4A6BF64C TED_SM0805 R6 2M
+  ( 1 N-000006 )
+  ( 2 N-000025 )
+ )
+ ( /4A6BF65B TED_SM0805 R7 200
+  ( 1 N-000005 )
+  ( 2 N-000006 )
+ )
+ ( /4A6BFBB4 TED_SM0805 R8 50
+  ( 1 N-000004 )
+  ( 2 /Ain1 )
+ )
+ ( /4A6BFBB7 TED_SM0805 R9 50
+  ( 1 N-000012 )
+  ( 2 /Ain2 )
+ )
+ ( /4A6C1067 TED_SM0805 R10 10k
+  ( 1 N-000026 )
+  ( 2 N-000003 )
+ )
+ ( /4A6C1056 TED_SM0805 R11 1k
+  ( 1 /AmpIn2 )
+  ( 2 N-000026 )
+ )
+ ( /4A6C1071 TED_SM0805 R12 15k
+  ( 1 N-000003 )
+  ( 2 N-000013 )
+ )
+ ( /4A6C1285 TED_SM0805 R13 1k
+  ( 1 /AmpIn1 )
+  ( 2 N-000028 )
+ )
+ ( /4A6C128A TED_SM0805 R14 15k
+  ( 1 N-000018 )
+  ( 2 N-000002 )
+ )
+ ( /4A6C132D TED_SM0805 R15 4k
+  ( 1 /GND )
+  ( 2 /AmpIn1 )
+ )
+ ( /4A6C1287 TED_SM0805 R16 10k
+  ( 1 N-000028 )
+  ( 2 N-000018 )
+ )
+ ( /4A6C1387 TED_SM0805 R17 4k
+  ( 1 /GND )
+  ( 2 /AmpIn2 )
+ )
+ ( /4A9F27D9 TED_SM0805 R18 100k
+  ( 1 N-000014 )
+  ( 2 /GND )
+ )
+ ( /4A629397 TED_SSOP56 U1 CY7C68013A
+  ( 1 /P13 )
+  ( 2 /P14 )
+  ( 3 /P15 )
+  ( 4 /GND )
+  ( 5 ? )
+  ( 6 /+3.3v )
+  ( 7 /GND )
+  ( 8 /+3.3v )
+  ( 9 /ASYNC_CLK )
+  ( 10 /+3.3v )
+  ( 11 /XTALOUT )
+  ( 12 /XTALIN )
+  ( 13 /GND )
+  ( 14 /+3.3v )
+  ( 15 /DPLUS )
+  ( 16 /DMINUS )
+  ( 17 /GND )
+  ( 18 /+3.3v )
+  ( 19 /GND )
+  ( 20 ? )
+  ( 21 /GND )
+  ( 22 /SCL )
+  ( 23 /SDA )
+  ( 24 /+3.3v )
+  ( 25 /P0 )
+  ( 26 /P1 )
+  ( 27 /P2 )
+  ( 28 /P3 )
+  ( 29 /P4 )
+  ( 30 /P5 )
+  ( 31 /P6 )
+  ( 32 /P7 )
+  ( 33 /GND )
+  ( 34 /+3.3v )
+  ( 35 /GND )
+  ( 36 ? )
+  ( 37 ? )
+  ( 38 ? )
+  ( 39 /+3.3v )
+  ( 40 ? )
+  ( 41 ? )
+  ( 42 /+3.3v )
+  ( 43 ? )
+  ( 44 /GND )
+  ( 45 /+3.3v )
+  ( 46 ? )
+  ( 47 ? )
+  ( 48 /GND )
+  ( 49 N-000010 )
+  ( 50 /+3.3v )
+  ( 51 N-000014 )
+  ( 52 /P8 )
+  ( 53 /P9 )
+  ( 54 /P10 )
+  ( 55 /P11 )
+  ( 56 /P12 )
+ )
+ ( /4A62B5C2 TED_3v_DPAK U2 Regulator_3.3V
+  ( 1 /GND )
+  ( 2 /+3.3v )
+  ( 3 /+5v )
+ )
+ ( /4A62AD37 TED_DIP-8 U3 EPROM
+  ( 1 /+3.3v )
+  ( 2 /GND )
+  ( 3 /GND )
+  ( 4 /GND )
+  ( 5 /SDA )
+  ( 6 /SCL )
+  ( 7 /GND )
+  ( 8 /+3.3v )
+ )
+ ( /4A6BFBD6 TED_SOT-23-5 U4 7804
+  ( 1 /GND )
+  ( 2 /+5v )
+  ( 3 /+4v )
+ )
+ ( /4A6AD573 TED_SO-24 U5 TLC5510A
+  ( 1 /GND )
+  ( 2 /GND )
+  ( 3 /P0 )
+  ( 4 /P1 )
+  ( 5 /P2 )
+  ( 6 /P3 )
+  ( 7 /P4 )
+  ( 8 /P5 )
+  ( 9 /P6 )
+  ( 10 /P7 )
+  ( 11 /+5v )
+  ( 12 /ASYNC_CLK )
+  ( 13 /+5v )
+  ( 14 /+5v )
+  ( 15 /+5v )
+  ( 16 /+5v )
+  ( 17 /+4v )
+  ( 18 /+5v )
+  ( 19 /Ain1 )
+  ( 20 /GND )
+  ( 21 /GND )
+  ( 22 /GND )
+  ( 23 /GND )
+  ( 24 /GND )
+ )
+ ( /4A6AD580 TED_SO-24 U6 TLC5510A
+  ( 1 /GND )
+  ( 2 /GND )
+  ( 3 /P8 )
+  ( 4 /P9 )
+  ( 5 /P10 )
+  ( 6 /P11 )
+  ( 7 /P12 )
+  ( 8 /P13 )
+  ( 9 /P14 )
+  ( 10 /P15 )
+  ( 11 /+5v )
+  ( 12 /ASYNC_CLK )
+  ( 13 /+5v )
+  ( 14 /+5v )
+  ( 15 /+5v )
+  ( 16 /+5v )
+  ( 17 /+4v )
+  ( 18 /+5v )
+  ( 19 /Ain2 )
+  ( 20 /GND )
+  ( 21 /GND )
+  ( 22 /GND )
+  ( 23 /GND )
+  ( 24 /GND )
+ )
+ ( /4A6AD697 TED_SC-70 U7 CRYSTAL_DRIVER
+  ( 2 /GND )
+  ( 3 N-000025 )
+  ( 4 N-000006 )
+  ( 5 /+5v )
+  ( 6 /ASYNC_CLK )
+ )
+ ( /4A6BF370 TED_SO08 U8 OPA353
+  ( 2 N-000004 )
+  ( 3 /AmpIn1 )
+  ( 4 /GND )
+  ( 6 N-000004 )
+  ( 7 /+4v )
+ )
+ ( /4A6BF384 TED_SO08 U9 OPA353
+  ( 2 N-000012 )
+  ( 3 /AmpIn2 )
+  ( 4 /GND )
+  ( 6 N-000012 )
+  ( 7 /+4v )
+ )
+ ( /4A62C3F8 TED_crystal_SMT_13x5mm X1 24MHz
+  ( 1 /XTALOUT )
+  ( 2 /XTALIN )
+ )
+ ( /4A6BF628 TED_crystal_SMT_13x5mm X2 10-20Mhz
+  ( 1 N-000025 )
+  ( 2 N-000005 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component C13
+ SM*
+ C?
+ C1-1
+$endlist
+$component C14
+ SM*
+ C?
+ C1-1
+$endlist
+$component C15
+ SM*
+ C?
+ C1-1
+$endlist
+$component C16
+ SM*
+ C?
+ C1-1
+$endlist
+$component C17
+ SM*
+ C?
+ C1-1
+$endlist
+$component C18
+ SM*
+ C?
+ C1-1
+$endlist
+$component C19
+ SM*
+ C?
+ C1-1
+$endlist
+$component C20
+ SM*
+ C?
+ C1-1
+$endlist
+$component C21
+ SM*
+ C?
+ C1-1
+$endlist
+$component C22
+ SM*
+ C?
+ C1-1
+$endlist
+$component C23
+ SM*
+ C?
+ C1-1
+$endlist
+$component C24
+ SM*
+ C?
+ C1-1
+$endlist
+$component C25
+ SM*
+ C?
+ C1-1
+$endlist
+$component C26
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R16
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R17
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R18
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}

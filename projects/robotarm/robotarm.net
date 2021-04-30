@@ -1,0 +1,328 @@
+# EESchema Netlist Version 1.1 created  Sun 25 Aug 2013 01:40:33 PM PDT
+(
+ ( /52197AB4 $noname  U2 DRV8836 {Lib=DRV8836}
+  (   PP GND )
+  (    1 /+7v )
+  (    2 N-000003 )
+  (    3 N-000017 )
+  (    4 N-000018 )
+  (    5 N-000019 )
+  (    6 GND )
+  (    7 N-000015 )
+  (    8 N-000005 )
+  (    9 N-000016 )
+  (   10 N-000004 )
+  (   11 GND )
+  (   12 /+7v )
+ )
+ ( /52197477 $noname  C11 .1_uF {Lib=C(SMALL)}
+  (    1 /+7v )
+  (    2 GND )
+ )
+ ( /521973EB $noname  C10 .1_uF {Lib=C(SMALL)}
+  (    1 /+7v )
+  (    2 GND )
+ )
+ ( /521973A7 $noname  C9 .1_uF {Lib=C(small)}
+  (    1 /+7v )
+  (    2 GND )
+ )
+ ( /5219732B $noname  J6 HEADER_5x2 {Lib=HEADER_5x2}
+  (    1 N-000017 )
+  (    2 N-000019 )
+  (    3 N-000020 )
+  (    4 N-000021 )
+  (    5 N-000012 )
+  (    6 N-000010 )
+  (    7 N-000001 )
+  (    8 N-000002 )
+  (    9 N-000018 )
+  (   10 N-000003 )
+ )
+ ( /52194AC6 $noname  U3 DRV8836 {Lib=DRV8836}
+  (   PP GND )
+  (    1 /+7v )
+  (    2 N-000012 )
+  (    3 N-000010 )
+  (    4 N-000012 )
+  (    5 N-000010 )
+  (    6 GND )
+  (    7 N-000008 )
+  (    8 N-000009 )
+  (    9 N-000008 )
+  (   10 N-000009 )
+  (   11 GND )
+  (   12 /+7v )
+ )
+ ( /52194AA9 $noname  U4 DRV8836 {Lib=DRV8836}
+  (   PP GND )
+  (    1 /+7v )
+  (    2 N-000020 )
+  (    3 N-000002 )
+  (    4 N-000021 )
+  (    5 N-000001 )
+  (    6 GND )
+  (    7 N-000006 )
+  (    8 N-000014 )
+  (    9 N-000007 )
+  (   10 N-000013 )
+  (   11 GND )
+  (   12 /+7v )
+ )
+ ( /4C0428BF TED_DC_2.1mm  J5 DC_2.1MM {Lib=DC_2.1MM}
+  (    1 /+7v )
+  (    2 GND )
+ )
+ ( /4BB06042 $noname  U1 PIC18F2455 {Lib=PIC18F2455}
+  (    1 /+7v )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 GND )
+  (    9 /OSC1 )
+  (   10 /OSC2 )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 /Vusb )
+  (   15 /D- )
+  (   16 /D+ )
+  (   17 N-000009 )
+  (   18 N-000008 )
+  (   19 GND )
+  (   20 /+7v )
+  (   21 N-000006 )
+  (   22 N-000014 )
+  (   23 N-000007 )
+  (   24 N-000013 )
+  (   25 N-000015 )
+  (   26 N-000005 )
+  (   27 N-000016 )
+  (   28 N-000004 )
+ )
+ ( /4B3B18ED $noname  C7 .47uF {Lib=C_POL}
+  (    1 /Vusb )
+  (    2 GND )
+ )
+ ( /4B3B18A6 $noname  C8 10uF {Lib=C_POL}
+  (    1 /+5v )
+  (    2 GND )
+ )
+ ( /4B3B1861 $noname  R5 1M {Lib=R}
+  (    1 /OSC2 )
+  (    2 /OSC1 )
+ )
+ ( /4B07A1B2 $noname  C4 .1uF {Lib=C}
+  (    1 /USB_SHELL )
+  (    2 GND )
+ )
+ ( /4B07A153 $noname  J4 USB {Lib=USB}
+  (    1 /+5v )
+  (    2 /D- )
+  (    3 /D+ )
+  (    4 GND )
+  (    5 /USB_SHELL )
+ )
+ ( /4AE127E6 $noname  C3 18pF {Lib=C}
+  (    1 /OSC2 )
+  (    2 GND )
+ )
+ ( /4AE127E1 $noname  C2 18pF {Lib=C}
+  (    1 /OSC1 )
+  (    2 GND )
+ )
+ ( /4AE126E3 $noname  C1 10uF {Lib=C_POL}
+  (    1 /+7v )
+  (    2 GND )
+ )
+ ( /4AE126A1 $noname  X1 20mhz {Lib=CRYSTAL}
+  (    1 /OSC1 )
+  (    2 /OSC2 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ J6 7
+ U4 5
+Net 2 "" ""
+ J6 8
+ U4 3
+Net 3 "" ""
+ U2 2
+ J6 10
+Net 4 "" ""
+ U2 10
+ U1 28
+Net 5 "" ""
+ U2 8
+ U1 26
+Net 6 "" ""
+ U4 7
+ U1 21
+Net 7 "" ""
+ U4 9
+ U1 23
+Net 8 "" ""
+ U3 7
+ U3 9
+ U1 18
+Net 9 "" ""
+ U3 8
+ U3 10
+ U1 17
+Net 10 "" ""
+ J6 6
+ U3 5
+ U3 3
+Net 11 "GND" "GND"
+ U2 11
+ U2 PP
+ U2 6
+ C11 2
+ C10 2
+ C9 2
+ U3 11
+ U3 PP
+ U3 6
+ U4 11
+ U4 PP
+ U4 6
+ J5 2
+ U1 19
+ U1 8
+ C7 2
+ C8 2
+ C4 2
+ J4 4
+ C3 2
+ C2 2
+ C1 2
+Net 12 "" ""
+ J6 5
+ U3 4
+ U3 2
+Net 13 "" ""
+ U4 10
+ U1 24
+Net 14 "" ""
+ U4 8
+ U1 22
+Net 15 "" ""
+ U2 7
+ U1 25
+Net 16 "" ""
+ U2 9
+ U1 27
+Net 17 "" ""
+ U2 3
+ J6 1
+Net 18 "" ""
+ U2 4
+ J6 9
+Net 19 "" ""
+ U2 5
+ J6 2
+Net 20 "" ""
+ J6 3
+ U4 2
+Net 21 "" ""
+ J6 4
+ U4 4
+Net 22 "/+7v" "+7v"
+ U2 1
+ U2 12
+ C11 1
+ C10 1
+ C9 1
+ U3 1
+ U3 12
+ U4 1
+ U4 12
+ J5 1
+ U1 20
+ U1 1
+ C1 1
+Net 32 "/USB_SHELL" "USB_SHELL"
+ C4 1
+ J4 5
+Net 33 "/Vusb" "Vusb"
+ U1 14
+ C7 1
+Net 34 "/D-" "D-"
+ U1 15
+ J4 2
+Net 35 "/D+" "D+"
+ U1 16
+ J4 3
+Net 36 "/+5v" "+5v"
+ C8 1
+ J4 1
+Net 37 "/OSC2" "OSC2"
+ U1 10
+ R5 1
+ C3 1
+ X1 2
+Net 38 "/OSC1" "OSC1"
+ U1 9
+ R5 2
+ C2 1
+ X1 1
+}
+#End

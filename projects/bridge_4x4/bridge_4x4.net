@@ -1,0 +1,100 @@
+# EESchema Netlist Version 1.1 created  Wed 30 Sep 2009 08:07:23 PM PDT
+(
+ ( /4ABF9492 $noname  J2 JUMPER_2X1 {Lib=JUMPER_2X1}
+  (    1 /+5v )
+  (    2 /GND )
+ )
+ ( /4ABF9435 $noname  J3 HEADER_8X1 {Lib=HEADER_8X1}
+  (    1 /D7 )
+  (    2 /D6 )
+  (    3 /D5 )
+  (    4 /D4 )
+  (    5 /D3 )
+  (    6 /D2 )
+  (    7 /D1 )
+  (    8 /D0 )
+ )
+ ( /4ABF942A $noname  J4 HEADER_8X1 {Lib=HEADER_8X1}
+  (    1 /B0 )
+  (    2 /B1 )
+  (    3 /B2 )
+  (    4 /B3 )
+  (    5 /B4 )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+ )
+ ( /4ABB36DF $noname  J1 IDE_10x2 {Lib=IDE_10x2}
+  (    1 /+5v )
+  (    2 /B0 )
+  (    3 /B1 )
+  (    4 /B2 )
+  (    5 /B3 )
+  (    6 /B4 )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 /GND )
+  (   11 /GND )
+  (   12 /D7 )
+  (   13 /D6 )
+  (   14 /D5 )
+  (   15 /D4 )
+  (   16 /D3 )
+  (   17 /D2 )
+  (   18 /D1 )
+  (   19 /D0 )
+  (   20 /+5v )
+ )
+)
+*
+{ Pin List by Nets
+Net 1 "/B3" "B3"
+ J4 4
+ J1 5
+Net 2 "/B1" "B1"
+ J4 2
+ J1 3
+Net 3 "/B4" "B4"
+ J4 5
+ J1 6
+Net 4 "/B2" "B2"
+ J4 3
+ J1 4
+Net 5 "/B0" "B0"
+ J4 1
+ J1 2
+Net 9 "/GND" "GND"
+ J2 2
+ J1 11
+ J1 10
+Net 10 "/+5v" "+5v"
+ J2 1
+ J1 20
+ J1 1
+Net 11 "/D7" "D7"
+ J3 1
+ J1 12
+Net 12 "/D6" "D6"
+ J3 2
+ J1 13
+Net 13 "/D5" "D5"
+ J3 3
+ J1 14
+Net 14 "/D4" "D4"
+ J3 4
+ J1 15
+Net 15 "/D3" "D3"
+ J3 5
+ J1 16
+Net 16 "/D2" "D2"
+ J3 6
+ J1 17
+Net 17 "/D1" "D1"
+ J3 7
+ J1 18
+Net 18 "/D0" "D0"
+ J3 8
+ J1 19
+}
+#End

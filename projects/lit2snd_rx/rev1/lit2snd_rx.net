@@ -1,0 +1,142 @@
+# EESchema Netlist Version 1.1 created  Sun 24 Jan 2010 10:22:33 PM PST
+(
+ ( /4B59AD26 $noname  J8 Sensors_or_AudioIn {Lib=JUMPER_3X1}
+  (    1 /Sensors_Out )
+  (    2 /OpAmpIn )
+  (    3 N-000001 )
+ )
+ ( /4B59AAF4 $noname  R15 1k {Lib=R}
+  (    1 N-000002 )
+  (    2 /GND )
+ )
+ ( /4B59AA9D $noname  U7 OPA353 {Lib=OPA353}
+  (    2 N-000002 )
+  (    3 /OpAmpIn )
+  (    4 /GND )
+  (    6 /OpAmpOut )
+  (    7 /+5v )
+ )
+ ( /4B59AA41 $noname  R12 20k {Lib=VAR_R3}
+  (    1 /+5v )
+  (    2 /Sensors_Out )
+  (    3 ? )
+ )
+ ( /4B59A145 $noname  R13 PIR {Lib=PIR}
+  (    1 N-000003 )
+  (    2 /GND )
+  (    3 ? )
+ )
+ ( /4B59A13C $noname  R14 Photoresistor {Lib=Photoresistor}
+  (    1 N-000005 )
+  (    2 /GND )
+ )
+ ( /4B59A065 TED_STEREO_3.5  J7 3.5_STEREO_SMT {Lib=3.5_STEREO_SMT}
+  (    2 /GND )
+  (    3 /OpAmpOut )
+  (    4 /OpAmpOut )
+ )
+ ( /4B5986E1 DC_2.1mm  J6 DC_2.1mm {Lib=DC_2.1mm}
+  (    1 /Vin )
+  (    2 /GND )
+ )
+ ( /4B598186 $noname  J5 Visible_or_Infrared {Lib=JUMPER_3X1}
+  (    1 N-000005 )
+  (    2 /Sensors_Out )
+  (    3 N-000003 )
+ )
+ ( /4B59813D TED_STEREO_3.5  J4 3.5_STEREO_SMT {Lib=3.5_STEREO_SMT}
+  (    2 /GND )
+  (    3 N-000001 )
+  (    4 N-000001 )
+ )
+ ( /4B597E64 $noname  R11 10k {Lib=VAR_R3}
+  (    1 N-000002 )
+  (    2 /OpAmpOut )
+  (    3 ? )
+ )
+ ( /4B3C71BF $noname  C11 10uF {Lib=C_POL}
+  (    1 /+5v )
+  (    2 /GND )
+ )
+ ( /4ADD1850 $noname  U6 7805_NO_HS {Lib=7805_NO_HS}
+  (    1 /Vin )
+  (    2 /GND )
+  (    3 /+5v )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R15
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ J8 3
+ J4 3
+ J4 4
+Net 2 "" ""
+ R15 1
+ U7 2
+ R11 1
+Net 3 "" ""
+ R13 1
+ J5 3
+Net 5 "" ""
+ R14 1
+ J5 1
+Net 6 "/OpAmpOut" "OpAmpOut"
+ U7 6
+ J7 3
+ J7 4
+ R11 2
+Net 7 "/Sensors_Out" "Sensors_Out"
+ J8 1
+ R12 2
+ J5 2
+Net 8 "/OpAmpIn" "OpAmpIn"
+ J8 2
+ U7 3
+Net 9 "/GND" "GND"
+ R15 2
+ U7 4
+ R13 2
+ R14 2
+ J7 2
+ J6 2
+ J4 2
+ C11 2
+ U6 2
+Net 11 "/+5v" "+5v"
+ U7 7
+ R12 1
+ C11 1
+ U6 3
+Net 14 "/Vin" "Vin"
+ J6 1
+ U6 1
+}
+#End

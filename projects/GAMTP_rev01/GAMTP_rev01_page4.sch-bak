@@ -1,0 +1,1022 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 5125 1305 0    60   ~ 0
+host ties shield to ground, clients do no\ndo not want current flowing through shield
+$Comp
+L ted_connectors:USB_B_Micro J12
+U 1 1 5FD13EBA
+P 2800 2675
+F 0 "J12" H 2857 3142 50  0000 C CNN
+F 1 "USB_B_Micro" H 2857 3051 50  0000 C CNN
+F 2 "ted_connectors:TED_USB_MICRO_SMT" H 2950 2625 50  0001 C CNN
+F 3 "~" H 2950 2625 50  0001 C CNN
+	1    2800 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L ted_connectors:USB_B_Micro J14
+U 1 1 5FD144AF
+P 3810 2690
+F 0 "J14" H 3867 3157 50  0000 C CNN
+F 1 "USB_B_Micro" H 3867 3066 50  0000 C CNN
+F 2 "ted_connectors:TED_USB_MICRO_SMT" H 3960 2640 50  0001 C CNN
+F 3 "~" H 3960 2640 50  0001 C CNN
+	1    3810 2690
+	1    0    0    -1  
+$EndComp
+$Comp
+L ted_connectors:USB_B_Micro J16
+U 1 1 5FD15E89
+P 4675 2730
+F 0 "J16" H 4732 3197 50  0000 C CNN
+F 1 "USB_B_Micro" H 4732 3106 50  0000 C CNN
+F 2 "ted_connectors:TED_USB_MICRO_SMT" H 4825 2680 50  0001 C CNN
+F 3 "~" H 4825 2680 50  0001 C CNN
+	1    4675 2730
+	1    0    0    -1  
+$EndComp
+$Comp
+L ted_connectors:USB_B_Micro J18
+U 1 1 5FD15E93
+P 5685 2745
+F 0 "J18" H 5742 3212 50  0000 C CNN
+F 1 "USB_B_Micro" H 5742 3121 50  0000 C CNN
+F 2 "ted_connectors:TED_USB_MICRO_SMT" H 5835 2695 50  0001 C CNN
+F 3 "~" H 5835 2695 50  0001 C CNN
+	1    5685 2745
+	1    0    0    -1  
+$EndComp
+$Comp
+L ted_connectors:USB_B_Micro J11
+U 1 1 5FD18473
+P 2770 4080
+F 0 "J11" H 2827 4547 50  0000 C CNN
+F 1 "USB_B_Micro" H 2827 4456 50  0000 C CNN
+F 2 "ted_connectors:TED_USB_MICRO_SMT" H 2920 4030 50  0001 C CNN
+F 3 "~" H 2920 4030 50  0001 C CNN
+	1    2770 4080
+	1    0    0    -1  
+$EndComp
+$Comp
+L ted_connectors:USB_B_Micro J13
+U 1 1 5FD1847D
+P 3780 4095
+F 0 "J13" H 3837 4562 50  0000 C CNN
+F 1 "USB_B_Micro" H 3837 4471 50  0000 C CNN
+F 2 "ted_connectors:TED_USB_MICRO_SMT" H 3930 4045 50  0001 C CNN
+F 3 "~" H 3930 4045 50  0001 C CNN
+	1    3780 4095
+	1    0    0    -1  
+$EndComp
+$Comp
+L ted_connectors:USB_B_Micro J15
+U 1 1 5FD18487
+P 4645 4135
+F 0 "J15" H 4702 4602 50  0000 C CNN
+F 1 "USB_B_Micro" H 4702 4511 50  0000 C CNN
+F 2 "ted_connectors:TED_USB_MICRO_SMT" H 4795 4085 50  0001 C CNN
+F 3 "~" H 4795 4085 50  0001 C CNN
+	1    4645 4135
+	1    0    0    -1  
+$EndComp
+$Comp
+L ted_connectors:USB_B_Micro J17
+U 1 1 5FD18491
+P 5655 4150
+F 0 "J17" H 5712 4617 50  0000 C CNN
+F 1 "USB_B_Micro" H 5712 4526 50  0000 C CNN
+F 2 "ted_connectors:TED_USB_MICRO_SMT" H 5805 4100 50  0001 C CNN
+F 3 "~" H 5805 4100 50  0001 C CNN
+	1    5655 4150
+	1    0    0    -1  
+$EndComp
+Text Notes 1285 980  0    100  ~ 20
+I2C Switch and \n8 Accelerometers + Gyroscopes
+$Comp
+L ted_ic:TCA9548APWR U21
+U 1 1 5FD214C9
+P 1510 3355
+F 0 "U21" H 1510 4436 50  0000 C CNN
+F 1 "TCA9548APWR" H 1510 4345 50  0000 C CNN
+F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 1510 2355 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tca9548a.pdf" H 1560 3605 50  0001 C CNN
+	1    1510 3355
+	1    0    0    -1  
+$EndComp
+Text GLabel 1060 2655 0    60   Input ~ 0
+SCL_MAC
+Text GLabel 1055 2755 0    60   BiDi ~ 0
+SDA_MAC
+Wire Wire Line
+	1060 2655 1110 2655
+Wire Wire Line
+	1055 2755 1110 2755
+$Comp
+L power1:VDD #PWR?
+U 1 1 5FD474CB
+P 1510 2385
+AR Path="/5FD474CB" Ref="#PWR?"  Part="1" 
+AR Path="/5FD0AF12/5FD474CB" Ref="#PWR0203"  Part="1" 
+F 0 "#PWR0203" H 1510 2335 20  0001 C CNN
+F 1 "VDD" H 1510 2485 30  0000 C CNN
+F 2 "~" H 1510 2385 60  0000 C CNN
+F 3 "~" H 1510 2385 60  0000 C CNN
+	1    1510 2385
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1510 2385 1510 2455
+$Comp
+L power1:VDD #PWR?
+U 1 1 5FD4B495
+P 3100 2405
+AR Path="/5FD4B495" Ref="#PWR?"  Part="1" 
+AR Path="/5FD0AF12/5FD4B495" Ref="#PWR0210"  Part="1" 
+F 0 "#PWR0210" H 3100 2355 20  0001 C CNN
+F 1 "VDD" H 3100 2505 30  0000 C CNN
+F 2 "~" H 3100 2405 60  0000 C CNN
+F 3 "~" H 3100 2405 60  0000 C CNN
+	1    3100 2405
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 2405 3100 2475
+Text GLabel 1960 2655 2    50   Output ~ 0
+SC0
+Text GLabel 1965 2755 2    50   BiDi ~ 0
+SD0
+Wire Wire Line
+	1960 2655 1910 2655
+Wire Wire Line
+	1965 2755 1910 2755
+Text GLabel 1960 2855 2    50   Output ~ 0
+SC1
+Text GLabel 1965 2955 2    50   BiDi ~ 0
+SD1
+Wire Wire Line
+	1960 2855 1910 2855
+Wire Wire Line
+	1965 2955 1910 2955
+Text GLabel 1960 3055 2    50   Output ~ 0
+SC2
+Text GLabel 1965 3155 2    50   BiDi ~ 0
+SD2
+Wire Wire Line
+	1960 3055 1910 3055
+Wire Wire Line
+	1965 3155 1910 3155
+Text GLabel 1960 3255 2    50   Output ~ 0
+SC3
+Text GLabel 1965 3355 2    50   BiDi ~ 0
+SD3
+Wire Wire Line
+	1960 3255 1910 3255
+Wire Wire Line
+	1965 3355 1910 3355
+Text GLabel 1960 3455 2    50   Output ~ 0
+SC4
+Text GLabel 1965 3555 2    50   BiDi ~ 0
+SD4
+Wire Wire Line
+	1960 3455 1910 3455
+Wire Wire Line
+	1965 3555 1910 3555
+Text GLabel 1960 3655 2    50   Output ~ 0
+SC5
+Text GLabel 1965 3755 2    50   BiDi ~ 0
+SD5
+Wire Wire Line
+	1960 3655 1910 3655
+Wire Wire Line
+	1965 3755 1910 3755
+Text GLabel 1960 3855 2    50   Output ~ 0
+SC6
+Text GLabel 1965 3955 2    50   BiDi ~ 0
+SD6
+Wire Wire Line
+	1960 3855 1910 3855
+Wire Wire Line
+	1965 3955 1910 3955
+Text GLabel 1960 4055 2    50   Output ~ 0
+SC7
+Text GLabel 1965 4155 2    50   BiDi ~ 0
+SD7
+Wire Wire Line
+	1960 4055 1910 4055
+Wire Wire Line
+	1965 4155 1910 4155
+$Comp
+L power1:GND #PWR?
+U 1 1 5FD7A41E
+P 1510 4395
+AR Path="/5FD7A41E" Ref="#PWR?"  Part="1" 
+AR Path="/5FD0AF12/5FD7A41E" Ref="#PWR0204"  Part="1" 
+F 0 "#PWR0204" H 1510 4395 30  0001 C CNN
+F 1 "GND" H 1510 4325 30  0001 C CNN
+F 2 "" H 1510 4395 60  0000 C CNN
+F 3 "" H 1510 4395 60  0000 C CNN
+	1    1510 4395
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1510 4355 1510 4395
+$Comp
+L power1:GND #PWR?
+U 1 1 5FD7C602
+P 2800 3115
+AR Path="/5FD7C602" Ref="#PWR?"  Part="1" 
+AR Path="/5FD0AF12/5FD7C602" Ref="#PWR0209"  Part="1" 
+F 0 "#PWR0209" H 2800 3115 30  0001 C CNN
+F 1 "GND" H 2800 3045 30  0001 C CNN
+F 2 "" H 2800 3115 60  0000 C CNN
+F 3 "" H 2800 3115 60  0000 C CNN
+	1    2800 3115
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 3075 2800 3115
+Text Notes 685  2030 0    100  ~ 20
+addr=70 | a2a1a0 = 0x70
+$Comp
+L power1:GND #PWR?
+U 1 1 5FD86256
+P 1025 3990
+AR Path="/5FD86256" Ref="#PWR?"  Part="1" 
+AR Path="/5FD0AF12/5FD86256" Ref="#PWR0201"  Part="1" 
+F 0 "#PWR0201" H 1025 3990 30  0001 C CNN
+F 1 "GND" H 1025 3920 30  0001 C CNN
+F 2 "" H 1025 3990 60  0000 C CNN
+F 3 "" H 1025 3990 60  0000 C CNN
+	1    1025 3990
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1110 3855 1025 3855
+Wire Wire Line
+	1025 3855 1025 3990
+Wire Wire Line
+	1110 3755 1025 3755
+Wire Wire Line
+	1025 3755 1025 3855
+Connection ~ 1025 3855
+Wire Wire Line
+	1110 3655 1025 3655
+Wire Wire Line
+	1025 3655 1025 3755
+Connection ~ 1025 3755
+Text GLabel 3150 2675 2    50   Input ~ 0
+SC0
+Text GLabel 3155 2775 2    50   BiDi ~ 0
+SD0
+Wire Wire Line
+	3150 2675 3100 2675
+Wire Wire Line
+	3155 2775 3100 2775
+NoConn ~ 3100 2875
+$Comp
+L power1:GND #PWR?
+U 1 1 5FD9695E
+P 2700 3115
+AR Path="/5FD9695E" Ref="#PWR?"  Part="1" 
+AR Path="/5FD0AF12/5FD9695E" Ref="#PWR0206"  Part="1" 
+F 0 "#PWR0206" H 2700 3115 30  0001 C CNN
+F 1 "GND" H 2700 3045 30  0001 C CNN
+F 2 "" H 2700 3115 60  0000 C CNN
+F 3 "" H 2700 3115 60  0000 C CNN
+	1    2700 3115
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 3075 2700 3115
+$Comp
+L power1:GND #PWR?
+U 1 1 5FDA3199
+P 3810 3130
+AR Path="/5FDA3199" Ref="#PWR?"  Part="1" 
+AR Path="/5FD0AF12/5FDA3199" Ref="#PWR0217"  Part="1" 
+F 0 "#PWR0217" H 3810 3130 30  0001 C CNN
+F 1 "GND" H 3810 3060 30  0001 C CNN
+F 2 "" H 3810 3130 60  0000 C CNN
+F 3 "" H 3810 3130 60  0000 C CNN
+	1    3810 3130
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3810 3090 3810 3130
+$Comp
+L power1:GND #PWR?
+U 1 1 5FDA31A4
+P 3710 3130
+AR Path="/5FDA31A4" Ref="#PWR?"  Part="1" 
+AR Path="/5FD0AF12/5FDA31A4" Ref="#PWR0215"  Part="1" 
+F 0 "#PWR0215" H 3710 3130 30  0001 C CNN
+F 1 "GND" H 3710 3060 30  0001 C CNN
+F 2 "" H 3710 3130 60  0000 C CNN
+F 3 "" H 3710 3130 60  0000 C CNN
+	1    3710 3130
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3710 3090 3710 3130
+$Comp
+L power1:GND #PWR?
+U 1 1 5FDAB1B8
+P 4675 3170
+AR Path="/5FDAB1B8" Ref="#PWR?"  Part="1" 
+AR Path="/5FD0AF12/5FDAB1B8" Ref="#PWR0225"  Part="1" 
+F 0 "#PWR0225" H 4675 3170 30  0001 C CNN
+F 1 "GND" H 4675 3100 30  0001 C CNN
+F 2 "" H 4675 3170 60  0000 C CNN
+F 3 "" H 4675 3170 60  0000 C CNN
+	1    4675 3170
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4675 3130 4675 3170
+$Comp
+L power1:GND #PWR?
+U 1 1 5FDAB1C3
+P 4575 3170
+AR Path="/5FDAB1C3" Ref="#PWR?"  Part="1" 
+AR Path="/5FD0AF12/5FDAB1C3" Ref="#PWR0223"  Part="1" 
+F 0 "#PWR0223" H 4575 3170 30  0001 C CNN
+F 1 "GND" H 4575 3100 30  0001 C CNN
+F 2 "" H 4575 3170 60  0000 C CNN
+F 3 "" H 4575 3170 60  0000 C CNN
+	1    4575 3170
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4575 3130 4575 3170
+$Comp
+L power1:GND #PWR?
+U 1 1 5FDB2DC5
+P 5685 3185
+AR Path="/5FDB2DC5" Ref="#PWR?"  Part="1" 
+AR Path="/5FD0AF12/5FDB2DC5" Ref="#PWR0234"  Part="1" 
+F 0 "#PWR0234" H 5685 3185 30  0001 C CNN
+F 1 "GND" H 5685 3115 30  0001 C CNN
+F 2 "" H 5685 3185 60  0000 C CNN
+F 3 "" H 5685 3185 60  0000 C CNN
+	1    5685 3185
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5685 3145 5685 3185
+$Comp
+L power1:GND #PWR?
+U 1 1 5FDB2DD0
+P 5585 3185
+AR Path="/5FDB2DD0" Ref="#PWR?"  Part="1" 
+AR Path="/5FD0AF12/5FDB2DD0" Ref="#PWR0232"  Part="1" 
+F 0 "#PWR0232" H 5585 3185 30  0001 C CNN
+F 1 "GND" H 5585 3115 30  0001 C CNN
+F 2 "" H 5585 3185 60  0000 C CNN
+F 3 "" H 5585 3185 60  0000 C CNN
+	1    5585 3185
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5585 3145 5585 3185
+Text GLabel 1040 3155 0    51   Input ~ 0
+~I2C_Reset~
+Wire Wire Line
+	1110 3155 1040 3155
+Text GLabel 4160 2690 2    50   Input ~ 0
+SC1
+Text GLabel 4165 2790 2    50   BiDi ~ 0
+SD1
+Wire Wire Line
+	4160 2690 4110 2690
+Wire Wire Line
+	4165 2790 4110 2790
+$Comp
+L power1:VDD #PWR?
+U 1 1 5FDF222E
+P 5040 2460
+AR Path="/5FDF222E" Ref="#PWR?"  Part="1" 
+AR Path="/5FD0AF12/5FDF222E" Ref="#PWR0228"  Part="1" 
+F 0 "#PWR0228" H 5040 2410 20  0001 C CNN
+F 1 "VDD" H 5040 2560 30  0000 C CNN
+F 2 "~" H 5040 2460 60  0000 C CNN
+F 3 "~" H 5040 2460 60  0000 C CNN
+	1    5040 2460
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5040 2460 5040 2530
+$Comp
+L power1:VDD #PWR?
+U 1 1 5FDF5C3B
+P 4110 2420
+AR Path="/5FDF5C3B" Ref="#PWR?"  Part="1" 
+AR Path="/5FD0AF12/5FDF5C3B" Ref="#PWR0219"  Part="1" 
+F 0 "#PWR0219" H 4110 2370 20  0001 C CNN
+F 1 "VDD" H 4110 2520 30  0000 C CNN
+F 2 "~" H 4110 2420 60  0000 C CNN
+F 3 "~" H 4110 2420 60  0000 C CNN
+	1    4110 2420
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4110 2420 4110 2490
+Wire Wire Line
+	4975 2530 5040 2530
+$Comp
+L power1:VDD #PWR?
+U 1 1 5FE0382F
+P 6020 3880
+AR Path="/5FE0382F" Ref="#PWR?"  Part="1" 
+AR Path="/5FD0AF12/5FE0382F" Ref="#PWR0235"  Part="1" 
+F 0 "#PWR0235" H 6020 3830 20  0001 C CNN
+F 1 "VDD" H 6020 3980 30  0000 C CNN
+F 2 "~" H 6020 3880 60  0000 C CNN
+F 3 "~" H 6020 3880 60  0000 C CNN
+	1    6020 3880
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6020 3880 6020 3950
+Wire Wire Line
+	5955 3950 6020 3950
+$Comp
+L power1:VDD #PWR?
+U 1 1 5FE05F0D
+P 6050 2475
+AR Path="/5FE05F0D" Ref="#PWR?"  Part="1" 
+AR Path="/5FD0AF12/5FE05F0D" Ref="#PWR0236"  Part="1" 
+F 0 "#PWR0236" H 6050 2425 20  0001 C CNN
+F 1 "VDD" H 6050 2575 30  0000 C CNN
+F 2 "~" H 6050 2475 60  0000 C CNN
+F 3 "~" H 6050 2475 60  0000 C CNN
+	1    6050 2475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 2475 6050 2545
+Wire Wire Line
+	5985 2545 6050 2545
+Text GLabel 5025 2730 2    50   Input ~ 0
+SC2
+Text GLabel 5030 2830 2    50   BiDi ~ 0
+SD2
+Wire Wire Line
+	5025 2730 4975 2730
+Wire Wire Line
+	5030 2830 4975 2830
+Text GLabel 6035 2745 2    50   Input ~ 0
+SC3
+Text GLabel 6040 2845 2    50   BiDi ~ 0
+SD3
+Wire Wire Line
+	6035 2745 5985 2745
+Wire Wire Line
+	6040 2845 5985 2845
+NoConn ~ 4110 2890
+NoConn ~ 4975 2930
+NoConn ~ 5985 2945
+NoConn ~ 5955 4350
+NoConn ~ 4945 4335
+NoConn ~ 4080 4295
+NoConn ~ 3070 4280
+$Comp
+L power1:GND #PWR?
+U 1 1 5FE261CC
+P 2770 4520
+AR Path="/5FE261CC" Ref="#PWR?"  Part="1" 
+AR Path="/5FD0AF12/5FE261CC" Ref="#PWR0208"  Part="1" 
+F 0 "#PWR0208" H 2770 4520 30  0001 C CNN
+F 1 "GND" H 2770 4450 30  0001 C CNN
+F 2 "" H 2770 4520 60  0000 C CNN
+F 3 "" H 2770 4520 60  0000 C CNN
+	1    2770 4520
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2770 4480 2770 4520
+$Comp
+L power1:GND #PWR?
+U 1 1 5FE261D7
+P 2670 4520
+AR Path="/5FE261D7" Ref="#PWR?"  Part="1" 
+AR Path="/5FD0AF12/5FE261D7" Ref="#PWR0205"  Part="1" 
+F 0 "#PWR0205" H 2670 4520 30  0001 C CNN
+F 1 "GND" H 2670 4450 30  0001 C CNN
+F 2 "" H 2670 4520 60  0000 C CNN
+F 3 "" H 2670 4520 60  0000 C CNN
+	1    2670 4520
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2670 4480 2670 4520
+$Comp
+L power1:GND #PWR?
+U 1 1 5FE2B1E1
+P 3780 4535
+AR Path="/5FE2B1E1" Ref="#PWR?"  Part="1" 
+AR Path="/5FD0AF12/5FE2B1E1" Ref="#PWR0216"  Part="1" 
+F 0 "#PWR0216" H 3780 4535 30  0001 C CNN
+F 1 "GND" H 3780 4465 30  0001 C CNN
+F 2 "" H 3780 4535 60  0000 C CNN
+F 3 "" H 3780 4535 60  0000 C CNN
+	1    3780 4535
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3780 4495 3780 4535
+$Comp
+L power1:GND #PWR?
+U 1 1 5FE2B1EC
+P 3680 4535
+AR Path="/5FE2B1EC" Ref="#PWR?"  Part="1" 
+AR Path="/5FD0AF12/5FE2B1EC" Ref="#PWR0214"  Part="1" 
+F 0 "#PWR0214" H 3680 4535 30  0001 C CNN
+F 1 "GND" H 3680 4465 30  0001 C CNN
+F 2 "" H 3680 4535 60  0000 C CNN
+F 3 "" H 3680 4535 60  0000 C CNN
+	1    3680 4535
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3680 4495 3680 4535
+$Comp
+L power1:GND #PWR?
+U 1 1 5FE2F885
+P 4645 4575
+AR Path="/5FE2F885" Ref="#PWR?"  Part="1" 
+AR Path="/5FD0AF12/5FE2F885" Ref="#PWR0224"  Part="1" 
+F 0 "#PWR0224" H 4645 4575 30  0001 C CNN
+F 1 "GND" H 4645 4505 30  0001 C CNN
+F 2 "" H 4645 4575 60  0000 C CNN
+F 3 "" H 4645 4575 60  0000 C CNN
+	1    4645 4575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4645 4535 4645 4575
+$Comp
+L power1:GND #PWR?
+U 1 1 5FE2F890
+P 4545 4575
+AR Path="/5FE2F890" Ref="#PWR?"  Part="1" 
+AR Path="/5FD0AF12/5FE2F890" Ref="#PWR0222"  Part="1" 
+F 0 "#PWR0222" H 4545 4575 30  0001 C CNN
+F 1 "GND" H 4545 4505 30  0001 C CNN
+F 2 "" H 4545 4575 60  0000 C CNN
+F 3 "" H 4545 4575 60  0000 C CNN
+	1    4545 4575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4545 4535 4545 4575
+Wire Wire Line
+	5555 4550 5555 4590
+$Comp
+L power1:GND #PWR?
+U 1 1 5FD9CA91
+P 5555 4590
+AR Path="/5FD9CA91" Ref="#PWR?"  Part="1" 
+AR Path="/5FD0AF12/5FD9CA91" Ref="#PWR0231"  Part="1" 
+F 0 "#PWR0231" H 5555 4590 30  0001 C CNN
+F 1 "GND" H 5555 4520 30  0001 C CNN
+F 2 "" H 5555 4590 60  0000 C CNN
+F 3 "" H 5555 4590 60  0000 C CNN
+	1    5555 4590
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5655 4550 5655 4590
+$Comp
+L power1:GND #PWR?
+U 1 1 5FD9CA86
+P 5655 4590
+AR Path="/5FD9CA86" Ref="#PWR?"  Part="1" 
+AR Path="/5FD0AF12/5FD9CA86" Ref="#PWR0233"  Part="1" 
+F 0 "#PWR0233" H 5655 4590 30  0001 C CNN
+F 1 "GND" H 5655 4520 30  0001 C CNN
+F 2 "" H 5655 4590 60  0000 C CNN
+F 3 "" H 5655 4590 60  0000 C CNN
+	1    5655 4590
+	1    0    0    -1  
+$EndComp
+Text GLabel 3120 4080 2    50   Input ~ 0
+SC4
+Text GLabel 3125 4180 2    50   BiDi ~ 0
+SD4
+Wire Wire Line
+	3120 4080 3070 4080
+Wire Wire Line
+	3125 4180 3070 4180
+Text GLabel 4130 4095 2    50   Input ~ 0
+SC5
+Text GLabel 4135 4195 2    50   BiDi ~ 0
+SD5
+Wire Wire Line
+	4130 4095 4080 4095
+Wire Wire Line
+	4135 4195 4080 4195
+Text GLabel 4995 4135 2    50   Input ~ 0
+SC6
+Text GLabel 5000 4235 2    50   BiDi ~ 0
+SD6
+Wire Wire Line
+	4995 4135 4945 4135
+Wire Wire Line
+	5000 4235 4945 4235
+Text GLabel 6005 4150 2    50   Input ~ 0
+SC7
+Text GLabel 6010 4250 2    50   BiDi ~ 0
+SD7
+Wire Wire Line
+	6005 4150 5955 4150
+Wire Wire Line
+	6010 4250 5955 4250
+$Comp
+L power1:VDD #PWR?
+U 1 1 5FE615B5
+P 3135 3810
+AR Path="/5FE615B5" Ref="#PWR?"  Part="1" 
+AR Path="/5FD0AF12/5FE615B5" Ref="#PWR0211"  Part="1" 
+F 0 "#PWR0211" H 3135 3760 20  0001 C CNN
+F 1 "VDD" H 3135 3910 30  0000 C CNN
+F 2 "~" H 3135 3810 60  0000 C CNN
+F 3 "~" H 3135 3810 60  0000 C CNN
+	1    3135 3810
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3135 3810 3135 3880
+Wire Wire Line
+	3070 3880 3135 3880
+$Comp
+L power1:VDD #PWR?
+U 1 1 5FE6C712
+P 4145 3825
+AR Path="/5FE6C712" Ref="#PWR?"  Part="1" 
+AR Path="/5FD0AF12/5FE6C712" Ref="#PWR0220"  Part="1" 
+F 0 "#PWR0220" H 4145 3775 20  0001 C CNN
+F 1 "VDD" H 4145 3925 30  0000 C CNN
+F 2 "~" H 4145 3825 60  0000 C CNN
+F 3 "~" H 4145 3825 60  0000 C CNN
+	1    4145 3825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4145 3825 4145 3895
+Wire Wire Line
+	4080 3895 4145 3895
+$Comp
+L power1:VDD #PWR?
+U 1 1 5FE75A81
+P 5010 3865
+AR Path="/5FE75A81" Ref="#PWR?"  Part="1" 
+AR Path="/5FD0AF12/5FE75A81" Ref="#PWR0227"  Part="1" 
+F 0 "#PWR0227" H 5010 3815 20  0001 C CNN
+F 1 "VDD" H 5010 3965 30  0000 C CNN
+F 2 "~" H 5010 3865 60  0000 C CNN
+F 3 "~" H 5010 3865 60  0000 C CNN
+	1    5010 3865
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5010 3865 5010 3935
+Wire Wire Line
+	4945 3935 5010 3935
+$Comp
+L EthAccelTouchGPS_rev03-rescue:R_small R28
+U 1 1 5FEEF502
+P 5125 7090
+F 0 "R28" V 5165 7100 30  0000 C CNN
+F 1 "1k" V 5125 7090 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" H 5125 7090 60  0001 C CNN
+F 3 "" H 5125 7090 60  0000 C CNN
+	1    5125 7090
+	-1   0    0    -1  
+$EndComp
+$Comp
+L EthAccelTouchGPS_rev03-rescue:GND #PWR0229
+U 1 1 5FEEF508
+P 5125 7300
+F 0 "#PWR0229" H 5125 7375 30  0001 C CNN
+F 1 "GND" H 5125 7230 30  0000 C CNN
+F 2 "" H 5125 7300 60  0000 C CNN
+F 3 "" H 5125 7300 60  0000 C CNN
+	1    5125 7300
+	-1   0    0    -1  
+$EndComp
+Text GLabel 5020 6970 0    39   Output ~ 0
+AN6
+$Comp
+L EthAccelTouchGPS_rev03-rescue:R_small R27
+U 1 1 5FEEF50F
+P 4750 6890
+F 0 "R27" V 4790 6900 30  0000 C CNN
+F 1 "1k" V 4750 6890 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" H 4750 6890 60  0001 C CNN
+F 3 "" H 4750 6890 60  0000 C CNN
+	1    4750 6890
+	-1   0    0    -1  
+$EndComp
+$Comp
+L EthAccelTouchGPS_rev03-rescue:GND #PWR0226
+U 1 1 5FEEF515
+P 4750 7100
+F 0 "#PWR0226" H 4750 7175 30  0001 C CNN
+F 1 "GND" H 4750 7030 30  0000 C CNN
+F 2 "" H 4750 7100 60  0000 C CNN
+F 3 "" H 4750 7100 60  0000 C CNN
+	1    4750 7100
+	-1   0    0    -1  
+$EndComp
+Text GLabel 4645 6770 0    39   Output ~ 0
+AN5
+$Comp
+L EthAccelTouchGPS_rev03-rescue:R_small R25
+U 1 1 5FEEF51C
+P 4350 6690
+F 0 "R25" V 4390 6700 30  0000 C CNN
+F 1 "1k" V 4350 6690 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" H 4350 6690 60  0001 C CNN
+F 3 "" H 4350 6690 60  0000 C CNN
+	1    4350 6690
+	-1   0    0    -1  
+$EndComp
+$Comp
+L EthAccelTouchGPS_rev03-rescue:GND #PWR0221
+U 1 1 5FEEF522
+P 4350 6900
+F 0 "#PWR0221" H 4350 6975 30  0001 C CNN
+F 1 "GND" H 4350 6830 30  0000 C CNN
+F 2 "" H 4350 6900 60  0000 C CNN
+F 3 "" H 4350 6900 60  0000 C CNN
+	1    4350 6900
+	-1   0    0    -1  
+$EndComp
+Text GLabel 4245 6570 0    39   Output ~ 0
+AN4
+$Comp
+L EthAccelTouchGPS_rev03-rescue:R_small R24
+U 1 1 5FEEF529
+P 3945 6490
+F 0 "R24" V 3985 6500 30  0000 C CNN
+F 1 "1k" V 3945 6490 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" H 3945 6490 60  0001 C CNN
+F 3 "" H 3945 6490 60  0000 C CNN
+	1    3945 6490
+	-1   0    0    -1  
+$EndComp
+$Comp
+L EthAccelTouchGPS_rev03-rescue:GND #PWR0218
+U 1 1 5FEEF52F
+P 3945 6700
+F 0 "#PWR0218" H 3945 6775 30  0001 C CNN
+F 1 "GND" H 3945 6630 30  0000 C CNN
+F 2 "" H 3945 6700 60  0000 C CNN
+F 3 "" H 3945 6700 60  0000 C CNN
+	1    3945 6700
+	-1   0    0    -1  
+$EndComp
+Text GLabel 3840 6370 0    39   Output ~ 0
+AN3
+$Comp
+L EthAccelTouchGPS_rev03-rescue:R_small R23
+U 1 1 5FEEF536
+P 3570 6290
+F 0 "R23" V 3610 6300 30  0000 C CNN
+F 1 "1k" V 3570 6290 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" H 3570 6290 60  0001 C CNN
+F 3 "" H 3570 6290 60  0000 C CNN
+	1    3570 6290
+	-1   0    0    -1  
+$EndComp
+$Comp
+L EthAccelTouchGPS_rev03-rescue:GND #PWR0213
+U 1 1 5FEEF53C
+P 3570 6500
+F 0 "#PWR0213" H 3570 6575 30  0001 C CNN
+F 1 "GND" H 3570 6430 30  0000 C CNN
+F 2 "" H 3570 6500 60  0000 C CNN
+F 3 "" H 3570 6500 60  0000 C CNN
+	1    3570 6500
+	-1   0    0    -1  
+$EndComp
+Text GLabel 3465 6170 0    39   Output ~ 0
+AN2
+$Comp
+L EthAccelTouchGPS_rev03-rescue:R_small R22
+U 1 1 5FEEF543
+P 3145 6090
+F 0 "R22" V 3185 6100 30  0000 C CNN
+F 1 "1k" V 3145 6090 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" H 3145 6090 60  0001 C CNN
+F 3 "" H 3145 6090 60  0000 C CNN
+	1    3145 6090
+	-1   0    0    -1  
+$EndComp
+$Comp
+L EthAccelTouchGPS_rev03-rescue:GND #PWR0212
+U 1 1 5FEEF549
+P 3145 6300
+F 0 "#PWR0212" H 3145 6375 30  0001 C CNN
+F 1 "GND" H 3145 6230 30  0000 C CNN
+F 2 "" H 3145 6300 60  0000 C CNN
+F 3 "" H 3145 6300 60  0000 C CNN
+	1    3145 6300
+	-1   0    0    -1  
+$EndComp
+Text GLabel 3040 5970 0    39   Output ~ 0
+AN1
+$Comp
+L EthAccelTouchGPS_rev03-rescue:R_small R21
+U 1 1 5FEEF550
+P 2750 5890
+F 0 "R21" V 2790 5900 30  0000 C CNN
+F 1 "1k" V 2750 5890 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" H 2750 5890 60  0001 C CNN
+F 3 "" H 2750 5890 60  0000 C CNN
+	1    2750 5890
+	-1   0    0    -1  
+$EndComp
+$Comp
+L EthAccelTouchGPS_rev03-rescue:GND #PWR0207
+U 1 1 5FEEF556
+P 2750 6100
+F 0 "#PWR0207" H 2750 6175 30  0001 C CNN
+F 1 "GND" H 2750 6030 30  0000 C CNN
+F 2 "" H 2750 6100 60  0000 C CNN
+F 3 "" H 2750 6100 60  0000 C CNN
+	1    2750 6100
+	-1   0    0    -1  
+$EndComp
+Text GLabel 2645 5770 0    39   Output ~ 0
+AN0
+$Comp
+L EthAccelTouchGPS_rev03-rescue:Terminal_8x1 J19
+U 1 1 5FEEF55E
+P 5740 6470
+F 0 "J19" H 5740 6120 60  0000 C CNN
+F 1 "TERMINAL_8X1" H 5740 6620 60  0000 C CNN
+F 2 "ted_connectors:TED_Terminal_8x1_1814760" H 5805 5940 60  0001 C CNN
+F 3 "" H 6090 6470 60  0000 C CNN
+	1    5740 6470
+	0    1    1    0   
+$EndComp
+$Comp
+L EthAccelTouchGPS_rev03-rescue:Terminal_8x1 J10
+U 1 1 5FEEF564
+P 1590 6435
+F 0 "J10" H 1590 6085 60  0000 C CNN
+F 1 "TERMINAL_8X1" H 1590 6585 60  0000 C CNN
+F 2 "ted_connectors:TED_Terminal_8x1_1814760" H 1655 5905 60  0001 C CNN
+F 3 "" H 1940 6435 60  0000 C CNN
+	1    1590 6435
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1255 5735 1390 5735
+Wire Wire Line
+	1255 5935 1390 5935
+Connection ~ 1255 5735
+Wire Wire Line
+	1255 6135 1390 6135
+Connection ~ 1255 5935
+Wire Wire Line
+	1255 6335 1390 6335
+Connection ~ 1255 6135
+Wire Wire Line
+	1255 6535 1390 6535
+Connection ~ 1255 6335
+Wire Wire Line
+	1255 6735 1390 6735
+Connection ~ 1255 6535
+Wire Wire Line
+	1255 6935 1390 6935
+Wire Wire Line
+	5125 7210 5125 7300
+Wire Wire Line
+	5020 6970 5125 6970
+Connection ~ 5125 6970
+Wire Wire Line
+	4750 7010 4750 7100
+Wire Wire Line
+	4645 6770 4750 6770
+Connection ~ 4750 6770
+Wire Wire Line
+	4350 6810 4350 6900
+Wire Wire Line
+	4245 6570 4350 6570
+Connection ~ 4350 6570
+Wire Wire Line
+	3945 6610 3945 6700
+Wire Wire Line
+	3840 6370 3945 6370
+Connection ~ 3945 6370
+Wire Wire Line
+	3570 6410 3570 6500
+Wire Wire Line
+	3465 6170 3570 6170
+Connection ~ 3570 6170
+Wire Wire Line
+	3145 6210 3145 6300
+Wire Wire Line
+	3040 5970 3145 5970
+Connection ~ 3145 5970
+Wire Wire Line
+	2750 6010 2750 6100
+Wire Wire Line
+	2645 5770 2750 5770
+Connection ~ 2750 5770
+Connection ~ 1255 6935
+Connection ~ 1255 6735
+Wire Wire Line
+	1255 7135 1390 7135
+Wire Wire Line
+	1255 5735 1255 5935
+Wire Wire Line
+	1255 5935 1255 6135
+Wire Wire Line
+	1255 6135 1255 6335
+Wire Wire Line
+	1255 6335 1255 6535
+Wire Wire Line
+	1255 6535 1255 6735
+Wire Wire Line
+	5125 6970 5540 6970
+Wire Wire Line
+	4750 6770 5540 6770
+Wire Wire Line
+	4350 6570 5540 6570
+Wire Wire Line
+	3945 6370 5540 6370
+Wire Wire Line
+	3570 6170 5540 6170
+Wire Wire Line
+	3145 5970 5540 5970
+Wire Wire Line
+	2750 5770 5540 5770
+Wire Wire Line
+	1255 6935 1255 7135
+Wire Wire Line
+	1255 6735 1255 6935
+Text Notes 1845 5340 0    100  ~ 20
+8 Touch Sensors or Potentiometer Position Sensors
+$Comp
+L EthAccelTouchGPS_rev03-rescue:R_small R29
+U 1 1 5FF0484A
+P 5460 7290
+F 0 "R29" V 5500 7300 30  0000 C CNN
+F 1 "1k" V 5460 7290 30  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" H 5460 7290 60  0001 C CNN
+F 3 "" H 5460 7290 60  0000 C CNN
+	1    5460 7290
+	-1   0    0    -1  
+$EndComp
+$Comp
+L EthAccelTouchGPS_rev03-rescue:GND #PWR0230
+U 1 1 5FF04854
+P 5460 7500
+F 0 "#PWR0230" H 5460 7575 30  0001 C CNN
+F 1 "GND" H 5460 7430 30  0000 C CNN
+F 2 "" H 5460 7500 60  0000 C CNN
+F 3 "" H 5460 7500 60  0000 C CNN
+	1    5460 7500
+	-1   0    0    -1  
+$EndComp
+Text GLabel 5355 7170 0    39   Output ~ 0
+AN7
+Wire Wire Line
+	5460 7410 5460 7500
+Wire Wire Line
+	5355 7170 5460 7170
+Connection ~ 5460 7170
+Wire Wire Line
+	5460 7170 5540 7170
+$Comp
+L power1:VDD #PWR?
+U 1 1 5FFB8D0F
+P 1255 5545
+AR Path="/5FFB8D0F" Ref="#PWR?"  Part="1" 
+AR Path="/5FD0AF12/5FFB8D0F" Ref="#PWR0202"  Part="1" 
+F 0 "#PWR0202" H 1255 5495 20  0001 C CNN
+F 1 "VDD" H 1255 5645 30  0000 C CNN
+F 2 "~" H 1255 5545 60  0000 C CNN
+F 3 "~" H 1255 5545 60  0000 C CNN
+	1    1255 5545
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1255 5545 1255 5735
+$EndSCHEMATC

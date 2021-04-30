@@ -1,0 +1,24 @@
+Cmp-Mod V01 Created by Cvpcb (20090530 SVN-R1798) date = Sun 15 Nov 2009 08:44:26 PM PST
+
+BeginCmp
+TimeStamp = /4A07B409;
+Reference = J8;
+ValeurCmp = TERMINAL_3.5MM_PCB_8PIN;
+IdModule  = TED_TERMINAL_3.5MM_8PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A109EE9;
+Reference = J9;
+ValeurCmp = OSC_6x2;
+IdModule  = TED_SOCKET_6x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A078A90;
+Reference = U4;
+ValeurCmp = 74VHC574;
+IdModule  = TED_TSSOP20;
+EndCmp
+
+EndListe

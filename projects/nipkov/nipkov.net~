@@ -1,0 +1,156 @@
+# EESchema Netlist Version 1.1 created  Thu 23 Apr 2009 02:51:09 AM EDT
+(
+ ( /49F00DAE $noname  U1 LM7805 {Lib=LM7805}
+  (   VO +5V )
+  (   VI +24V )
+  (  GND GND )
+ )
+ ( /49F0044B TERMINAL_3.5MM_2PIN  J6 TERMINAL_3.5MM_PCB {Lib=TERMINAL_3.5MM_PCB}
+  (    1 ? )
+  (    2 ? )
+ )
+ ( /49F00431 TERMINAL_3.5MM_2PIN  J7 TERMINAL_3.5MM_PCB {Lib=TERMINAL_3.5MM_PCB}
+  (    1 ? )
+  (    2 ? )
+ )
+ ( /49F003F7 TERMINAL_3.5MM_2PIN  J8 TERMINAL_3.5MM_PCB {Lib=TERMINAL_3.5MM_PCB}
+  (    1 ? )
+  (    2 ? )
+ )
+ ( /49F003D6 TERMINAL_3.5MM_2PIN  J4 TERMINAL_3.5MM_PCB {Lib=TERMINAL_3.5MM_PCB}
+  (    1 ? )
+  (    2 ? )
+ )
+ ( /49F003BE TERMINAL_3.5MM_2PIN  J3 TERMINAL_3.5MM_PCB {Lib=TERMINAL_3.5MM_PCB}
+  (    1 ? )
+  (    2 ? )
+ )
+ ( /49F0039C TERMINAL_3.5MM_2PIN  J2 TERMINAL_3.5MM_PCB {Lib=TERMINAL_3.5MM_PCB}
+  (    1 ? )
+  (    2 ? )
+ )
+ ( /49F00354 TERMINAL_3.5MM_2PIN  J1 TERMINAL_3.5MM_PCB {Lib=TERMINAL_3.5MM_PCB}
+  (    1 ? )
+  (    2 ? )
+ )
+ ( /49EA25FC $noname  C2 4.7uF {Lib=C_POL}
+  (    1 ? )
+  (    2 ? )
+ )
+ ( /49E6D69C $noname  C3 680uF {Lib=C_POL}
+  (    1 ? )
+  (    2 ? )
+ )
+ ( /49E6CB67 $noname  C1 .1uF {Lib=C}
+  (    1 ? )
+  (    2 ? )
+ )
+ ( /49E6CB4F $noname  R1 1k {Lib=R}
+  (    1 ? )
+  (    2 ? )
+ )
+ ( /49E6CB3D $noname  R2 1k {Lib=R}
+  (    1 ? )
+  (    2 ? )
+ )
+ ( /49E6CB33 $noname  R4 1k {Lib=R}
+  (    1 ? )
+  (    2 ? )
+ )
+ ( /49E6CB03 $noname  R3 1M {Lib=R}
+  (    1 ? )
+  (    2 ? )
+ )
+ ( /49E6C272 $noname  D1 tvs_250watt_6.8V {Lib=DIODE}
+  (    1 ? )
+  (    2 ? )
+ )
+ ( /49E6C244 $noname  D2 5V {Lib=ZENER}
+  (    1 ? )
+  (    2 ? )
+ )
+ ( /49E6C218 $noname  Q1 IRF1405 {Lib=IRF1405}
+  (    D GND )
+  (    G ? )
+  (    S ? )
+ )
+ ( /49E6BE35 $noname  U2 NE555 {Lib=NE555}
+  (    1 GND )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+ )
+ ( /49E68302 $noname  U3 OPA353 {Lib=OPA353}
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    6 ? )
+  (    7 ? )
+ )
+ ( /49E54822 TERMINAL_3MM_2PIN  J5 TERMINAL_3.5MM_PCB {Lib=TERMINAL_3.5MM_PCB}
+  (    1 ? )
+  (    2 ? )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component D2
+ D?
+ SO*
+ SM*
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "GND" "GND"
+ Q1 D
+ U2 1
+Net 2 "VI" "+24V"
+ U1 VI
+Net 3 "VO" "+5V"
+ U1 VO
+}
+#End

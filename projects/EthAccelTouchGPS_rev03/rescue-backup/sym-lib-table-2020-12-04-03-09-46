@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name EthAccelTouchGPS_rev03-rescue)(type Legacy)(uri ${KIPRJMOD}/EthAccelTouchGPS_rev03-rescue.lib)(options "")(descr ""))
+)

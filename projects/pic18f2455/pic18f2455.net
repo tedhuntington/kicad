@@ -1,0 +1,296 @@
+# EESchema Netlist Version 1.1 created  Sun 25 Aug 2013 11:13:19 AM PDT
+(
+ ( /4C66F4C6 $noname  R11 100 {Lib=R_SMALL}
+  (    1 /SCK/SCL )
+  (    2 N-000002 )
+ )
+ ( /4C66F48A $noname  R10 100 {Lib=R_SMALL}
+  (    1 /SDI/SDA )
+  (    2 N-000001 )
+ )
+ ( /4C04899B $noname  U3 7803 {Lib=7803}
+  (    1 GND )
+  (    2 /+3.3v )
+  (    3 +5V )
+ )
+ ( /4C0459D9 $noname  J9 HEADER_6X1 {Lib=HEADER_6X1}
+  (    1 +5V )
+  (    2 /+3.3v )
+  (    3 /SDI/SDA )
+  (    4 /SCK/SCL )
+  (    5 /SDO )
+  (    6 GND )
+ )
+ ( /4C042B47 $noname  J8 JUMPER_3X1 {Lib=JUMPER_3X1}
+  (    1 /reg )
+  (    2 +5V )
+  (    3 +5V )
+ )
+ ( /4C042B41 $noname  J7 JUMPER_3X1 {Lib=JUMPER_3X1}
+  (    1 N-000007 )
+  (    2 N-000004 )
+  (    3 +5V )
+ )
+ ( /4C0428BF TED_DC_2.1mm  J5 DC_2.1MM {Lib=DC_2.1MM}
+  (    1 /+12v )
+  (    2 GND )
+ )
+ ( /4C042869 $noname  U2 7805_NO_HS {Lib=7805_NO_HS}
+  (    1 /+12v )
+  (    2 GND )
+  (    3 /reg )
+ )
+ ( /4C04284A $noname  R7 10k {Lib=R}
+  (    1 /+12v )
+  (    2 N-000007 )
+ )
+ ( /4C042844 $noname  R6 10k {Lib=R}
+  (    1 +5V )
+  (    2 N-000005 )
+ )
+ ( /4C04281B $noname  Q2 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 N-000005 )
+  (    2 GND )
+  (    3 N-000007 )
+ )
+ ( /4C042817 $noname  Q1 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 N-000006 )
+  (    2 GND )
+  (    3 N-000005 )
+ )
+ ( /4C0427FE $noname  J6 HEADER_6X1 {Lib=HEADER_6X1}
+  (    1 N-000006 )
+  (    2 +5V )
+  (    3 GND )
+  (    4 N-000008 )
+  (    5 N-000003 )
+  (    6 ? )
+ )
+ ( /4BB06042 $noname  U1 PIC18F2455 {Lib=PIC18F2455}
+  (    1 N-000004 )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 GND )
+  (    9 /OSC1 )
+  (   10 /OSC2 )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 /Vusb )
+  (   15 /D- )
+  (   16 /D+ )
+  (   17 ? )
+  (   18 /SDO )
+  (   19 GND )
+  (   20 +5V )
+  (   21 N-000001 )
+  (   22 N-000002 )
+  (   23 ? )
+  (   24 ? )
+  (   25 ? )
+  (   26 ? )
+  (   27 N-000003 )
+  (   28 N-000008 )
+ )
+ ( /4B3B18ED $noname  C7 .47uF {Lib=C_POL}
+  (    1 /Vusb )
+  (    2 GND )
+ )
+ ( /4B3B18A6 $noname  C8 10uF {Lib=C_POL}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /4B3B1861 $noname  R5 1M {Lib=R}
+  (    1 /OSC2 )
+  (    2 /OSC1 )
+ )
+ ( /4B07A1B2 $noname  C4 .1uF {Lib=C}
+  (    1 /USB_SHELL )
+  (    2 GND )
+ )
+ ( /4B07A153 $noname  J4 USB {Lib=USB}
+  (    1 +5V )
+  (    2 /D- )
+  (    3 /D+ )
+  (    4 GND )
+  (    5 /USB_SHELL )
+ )
+ ( /4AE127E6 $noname  C3 18pF {Lib=C}
+  (    1 /OSC2 )
+  (    2 GND )
+ )
+ ( /4AE127E1 $noname  C2 18pF {Lib=C}
+  (    1 /OSC1 )
+  (    2 GND )
+ )
+ ( /4AE126E3 $noname  C1 10uF {Lib=C_POL}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /4AE126A1 $noname  X1 20mhz {Lib=CRYSTAL}
+  (    1 /OSC1 )
+  (    2 /OSC2 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R11
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ R10 2
+ U1 21
+Net 2 "" ""
+ R11 2
+ U1 22
+Net 3 "" ""
+ J6 5
+ U1 27
+Net 4 "" ""
+ J7 2
+ U1 1
+Net 5 "" ""
+ R6 2
+ Q2 1
+ Q1 3
+Net 6 "" ""
+ Q1 1
+ J6 1
+Net 7 "" ""
+ J7 1
+ R7 2
+ Q2 3
+Net 8 "" ""
+ J6 4
+ U1 28
+Net 10 "+5V" "+5V"
+ U3 3
+ J9 1
+ J8 2
+ J8 3
+ J7 3
+ R6 1
+ J6 2
+ U1 20
+ C8 1
+ J4 1
+ C1 1
+Net 11 "GND" "GND"
+ U3 1
+ J9 6
+ J5 2
+ U2 2
+ Q2 2
+ Q1 2
+ J6 3
+ U1 19
+ U1 8
+ C7 2
+ C8 2
+ C4 2
+ J4 4
+ C3 2
+ C2 2
+ C1 2
+Net 12 "/+3.3v" "+3.3v"
+ U3 2
+ J9 2
+Net 24 "/SDO" "SDO"
+ J9 5
+ U1 18
+Net 25 "/reg" "reg"
+ J8 1
+ U2 3
+Net 26 "/+12v" "+12v"
+ J5 1
+ U2 1
+ R7 1
+Net 30 "/USB_SHELL" "USB_SHELL"
+ C4 1
+ J4 5
+Net 31 "/Vusb" "Vusb"
+ U1 14
+ C7 1
+Net 32 "/D-" "D-"
+ U1 15
+ J4 2
+Net 33 "/D+" "D+"
+ U1 16
+ J4 3
+Net 34 "/OSC2" "OSC2"
+ U1 10
+ R5 1
+ C3 1
+ X1 2
+Net 35 "/OSC1" "OSC1"
+ U1 9
+ R5 2
+ C2 1
+ X1 1
+Net 36 "/SCK/SCL" "SCK/SCL"
+ R11 1
+ J9 4
+Net 37 "/SDI/SDA" "SDI/SDA"
+ R10 1
+ J9 3
+}
+#End

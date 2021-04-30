@@ -1,0 +1,19 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>KiCad BOM Example 5</title>
+</head>
+<body>
+<h1>/home/ted/kicad/projects/motor_VNH5019A_rev2/motor_VNH5019A_rev2.sch</h1>
+<p>Sat 14 Dec 2013 10:02:34 PM PST</p>
+<p>eeschema (2013-08-24 BZR 4298)-stable</p>
+<p><b>Component Count:</b>19</p>
+<table>
+<tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Datasheet</th><th>Description</th><th>Vendor</th></tr><tr><td>C1, C2, </td><td>2</td><td>.1uF (50v)</td><td>ted_capacitors/C(SMALL)</td><td></td><td></td><td></td></tr><tr><td>C3, </td><td>1</td><td>33nF</td><td>ted_capacitors/C(SMALL)</td><td></td><td></td><td></td></tr><tr><td>D1, D4, D2, D3, </td><td>4</td><td>TVS_DIODE</td><td>ted_diodes/TVS_DIODE</td><td></td><td>Diode simple</td><td></td></tr><tr><td>J1, J3, </td><td>2</td><td>TRM_3.5MM_2P</td><td>ted_connectors/TRM_3.5MM_2P</td><td></td><td></td><td></td></tr><tr><td>J2, </td><td>1</td><td>DC_2.1MM</td><td>ted_connectors/DC_2.1MM</td><td></td><td></td><td></td></tr><tr><td>J4, </td><td>1</td><td>HEADER_9X2</td><td>ted_connectors/HEADER_9X2</td><td></td><td></td><td></td></tr><tr><td>R1, R2, </td><td>2</td><td>3.3k</td><td>ted_resistors/R_SMALL</td><td></td><td></td><td></td></tr><tr><td>R3, R5, R4, </td><td>3</td><td>1k</td><td>ted_resistors/R_SMALL</td><td></td><td></td><td></td></tr><tr><td>R6, </td><td>1</td><td>10k</td><td>ted_resistors/R_SMALL</td><td></td><td></td><td></td></tr><tr><td>R7, </td><td>1</td><td>1.5k</td><td>ted_resistors/R_SMALL</td><td></td><td></td><td></td></tr><tr><td>U1, </td><td>1</td><td>VNH5019A-E</td><td>ted_ic/VNH5019A-E</td><td></td><td></td><td></td></tr><!--TABLEROW-->
+</table>
+</body>
+</html>
+

@@ -1,0 +1,40 @@
+eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 1/6/2014 3:44:06 PM
+#Cmp ( order = Reference )
+| C1         .1uF        ;             
+| C2         .1uF        ;             
+| C3         4.7uF       ;             
+| C4         4.7uF       ;             
+| C5         4.7uF       ;             
+| C6         9pF         ;             
+| C7         9pF         ;             
+| C8         .1uF        ;             
+| J1         HEADER_10X2 ;             
+| J2         JUMPER_3X2  ;             
+| R1         10          ;             
+| U1         OV7670      ;             
+| U2         CAMERA_MOUNT_AND_LENS;             
+| U3         REGULATOR_1.8V;             
+| U4         PCS3P7303A  ;             
+| X1         CRYSTAL_W_2GND;             
+#End Cmp
+
+#Cmp ( order = Value )
+| 9pF          C6        ;             
+| 9pF          C7        ;             
+| 4.7uF        C3        ;             
+| 4.7uF        C4        ;             
+| 4.7uF        C5        ;             
+| .1uF         C1        ;             
+| .1uF         C2        ;             
+| .1uF         C8        ;             
+| HEADER_10X2  J1        ;             
+| JUMPER_3X2   J2        ;             
+| 10           R1        ;             
+| OV7670       U1        ;             
+| CAMERA_MOUNT_AND_LENS U2        ;             
+| REGULATOR_1.8V U3        ;             
+| PCS3P7303A   U4        ;             
+| CRYSTAL_W_2GND X1        ;             
+#End Cmp
+
+#End List

@@ -1,0 +1,106 @@
+# EESchema Netlist Version 1.1 created  Thu 26 Nov 2009 09:31:20 PM PST
+(
+ ( /4AE126E3 TED_SM1206 C1 10uF
+  ( 1 /+5v )
+  ( 2 /GND )
+ )
+ ( /4AE127E1 TED_SM0805 C2 15-33pF
+  ( 1 /OSC1 )
+  ( 2 /GND )
+ )
+ ( /4AE127E6 TED_SM0805 C3 15-33pF
+  ( 1 /OSC2 )
+  ( 2 /GND )
+ )
+ ( /4ABB36DF TED_IDE_10x2 J1 IDE_10x2
+  ( 1 /GND )
+  ( 2 /B7 )
+  ( 3 /B6 )
+  ( 4 /B5 )
+  ( 5 /B4 )
+  ( 6 /B3 )
+  ( 7 /B2 )
+  ( 8 /B1 )
+  ( 9 /B0 )
+  ( 10 /+5v )
+  ( 11 /+5v )
+  ( 12 /A0 )
+  ( 13 /A1 )
+  ( 14 /A2 )
+  ( 15 /A3 )
+  ( 16 /A4 )
+  ( 17 ? )
+  ( 18 ? )
+  ( 19 ? )
+  ( 20 /GND )
+ )
+ ( /4AED0588 TED_SPST_MPB-129 J3 SPST_Switch
+  ( 1 /MCLR )
+  ( 2 /GND )
+ )
+ ( /4B0F63A3 TED_JMP_2x1 J4 JUMPER_2X1
+  ( 1 /+5v )
+  ( 2 /GND )
+ )
+ ( /4AE5341F TED_SM0805 R1 10k
+  ( 1 /+5v )
+  ( 2 /A4 )
+ )
+ ( /4AED0632 TED_SM0805 R2 10k
+  ( 1 /+5v )
+  ( 2 /MCLR )
+ )
+ ( /4AE12303 TED_DIP-18 U1 PIC16F716
+  ( 1 /A2 )
+  ( 2 /A3 )
+  ( 3 /A4 )
+  ( 4 /MCLR )
+  ( 5 /GND )
+  ( 6 /B0 )
+  ( 7 /B1 )
+  ( 8 /B2 )
+  ( 9 /B3 )
+  ( 10 /B4 )
+  ( 11 /B5 )
+  ( 12 /B6 )
+  ( 13 /B7 )
+  ( 14 /+5v )
+  ( 15 /OSC2 )
+  ( 16 /OSC1 )
+  ( 17 /A0 )
+  ( 18 /A1 )
+ )
+ ( /4AE126A1 TED_crystal_SMT_13x5mm X1 20mhz
+  ( 1 /OSC1 )
+  ( 2 /OSC2 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}

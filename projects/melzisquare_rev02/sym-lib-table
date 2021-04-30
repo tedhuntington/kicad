@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name melzisquare_rev02-rescue)(type Legacy)(uri ${KIPRJMOD}/melzisquare_rev02-rescue.lib)(options "")(descr ""))
+)

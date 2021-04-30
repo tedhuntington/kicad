@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# ferrite_bead
+#
+DEF ferrite_bead FB 0 0 N Y 1 F N
+F0 "FB" 0 -55 30 H V C CNN
+F1 "ferrite_bead" 0 50 16 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ R?
+ SM0603
+ SM0805
+$ENDFPLIST
+DRAW
+A 77 0 20 815 -957 0 1 0 N 80 20 75 -20
+C -75 0 20 0 1 0 N
+P 2 0 1 0 -75 -20 80 -20 N
+P 2 0 1 0 -75 20 80 20 N
+X ~ 1 130 0 50 L 30 30 1 1 P
+X ~ 2 -130 0 50 R 30 30 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

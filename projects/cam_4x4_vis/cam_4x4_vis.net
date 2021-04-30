@@ -1,0 +1,629 @@
+# EESchema Netlist Version 1.1 created  Sun 17 Jan 2010 12:59:35 AM PST
+(
+ ( /4B5134FA $noname  C5 .1uF {Lib=C(small)}
+  (    1 /+5v )
+  (    2 /GND )
+ )
+ ( /4B5134E4 $noname  C2 .1uF {Lib=C(small)}
+  (    1 /+5v )
+  (    2 /GND )
+ )
+ ( /4B5134C2 $noname  C4 .1uF {Lib=C(small)}
+  (    1 /+5v )
+  (    2 /GND )
+ )
+ ( /4B5133F7 $noname  C3 .1uF {Lib=C(small)}
+  (    1 /+5v )
+  (    2 /GND )
+ )
+ ( /4ABF9DAF $noname  C1 10uF {Lib=C_POL}
+  (    1 /+5v )
+  (    2 /GND )
+ )
+ ( /4ABB36DF $noname  J1 IDE_10x2 {Lib=IDE_10x2}
+  (    1 /GND )
+  (    2 /D7 )
+  (    3 /D6 )
+  (    4 /D5 )
+  (    5 /D4 )
+  (    6 /D3 )
+  (    7 /D2 )
+  (    8 /D1 )
+  (    9 /D0 )
+  (   10 /+5v )
+  (   11 /+5v )
+  (   12 /B0_ADDR0_0 )
+  (   13 /B1_ADDR0_1 )
+  (   14 /B2_ADDR0_2 )
+  (   15 /B3_ADDR0_3 )
+  (   16 /B4_EN_0 )
+  (   17 /AnalogOut )
+  (   18 ? )
+  (   19 ? )
+  (   20 /GND )
+ )
+ ( /4ABB02BA $noname  U2 74HC540 {Lib=74HC540}
+  (    1 /GND )
+  (    2 /Y0_4_16 )
+  (    3 /Y1_4_16 )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 /GND )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+  (   17 /LE1 )
+  (   18 /LE0 )
+  (   19 /GND )
+  (   20 /+5v )
+ )
+ ( /4AB9A5E8 TED_RCA_MONO_220572  J2 RCA_MONO_PC {Lib=RCA_MONO_PC}
+  (    1 /GND )
+  (    2 /AnalogOut )
+ )
+ ( /4AB98EEB $noname  F1 200k-3k {Lib=Photoresistor}
+  (    1 /AnalogOut )
+  (    2 N-000011 )
+ )
+ ( /4AB9A1DD $noname  U1 74VHC154 {Lib=74VHC154}
+  (    1 /Y0_4_16 )
+  (    2 /Y1_4_16 )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 /GND )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+  (   17 ? )
+  (   18 /B4_EN_0 )
+  (   19 /B4_EN_0 )
+  (   20 /B3_ADDR0_3 )
+  (   21 /B2_ADDR0_2 )
+  (   22 /B1_ADDR0_1 )
+  (   23 /B0_ADDR0_0 )
+  (   24 /+5v )
+ )
+ ( /4AB9A10D $noname  U4 74VHC573 {Lib=74VHC573}
+  (    1 /GND )
+  (    2 /D0 )
+  (    3 /D1 )
+  (    4 /D2 )
+  (    5 /D3 )
+  (    6 /D4 )
+  (    7 /D5 )
+  (    8 /D6 )
+  (    9 /D7 )
+  (   10 /GND )
+  (   11 /LE1 )
+  (   12 /dot_04_04 )
+  (   13 /dot_04_03 )
+  (   14 /dot_04_02 )
+  (   15 /dot_04_01 )
+  (   16 /dot_03_04 )
+  (   17 /dot_03_03 )
+  (   18 /dot_03_02 )
+  (   19 /dot_03_01 )
+  (   20 /+5v )
+ )
+ ( /4AB9A105 $noname  U3 74VHC573 {Lib=74VHC573}
+  (    1 /GND )
+  (    2 /D0 )
+  (    3 /D1 )
+  (    4 /D2 )
+  (    5 /D3 )
+  (    6 /D4 )
+  (    7 /D5 )
+  (    8 /D6 )
+  (    9 /D7 )
+  (   10 /GND )
+  (   11 /LE0 )
+  (   12 /dot_02_04 )
+  (   13 /dot_02_03 )
+  (   14 /dot_02_02 )
+  (   15 /dot_02_01 )
+  (   16 /dot_01_04 )
+  (   17 /dot_01_03 )
+  (   18 /dot_01_02 )
+  (   19 /dot_01_01 )
+  (   20 /+5v )
+ )
+ ( /4AB992F1 $noname  Q16 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 /dot_04_04 )
+  (    2 /GND )
+  (    3 N-000007 )
+ )
+ ( /4AB992EF $noname  Q15 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 /dot_04_03 )
+  (    2 /GND )
+  (    3 N-000016 )
+ )
+ ( /4AB992ED $noname  Q14 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 /dot_04_02 )
+  (    2 /GND )
+  (    3 N-000006 )
+ )
+ ( /4AB992EB $noname  Q13 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 /dot_04_01 )
+  (    2 /GND )
+  (    3 N-000017 )
+ )
+ ( /4AB992E8 $noname  Q12 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 /dot_03_04 )
+  (    2 /GND )
+  (    3 N-000018 )
+ )
+ ( /4AB992E6 $noname  Q11 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 /dot_03_03 )
+  (    2 /GND )
+  (    3 N-000005 )
+ )
+ ( /4AB992E2 $noname  Q10 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 /dot_03_02 )
+  (    2 /GND )
+  (    3 N-000019 )
+ )
+ ( /4AB992E0 $noname  Q9 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 /dot_03_01 )
+  (    2 /GND )
+  (    3 N-000004 )
+ )
+ ( /4AB992D1 $noname  Q8 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 /dot_02_04 )
+  (    2 /GND )
+  (    3 N-000009 )
+ )
+ ( /4AB992CC $noname  Q7 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 /dot_02_03 )
+  (    2 /GND )
+  (    3 N-000014 )
+ )
+ ( /4AB992C9 $noname  Q6 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 /dot_02_02 )
+  (    2 /GND )
+  (    3 N-000008 )
+ )
+ ( /4AB992C7 $noname  Q5 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 /dot_02_01 )
+  (    2 /GND )
+  (    3 N-000015 )
+ )
+ ( /4AB992C4 $noname  Q4 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 /dot_01_04 )
+  (    2 /GND )
+  (    3 N-000012 )
+ )
+ ( /4AB992C2 $noname  Q3 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 /dot_01_03 )
+  (    2 /GND )
+  (    3 N-000013 )
+ )
+ ( /4AB992C0 $noname  Q2 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 /dot_01_02 )
+  (    2 /GND )
+  (    3 N-000010 )
+ )
+ ( /4AB992BE $noname  Q1 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 /dot_01_01 )
+  (    2 /GND )
+  (    3 N-000011 )
+ )
+ ( /4AB99057 $noname  R1 10k {Lib=VAR_R3}
+  (    1 ? )
+  (    2 /AnalogOut )
+  (    3 /+5v )
+ )
+ ( /4AB98F1A $noname  F16 200k-3k {Lib=PHOTORESISTOR}
+  (    1 /AnalogOut )
+  (    2 N-000007 )
+ )
+ ( /4AB98F18 $noname  F15 200k-3k {Lib=PHOTORESISTOR}
+  (    1 /AnalogOut )
+  (    2 N-000016 )
+ )
+ ( /4AB98F16 $noname  F14 200k-3k {Lib=PHOTORESISTOR}
+  (    1 /AnalogOut )
+  (    2 N-000006 )
+ )
+ ( /4AB98F14 $noname  F13 200k-3k {Lib=PHOTORESISTOR}
+  (    1 /AnalogOut )
+  (    2 N-000017 )
+ )
+ ( /4AB98F11 $noname  F12 200k-3k {Lib=PHOTORESISTOR}
+  (    1 /AnalogOut )
+  (    2 N-000018 )
+ )
+ ( /4AB98F0E $noname  F11 200k-3k {Lib=PHOTORESISTOR}
+  (    1 /AnalogOut )
+  (    2 N-000005 )
+ )
+ ( /4AB98F0B $noname  F10 200k-3k {Lib=PHOTORESISTOR}
+  (    1 /AnalogOut )
+  (    2 N-000019 )
+ )
+ ( /4AB98F09 $noname  F9 200k-3k {Lib=PHOTORESISTOR}
+  (    1 /AnalogOut )
+  (    2 N-000004 )
+ )
+ ( /4AB98F06 $noname  F8 200k-3k {Lib=PHOTORESISTOR}
+  (    1 /AnalogOut )
+  (    2 N-000009 )
+ )
+ ( /4AB98F04 $noname  F7 200k-3k {Lib=PHOTORESISTOR}
+  (    1 /AnalogOut )
+  (    2 N-000014 )
+ )
+ ( /4AB98F02 $noname  F6 200k-3k {Lib=PHOTORESISTOR}
+  (    1 /AnalogOut )
+  (    2 N-000008 )
+ )
+ ( /4AB98F00 $noname  F5 200k-3k {Lib=PHOTORESISTOR}
+  (    1 /AnalogOut )
+  (    2 N-000015 )
+ )
+ ( /4AB98EFD $noname  F4 200k-3k {Lib=PHOTORESISTOR}
+  (    1 /AnalogOut )
+  (    2 N-000012 )
+ )
+ ( /4AB98EFA $noname  F3 200k-3k {Lib=PHOTORESISTOR}
+  (    1 /AnalogOut )
+  (    2 N-000013 )
+ )
+ ( /4AB98EF6 $noname  F2 200k-3k {Lib=PHOTORESISTOR}
+  (    1 /AnalogOut )
+  (    2 N-000010 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component F1
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$component F16
+ R?
+ SM0603
+ SM0805
+$endlist
+$component F15
+ R?
+ SM0603
+ SM0805
+$endlist
+$component F14
+ R?
+ SM0603
+ SM0805
+$endlist
+$component F13
+ R?
+ SM0603
+ SM0805
+$endlist
+$component F12
+ R?
+ SM0603
+ SM0805
+$endlist
+$component F11
+ R?
+ SM0603
+ SM0805
+$endlist
+$component F10
+ R?
+ SM0603
+ SM0805
+$endlist
+$component F9
+ R?
+ SM0603
+ SM0805
+$endlist
+$component F8
+ R?
+ SM0603
+ SM0805
+$endlist
+$component F7
+ R?
+ SM0603
+ SM0805
+$endlist
+$component F6
+ R?
+ SM0603
+ SM0805
+$endlist
+$component F5
+ R?
+ SM0603
+ SM0805
+$endlist
+$component F4
+ R?
+ SM0603
+ SM0805
+$endlist
+$component F3
+ R?
+ SM0603
+ SM0805
+$endlist
+$component F2
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 3 "/B4_EN_0" "B4_EN_0"
+ J1 16
+ U1 18
+ U1 19
+Net 4 "" ""
+ Q9 3
+ F9 2
+Net 5 "" ""
+ Q11 3
+ F11 2
+Net 6 "" ""
+ Q14 3
+ F14 2
+Net 7 "" ""
+ Q16 3
+ F16 2
+Net 8 "" ""
+ Q6 3
+ F6 2
+Net 9 "" ""
+ Q8 3
+ F8 2
+Net 10 "" ""
+ Q2 3
+ F2 2
+Net 11 "" ""
+ F1 2
+ Q1 3
+Net 12 "" ""
+ Q4 3
+ F4 2
+Net 13 "" ""
+ Q3 3
+ F3 2
+Net 14 "" ""
+ Q7 3
+ F7 2
+Net 15 "" ""
+ Q5 3
+ F5 2
+Net 16 "" ""
+ Q15 3
+ F15 2
+Net 17 "" ""
+ Q13 3
+ F13 2
+Net 18 "" ""
+ Q12 3
+ F12 2
+Net 19 "" ""
+ Q10 3
+ F10 2
+Net 20 "/GND" "GND"
+ C5 2
+ C2 2
+ C4 2
+ C3 2
+ C1 2
+ J1 20
+ J1 1
+ U2 1
+ U2 19
+ U2 10
+ J2 1
+ U1 12
+ U4 1
+ U4 10
+ U3 1
+ U3 10
+ Q16 2
+ Q15 2
+ Q14 2
+ Q13 2
+ Q12 2
+ Q11 2
+ Q10 2
+ Q9 2
+ Q8 2
+ Q7 2
+ Q6 2
+ Q5 2
+ Q4 2
+ Q3 2
+ Q2 2
+ Q1 2
+Net 21 "/+5v" "+5v"
+ C5 1
+ C2 1
+ C4 1
+ C3 1
+ C1 1
+ J1 11
+ J1 10
+ U2 20
+ U1 24
+ U4 20
+ U3 20
+ R1 3
+Net 22 "/B3_ADDR0_3" "B3_ADDR0_3"
+ J1 15
+ U1 20
+Net 23 "/B2_ADDR0_2" "B2_ADDR0_2"
+ J1 14
+ U1 21
+Net 24 "/B1_ADDR0_1" "B1_ADDR0_1"
+ J1 13
+ U1 22
+Net 25 "/B0_ADDR0_0" "B0_ADDR0_0"
+ J1 12
+ U1 23
+Net 26 "/dot_04_04" "dot_04_04"
+ U4 12
+ Q16 1
+Net 27 "/dot_04_03" "dot_04_03"
+ U4 13
+ Q15 1
+Net 28 "/dot_04_02" "dot_04_02"
+ U4 14
+ Q14 1
+Net 29 "/dot_04_01" "dot_04_01"
+ U4 15
+ Q13 1
+Net 30 "/dot_03_04" "dot_03_04"
+ U4 16
+ Q12 1
+Net 31 "/dot_03_03" "dot_03_03"
+ U4 17
+ Q11 1
+Net 32 "/dot_03_02" "dot_03_02"
+ U4 18
+ Q10 1
+Net 33 "/dot_03_01" "dot_03_01"
+ U4 19
+ Q9 1
+Net 34 "/dot_02_04" "dot_02_04"
+ U3 12
+ Q8 1
+Net 35 "/dot_02_03" "dot_02_03"
+ U3 13
+ Q7 1
+Net 36 "/dot_02_02" "dot_02_02"
+ U3 14
+ Q6 1
+Net 37 "/dot_02_01" "dot_02_01"
+ U3 15
+ Q5 1
+Net 38 "/dot_01_04" "dot_01_04"
+ U3 16
+ Q4 1
+Net 39 "/dot_01_03" "dot_01_03"
+ U3 17
+ Q3 1
+Net 40 "/dot_01_02" "dot_01_02"
+ U3 18
+ Q2 1
+Net 41 "/dot_01_01" "dot_01_01"
+ U3 19
+ Q1 1
+Net 68 "/Y1_4_16" "Y1_4_16"
+ U2 3
+ U1 2
+Net 69 "/Y0_4_16" "Y0_4_16"
+ U2 2
+ U1 1
+Net 70 "/LE1" "LE1"
+ U2 17
+ U4 11
+Net 71 "/LE0" "LE0"
+ U2 18
+ U3 11
+Net 74 "/D0" "D0"
+ J1 9
+ U4 2
+ U3 2
+Net 75 "/D7" "D7"
+ J1 2
+ U4 9
+ U3 9
+Net 76 "/D6" "D6"
+ J1 3
+ U4 8
+ U3 8
+Net 77 "/D5" "D5"
+ J1 4
+ U4 7
+ U3 7
+Net 78 "/D4" "D4"
+ J1 5
+ U4 6
+ U3 6
+Net 79 "/D3" "D3"
+ J1 6
+ U4 5
+ U3 5
+Net 80 "/D2" "D2"
+ J1 7
+ U4 4
+ U3 4
+Net 81 "/D1" "D1"
+ J1 8
+ U4 3
+ U3 3
+Net 82 "/AnalogOut" "AnalogOut"
+ J1 17
+ J2 2
+ F1 1
+ R1 2
+ F16 1
+ F15 1
+ F14 1
+ F13 1
+ F12 1
+ F11 1
+ F10 1
+ F9 1
+ F8 1
+ F7 1
+ F6 1
+ F5 1
+ F4 1
+ F3 1
+ F2 1
+}
+#End

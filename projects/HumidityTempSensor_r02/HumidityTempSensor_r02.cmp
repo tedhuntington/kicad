@@ -1,0 +1,627 @@
+Cmp-Mod V01 Created by PcbNew   date = 6/12/2018 4:54:35 PM
+
+BeginCmp
+TimeStamp = 5B172C8A
+Path = 
+Reference = Hole;
+ValeurCmp = VAL**;
+IdModule  = ted_holes:TED_Hole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B172C86
+Path = 
+Reference = Hole;
+ValeurCmp = VAL**;
+IdModule  = ted_holes:TED_Hole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B172C82
+Path = 
+Reference = Hole;
+ValeurCmp = VAL**;
+IdModule  = ted_holes:TED_Hole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FE52
+Path = /59F79D5E/5A0E907D
+Reference = C1;
+ValeurCmp = 100n;
+IdModule  = ted_capacitors:TED_SM1608_0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FE58
+Path = /59F79D5E/5A0E9083
+Reference = C2;
+ValeurCmp = 33n;
+IdModule  = ted_capacitors:TED_SM1608_0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FE5E
+Path = /59F79D5E/5A0EA129
+Reference = C3;
+ValeurCmp = 100n;
+IdModule  = ted_capacitors:TED_SM1608_0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FE64
+Path = /59F79D5E/5A0EA12F
+Reference = C4;
+ValeurCmp = 33n;
+IdModule  = ted_capacitors:TED_SM1608_0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FE76
+Path = /59F79D5E/5A0EAD12
+Reference = C7;
+ValeurCmp = 1uF;
+IdModule  = ted_capacitors:TED_SM1608_0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FE7C
+Path = /59F79D5E/5A0EA058
+Reference = C8;
+ValeurCmp = 100n;
+IdModule  = ted_capacitors:TED_SM1608_0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FE82
+Path = /59F79D5E/5A0EA05E
+Reference = C9;
+ValeurCmp = 33n;
+IdModule  = ted_capacitors:TED_SM1608_0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FE88
+Path = /59F79D5E/5A0EBBAA
+Reference = C10;
+ValeurCmp = 1uF;
+IdModule  = ted_capacitors:TED_SM1608_0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FE8E
+Path = /59F79D5E/5A0E498A
+Reference = C11;
+ValeurCmp = 100n;
+IdModule  = ted_capacitors:TED_SM1608_0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FE94
+Path = /59F79D5E/5A04E537
+Reference = C12;
+ValeurCmp = 6.8pF;
+IdModule  = ted_capacitors:TED_SM1608_0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FE9A
+Path = /59F79D5E/5A0E4B11
+Reference = C13;
+ValeurCmp = 33n;
+IdModule  = ted_capacitors:TED_SM1608_0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FEA0
+Path = /59F79D5E/5A04E436
+Reference = C14;
+ValeurCmp = 6.8pF;
+IdModule  = ted_capacitors:TED_SM1608_0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FEA6
+Path = /59F79D5E/5A1046A6
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = ted_led:TED_SM1206_LED;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FEB0
+Path = /59F79D5E/5AA71176
+Reference = J1;
+ValeurCmp = DC_2.1mm_3pin;
+IdModule  = ted_connectors:TED_2.1mm_DC_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FEB8
+Path = /59F79D5E/5A10190B
+Reference = J2;
+ValeurCmp = tactile_switch;
+IdModule  = ted_switches:TED_TACTILE_SWITCH_6x6_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FEC6
+Path = /59F79D5E/5A0F6D3E
+Reference = J3;
+ValeurCmp = IDC_5x2;
+IdModule  = ted_connectors:TED_IDC_5x2_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FECE
+Path = /59F79D5E/5AA84E5B
+Reference = J4;
+ValeurCmp = HEADER_4X1;
+IdModule  = ted_connectors:TED_HEADER_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FEDA
+Path = /59F79D5E/5B05FD46
+Reference = J5;
+ValeurCmp = HEADER_4x2;
+IdModule  = ted_connectors:TED_HEADER_4x2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FEE0
+Path = /59F79D5E/5AB2DCE4/5AB2EDA0
+Reference = J6;
+ValeurCmp = HEADER_2X1;
+IdModule  = ted_connectors:TED_HEADER_2x1;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FEE6
+Path = /59F79D5E/5AB2DCE4/5AB2ED92
+Reference = J7;
+ValeurCmp = HEADER_2X1;
+IdModule  = ted_connectors:TED_HEADER_2x1;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FEEC
+Path = /59F79D5E/5AB2DCE4/5AB2EDAE
+Reference = J8;
+ValeurCmp = HEADER_2X1;
+IdModule  = ted_connectors:TED_HEADER_2x1;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FEF2
+Path = /59F79D5E/5AB2DCE4/5AB2EDA7
+Reference = J9;
+ValeurCmp = HEADER_2X1;
+IdModule  = ted_connectors:TED_HEADER_2x1;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FEF8
+Path = /59F79D5E/5AB2DCE4/5AB2ED99
+Reference = J10;
+ValeurCmp = HEADER_2X1;
+IdModule  = ted_connectors:TED_HEADER_2x1;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FEFE
+Path = /59F79D5E/5AB2DCE4/5AB2EDB5
+Reference = J11;
+ValeurCmp = HEADER_2X1;
+IdModule  = ted_connectors:TED_HEADER_2x1;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FF0F
+Path = /59F79D5E/5B0F22C7
+Reference = J12;
+ValeurCmp = Micro_SD_Card;
+IdModule  = ted_connectors:microSD_Card_Receptacle_Molex_1051620001;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FF15
+Path = /59F79D5E/5A0E46F2
+Reference = L1;
+ValeurCmp = INDUCTOR;
+IdModule  = ted_resistors:TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FF1C
+Path = /59F79D5E/5AB2DCE4/5AB2F4C2
+Reference = Q1;
+ValeurCmp = NMOSFET_GSD;
+IdModule  = ted_transistors:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FF23
+Path = /59F79D5E/5AB2DCE4/5AB2EE70
+Reference = Q2;
+ValeurCmp = NMOSFET_GSD;
+IdModule  = ted_transistors:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FF2A
+Path = /59F79D5E/5AB2DCE4/5AB2EE4E
+Reference = Q3;
+ValeurCmp = NMOSFET_GSD;
+IdModule  = ted_transistors:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FF31
+Path = /59F79D5E/5AB2DCE4/5AB2F48E
+Reference = Q4;
+ValeurCmp = NMOSFET_GSD;
+IdModule  = ted_transistors:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FF38
+Path = /59F79D5E/5AB2DCE4/5AB2EE17
+Reference = Q5;
+ValeurCmp = NMOSFET_GSD;
+IdModule  = ted_transistors:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FF3F
+Path = /59F79D5E/5AB2DCE4/5AB2EE33
+Reference = Q6;
+ValeurCmp = NMOSFET_GSD;
+IdModule  = ted_transistors:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FF46
+Path = /59F79D5E/5AB2DCE4/5AB2F8E4
+Reference = Q7;
+ValeurCmp = NMOSFET_GSD;
+IdModule  = ted_transistors:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FF4D
+Path = /59F79D5E/5AB2DCE4/5AB2F8A4
+Reference = Q8;
+ValeurCmp = NMOSFET_GSD;
+IdModule  = ted_transistors:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FF54
+Path = /59F79D5E/5AB2DCE4/5AB2F4E2
+Reference = Q9;
+ValeurCmp = NMOSFET_GSD;
+IdModule  = ted_transistors:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FF5B
+Path = /59F79D5E/5AB2DCE4/5AB2F8D0
+Reference = Q10;
+ValeurCmp = NMOSFET_GSD;
+IdModule  = ted_transistors:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FF62
+Path = /59F79D5E/5AB2DCE4/5AB2F890
+Reference = Q11;
+ValeurCmp = NMOSFET_GSD;
+IdModule  = ted_transistors:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FF69
+Path = /59F79D5E/5AB2DCE4/5AB2F4A8
+Reference = Q12;
+ValeurCmp = NMOSFET_GSD;
+IdModule  = ted_transistors:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FF6F
+Path = /59F79D5E/5A0A6EFD
+Reference = R1;
+ValeurCmp = 330;
+IdModule  = ted_resistors:TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FF7B
+Path = /59F79D5E/5AB2DCE4/5AB2F4D6
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = ted_resistors:TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FF81
+Path = /59F79D5E/5AB2DCE4/5AB2EE85
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = ted_resistors:TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FF87
+Path = /59F79D5E/5AB2DCE4/5AB2EE63
+Reference = R5;
+ValeurCmp = 10k;
+IdModule  = ted_resistors:TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FF8D
+Path = /59F79D5E/5AB2DCE4/5AB2F486
+Reference = R6;
+ValeurCmp = 200;
+IdModule  = ted_resistors:TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FF93
+Path = /59F79D5E/5AB2DCE4/5AB2EE08
+Reference = R7;
+ValeurCmp = 200;
+IdModule  = ted_resistors:TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FF99
+Path = /59F79D5E/5AB2DCE4/5AB2EE2A
+Reference = R8;
+ValeurCmp = 200;
+IdModule  = ted_resistors:TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FF9F
+Path = /59F79D5E/5AB2DCE4/5AB2F8F8
+Reference = R9;
+ValeurCmp = 10k;
+IdModule  = ted_resistors:TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FFA5
+Path = /59F79D5E/5AB2DCE4/5AB2F8B8
+Reference = R10;
+ValeurCmp = 10k;
+IdModule  = ted_resistors:TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FFAB
+Path = /59F79D5E/5AB2DCE4/5AB2F4F6
+Reference = R11;
+ValeurCmp = 10k;
+IdModule  = ted_resistors:TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FFB1
+Path = /59F79D5E/5AB2DCE4/5AB2F8C8
+Reference = R12;
+ValeurCmp = 200;
+IdModule  = ted_resistors:TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FFB7
+Path = /59F79D5E/5AB2DCE4/5AB2F888
+Reference = R13;
+ValeurCmp = 200;
+IdModule  = ted_resistors:TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FFBD
+Path = /59F79D5E/5AB2DCE4/5AB2F4A0
+Reference = R14;
+ValeurCmp = 200;
+IdModule  = ted_resistors:TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FFC8
+Path = /59F79D5E/5AB2A8B5
+Reference = SW1;
+ValeurCmp = Rotary_Encoder_Switch;
+IdModule  = ted_encoders:TED_Encoder_w_Switch;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FFCE
+Path = /59F79D5E/5A04B3F5
+Reference = T1;
+ValeurCmp = Thermistor;
+IdModule  = ted_resistors:TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FFDA
+Path = /59F79D5E/5AA71FD1
+Reference = U1;
+ValeurCmp = BAJ0BC0FP-E2;
+IdModule  = ted_ICs:TO-252-3_TabPin4;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16FFE6
+Path = /59F79D5E/59FB9B3B
+Reference = U2;
+ValeurCmp = BME280;
+IdModule  = ted_ICs:LGA-8;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B17001A
+Path = /59F79D5E/5B08A550
+Reference = U3;
+ValeurCmp = SAMD20G14A-AU;
+IdModule  = ted_ICs:TED_TQFP48;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B170021
+Path = /59F79D5E/5A0A7CFB
+Reference = U5;
+ValeurCmp = AZ1117IH;
+IdModule  = ted_transistors:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B17002D
+Path = /59F79D5E/5A04E9D6
+Reference = U6;
+ValeurCmp = MCP7940N;
+IdModule  = ted_ICs:SOIC-8_3.9x4.9mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B170033
+Path = /59F79D5E/5A04E0C5
+Reference = X1;
+ValeurCmp = 32.768 kHz;
+IdModule  = ted_crystals:TED_crystal_CFPX-217;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B170720
+Path = 
+Reference = Hole;
+ValeurCmp = VAL**;
+IdModule  = ted_holes:TED_Hole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B187222
+Path = /59F79D5E/5B189F62
+Reference = C15;
+ValeurCmp = 100nF;
+IdModule  = ted_capacitors:TED_SM1608_0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B187228
+Path = /59F79D5E/5B189C56
+Reference = R2;
+ValeurCmp = 39;
+IdModule  = ted_resistors:TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B18722E
+Path = /59F79D5E/5B189961
+Reference = R15;
+ValeurCmp = 100k;
+IdModule  = ted_resistors:TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B187234
+Path = /59F79D5E/5B184117
+Reference = R16;
+ValeurCmp = 1k;
+IdModule  = ted_resistors:TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B203571
+Path = /59F79D5E/5B1FB9CC
+Reference = B1;
+ValeurCmp = Battery;
+IdModule  = ted_connectors:TED_CR2032_Battery_Holder_BC_2003;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B203579
+Path = /59F79D5E/5B1B303F
+Reference = C16;
+ValeurCmp = 100nF;
+IdModule  = ted_capacitors:TED_SM1608_0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B203581
+Path = /59F79D5E/5B1B2D6C
+Reference = C17;
+ValeurCmp = 100nF;
+IdModule  = ted_capacitors:TED_SM1608_0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B20358B
+Path = /59F79D5E/5B1F20E4
+Reference = R17;
+ValeurCmp = 4.7k;
+IdModule  = ted_resistors:TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B203595
+Path = /59F79D5E/5B1F9409
+Reference = R18;
+ValeurCmp = 4.7k;
+IdModule  = ted_resistors:TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B20359F
+Path = /59F79D5E/5B1F20F1
+Reference = R19;
+ValeurCmp = 4.7k;
+IdModule  = ted_resistors:TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B2035A9
+Path = /59F79D5E/5B1F622F
+Reference = R20;
+ValeurCmp = 4.7k;
+IdModule  = ted_resistors:TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B2035B3
+Path = /59F79D5E/5B1F623C
+Reference = R21;
+ValeurCmp = 4.7k;
+IdModule  = ted_resistors:TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B2035BD
+Path = /59F79D5E/5B18CD03
+Reference = R22;
+ValeurCmp = 100k;
+IdModule  = ted_resistors:TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B2035C7
+Path = /59F79D5E/5B1B254E
+Reference = R23;
+ValeurCmp = 4.7k;
+IdModule  = ted_resistors:TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B2035D1
+Path = /59F79D5E/5B1B287A
+Reference = R24;
+ValeurCmp = 4.7k;
+IdModule  = ted_resistors:TED_SM0603_R;
+EndCmp
+
+EndListe

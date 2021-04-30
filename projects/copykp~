@@ -1,0 +1,12 @@
+#!/bin/bash
+
+mv $1.brd $2.brd
+mv $1.cmp $2.cmp
+mv $1.net $2.net
+mv $1.pro $2.pro
+mv $1.sch $2.sch
+rm -rf *.bak
+rm -rf *.ps
+rm -rf *pcbbrd
+
+

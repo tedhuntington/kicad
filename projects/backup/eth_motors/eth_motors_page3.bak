@@ -1,0 +1,1022 @@
+EESchema Schematic File Version 2
+LIBS:ted_capacitors
+LIBS:ted_connectors
+LIBS:TED_led
+LIBS:ted_power
+LIBS:ted_regulators
+LIBS:ted_resistors
+LIBS:ted_switches
+LIBS:TED_transformer
+LIBS:ted_transistor
+LIBS:TED_zener
+LIBS:ted_ic
+LIBS:ted_inductors
+LIBS:ted_crystals
+LIBS:device
+LIBS:TED_holes
+LIBS:power
+LIBS:TED_camera_mount_and_lens
+LIBS:TED_circuit_protect
+LIBS:ted_device
+LIBS:ted_diodes
+LIBS:TED_hole
+LIBS:TED_opamp
+LIBS:TED_photoresistor
+LIBS:TED_rj45_spi_bus
+LIBS:ted_sensors
+LIBS:ted_transformers
+LIBS:TED_tvs
+LIBS:TED_var_inductor
+LIBS:tvs_diode
+LIBS:eth_motors-cache
+EELAYER 24 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date "14 jan 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L HEADER_3X2 J2
+U 1 1 52CF6514
+P 1835 1545
+F 0 "J2" H 1830 1150 60  0000 C CNN
+F 1 "HEADER_3X2" H 1760 1885 39  0000 C CNN
+F 2 "~" H 1835 1345 60  0000 C CNN
+F 3 "~" H 1835 1345 60  0000 C CNN
+	1    1835 1545
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HEADER_3X2 J4
+U 1 1 52CF6521
+P 3215 1575
+F 0 "J4" H 3210 1180 60  0000 C CNN
+F 1 "HEADER_3X2" H 3140 1915 39  0000 C CNN
+F 2 "~" H 3215 1375 60  0000 C CNN
+F 3 "~" H 3215 1375 60  0000 C CNN
+	1    3215 1575
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HEADER_3X2 J5
+U 1 1 52CF6527
+P 4580 1575
+F 0 "J5" H 4575 1180 60  0000 C CNN
+F 1 "HEADER_3X2" H 4505 1915 39  0000 C CNN
+F 2 "~" H 4580 1375 60  0000 C CNN
+F 3 "~" H 4580 1375 60  0000 C CNN
+	1    4580 1575
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HEADER_3X2 J6
+U 1 1 52CF652D
+P 5780 1575
+F 0 "J6" H 5775 1180 60  0000 C CNN
+F 1 "HEADER_3X2" H 5705 1915 39  0000 C CNN
+F 2 "~" H 5780 1375 60  0000 C CNN
+F 3 "~" H 5780 1375 60  0000 C CNN
+	1    5780 1575
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HEADER_3X2 J7
+U 1 1 52CF6533
+P 7110 1575
+F 0 "J7" H 7105 1180 60  0000 C CNN
+F 1 "HEADER_3X2" H 7035 1915 39  0000 C CNN
+F 2 "~" H 7110 1375 60  0000 C CNN
+F 3 "~" H 7110 1375 60  0000 C CNN
+	1    7110 1575
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HEADER_3X2 J13
+U 1 1 52CF6539
+P 9220 6450
+F 0 "J13" H 9215 6055 60  0000 C CNN
+F 1 "HEADER_3X2" H 9145 6790 39  0000 C CNN
+F 2 "~" H 9220 6250 60  0000 C CNN
+F 3 "~" H 9220 6250 60  0000 C CNN
+	1    9220 6450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HEADER_3X2 J14
+U 1 1 52CF6571
+P 8100 6455
+F 0 "J14" H 8095 6060 60  0000 C CNN
+F 1 "HEADER_3X2" H 8025 6795 39  0000 C CNN
+F 2 "~" H 8100 6255 60  0000 C CNN
+F 3 "~" H 8100 6255 60  0000 C CNN
+	1    8100 6455
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HEADER_3X2 J15
+U 1 1 52CF6577
+P 6835 6465
+F 0 "J15" H 6830 6070 60  0000 C CNN
+F 1 "HEADER_3X2" H 6760 6805 39  0000 C CNN
+F 2 "~" H 6835 6265 60  0000 C CNN
+F 3 "~" H 6835 6265 60  0000 C CNN
+	1    6835 6465
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HEADER_3X2 J16
+U 1 1 52CF657D
+P 5635 6435
+F 0 "J16" H 5630 6040 60  0000 C CNN
+F 1 "HEADER_3X2" H 5560 6775 39  0000 C CNN
+F 2 "~" H 5635 6235 60  0000 C CNN
+F 3 "~" H 5635 6235 60  0000 C CNN
+	1    5635 6435
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HEADER_3X2 J17
+U 1 1 52CF6583
+P 4540 6420
+F 0 "J17" H 4535 6025 60  0000 C CNN
+F 1 "HEADER_3X2" H 4465 6760 39  0000 C CNN
+F 2 "~" H 4540 6220 60  0000 C CNN
+F 3 "~" H 4540 6220 60  0000 C CNN
+	1    4540 6420
+	0    -1   -1   0   
+$EndComp
+Text Notes 4330 5540 0    59   ~ 0
+Motor\nController 2
+Text Notes 1585 2195 0    59   ~ 0
+Motor\nController 15
+Text GLabel 1310 1975 2    39   Output ~ 0
++2.8v
+$Comp
+L +2.8V #PWR054
+U 1 1 52D08693
+P 1310 1960
+F 0 "#PWR054" H 1310 1910 20  0001 C CNN
+F 1 "+2.8V" H 1310 2060 30  0000 C CNN
+F 2 "" H 1310 1960 60  0000 C CNN
+F 3 "" H 1310 1960 60  0000 C CNN
+	1    1310 1960
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1310 2090 1635 2090
+Wire Wire Line
+	1310 1960 1310 2090
+Wire Wire Line
+	1635 2090 1635 1895
+Text GLabel 2690 2005 2    39   Output ~ 0
++2.8v
+$Comp
+L +2.8V #PWR055
+U 1 1 52D086AD
+P 2690 1990
+F 0 "#PWR055" H 2690 1940 20  0001 C CNN
+F 1 "+2.8V" H 2690 2090 30  0000 C CNN
+F 2 "" H 2690 1990 60  0000 C CNN
+F 3 "" H 2690 1990 60  0000 C CNN
+	1    2690 1990
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2690 2120 3015 2120
+Wire Wire Line
+	2690 1990 2690 2120
+Wire Wire Line
+	3015 2120 3015 1925
+Text GLabel 4055 2005 2    39   Output ~ 0
++2.8v
+$Comp
+L +2.8V #PWR056
+U 1 1 52D086C1
+P 4055 1990
+F 0 "#PWR056" H 4055 1940 20  0001 C CNN
+F 1 "+2.8V" H 4055 2090 30  0000 C CNN
+F 2 "" H 4055 1990 60  0000 C CNN
+F 3 "" H 4055 1990 60  0000 C CNN
+	1    4055 1990
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4055 2120 4380 2120
+Wire Wire Line
+	4055 1990 4055 2120
+Wire Wire Line
+	4380 2120 4380 1925
+Text GLabel 5255 2005 2    39   Output ~ 0
++2.8v
+$Comp
+L +2.8V #PWR057
+U 1 1 52D086CB
+P 5255 1990
+F 0 "#PWR057" H 5255 1940 20  0001 C CNN
+F 1 "+2.8V" H 5255 2090 30  0000 C CNN
+F 2 "" H 5255 1990 60  0000 C CNN
+F 3 "" H 5255 1990 60  0000 C CNN
+	1    5255 1990
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5255 2120 5580 2120
+Wire Wire Line
+	5255 1990 5255 2120
+Wire Wire Line
+	5580 2120 5580 1925
+Text GLabel 6585 2005 2    39   Output ~ 0
++2.8v
+$Comp
+L +2.8V #PWR058
+U 1 1 52D086D5
+P 6585 1990
+F 0 "#PWR058" H 6585 1940 20  0001 C CNN
+F 1 "+2.8V" H 6585 2090 30  0000 C CNN
+F 2 "" H 6585 1990 60  0000 C CNN
+F 3 "" H 6585 1990 60  0000 C CNN
+	1    6585 1990
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6585 2120 6910 2120
+Wire Wire Line
+	6585 1990 6585 2120
+Wire Wire Line
+	6910 2120 6910 1925
+$Comp
+L GND #PWR059
+U 1 1 52D0875E
+P 1450 1090
+F 0 "#PWR059" H 1450 1165 30  0001 C CNN
+F 1 "GND" H 1450 1020 30  0000 C CNN
+F 2 "" H 1450 1090 60  0000 C CNN
+F 3 "" H 1450 1090 60  0000 C CNN
+	1    1450 1090
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 1000 1450 1090
+Wire Wire Line
+	1635 1195 1635 1000
+Wire Wire Line
+	1635 1000 1450 1000
+$Comp
+L GND #PWR060
+U 1 1 52D08790
+P 2830 1120
+F 0 "#PWR060" H 2830 1195 30  0001 C CNN
+F 1 "GND" H 2830 1050 30  0000 C CNN
+F 2 "" H 2830 1120 60  0000 C CNN
+F 3 "" H 2830 1120 60  0000 C CNN
+	1    2830 1120
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2830 1030 2830 1120
+Wire Wire Line
+	3015 1225 3015 1030
+Wire Wire Line
+	3015 1030 2830 1030
+$Comp
+L GND #PWR061
+U 1 1 52D08799
+P 4195 1120
+F 0 "#PWR061" H 4195 1195 30  0001 C CNN
+F 1 "GND" H 4195 1050 30  0000 C CNN
+F 2 "" H 4195 1120 60  0000 C CNN
+F 3 "" H 4195 1120 60  0000 C CNN
+	1    4195 1120
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4195 1030 4195 1120
+Wire Wire Line
+	4380 1225 4380 1030
+Wire Wire Line
+	4380 1030 4195 1030
+$Comp
+L GND #PWR062
+U 1 1 52D087A2
+P 5395 1120
+F 0 "#PWR062" H 5395 1195 30  0001 C CNN
+F 1 "GND" H 5395 1050 30  0000 C CNN
+F 2 "" H 5395 1120 60  0000 C CNN
+F 3 "" H 5395 1120 60  0000 C CNN
+	1    5395 1120
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5395 1030 5395 1120
+Wire Wire Line
+	5580 1225 5580 1030
+Wire Wire Line
+	5580 1030 5395 1030
+$Comp
+L GND #PWR063
+U 1 1 52D087AB
+P 6725 1120
+F 0 "#PWR063" H 6725 1195 30  0001 C CNN
+F 1 "GND" H 6725 1050 30  0000 C CNN
+F 2 "" H 6725 1120 60  0000 C CNN
+F 3 "" H 6725 1120 60  0000 C CNN
+	1    6725 1120
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6725 1030 6725 1120
+Wire Wire Line
+	6910 1225 6910 1030
+Wire Wire Line
+	6910 1030 6725 1030
+Text Notes 5395 5585 0    59   ~ 0
+Motor\nController 3
+Text GLabel 1835 1940 3    39   Input ~ 0
+RG6
+Wire Wire Line
+	1835 1940 1835 1895
+Text GLabel 2035 1940 3    39   Input ~ 0
+RC4
+Wire Wire Line
+	2035 1940 2035 1895
+Text GLabel 2035 1150 1    39   Output ~ 0
+RB5
+Wire Wire Line
+	2035 1150 2035 1195
+Text GLabel 1835 1150 1    39   Input ~ 0
+RG7
+Wire Wire Line
+	1835 1150 1835 1195
+Text GLabel 3215 1970 3    39   Input ~ 0
+RC2
+Wire Wire Line
+	3215 1970 3215 1925
+Text GLabel 3415 1970 3    39   Input ~ 0
+RC1
+Wire Wire Line
+	3415 1970 3415 1925
+Text GLabel 3415 1180 1    39   Output ~ 0
+RB4
+Wire Wire Line
+	3415 1180 3415 1225
+Text GLabel 3215 1180 1    39   Input ~ 0
+RC3
+Wire Wire Line
+	3215 1180 3215 1225
+Text GLabel 4780 1180 1    39   Output ~ 0
+RB3
+Wire Wire Line
+	4780 1180 4780 1225
+Text GLabel 4580 1180 1    39   Input ~ 0
+RE7
+Wire Wire Line
+	4580 1180 4580 1225
+Text GLabel 4580 1970 3    39   Input ~ 0
+RE6
+Wire Wire Line
+	4580 1970 4580 1925
+Text GLabel 4780 1970 3    39   Input ~ 0
+RE5
+Wire Wire Line
+	4780 1970 4780 1925
+Text GLabel 5980 1180 1    39   Output ~ 0
+RB2
+Wire Wire Line
+	5980 1180 5980 1225
+Text GLabel 5780 1180 1    39   Input ~ 0
+RE4
+Wire Wire Line
+	5780 1180 5780 1225
+Text GLabel 5780 1970 3    39   Input ~ 0
+RE3
+Wire Wire Line
+	5780 1970 5780 1925
+Text GLabel 5980 1970 3    39   Input ~ 0
+RE2
+Wire Wire Line
+	5980 1970 5980 1925
+Text GLabel 7310 1180 1    39   Output ~ 0
+ICSPCLK_RB1
+Wire Wire Line
+	7310 1180 7310 1225
+Text GLabel 7110 1180 1    39   Input ~ 0
+RG13
+Wire Wire Line
+	7110 1180 7110 1225
+Text GLabel 7110 1970 3    39   Input ~ 0
+RG12
+Wire Wire Line
+	7110 1970 7110 1925
+Text GLabel 7310 1970 3    39   Input ~ 0
+RG14
+Wire Wire Line
+	7310 1970 7310 1925
+Text GLabel 9020 6055 1    39   Output ~ 0
+RB10
+Wire Wire Line
+	9020 6055 9020 6100
+Text GLabel 9220 6845 3    39   Input ~ 0
+RD2
+Wire Wire Line
+	9220 6845 9220 6800
+Text GLabel 9020 6845 3    39   Input ~ 0
+RD0
+Wire Wire Line
+	9020 6845 9020 6800
+Text GLabel 9220 6055 1    39   Input ~ 0
+RD1
+Wire Wire Line
+	9220 6055 9220 6100
+$Comp
+L HEADER_3X2 J8
+U 1 1 52D095D0
+P 8355 1595
+F 0 "J8" H 8350 1200 60  0000 C CNN
+F 1 "HEADER_3X2" H 8280 1935 39  0000 C CNN
+F 2 "~" H 8355 1395 60  0000 C CNN
+F 3 "~" H 8355 1395 60  0000 C CNN
+	1    8355 1595
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HEADER_3X2 J9
+U 1 1 52D095D6
+P 10020 4975
+F 0 "J9" H 10015 4580 60  0000 C CNN
+F 1 "HEADER_3X2" H 9945 5315 39  0000 C CNN
+F 2 "~" H 10020 4775 60  0000 C CNN
+F 3 "~" H 10020 4775 60  0000 C CNN
+	1    10020 4975
+	-1   0    0    1   
+$EndComp
+$Comp
+L HEADER_3X2 J10
+U 1 1 52D095DC
+P 10020 4125
+F 0 "J10" H 10015 3730 60  0000 C CNN
+F 1 "HEADER_3X2" H 9945 4465 39  0000 C CNN
+F 2 "~" H 10020 3925 60  0000 C CNN
+F 3 "~" H 10020 3925 60  0000 C CNN
+	1    10020 4125
+	-1   0    0    1   
+$EndComp
+$Comp
+L HEADER_3X2 J11
+U 1 1 52D095E2
+P 10020 3325
+F 0 "J11" H 10015 2930 60  0000 C CNN
+F 1 "HEADER_3X2" H 9945 3665 39  0000 C CNN
+F 2 "~" H 10020 3125 60  0000 C CNN
+F 3 "~" H 10020 3125 60  0000 C CNN
+	1    10020 3325
+	-1   0    0    1   
+$EndComp
+$Comp
+L HEADER_3X2 J12
+U 1 1 52D095E8
+P 10020 2475
+F 0 "J12" H 10015 2080 60  0000 C CNN
+F 1 "HEADER_3X2" H 9945 2815 39  0000 C CNN
+F 2 "~" H 10020 2275 60  0000 C CNN
+F 3 "~" H 10020 2275 60  0000 C CNN
+	1    10020 2475
+	-1   0    0    1   
+$EndComp
+Text Notes 8115 2295 0    59   ~ 0
+Motor\nController 10
+Text GLabel 7830 2025 2    39   Output ~ 0
++2.8v
+$Comp
+L +2.8V #PWR064
+U 1 1 52D095F0
+P 7830 2010
+F 0 "#PWR064" H 7830 1960 20  0001 C CNN
+F 1 "+2.8V" H 7830 2110 30  0000 C CNN
+F 2 "" H 7830 2010 60  0000 C CNN
+F 3 "" H 7830 2010 60  0000 C CNN
+	1    7830 2010
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7830 2140 8155 2140
+Wire Wire Line
+	7830 2010 7830 2140
+Wire Wire Line
+	8155 2140 8155 1945
+Text GLabel 10450 5500 1    39   Output ~ 0
++2.8v
+$Comp
+L +2.8V #PWR065
+U 1 1 52D095FA
+P 10435 5500
+F 0 "#PWR065" H 10435 5450 20  0001 C CNN
+F 1 "+2.8V" H 10435 5600 30  0000 C CNN
+F 2 "" H 10435 5500 60  0000 C CNN
+F 3 "" H 10435 5500 60  0000 C CNN
+	1    10435 5500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10565 5500 10565 5175
+Wire Wire Line
+	10435 5500 10565 5500
+Wire Wire Line
+	10565 5175 10370 5175
+Text GLabel 10450 4650 1    39   Output ~ 0
++2.8v
+$Comp
+L +2.8V #PWR066
+U 1 1 52D09604
+P 10435 4650
+F 0 "#PWR066" H 10435 4600 20  0001 C CNN
+F 1 "+2.8V" H 10435 4750 30  0000 C CNN
+F 2 "" H 10435 4650 60  0000 C CNN
+F 3 "" H 10435 4650 60  0000 C CNN
+	1    10435 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10565 4650 10565 4325
+Wire Wire Line
+	10435 4650 10565 4650
+Wire Wire Line
+	10565 4325 10370 4325
+Text GLabel 10450 3850 1    39   Output ~ 0
++2.8v
+$Comp
+L +2.8V #PWR067
+U 1 1 52D0960E
+P 10435 3850
+F 0 "#PWR067" H 10435 3800 20  0001 C CNN
+F 1 "+2.8V" H 10435 3950 30  0000 C CNN
+F 2 "" H 10435 3850 60  0000 C CNN
+F 3 "" H 10435 3850 60  0000 C CNN
+	1    10435 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10565 3850 10565 3525
+Wire Wire Line
+	10435 3850 10565 3850
+Wire Wire Line
+	10565 3525 10370 3525
+Text GLabel 10450 3000 1    39   Output ~ 0
++2.8v
+$Comp
+L +2.8V #PWR068
+U 1 1 52D09618
+P 10435 3000
+F 0 "#PWR068" H 10435 2950 20  0001 C CNN
+F 1 "+2.8V" H 10435 3100 30  0000 C CNN
+F 2 "" H 10435 3000 60  0000 C CNN
+F 3 "" H 10435 3000 60  0000 C CNN
+	1    10435 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10565 3000 10565 2675
+Wire Wire Line
+	10435 3000 10565 3000
+Wire Wire Line
+	10565 2675 10370 2675
+$Comp
+L GND #PWR069
+U 1 1 52D09621
+P 7970 1140
+F 0 "#PWR069" H 7970 1215 30  0001 C CNN
+F 1 "GND" H 7970 1070 30  0000 C CNN
+F 2 "" H 7970 1140 60  0000 C CNN
+F 3 "" H 7970 1140 60  0000 C CNN
+	1    7970 1140
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7970 1050 7970 1140
+Wire Wire Line
+	8155 1245 8155 1050
+Wire Wire Line
+	8155 1050 7970 1050
+$Comp
+L GND #PWR070
+U 1 1 52D0962A
+P 9565 5360
+F 0 "#PWR070" H 9565 5435 30  0001 C CNN
+F 1 "GND" H 9565 5290 30  0000 C CNN
+F 2 "" H 9565 5360 60  0000 C CNN
+F 3 "" H 9565 5360 60  0000 C CNN
+	1    9565 5360
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9475 5360 9565 5360
+Wire Wire Line
+	9670 5175 9475 5175
+Wire Wire Line
+	9475 5175 9475 5360
+$Comp
+L GND #PWR071
+U 1 1 52D09633
+P 9565 4510
+F 0 "#PWR071" H 9565 4585 30  0001 C CNN
+F 1 "GND" H 9565 4440 30  0000 C CNN
+F 2 "" H 9565 4510 60  0000 C CNN
+F 3 "" H 9565 4510 60  0000 C CNN
+	1    9565 4510
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9475 4510 9565 4510
+Wire Wire Line
+	9670 4325 9475 4325
+Wire Wire Line
+	9475 4325 9475 4510
+$Comp
+L GND #PWR072
+U 1 1 52D0963C
+P 9565 3710
+F 0 "#PWR072" H 9565 3785 30  0001 C CNN
+F 1 "GND" H 9565 3640 30  0000 C CNN
+F 2 "" H 9565 3710 60  0000 C CNN
+F 3 "" H 9565 3710 60  0000 C CNN
+	1    9565 3710
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9475 3710 9565 3710
+Wire Wire Line
+	9670 3525 9475 3525
+Wire Wire Line
+	9475 3525 9475 3710
+$Comp
+L GND #PWR073
+U 1 1 52D09645
+P 9565 2860
+F 0 "#PWR073" H 9565 2935 30  0001 C CNN
+F 1 "GND" H 9565 2790 30  0000 C CNN
+F 2 "" H 9565 2860 60  0000 C CNN
+F 3 "" H 9565 2860 60  0000 C CNN
+	1    9565 2860
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9475 2860 9565 2860
+Wire Wire Line
+	9670 2675 9475 2675
+Wire Wire Line
+	9475 2675 9475 2860
+Text GLabel 8355 1990 3    39   Input ~ 0
+RE0
+Wire Wire Line
+	8355 1990 8355 1945
+Text GLabel 8555 1990 3    39   Input ~ 0
+RA7
+Wire Wire Line
+	8555 1990 8555 1945
+Text GLabel 8555 1200 1    39   Output ~ 0
+ICSPDAT_RB0
+Wire Wire Line
+	8555 1200 8555 1245
+Text GLabel 8355 1200 1    39   Input ~ 0
+RE1
+Wire Wire Line
+	8355 1200 8355 1245
+Text GLabel 10415 4975 2    39   Input ~ 0
+RG0
+Wire Wire Line
+	10415 4975 10370 4975
+Text GLabel 10415 4775 2    39   Input ~ 0
+RG1
+Wire Wire Line
+	10415 4775 10370 4775
+Text GLabel 9625 4775 0    39   Output ~ 0
+RB6
+Wire Wire Line
+	9625 4775 9670 4775
+Text GLabel 9625 4975 0    39   Input ~ 0
+RA6
+Wire Wire Line
+	9625 4975 9670 4975
+Text GLabel 9625 3925 0    39   Output ~ 0
+RB7
+Wire Wire Line
+	9625 3925 9670 3925
+Text GLabel 9625 4125 0    39   Input ~ 0
+RF1
+Wire Wire Line
+	9625 4125 9670 4125
+Text GLabel 10415 4125 2    39   Input ~ 0
+RF0
+Wire Wire Line
+	10415 4125 10370 4125
+Text GLabel 10415 3925 2    39   Input ~ 0
+RD7
+Wire Wire Line
+	10415 3925 10370 3925
+Text GLabel 9625 3125 0    39   Output ~ 0
+RB8
+Wire Wire Line
+	9625 3125 9670 3125
+Text GLabel 9625 3325 0    39   Input ~ 0
+RD6
+Wire Wire Line
+	9625 3325 9670 3325
+Text GLabel 10415 3325 2    39   Input ~ 0
+RD5
+Wire Wire Line
+	10415 3325 10370 3325
+Text GLabel 10415 3125 2    39   Input ~ 0
+RD4
+Wire Wire Line
+	10415 3125 10370 3125
+Text GLabel 9625 2275 0    39   Output ~ 0
+RB9
+Wire Wire Line
+	9625 2275 9670 2275
+Text GLabel 9625 2475 0    39   Input ~ 0
+RD13
+Wire Wire Line
+	9625 2475 9670 2475
+Text GLabel 10415 2475 2    39   Input ~ 0
+RD12
+Wire Wire Line
+	10415 2475 10370 2475
+Text GLabel 10415 2275 2    39   Input ~ 0
+RD3
+Wire Wire Line
+	10415 2275 10370 2275
+Text GLabel 7900 6850 3    39   Input ~ 0
+RA14
+Wire Wire Line
+	7900 6850 7900 6805
+Text GLabel 8100 6850 3    39   Input ~ 0
+RD9
+Wire Wire Line
+	8100 6850 8100 6805
+Text GLabel 7900 6060 1    39   Output ~ 0
+RB11
+Wire Wire Line
+	7900 6060 7900 6105
+Text GLabel 8100 6060 1    39   Input ~ 0
+RD10
+Wire Wire Line
+	8100 6060 8100 6105
+Text GLabel 6635 6860 3    39   Input ~ 0
+RA3
+Wire Wire Line
+	6635 6860 6635 6815
+Text GLabel 6835 6860 3    39   Input ~ 0
+RA4
+Wire Wire Line
+	6835 6860 6835 6815
+Text GLabel 6635 6070 1    39   Output ~ 0
+RB13
+Wire Wire Line
+	6635 6070 6635 6115
+Text GLabel 6835 6070 1    39   Input ~ 0
+RA5
+Wire Wire Line
+	6835 6070 6835 6115
+Text GLabel 5435 6830 3    39   Input ~ 0
+RG3
+Wire Wire Line
+	5435 6830 5435 6785
+Text GLabel 5635 6830 3    39   Input ~ 0
+RG2
+Wire Wire Line
+	5635 6830 5635 6785
+Text GLabel 5435 6040 1    39   Output ~ 0
+RB14
+Wire Wire Line
+	5435 6040 5435 6085
+Text GLabel 5635 6040 1    39   Input ~ 0
+RA2
+Wire Wire Line
+	5635 6040 5635 6085
+Text GLabel 4340 6025 1    39   Input ~ 0
+RF5
+Wire Wire Line
+	4340 6025 4340 6070
+Text GLabel 4540 6025 1    39   Input ~ 0
+RF4
+Wire Wire Line
+	4540 6025 4540 6070
+Text GLabel 4340 6815 3    39   Output ~ 0
+RB15
+Wire Wire Line
+	4340 6815 4340 6770
+Text GLabel 4540 6815 3    39   Input ~ 0
+RF3
+Wire Wire Line
+	4540 6815 4540 6770
+Text Notes 7585 4830 2    59   ~ 0
+Currently unused:\nF2, F8, RA9, RA10
+$Comp
+L HEADER_3X2 J18
+U 1 1 52D0A510
+P 3275 6405
+F 0 "J18" H 3270 6010 60  0000 C CNN
+F 1 "HEADER_3X2" H 3200 6745 39  0000 C CNN
+F 2 "~" H 3275 6205 60  0000 C CNN
+F 3 "~" H 3275 6205 60  0000 C CNN
+	1    3275 6405
+	0    -1   -1   0   
+$EndComp
+Text Notes 2990 5540 0    59   ~ 0
+Motor\nController 1
+Text GLabel 3475 5975 2    39   Output ~ 0
++2.8v
+$Comp
+L +2.8V #PWR074
+U 1 1 52D0A518
+P 3475 5910
+F 0 "#PWR074" H 3475 5860 20  0001 C CNN
+F 1 "+2.8V" H 3475 6010 30  0000 C CNN
+F 2 "" H 3475 5910 60  0000 C CNN
+F 3 "" H 3475 5910 60  0000 C CNN
+	1    3475 5910
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR075
+U 1 1 52D0A520
+P 3475 7000
+F 0 "#PWR075" H 3475 7075 30  0001 C CNN
+F 1 "GND" H 3475 6930 30  0000 C CNN
+F 2 "" H 3475 7000 60  0000 C CNN
+F 3 "" H 3475 7000 60  0000 C CNN
+	1    3475 7000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3475 6755 3475 7000
+Text GLabel 3075 6010 1    39   Input ~ 0
+RF12
+Wire Wire Line
+	3075 6010 3075 6055
+Text GLabel 3275 6010 1    39   Input ~ 0
+RA1
+Wire Wire Line
+	3275 6010 3275 6055
+Text GLabel 3075 6800 3    39   Output ~ 0
+RB12
+Wire Wire Line
+	3075 6800 3075 6755
+Text GLabel 3275 6800 3    39   Input ~ 0
+RF13
+Wire Wire Line
+	3275 6800 3275 6755
+Text Notes 3465 4785 0    59   ~ 0
+Note that: pin numbering is header-kind (not IDC)
+Text Notes 3475 5040 0    59   ~ 0
+Note that bottom 6 headers have reversed wiring\nbecause cables point in opposite direction from above
+Wire Wire Line
+	3475 5910 3475 6055
+$Comp
+L GND #PWR076
+U 1 1 52D48A32
+P 4740 7015
+F 0 "#PWR076" H 4740 7090 30  0001 C CNN
+F 1 "GND" H 4740 6945 30  0000 C CNN
+F 2 "" H 4740 7015 60  0000 C CNN
+F 3 "" H 4740 7015 60  0000 C CNN
+	1    4740 7015
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4740 6770 4740 7015
+Text GLabel 4740 5990 2    39   Output ~ 0
++2.8v
+$Comp
+L +2.8V #PWR077
+U 1 1 52D48A3A
+P 4740 5925
+F 0 "#PWR077" H 4740 5875 20  0001 C CNN
+F 1 "+2.8V" H 4740 6025 30  0000 C CNN
+F 2 "" H 4740 5925 60  0000 C CNN
+F 3 "" H 4740 5925 60  0000 C CNN
+	1    4740 5925
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4740 5925 4740 6070
+$Comp
+L GND #PWR078
+U 1 1 52D48C16
+P 5835 7030
+F 0 "#PWR078" H 5835 7105 30  0001 C CNN
+F 1 "GND" H 5835 6960 30  0000 C CNN
+F 2 "" H 5835 7030 60  0000 C CNN
+F 3 "" H 5835 7030 60  0000 C CNN
+	1    5835 7030
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5835 6785 5835 7030
+Text GLabel 5835 6005 2    39   Output ~ 0
++2.8v
+$Comp
+L +2.8V #PWR079
+U 1 1 52D48C1E
+P 5835 5940
+F 0 "#PWR079" H 5835 5890 20  0001 C CNN
+F 1 "+2.8V" H 5835 6040 30  0000 C CNN
+F 2 "" H 5835 5940 60  0000 C CNN
+F 3 "" H 5835 5940 60  0000 C CNN
+	1    5835 5940
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5835 5940 5835 6085
+$Comp
+L GND #PWR080
+U 1 1 52D48C2F
+P 7035 7060
+F 0 "#PWR080" H 7035 7135 30  0001 C CNN
+F 1 "GND" H 7035 6990 30  0000 C CNN
+F 2 "" H 7035 7060 60  0000 C CNN
+F 3 "" H 7035 7060 60  0000 C CNN
+	1    7035 7060
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7035 6815 7035 7060
+Text GLabel 7035 6035 2    39   Output ~ 0
++2.8v
+$Comp
+L +2.8V #PWR081
+U 1 1 52D48C37
+P 7035 5970
+F 0 "#PWR081" H 7035 5920 20  0001 C CNN
+F 1 "+2.8V" H 7035 6070 30  0000 C CNN
+F 2 "" H 7035 5970 60  0000 C CNN
+F 3 "" H 7035 5970 60  0000 C CNN
+	1    7035 5970
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7035 5970 7035 6115
+Text GLabel 8300 6025 2    39   Output ~ 0
++2.8v
+$Comp
+L +2.8V #PWR082
+U 1 1 52D48C49
+P 8300 5960
+F 0 "#PWR082" H 8300 5910 20  0001 C CNN
+F 1 "+2.8V" H 8300 6060 30  0000 C CNN
+F 2 "" H 8300 5960 60  0000 C CNN
+F 3 "" H 8300 5960 60  0000 C CNN
+	1    8300 5960
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 5960 8300 6105
+$Comp
+L GND #PWR083
+U 1 1 52D48C50
+P 8300 7050
+F 0 "#PWR083" H 8300 7125 30  0001 C CNN
+F 1 "GND" H 8300 6980 30  0000 C CNN
+F 2 "" H 8300 7050 60  0000 C CNN
+F 3 "" H 8300 7050 60  0000 C CNN
+	1    8300 7050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 6805 8300 7050
+Text GLabel 9420 6020 2    39   Output ~ 0
++2.8v
+$Comp
+L +2.8V #PWR084
+U 1 1 52D48C62
+P 9420 5955
+F 0 "#PWR084" H 9420 5905 20  0001 C CNN
+F 1 "+2.8V" H 9420 6055 30  0000 C CNN
+F 2 "" H 9420 5955 60  0000 C CNN
+F 3 "" H 9420 5955 60  0000 C CNN
+	1    9420 5955
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9420 5955 9420 6100
+$Comp
+L GND #PWR085
+U 1 1 52D48C69
+P 9420 7045
+F 0 "#PWR085" H 9420 7120 30  0001 C CNN
+F 1 "GND" H 9420 6975 30  0000 C CNN
+F 2 "" H 9420 7045 60  0000 C CNN
+F 3 "" H 9420 7045 60  0000 C CNN
+	1    9420 7045
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9420 6800 9420 7045
+$EndSCHEMATC

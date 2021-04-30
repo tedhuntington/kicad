@@ -1,0 +1,73 @@
+Cmp-Mod V01 Created by CvPcb (2013-08-24 BZR 4298)-stable date = Sun 08 Dec 2013 10:17:11 PM PST
+
+BeginCmp
+TimeStamp = /52959381;
+Reference = C1;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5295936A;
+Reference = C2;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /529595DF;
+Reference = C3;
+ValeurCmp = 4.7uF;
+IdModule  = TED_SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /529595B4;
+Reference = C4;
+ValeurCmp = 4.7uF;
+IdModule  = TED_SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /529595D2;
+Reference = C5;
+ValeurCmp = 4.7uF;
+IdModule  = TED_SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52956095;
+Reference = J1;
+ValeurCmp = HEADER_10X2;
+IdModule  = TED_HEADER_10x2_BOTTOM_SIDE;
+EndCmp
+
+BeginCmp
+TimeStamp = /529595EE;
+Reference = R1;
+ValeurCmp = 10;
+IdModule  = TED_SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52958E0C;
+Reference = U1;
+ValeurCmp = OV7670;
+IdModule  = TED_CSP2-24;
+EndCmp
+
+BeginCmp
+TimeStamp = /52959B02;
+Reference = U2;
+ValeurCmp = CAMERA_MOUNT_AND_LENS;
+IdModule  = TED_CAMERA_M12x0.5_mount;
+EndCmp
+
+BeginCmp
+TimeStamp = /52980CF3;
+Reference = U3;
+ValeurCmp = REGULATOR_1.8V;
+IdModule  = TED_SC59;
+EndCmp
+
+EndListe

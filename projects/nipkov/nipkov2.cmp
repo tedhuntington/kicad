@@ -1,0 +1,150 @@
+Cmp-Mod V01 Created by cvpcb (20090413 SVN-R1715) date = Sat 18 Apr 2009 06:37:29 PM EDT
+
+BeginCmp
+TimeStamp = /49E6CB67;
+Reference = C1;
+ValeurCmp = .1uF;
+IdModule  = C Radial 2cm x 2cm;
+EndCmp
+
+BeginCmp
+TimeStamp = /49EA25FC;
+Reference = C2;
+ValeurCmp = 4.7uF;
+IdModule  = SM3216-18;
+EndCmp
+
+BeginCmp
+TimeStamp = /49E6D69C;
+Reference = C3;
+ValeurCmp = 680uF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /49E6C272;
+Reference = D1;
+ValeurCmp = tvs_250watt_6.8V;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /49E6C244;
+Reference = D2;
+ValeurCmp = 5V;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /49E547E2;
+Reference = J1;
+ValeurCmp = TERMINAL_3.5MM_PCB;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /49E548CF;
+Reference = J2;
+ValeurCmp = TERMINAL_3.5MM_PCB;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /49E550E4;
+Reference = J3;
+ValeurCmp = TERMINAL_3.5MM_PCB;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /49E548D6;
+Reference = J4;
+ValeurCmp = TERMINAL_3.5MM_PCB;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /49E547F9;
+Reference = J5;
+ValeurCmp = TERMINAL_3.5MM_PCB;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /49E54836;
+Reference = J6;
+ValeurCmp = TERMINAL_3.5MM_PCB;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /49E550D6;
+Reference = J7;
+ValeurCmp = TERMINAL_3.5MM_PCB;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /49E54822;
+Reference = J8;
+ValeurCmp = TERMINAL_3.5MM_PCB;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /49E6C218;
+Reference = Q1;
+ValeurCmp = IRF1405;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /49E6CB4F;
+Reference = R1;
+ValeurCmp = 1k;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /49E6CB3D;
+Reference = R2;
+ValeurCmp = 1k;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /49E6CB03;
+Reference = R3;
+ValeurCmp = 1M;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /49E6CB33;
+Reference = R4;
+ValeurCmp = 1k;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /49E6BF44;
+Reference = U1;
+ValeurCmp = LM7805;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /49E6BE35;
+Reference = U2;
+ValeurCmp = NE555;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /49E68302;
+Reference = U3;
+ValeurCmp = OPA353;
+IdModule  = ;
+EndCmp
+
+EndListe

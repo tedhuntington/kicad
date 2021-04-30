@@ -1,0 +1,129 @@
+Cmp-Mod V01 Created by CvPCB (20100330 SVN-R2491)-final date = Mon 03 May 2010 08:58:15 PM PDT
+
+BeginCmp
+TimeStamp = /4BDE4BE6;
+Reference = C1;
+ValeurCmp = 1uF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDE4E7B;
+Reference = C2;
+ValeurCmp = 1uF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDE5195;
+Reference = C3;
+ValeurCmp = 10uF;
+IdModule  = TED_SM3216-18_POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDE4E8A;
+Reference = C4;
+ValeurCmp = 1uF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDE5468;
+Reference = C5;
+ValeurCmp = 1uF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDE5335;
+Reference = C6;
+ValeurCmp = 15pF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDE532E;
+Reference = C7;
+ValeurCmp = 15pF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDE5177;
+Reference = C8;
+ValeurCmp = 1uF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDE4964;
+Reference = J1;
+ValeurCmp = DC_2.1MM;
+IdModule  = TED_DC_2.1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDE48A9;
+Reference = J2;
+ValeurCmp = IDE_5X2;
+IdModule  = TED_IDE_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDE51C0;
+Reference = J3;
+ValeurCmp = IDE_10X2;
+IdModule  = TED_IDE_10x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDE4C1A;
+Reference = R1;
+ValeurCmp = 4.7k;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDE4EE3;
+Reference = R2;
+ValeurCmp = 4.7k;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDE505E;
+Reference = R3;
+ValeurCmp = 10M;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDE497C;
+Reference = U1;
+ValeurCmp = REGULATOR_3.3V;
+IdModule  = TED_TO220_NOHS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDE4264;
+Reference = U3;
+ValeurCmp = PIC18F45J10;
+IdModule  = TED_DIP-28;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDE62ED;
+Reference = U4;
+ValeurCmp = ZG2100;
+IdModule  = TED_ZG2100;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDE5325;
+Reference = X1;
+ValeurCmp = 20MHz;
+IdModule  = TED_crystal_SMT_13x5mm;
+EndCmp
+
+EndListe

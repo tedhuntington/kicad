@@ -1,0 +1,189 @@
+# EESchema Netlist Version 1.1 created  Sat 01 Aug 2009 03:01:02 AM PDT
+(
+ ( /49EA25FC SM3216-18 C2 4.7uF
+  ( 1 /+5V )
+  ( 2 /GND )
+ )
+ ( /49E6D69C TED_C_RADIAL_2cm_x_2cm C3 680uF
+  ( 1 /+24V )
+  ( 2 /GND )
+ )
+ ( /4A18F084 TED_SM0805 C4 .1uF
+  ( 1 N-000003 )
+  ( 2 /GND )
+ )
+ ( /4A18F1D7 TED_SM0805 C5 .1uF
+  ( 1 N-000002 )
+  ( 2 /GND )
+ )
+ ( /4A18FA9E TED_SM0805 C6 .1uF
+  ( 1 /+5V )
+  ( 2 /GND )
+ )
+ ( /49E6C272 TED_DO-201AD D1 tvs_5A_50V
+  ( 1 /MOTOR )
+  ( 2 /+24V )
+ )
+ ( /49E6C244 TED_SOD-123 D2 5V
+  ( 1 /GND )
+  ( 2 N-000006 )
+ )
+ ( /4A18DEF7 TED_TERMINAL_3.5MM_2PIN J1 TERMINAL_3.5MM_PCB_2PIN
+  ( 1 N-000008 )
+  ( 2 /+5V )
+ )
+ ( /4A18DF4C TED_TERMINAL_3.5MM_2PIN J2 TERMINAL_3.5MM_PCB_2PIN
+  ( 1 /GND )
+  ( 2 /+24V )
+ )
+ ( /4A18DF40 TED_TERMINAL_3.5MM_2PIN J3 TERMINAL_3.5MM_PCB_2PIN
+  ( 1 /+24V )
+  ( 2 /MOTOR )
+ )
+ ( /4A18DF4A TED_TERMINAL_3.5MM_2PIN J4 TERMINAL_3.5MM_PCB_2PIN
+  ( 1 N-000014 )
+  ( 2 /+5V )
+ )
+ ( /4A18DF45 TED_TERMINAL_3.5MM_2PIN J5 TERMINAL_3.5MM_PCB_2PIN
+  ( 1 N-000006 )
+  ( 2 /GND )
+ )
+ ( /4A18DF48 TED_TERMINAL_3.5MM_2PIN J6 TERMINAL_3.5MM_PCB_2PIN
+  ( 1 N-000007 )
+  ( 2 N-000005 )
+ )
+ ( /4A73FC52 TED_TO220_NOHS Q1 NMOSFET_GDS
+  ( 1 N-000009 )
+  ( 2 /MOTOR )
+  ( 3 /GND )
+ )
+ ( /49E6CB3D TED_SM0805 R2 1k
+  ( 1 N-000016 )
+  ( 2 /GND )
+ )
+ ( /49E6CB03 TED_SM0805 R3 10k
+  ( 1 N-000014 )
+  ( 2 /GND )
+ )
+ ( /49E6CB33 TED_SM0805 R4 1k
+  ( 1 N-000005 )
+  ( 2 N-000016 )
+ )
+ ( /4A0FBA6D TED_SM0805 R5 1k
+  ( 1 N-000006 )
+  ( 2 N-000007 )
+ )
+ ( /4A18F3D5 TED_SM0805 R6 1k
+  ( 1 N-000008 )
+  ( 2 N-000003 )
+ )
+ ( /4A18F26A TED_SM0805 R7 1k
+  ( 1 N-000001 )
+  ( 2 N-000009 )
+ )
+ ( /4A18F194 TED_SM0805 R8 1k
+  ( 1 /+5V )
+  ( 2 N-000002 )
+ )
+ ( /4A73FD52 TED_TO220_NOHS U1 7805_NO_HS
+  ( 1 /+24V )
+  ( 2 /GND )
+  ( 3 /+5V )
+ )
+ ( /49E68302 TED_SO08 U3 OPA353
+  ( 2 N-000016 )
+  ( 3 N-000014 )
+  ( 4 /GND )
+  ( 6 N-000007 )
+  ( 7 /+5V )
+ )
+ ( /4A18EF63 TED_DIP14 U4 NE556
+  ( 1 N-000008 )
+  ( 2 N-000003 )
+  ( 3 ? )
+  ( 4 /+5V )
+  ( 5 N-000004 )
+  ( 6 N-000003 )
+  ( 7 /GND )
+  ( 8 N-000004 )
+  ( 9 N-000001 )
+  ( 10 /+5V )
+  ( 11 ? )
+  ( 12 N-000002 )
+  ( 13 N-000002 )
+  ( 14 /+5V )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component D2
+ D?
+ SO*
+ SM*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}

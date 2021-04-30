@@ -1,0 +1,86 @@
+PCBNEW-LibModule-V1  Tue 24 Aug 2010 11:07:36 PM PDT
+$INDEX
+9-pin_tube_socket
+$EndINDEX
+$MODULE 9-pin_tube_socket
+Po 0 0 0 15 4C7211E3 4C720DD0 ~~
+Li 9-pin_tube_socket
+Sc 4C720DD0
+AR 
+Op 0 0 0
+.LocalClearance 400
+T0 368 -3950 600 600 0 39 N V 21 N"9-pin_tube_socket"
+T1 262 3970 600 600 0 39 N V 21 N"VAL**"
+DC 0 0 2750 0 79 21
+$PAD
+Sh "10" C 900 900 0 0 0
+Dr 550 0 0
+At STD N 0060FFFF
+Ne 0 ""
+Po 2225 1616
+$EndPAD
+$PAD
+Sh "1" R 900 900 0 0 0
+Dr 550 0 0
+At STD N 0060FFFF
+Ne 0 ""
+Po 2750 0
+$EndPAD
+$PAD
+Sh "2" C 900 900 0 0 0
+Dr 550 0 0
+At STD N 0060FFFF
+Ne 0 ""
+Po 2225 -1616
+$EndPAD
+$PAD
+Sh "3" C 900 900 0 0 0
+Dr 550 0 0
+At STD N 0060FFFF
+Ne 0 ""
+Po 850 -2615
+$EndPAD
+$PAD
+Sh "4" C 900 900 0 0 0
+Dr 550 0 0
+At STD N 0060FFFF
+Ne 0 ""
+Po -850 -2615
+$EndPAD
+$PAD
+Sh "6" C 900 900 0 0 0
+Dr 550 0 0
+At STD N 0060FFFF
+Ne 0 ""
+Po -2750 0
+$EndPAD
+$PAD
+Sh "7" C 900 900 0 0 0
+Dr 550 0 0
+At STD N 0060FFFF
+Ne 0 ""
+Po -2225 1616
+$EndPAD
+$PAD
+Sh "8" C 900 900 0 0 0
+Dr 550 0 0
+At STD N 0060FFFF
+Ne 0 ""
+Po -850 2615
+$EndPAD
+$PAD
+Sh "9" C 900 900 0 0 0
+Dr 550 0 0
+At STD N 0060FFFF
+Ne 0 ""
+Po 850 2615
+$EndPAD
+$PAD
+Sh "5" C 900 900 0 0 0
+Dr 550 0 0
+At STD N 0060FFFF
+Ne 0 ""
+Po -2225 -1616
+$EndPAD
+$EndMODULE  9-pin_tube_socket
+$EndLIBRARY

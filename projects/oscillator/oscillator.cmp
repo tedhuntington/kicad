@@ -1,0 +1,80 @@
+Cmp-Mod V01 Created by Cvpcb (20090530 SVN-R1798) date = Tue 30 Mar 2010 03:50:57 PM PDT
+
+BeginCmp
+TimeStamp = /4BAC642F;
+Reference = C1;
+ValeurCmp = 10uF;
+IdModule  = TED_SM3216-18_POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B491031;
+Reference = J8;
+ValeurCmp = TERMINAL_3.5MM_PCB_2PIN;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BAC0890;
+Reference = J9;
+ValeurCmp = JUMPER_2X1;
+IdModule  = TED_JMP_2x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BAC0857;
+Reference = J10;
+ValeurCmp = DC_2.1mm;
+IdModule  = TED_DC_2.1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BAC20CF;
+Reference = J11;
+ValeurCmp = TERMINAL_3.5MM_PCB_2PIN;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BAC20DC;
+Reference = J12;
+ValeurCmp = TERMINAL_3.5MM_PCB_2PIN;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BAC20E2;
+Reference = J13;
+ValeurCmp = TERMINAL_3.5MM_PCB_2PIN;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BAC5A70;
+Reference = J14;
+ValeurCmp = 3.5_STEREO;
+IdModule  = TED_3.5_Stereo_ASJ-5-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BAC2CFD;
+Reference = Q1;
+ValeurCmp = BJT_N_TYPE;
+IdModule  = TED_TO-18;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BAC207A;
+Reference = R1;
+ValeurCmp = 100;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BAC2092;
+Reference = R2;
+ValeurCmp = 1k;
+IdModule  = TED_SM0805;
+EndCmp
+
+EndListe

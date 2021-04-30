@@ -1,0 +1,201 @@
+# EESchema Netlist Version 1.1 created  Sat 17 Oct 2009 04:58:54 PM PDT
+(
+ ( /4ABEFA65 $noname  J4 HEADER_8X1 {Lib=HEADER_8X1}
+  (    1 /+5v )
+  (    2 ? )
+  (    3 /IPSPDAT )
+  (    4 /IPSPCLK )
+  (    5 /MCLR )
+  (    6 /GreenLED )
+  (    7 /RedLED )
+  (    8 GND )
+ )
+ ( /4A63BBCD $noname  X2 20MHz {Lib=CRYSTAL}
+  (    1 N-000011 )
+  (    2 N-000003 )
+ )
+ ( /4A63BBC6 $noname  C10 18pF {Lib=C}
+  (    1 N-000003 )
+  (    2 GND )
+ )
+ ( /4A63BBA9 $noname  C9 18pF {Lib=C}
+  (    1 N-000011 )
+  (    2 GND )
+ )
+ ( /4A63B974 $noname  R9 560 {Lib=R}
+  (    1 N-000010 )
+  (    2 GND )
+ )
+ ( /4A63B971 $noname  D5 LED {Lib=LED}
+  (    1 /TestLED )
+  (    2 N-000010 )
+ )
+ ( /4A63B8F1 $noname  R7 560 {Lib=R}
+  (    1 GND )
+  (    2 N-000004 )
+ )
+ ( /4A63B8D9 $noname  R8 560 {Lib=R}
+  (    1 GND )
+  (    2 N-000009 )
+ )
+ ( /4A63B8CD $noname  D3 RED_LED {Lib=LED}
+  (    1 /RedLED )
+  (    2 N-000004 )
+ )
+ ( /4A63B8C7 $noname  D4 GREEN_LED {Lib=LED}
+  (    1 /GreenLED )
+  (    2 N-000009 )
+ )
+ ( /4A63A5E0 $noname  U4 7812 {Lib=7812}
+  (    1 N-000006 )
+  (    2 GND )
+  (    3 N-000005 )
+ )
+ ( /4A63A46A TED_CONNECTOR_POWER_2.5mm  J3 DC_2.5mm_PCB {Lib=DC_2.5mm_PCB}
+  (    1 N-000006 )
+  (    2 GND )
+ )
+ ( /4A63A441 TED_TERMINAL_2mil_2PIN  J2 TERMINAL_2mil_PCB_2PIN {Lib=TERMINAL_2mil_PCB_2PIN}
+  (    1 N-000006 )
+  (    2 GND )
+ )
+ ( /4A63A2B6 $noname  R6 10k {Lib=R}
+  (    1 N-000005 )
+  (    2 N-000008 )
+ )
+ ( /4A63A1A2 $noname  Q1 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 /MCLR )
+  (    2 GND )
+  (    3 N-000008 )
+ )
+ ( /4A639A4F $noname  U5 PIC16F716 {Lib=PIC16F716}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 N-000008 )
+  (    5 GND )
+  (    6 /TestLED )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 /IPSPCLK )
+  (   13 /IPSPDAT )
+  (   14 /+5v )
+  (   15 N-000003 )
+  (   16 N-000011 )
+  (   17 ? )
+  (   18 ? )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+$endlist
+$component D5
+ D?
+ S*
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+$endlist
+$component D3
+ D?
+ S*
+$endlist
+$component D4
+ D?
+ S*
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 2 "GND" "GND"
+ J4 8
+ C10 2
+ C9 2
+ R9 2
+ R7 1
+ R8 1
+ U4 2
+ J3 2
+ J2 2
+ Q1 2
+ U5 5
+Net 3 "" ""
+ X2 2
+ C10 1
+ U5 15
+Net 4 "" ""
+ R7 2
+ D3 2
+Net 5 "" ""
+ U4 3
+ R6 1
+Net 6 "" ""
+ U4 1
+ J3 1
+ J2 1
+Net 8 "" ""
+ R6 2
+ Q1 3
+ U5 4
+Net 9 "" ""
+ R8 2
+ D4 2
+Net 10 "" ""
+ R9 1
+ D5 2
+Net 11 "" ""
+ X2 1
+ C9 1
+ U5 16
+Net 12 "/+5v" "+5v"
+ J4 1
+ U5 14
+Net 13 "/TestLED" "TestLED"
+ D5 1
+ U5 6
+Net 14 "/MCLR" "MCLR"
+ J4 5
+ Q1 1
+Net 15 "/RedLED" "RedLED"
+ J4 7
+ D3 1
+Net 16 "/GreenLED" "GreenLED"
+ J4 6
+ D4 1
+Net 27 "/IPSPDAT" "IPSPDAT"
+ J4 3
+ U5 13
+Net 28 "/IPSPCLK" "IPSPCLK"
+ J4 4
+ U5 12
+}
+#End

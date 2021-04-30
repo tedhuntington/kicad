@@ -1,0 +1,31 @@
+Cmp-Mod V01 Created by CvPcb (2013-08-24 BZR 4298)-stable date = Thu 12 Dec 2013 07:22:54 PM PST
+
+BeginCmp
+TimeStamp = /5295936A;
+Reference = C2;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A55745;
+Reference = J1;
+ValeurCmp = HEADER_3X2;
+IdModule  = TED_HEADER_3x2_BOTTOM;
+EndCmp
+
+BeginCmp
+TimeStamp = /52AA7ACD;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = TED_SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52AA7A5F;
+Reference = U1;
+ValeurCmp = TMP006;
+IdModule  = TED_DSBGA-8;
+EndCmp
+
+EndListe

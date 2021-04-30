@@ -1,0 +1,1 @@
+xsltproc -o /home/ted/kicad/projects/accelgyro_LSM9DS1TR_rev01/accelgyro_LSM9DS1TR_rev01.csv /usr/local/lib/kicad/plugins/bom2csv.xsl /home/ted/kicad/projects/accelgyro_LSM9DS1TR_rev01/accelgyro_LSM9DS1TR_rev01.xml

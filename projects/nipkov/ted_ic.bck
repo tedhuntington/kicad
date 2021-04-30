@@ -1,0 +1,19 @@
+EESchema-DOCLIB  Version 2.0  Date: Sat 02 May 2009 12:21:13 AM PDT
+#
+$CMP 7805
+D Linear Regulator +5V
+K POWER REGUL
+F regulator/lm78*.*
+$ENDCMP
+#
+$CMP NE555
+F ns/lm555.pdf
+$ENDCMP
+#
+$CMP OPA353
+D Op amp.
+K AmpliOp
+F ../docs/opa353
+$ENDCMP
+#
+#End Doc Library

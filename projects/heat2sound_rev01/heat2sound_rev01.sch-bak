@@ -1,0 +1,441 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "Low Offset Voltage Amplifier - Thermopile - Heart - Radio - etc MCP6v02"
+Date "14 jun 2010"
+Rev "1.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 2575 1355 0    50   ~ 0
+Add volume control
+Text Notes 860  3845 0    50   ~ 0
+run sensor + and - into + and - of amp to cancel - \n60 hz of electrical power running thru body?
+Wire Wire Line
+	3265 2420 3265 2685
+Connection ~ 2440 2545
+Wire Wire Line
+	2580 2865 2580 2545
+Wire Wire Line
+	2580 2545 2440 2545
+Connection ~ 3095 2160
+Wire Wire Line
+	2510 2455 2355 2455
+Wire Wire Line
+	2355 2455 2355 2285
+Wire Wire Line
+	2355 2285 3095 2285
+Wire Wire Line
+	3095 2285 3095 2160
+Connection ~ 2305 2120
+Wire Wire Line
+	2305 2120 2305 1600
+Wire Wire Line
+	2305 1600 2480 1600
+Wire Wire Line
+	2510 2195 1985 2195
+Connection ~ 2760 1940
+Wire Wire Line
+	3230 1990 3230 1940
+Wire Wire Line
+	3230 1940 2760 1940
+Wire Wire Line
+	2760 1895 2760 1940
+Wire Wire Line
+	3230 2090 3230 2205
+Connection ~ 3790 2415
+Wire Wire Line
+	3790 2685 3790 2415
+Wire Wire Line
+	3790 2685 3265 2685
+Wire Wire Line
+	2440 3090 2440 3170
+Wire Wire Line
+	2440 2590 2440 2545
+Wire Wire Line
+	4710 2110 5370 2110
+Wire Wire Line
+	4215 2310 4135 2310
+Wire Wire Line
+	3660 2775 3660 3115
+Wire Wire Line
+	3660 2775 4870 2775
+Wire Wire Line
+	4870 2775 4870 2510
+Wire Wire Line
+	4220 3335 3895 3335
+Wire Wire Line
+	3470 3335 3470 2865
+Wire Wire Line
+	3470 2865 5370 2865
+Wire Wire Line
+	5370 2865 5370 2110
+Wire Wire Line
+	3660 3115 4220 3115
+Wire Wire Line
+	1490 2140 1490 2060
+Wire Wire Line
+	4160 1490 4160 1630
+Wire Wire Line
+	1240 3050 1240 3160
+Wire Wire Line
+	1760 2365 1760 1945
+Wire Wire Line
+	1760 1945 1360 1945
+Wire Wire Line
+	1345 1425 1460 1425
+Wire Wire Line
+	1335 990  1485 990 
+Wire Wire Line
+	1485 990  1485 1065
+Wire Wire Line
+	1245 2775 1760 2775
+Wire Wire Line
+	1760 2775 1760 2565
+Wire Wire Line
+	2760 2590 2760 2670
+Wire Wire Line
+	2065 2620 2065 2700
+Wire Wire Line
+	3790 1215 4165 1215
+Wire Wire Line
+	1490 2060 1360 2060
+Wire Wire Line
+	3790 2415 3980 2415
+Wire Wire Line
+	3980 2415 3980 2110
+Wire Wire Line
+	4135 2310 4135 2390
+Wire Wire Line
+	3895 3335 3895 3555
+Wire Wire Line
+	3895 3555 4220 3555
+Connection ~ 3895 3335
+Wire Wire Line
+	3980 2110 4215 2110
+Wire Wire Line
+	4870 2510 4710 2510
+Wire Wire Line
+	1760 2465 1985 2465
+Wire Wire Line
+	1985 2465 1985 2195
+Wire Wire Line
+	2510 2120 2305 2120
+Wire Wire Line
+	3095 1600 2980 1600
+Wire Wire Line
+	3010 2160 3095 2160
+Wire Wire Line
+	2440 2380 2510 2380
+Wire Wire Line
+	3080 2865 3080 2420
+$Comp
+L ted_resistors:R R1
+U 1 1 4C01DB2F
+P 2065 2370
+F 0 "R1" V 2145 2370 50  0000 C CNN
+F 1 "100" V 2065 2370 50  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" H 2065 2370 50  0001 C CNN
+F 3 "" H 2065 2370 50  0001 C CNN
+	1    2065 2370
+	1    0    0    -1  
+$EndComp
+$Comp
+L ted_capacitors:C(small) C1
+U 1 1 4C0C123E
+P 3230 2040
+F 0 "C1" H 3255 2090 30  0000 L CNN
+F 1 ".1uF" H 3255 1995 30  0000 L CNN
+F 2 "ted_capacitors:TED_SM0603_C" H 3230 2040 50  0001 C CNN
+F 3 "" H 3230 2040 50  0001 C CNN
+	1    3230 2040
+	1    0    0    -1  
+$EndComp
+$Comp
+L ted_power:+5V #PWR01
+U 1 1 4C0C123D
+P 2760 1895
+F 0 "#PWR01" H 2760 1845 20  0001 C CNN
+F 1 "+5V" H 2760 1995 30  0000 C CNN
+F 2 "" H 2760 1895 50  0001 C CNN
+F 3 "" H 2760 1895 50  0001 C CNN
+	1    2760 1895
+	1    0    0    -1  
+$EndComp
+$Comp
+L ted_power:GND #PWR02
+U 1 1 4C0C123C
+P 3230 2205
+F 0 "#PWR02" H 3230 2205 30  0001 C CNN
+F 1 "GND" H 3230 2135 30  0000 C CNN
+F 2 "" H 3230 2205 50  0001 C CNN
+F 3 "" H 3230 2205 50  0001 C CNN
+	1    3230 2205
+	1    0    0    -1  
+$EndComp
+Text GLabel 2760 1915 0    30   Input ~ 0
++5v
+Text Notes 2960 1790 0    50   ~ 0
+stage 1 amplifies 1000x
+$Comp
+L ted_ic:MCP6V02 U1
+U 1 1 4C0C1225
+P 2760 2290
+F 0 "U1" H 2755 1935 70  0000 C CNN
+F 1 "MCP6V02" H 2755 2645 70  0000 C CNN
+F 2 "ted_ICs:SOIC-8" H 2750 1865 60  0000 C CNN
+F 3 "" H 2760 2290 50  0001 C CNN
+	1    2760 2290
+	1    0    0    -1  
+$EndComp
+Text Notes 2200 3585 0    50   ~ 0
+for a total of 10,000x 100uv=1V
+Text Notes 2350 3430 0    50   ~ 0
+stage 2 amplifies 10x
+$Comp
+L ted_resistors:R R3
+U 1 1 4C0C0F4C
+P 2440 2840
+F 0 "R3" V 2520 2840 50  0000 C CNN
+F 1 "10k" V 2440 2840 50  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" H 2440 2840 50  0001 C CNN
+F 3 "" H 2440 2840 50  0001 C CNN
+	1    2440 2840
+	1    0    0    -1  
+$EndComp
+$Comp
+L ted_resistors:R R4
+U 1 1 4C0C0F4B
+P 2830 2865
+F 0 "R4" V 2910 2865 50  0000 C CNN
+F 1 "100k" V 2830 2865 50  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" H 2830 2865 50  0001 C CNN
+F 3 "" H 2830 2865 50  0001 C CNN
+	1    2830 2865
+	0    1    1    0   
+$EndComp
+$Comp
+L ted_power:GND #PWR03
+U 1 1 4C0C0F48
+P 2440 3170
+F 0 "#PWR03" H 2440 3170 30  0001 C CNN
+F 1 "GND" H 2440 3100 30  0000 C CNN
+F 2 "" H 2440 3170 50  0001 C CNN
+F 3 "" H 2440 3170 50  0001 C CNN
+	1    2440 3170
+	1    0    0    -1  
+$EndComp
+Text GLabel 1435 1425 2    30   Input ~ 0
++5v
+NoConn ~ 4710 2310
+NoConn ~ 4215 2510
+$Comp
+L ted_power:GND #PWR04
+U 1 1 4C01DF5A
+P 4135 2390
+F 0 "#PWR04" H 4135 2390 30  0001 C CNN
+F 1 "GND" H 4135 2320 30  0000 C CNN
+F 2 "" H 4135 2390 50  0001 C CNN
+F 3 "" H 4135 2390 50  0001 C CNN
+	1    4135 2390
+	1    0    0    -1  
+$EndComp
+$Comp
+L ted_transformers:TRANSFORMER T1
+U 1 1 4C01DF2F
+P 4465 2310
+F 0 "T1" H 4470 2040 60  0000 C CNN
+F 1 "TRANSFORMER" H 4475 2580 60  0000 C CNN
+F 2 "ted_transformers:TED_transformer_20x15mm" H 4465 2310 50  0001 C CNN
+F 3 "" H 4465 2310 50  0001 C CNN
+	1    4465 2310
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1360 2005
+NoConn ~ 1360 2125
+$Comp
+L ted_power:GND #PWR05
+U 1 1 4C01DD50
+P 1490 2140
+F 0 "#PWR05" H 1490 2140 30  0001 C CNN
+F 1 "GND" H 1490 2070 30  0000 C CNN
+F 2 "" H 1490 2140 50  0001 C CNN
+F 3 "" H 1490 2140 50  0001 C CNN
+	1    1490 2140
+	1    0    0    -1  
+$EndComp
+Text Notes 4265 2740 0    60   ~ 0
+1.2k : 8
+$Comp
+L ted_power:GND #PWR06
+U 1 1 4C01DC9D
+P 4160 1630
+F 0 "#PWR06" H 4160 1630 30  0001 C CNN
+F 1 "GND" H 4160 1560 30  0000 C CNN
+F 2 "" H 4160 1630 50  0001 C CNN
+F 3 "" H 4160 1630 50  0001 C CNN
+	1    4160 1630
+	1    0    0    -1  
+$EndComp
+$Comp
+L ted_power:GND #PWR07
+U 1 1 4C01DC3E
+P 2065 2700
+F 0 "#PWR07" H 2065 2700 30  0001 C CNN
+F 1 "GND" H 2065 2630 30  0000 C CNN
+F 2 "" H 2065 2700 50  0001 C CNN
+F 3 "" H 2065 2700 50  0001 C CNN
+	1    2065 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L ted_power:GND #PWR08
+U 1 1 4C01DBDE
+P 1240 3160
+F 0 "#PWR08" H 1240 3160 30  0001 C CNN
+F 1 "GND" H 1240 3090 30  0000 C CNN
+F 2 "" H 1240 3160 50  0001 C CNN
+F 3 "" H 1240 3160 50  0001 C CNN
+	1    1240 3160
+	1    0    0    -1  
+$EndComp
+$Comp
+L ted_power:GND #PWR09
+U 1 1 4C01DBA5
+P 2760 2670
+F 0 "#PWR09" H 2760 2670 30  0001 C CNN
+F 1 "GND" H 2760 2600 30  0000 C CNN
+F 2 "" H 2760 2670 50  0001 C CNN
+F 3 "" H 2760 2670 50  0001 C CNN
+	1    2760 2670
+	1    0    0    -1  
+$EndComp
+$Comp
+L ted_power:GND #PWR010
+U 1 1 4C01DB6D
+P 1485 1065
+F 0 "#PWR010" H 1485 1065 30  0001 C CNN
+F 1 "GND" H 1485 995 30  0000 C CNN
+F 2 "" H 1485 1065 50  0001 C CNN
+F 3 "" H 1485 1065 50  0001 C CNN
+	1    1485 1065
+	1    0    0    -1  
+$EndComp
+$Comp
+L ted_power:+5V #PWR011
+U 1 1 4C01DB5F
+P 1460 1425
+F 0 "#PWR011" H 1460 1375 20  0001 C CNN
+F 1 "+5V" H 1460 1525 30  0000 C CNN
+F 2 "" H 1460 1425 50  0001 C CNN
+F 3 "" H 1460 1425 50  0001 C CNN
+	1    1460 1425
+	1    0    0    -1  
+$EndComp
+$Comp
+L ted_resistors:R R2
+U 1 1 4C01DB36
+P 2730 1600
+F 0 "R2" V 2810 1600 50  0000 C CNN
+F 1 "100k" V 2730 1600 50  0000 C CNN
+F 2 "ted_resistors:TED_SM0603_R" H 2730 1600 50  0001 C CNN
+F 3 "" H 2730 1600 50  0001 C CNN
+	1    2730 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L ted_connectors:3.5_STEREO J5
+U 1 1 4C01DA25
+P 4650 3335
+F 0 "J5" H 4655 2960 60  0000 C CNN
+F 1 "3.5_STEREO" H 4668 3750 60  0000 C CNN
+F 2 "TED_3.5_Stereo_ASJ-5-3" H 4755 2785 60  0001 C CNN
+F 3 "Adam_ASJ-5-3" H 4725 2885 60  0001 C CNN
+	1    4650 3335
+	-1   0    0    1   
+$EndComp
+$Comp
+L ted_connectors:TERMINAL_3.5MM_PCB_2PIN J4
+U 1 1 4C01D9BA
+P 4550 1355
+F 0 "J4" H 4500 905 60  0000 C CNN
+F 1 "TERMINAL_3.5MM_PCB_2PIN" H 4540 1580 60  0000 C CNN
+F 2 "ted_connectors:TED_TERMINAL_3.5MM_2PIN" H 4615 825 60  0001 C CNN
+F 3 "" H 4550 1355 50  0001 C CNN
+	1    4550 1355
+	0    1    1    0   
+$EndComp
+Text Notes 4890 1365 0    60   ~ 0
+AmpOut
+$Comp
+L ted_connectors:JUMPER_3X1 J3
+U 1 1 4C01D810
+P 1760 2465
+F 0 "J3" H 1760 2355 30  0000 C CNN
+F 1 "JUMPER_3X1" H 1755 2585 30  0000 C CNN
+F 2 "ted_connectors:TED_HEADER_3x1" H 1760 2465 50  0001 C CNN
+F 3 "" H 1760 2465 50  0001 C CNN
+	1    1760 2465
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TED_thermopile_mlx90247:Thermopile_MLX90247 S1
+U 1 1 4C01D7F8
+P 1160 2030
+F 0 "S1" H 1165 1795 60  0000 C CNN
+F 1 "THERMOPILE_MLX90247" H 945 2265 60  0000 C CNN
+F 2 "ted_connectors:TED_HEADER_2x2" H 1170 1710 60  0001 C CNN
+F 3 "" H 1160 2030 50  0001 C CNN
+	1    1160 2030
+	1    0    0    -1  
+$EndComp
+Text Notes 770  2410 0    60   ~ 0
+Thermopile
+Text Notes 705  3270 0    60   ~ 0
+external\nsensor
+Text Notes 4250 3975 0    100  ~ 0
+Audio Out
+$Comp
+L ted_connectors:TERMINAL_3.5MM_PCB_2PIN J1
+U 1 1 4BAC20CF
+P 855 2910
+F 0 "J1" H 805 2460 60  0000 C CNN
+F 1 "TERMINAL_3.5MM_PCB_2PIN" H 845 3135 60  0000 C CNN
+F 2 "ted_connectors:TED_TERMINAL_3.5MM_2PIN" H 920 2380 60  0001 C CNN
+F 3 "" H 855 2910 50  0001 C CNN
+	1    855  2910
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ted_connectors:DC_2.1mm J2
+U 1 1 4BAC0857
+P 930 1195
+F 0 "J2" H 930 645 60  0000 C CNN
+F 1 "DC_2.1mm" H 920 1585 60  0000 C CNN
+F 2 "ted_connectors:TED_2.1mm_DC_SMD" H 930 710 60  0001 C CNN
+F 3 "" H 930 1195 50  0001 C CNN
+F 4 "Jameco_GCD014A-R_or_Mouser_163_7620-E_or_163-2640-E(SMT)" H 1000 550 60  0001 C CNN "Field1"
+	1    930  1195
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2440 2545 2440 2380
+Wire Wire Line
+	3095 2160 3095 1600
+Wire Wire Line
+	2305 2120 2065 2120
+Wire Wire Line
+	2760 1940 2760 1990
+Wire Wire Line
+	3790 2415 3790 1215
+Wire Wire Line
+	3895 3335 3470 3335
+Wire Wire Line
+	3010 2420 3265 2420
+$EndSCHEMATC

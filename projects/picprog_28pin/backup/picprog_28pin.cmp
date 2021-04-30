@@ -1,0 +1,143 @@
+Cmp-Mod V01 Created by Cvpcb (20090530 SVN-R1798) date = Wed 30 Dec 2009 05:22:01 PM PST
+
+BeginCmp
+TimeStamp = /4A63BBA9;
+Reference = C9;
+ValeurCmp = 18pF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A63BBC6;
+Reference = C10;
+ValeurCmp = 18pF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B3BFC45;
+Reference = C11;
+ValeurCmp = 10uF;
+IdModule  = TED_SM3216-18_POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A63B971;
+Reference = D5;
+ValeurCmp = LED;
+IdModule  = TED_SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B358FCD;
+Reference = D6;
+ValeurCmp = 12v;
+IdModule  = TED_diode_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A63A46A;
+Reference = J3;
+ValeurCmp = DC_2.5mm_PCB;
+IdModule  = TED_CONNECTOR_POWER_2.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4ADD1B90;
+Reference = J5;
+ValeurCmp = SPDT_Switch;
+IdModule  = TED_SPDT_10SP001;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AE59BAD;
+Reference = J6;
+ValeurCmp = SPDT_Switch;
+IdModule  = TED_SPDT_10SP001;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B358E85;
+Reference = J7;
+ValeurCmp = HEADER_6X1;
+IdModule  = TED_HEADER_6x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B35A4C0;
+Reference = J8;
+ValeurCmp = TERMINAL_3.5MM_PCB_2PIN;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B358EF0;
+Reference = Q1;
+ValeurCmp = NMOSFET_GSD;
+IdModule  = TED_SOT-23_3pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B358EE9;
+Reference = Q2;
+ValeurCmp = NMOSFET_GSD;
+IdModule  = TED_SOT-23_3pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A63A2B6;
+Reference = R6;
+ValeurCmp = 10k;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A63B974;
+Reference = R9;
+ValeurCmp = 560;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AE59B47;
+Reference = R10;
+ValeurCmp = 10k;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B358FBD;
+Reference = R11;
+ValeurCmp = 390;
+IdModule  = TED_axial_resistor_halfwatt;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B3BFBC0;
+Reference = R12;
+ValeurCmp = 1M;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4ADD1850;
+Reference = U6;
+ValeurCmp = 7805_NO_HS;
+IdModule  = TED_TO220_NOHS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AEDC35C;
+Reference = U7;
+ValeurCmp = PIC18F2455;
+IdModule  = TED_DIP-28;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A63BBCD;
+Reference = X2;
+ValeurCmp = 20MHz;
+IdModule  = TED_crystal_SMT_13x5mm;
+EndCmp
+
+EndListe

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name heat2sound_rx_rev01-eagle-import)(type Legacy)(uri ${KIPRJMOD}/heat2sound_rx_rev01-eagle-import.lib)(options "")(descr ""))
+  (lib (name heat2sound_tx_rev01-rescue)(type Legacy)(uri ${KIPRJMOD}/heat2sound_tx_rev01-rescue.lib)(options "")(descr ""))
+)

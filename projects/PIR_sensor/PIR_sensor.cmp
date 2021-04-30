@@ -1,0 +1,24 @@
+Cmp-Mod V01 Created by Cvpcb (20090530 SVN-R1798) date = Sun 26 Jul 2009 09:32:11 PM PDT
+
+BeginCmp
+TimeStamp = /4A449E62;
+Reference = J1;
+ValeurCmp = Drain_Source;
+IdModule  = TED_SCREWLESS_TERM_2x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A6D2D1B;
+Reference = J2;
+ValeurCmp = Ground;
+IdModule  = TED_SCREWLESS_TERM_2x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A6D2CE5;
+Reference = R1;
+ValeurCmp = PIR;
+IdModule  = TED_PIR_RE200B;
+EndCmp
+
+EndListe

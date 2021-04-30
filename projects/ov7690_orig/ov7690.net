@@ -1,0 +1,196 @@
+# EESchema Netlist Version 1.1 created  Sun 30 Aug 2009 09:31:30 PM PDT
+(
+ ( /4A9B4BCF $noname  C5 .1uF {Lib=C}
+  (    1 N-000001 )
+  (    2 GND )
+ )
+ ( /4A9B48C1 $noname  L2 3.3uH {Lib=INDUCTOR}
+  (    1 /AVdd )
+  (    2 /2.8v )
+ )
+ ( /4A9B48A3 $noname  L1 3.3uH {Lib=INDUCTOR}
+  (    1 /DVdd )
+  (    2 /2.8v )
+ )
+ ( /4A9B4498 TED_SOT-23-5  U2 Regulator_2.8V {Lib=Regulator_2.8V}
+  (    1 /3.3v )
+  (    2 GND )
+  (    3 /3.3v )
+  (    4 N-000001 )
+  (    5 /2.8v )
+ )
+ ( /4A871D55 $noname  C2 10uF {Lib=C_POL}
+  (    1 /AVdd )
+  (    2 GND )
+ )
+ ( /4A871D52 $noname  C1 10uF {Lib=C_POL}
+  (    1 /DVdd )
+  (    2 GND )
+ )
+ ( /4A871D35 $noname  C4 .1uF {Lib=C}
+  (    1 /VREF2 )
+  (    2 GND )
+ )
+ ( /4A871D32 $noname  C3 .1uF {Lib=C}
+  (    1 /VREF1 )
+  (    2 GND )
+ )
+ ( /4A8718F7 $noname  J1 IDE_10x2 {Lib=IDE_10x2}
+  (    1 /VREF2 )
+  (    2 /VREF1 )
+  (    3 /D0 )
+  (    4 /D1 )
+  (    5 /D2 )
+  (    6 /D3 )
+  (    7 /D4 )
+  (    8 /D5 )
+  (    9 /D6 )
+  (   10 /D7 )
+  (   11 /XCLK )
+  (   12 /PCLK )
+  (   13 /VSYNC )
+  (   14 /HREF )
+  (   15 /3.3v )
+  (   16 GND )
+  (   17 /SCL )
+  (   18 /SDA )
+  (   19 /PWDN )
+  (   20 /AVdd )
+ )
+ ( /4A8716B7 $noname  U1 OV7690 {Lib=OV7690}
+  (    1 /PWDN )
+  (    2 /AVdd )
+  (    3 /VREF2 )
+  (    4 /VREF1 )
+  (    5 /SDA )
+  (    6 /SCL )
+  (    7 /D0 )
+  (    8 /D1 )
+  (    9 /HREF )
+  (   10 /VSYNC )
+  (   11 GND )
+  (   12 /D2 )
+  (   13 /PCLK )
+  (   14 /XCLK )
+  (   15 /D5 )
+  (   16 /D3 )
+  (   17 /D7 )
+  (   18 /D6 )
+  (   19 /D4 )
+  (   20 /DVdd )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ C5 1
+ U2 4
+Net 2 "GND" "GND"
+ C5 2
+ U2 2
+ C2 2
+ C1 2
+ C4 2
+ C3 2
+ J1 16
+ U1 11
+Net 3 "/2.8v" "2.8v"
+ L2 2
+ L1 2
+ U2 5
+Net 4 "/3.3v" "3.3v"
+ U2 1
+ U2 3
+ J1 15
+Net 5 "/PWDN" "PWDN"
+ J1 19
+ U1 1
+Net 6 "/SDA" "SDA"
+ J1 18
+ U1 5
+Net 7 "/SCL" "SCL"
+ J1 17
+ U1 6
+Net 8 "/VREF2" "VREF2"
+ C4 1
+ J1 1
+ U1 3
+Net 9 "/VREF1" "VREF1"
+ C3 1
+ J1 2
+ U1 4
+Net 10 "/XCLK" "XCLK"
+ J1 11
+ U1 14
+Net 11 "/PCLK" "PCLK"
+ J1 12
+ U1 13
+Net 12 "/VSYNC" "VSYNC"
+ J1 13
+ U1 10
+Net 13 "/HREF" "HREF"
+ J1 14
+ U1 9
+Net 14 "/DVdd" "DVdd"
+ L1 1
+ C1 1
+ U1 20
+Net 15 "/AVdd" "AVdd"
+ L2 1
+ C2 1
+ J1 20
+ U1 2
+Net 16 "/D7" "D7"
+ J1 10
+ U1 17
+Net 17 "/D6" "D6"
+ J1 9
+ U1 18
+Net 18 "/D5" "D5"
+ J1 8
+ U1 15
+Net 19 "/D4" "D4"
+ J1 7
+ U1 19
+Net 20 "/D3" "D3"
+ J1 6
+ U1 16
+Net 21 "/D2" "D2"
+ J1 5
+ U1 12
+Net 22 "/D1" "D1"
+ J1 4
+ U1 8
+Net 23 "/D0" "D0"
+ J1 3
+ U1 7
+}
+#End

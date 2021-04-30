@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Atmega_Adapter_rev01-rescue)(type Legacy)(uri ${KIPRJMOD}/Atmega_Adapter_rev01-rescue.lib)(options "")(descr ""))
+)

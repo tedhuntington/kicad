@@ -1,0 +1,34 @@
+EESchema-DOCLIB  Version 2.0  Sun 28 Mar 2010 01:58:22 AM PDT
+#
+$CMP 7805_NO_HS
+D Linear Regulator +5V
+K POWER REGUL
+F regulator/lm78*.*
+$ENDCMP
+#
+$CMP C
+D Condensateur non polarise
+$ENDCMP
+#
+$CMP LED
+D Diode simple
+K DEV DIODE
+$ENDCMP
+#
+$CMP OPA353
+D Op amp.
+K AmpliOp
+F ../docs/opa353
+$ENDCMP
+#
+$CMP R
+D Resistance
+K R DEV
+$ENDCMP
+#
+$CMP VAR_R3
+D Resistance
+K R DEV
+$ENDCMP
+#
+#End Doc Library

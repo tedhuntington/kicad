@@ -1,0 +1,108 @@
+# EESchema Netlist Version 1.1 created  Sat 31 Jul 2010 04:46:41 PM PDT
+(
+ ( /4C01DB16 TED_SM0805 C1 .1uF
+  ( 1 N-000008 )
+  ( 2 GND )
+ )
+ ( /4C4D81A5 TED_SM0805 C2 .1uF
+  ( 1 N-000008 )
+  ( 2 GND )
+ )
+ ( /4C54B3CA TED_SM3216-18_POL C3 10uF
+  ( 1 N-000002 )
+  ( 2 N-000006 )
+ )
+ ( /4C54B3C1 TED_SM3216-18_POL C4 10uF
+  ( 1 N-000001 )
+  ( 2 N-000004 )
+ )
+ ( /4BAC0857 TED_DC_2.1mm J2 DC_2.1mm
+  ( 1 N-000008 )
+  ( 2 GND )
+ )
+ ( /4C01DA25 TED_3.5_Stereo_ASJ-5-3 J5 3.5_STEREO
+  ( 1 GND )
+  ( 2 N-000005 )
+  ( 3 N-000007 )
+ )
+ ( /4C4D7E20 TED_TERMINAL_3.5MM_2PIN J6 TRM_3.5MM_2P
+  ( 1 N-000002 )
+  ( 2 N-000001 )
+ )
+ ( /4C4D7E36 TED_TERMINAL_3.5MM_2PIN J7 TRM_3.5MM_2P
+  ( 1 GND )
+  ( 2 N-000009 )
+ )
+ ( /4C54B592 TED_TERMINAL_3.5MM_2PIN J8 TRM_3.5MM_2P
+  ( 1 N-000010 )
+  ( 2 GND )
+ )
+ ( /4C01DB2F TED_SM0805 R1 10k
+  ( 1 N-000006 )
+  ( 2 GND )
+ )
+ ( /4C01DB36 TED_SM0805 R2 10M
+  ( 1 N-000010 )
+  ( 2 N-000006 )
+ )
+ ( /4C54B06E TED_SM0805 R3 10k
+  ( 1 N-000004 )
+  ( 2 GND )
+ )
+ ( /4C4D7CAB TED_DIP-8 U2 NJM2073
+  ( 1 GND )
+  ( 2 N-000010 )
+  ( 3 N-000009 )
+  ( 4 GND )
+  ( 5 N-000005 )
+  ( 6 N-000008 )
+  ( 7 N-000007 )
+  ( 8 GND )
+ )
+ ( /4C54A3F2 TED_SOIC-8 U3 AD8628
+  ( 2 N-000006 )
+  ( 3 N-000004 )
+  ( 4 GND )
+  ( 6 N-000010 )
+  ( 7 N-000008 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}

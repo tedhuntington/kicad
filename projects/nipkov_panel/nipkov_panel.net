@@ -1,0 +1,63 @@
+# EESchema Netlist Version 1.1 created  Wed 06 May 2009 01:31:41 AM PDT
+(
+ ( /4A01434D SPDT_Switch  J6 SPDT_Switch {Lib=SPDT_Switch}
+  (    1 N-000003 )
+  (    2 N-000001 )
+  (    3 GND )
+ )
+ ( /4A011664 TERMINAL_3.5MM_2PIN  J8 TERMINAL_3.5MM_PCB {Lib=TERMINAL_3.5MM_PCB}
+  (    1 N-000003 )
+  (    2 GND )
+ )
+ ( /4A011659 TERMINAL_3.5MM_2PIN  J2 TERMINAL_3.5MM_PCB {Lib=TERMINAL_3.5MM_PCB}
+  (    1 N-000002 )
+  (    2 GND )
+ )
+ ( /4A011650 TERMINAL_3.5MM_2PIN  J3 TERMINAL_3.5MM_PCB {Lib=TERMINAL_3.5MM_PCB}
+  (    1 N-000001 )
+  (    2 GND )
+ )
+ ( /4A01164B TERMINAL_3.5MM_2PIN  J1 TERMINAL_3.5MM_PCB {Lib=TERMINAL_3.5MM_PCB}
+  (    1 N-000002 )
+  (    2 GND )
+ )
+ ( /4A010F6A TED_CONNECTOR_POWER_2.5mm  J7 DC_2.5mm_PCB {Lib=DC_2.5mm_PCB}
+  (    1 N-000003 )
+  (    2 GND )
+ )
+ ( /4A010D3B $noname  J5 RCA_MONO_PC {Lib=RCA_MONO_PC}
+  (    1 GND )
+  (    2 N-000002 )
+ )
+ ( /4A010726 $noname  J4 3.5_STEREO_SMT2 {Lib=3.5_STEREO_SMT2}
+  (    2 GND )
+  (    3 N-000002 )
+  (    4 N-000002 )
+ )
+)
+*
+{ Pin List by Nets
+Net 1 "" ""
+ J6 2
+ J3 1
+Net 2 "" ""
+ J2 1
+ J1 1
+ J5 2
+ J4 3
+ J4 4
+Net 3 "" ""
+ J6 1
+ J8 1
+ J7 1
+Net 4 "GND" "GND"
+ J6 3
+ J8 2
+ J2 2
+ J3 2
+ J1 2
+ J7 2
+ J5 1
+ J4 2
+}
+#End

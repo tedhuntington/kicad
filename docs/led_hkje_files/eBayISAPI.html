@@ -1,0 +1,27 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; 
+charset=UTF-8"><meta http-equiv="Last-Modified" content="Mon, 23 Aug 
+2010 00:34:43 GMT"><meta http-equiv="Expires" content="Tue, 23 Aug 2011 
+00:34:43 GMT"></head><body id="body"><script type="text/javascript" src="led_hkje_files/SYS-RA_vjo_e68111684369_1_en_US.js"></script><script type="text/javascript">vjo.dsf.error.ErrorHandlerManager.register(new vjo.dsf.error.DefaultErrorHandler());
+vjo.dsf.error.ErrorHandlerManager.enableOnError(true);
+</script><script>
+vjo.ctype('vjo.darwin.pres.buying.cmp.userdescription.UserDescriptionResizeFrame').needs('vjo.dsf.Element').props({resizeFrame:function(size){var t=this;t.pSize=size;t.oCl=vjo.dsf.client.Browser;t.E=vjo.dsf.Element;t.pad=48;if((t.oCl.bFirefox&&t.oCl.bWin)&&(t.pSize[0]>=32000)){t.pad=0;}
+t.E.get("d").height=t.pSize[0]+t.pad;if(t.pSize[1]!==0){t.E.get("d").width=t.pSize[1];}}}).endType();
+</script><iframe name="c" id="c" title="Static Content Frame" 
+marginwidth="0" marginheight="0" vspace="0" hspace="0" 
+src="eBayISAPI_data/eBayISAPI.html" frameborder="0" height="0" 
+width="100%"></iframe><iframe name="d" id="d" title="Seller's 
+description of item" marginwidth="0" marginheight="0" vspace="0" 
+hspace="0" src="eBayISAPI_data/eBayISAPI_002.html" frameborder="0" 
+height="2878" width="899"></iframe><!--v.rpn300,RcmdId ViewItemDescV4,RlogId p4%60bo7%60jtb9%3Fv%7F.rpn300-12a9ddedee0--><script type="text/javascript">
+vjo.ctype("vjo.darwin.tracking.sojourner.SojData").props({sojD:null}).endType();
+
+
+vjo.ctype("vjo.darwin.tracking.sojourner.CalData").props({setData:function(svcId,data){if(!svcId||!data){return;}
+this.cal[svcId]=data;},getData:function(svcId){if(svcId){return this.cal[svcId];}}}).inits(function(){this.cal={};}).endType();
+
+
+vjo.ctype("vjo.darwin.tracking.sojourner.TrackingRespHdl").needs(["vjo.darwin.tracking.sojourner.SojData","vjo.darwin.tracking.sojourner.CalData"]).props({handleResponse:function(msg){if(msg.errors&&msg.errors.length>0){this.vj$.SojData.sojD="";}
+if(msg.response&&msg.response.dataMap&&msg.response.dataMap.SOJDATA){this.vj$.SojData.sojD=msg.response.dataMap.SOJDATA;}
+if(msg.response&&msg.response.dataMap&&msg.response.dataMap.TDATA){this.vj$.CalData.setData(msg.svcId,msg.response.dataMap.TDATA);}}}).endType();
+
+</script></body></html>

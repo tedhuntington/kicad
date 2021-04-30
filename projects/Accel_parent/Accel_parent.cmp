@@ -1,0 +1,129 @@
+Cmp-Mod V01 Created by CvPCB (20100330 SVN-R2491)-final date = Fri 18 Jun 2010 03:37:57 PM PDT
+
+BeginCmp
+TimeStamp = /4BDE5195;
+Reference = C3;
+ValeurCmp = 10uF_10v;
+IdModule  = TED_SM3216-18_POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C035C08;
+Reference = C5;
+ValeurCmp = 36pF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C035C2D;
+Reference = C7;
+ValeurCmp = 36pF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C035D95;
+Reference = C8;
+ValeurCmp = .1uF_10v;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C035E50;
+Reference = C9;
+ValeurCmp = 10uF_(tant);
+IdModule  = TED_SM3216-18_POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDE4964;
+Reference = J1;
+ValeurCmp = DC_2.1MM;
+IdModule  = TED_DC_2.1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C034F77;
+Reference = J3;
+ValeurCmp = HEADER_6X1;
+IdModule  = TED_HEADER_6x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C1BF426;
+Reference = J4;
+ValeurCmp = HEADER_6X1;
+IdModule  = TED_HEADER_6x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C1BF2F4;
+Reference = J5;
+ValeurCmp = SPST_BUTTON;
+IdModule  = TED_SPST_MPB-129;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C1BF3A6;
+Reference = J6;
+ValeurCmp = TRM_3.5MM_2P;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C1BF3AF;
+Reference = J7;
+ValeurCmp = TRM_3.5MM_2P;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C1BF3BE;
+Reference = J8;
+ValeurCmp = TRM_3.5MM_2P;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C034E4A;
+Reference = R5;
+ValeurCmp = 1M;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C035BBB;
+Reference = R6;
+ValeurCmp = 442;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C167528;
+Reference = R7;
+ValeurCmp = 10k;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDE497C;
+Reference = U1;
+ValeurCmp = REGULATOR_3.3V;
+IdModule  = TED_TO220_NOHS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C04AB40;
+Reference = U4;
+ValeurCmp = PIC24HJ12GP201;
+IdModule  = TED_DIP-18;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C034E2D;
+Reference = X1;
+ValeurCmp = 10MHz;
+IdModule  = TED_crystal_SMT_13x5mm;
+EndCmp
+
+EndListe

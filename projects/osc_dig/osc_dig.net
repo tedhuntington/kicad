@@ -1,0 +1,172 @@
+# EESchema Netlist Version 1.1 created  Wed 18 Nov 2009 02:35:35 PM PST
+(
+ ( /4A0FA1E2 TED_SM0805 C1 .1uF
+  ( 1 /+5v )
+  ( 2 /GND )
+ )
+ ( /4A0F79AA TED_SM0805 C10 36pf
+  ( 1 N-000029 )
+  ( 2 /GND )
+ )
+ ( /4A0F79BB TED_SM0805 C11 36pf
+  ( 1 N-000004 )
+  ( 2 /GND )
+ )
+ ( /4A400E6F TED_JMP_2x1 J2 JUMPER_2X1
+  ( 1 /RDY1_SLWR )
+  ( 2 /CLK )
+ )
+ ( /4A025F78 TED_FEM_SOCKET_18x2 J4 FX2_18x2
+  ( 1 /+3.3V )
+  ( 2 /+5v )
+  ( 3 /RDY1_SLWR )
+  ( 4 /GND )
+  ( 5 /P15 )
+  ( 6 /P13 )
+  ( 7 /P11 )
+  ( 8 /P9 )
+  ( 9 ? )
+  ( 10 /+3.3V )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 /IFCLK )
+  ( 14 ? )
+  ( 15 /P7 )
+  ( 16 /P5 )
+  ( 17 /P3 )
+  ( 18 /P1 )
+  ( 19 /P0 )
+  ( 20 /P2 )
+  ( 21 /P4 )
+  ( 22 /P6 )
+  ( 23 ? )
+  ( 24 ? )
+  ( 25 ? )
+  ( 26 /+3.3V )
+  ( 27 /GND )
+  ( 28 ? )
+  ( 29 /P8 )
+  ( 30 /P10 )
+  ( 31 /P12 )
+  ( 32 /P14 )
+  ( 33 ? )
+  ( 34 /+3.3V )
+  ( 35 /GND )
+  ( 36 /+3.3V )
+ )
+ ( /4A400D2D TED_JMP_2x1 J7 JUMPER_2X1
+  ( 1 /IFCLK )
+  ( 2 /CLK )
+ )
+ ( /4A07B409 TED_TERMINAL_3.5MM_8PIN J8 TERMINAL_3.5MM_PCB_8PIN
+  ( 1 /DA0 )
+  ( 2 /DA1 )
+  ( 3 /DA2 )
+  ( 4 /DA3 )
+  ( 5 /DA4 )
+  ( 6 /DA5 )
+  ( 7 /DA6 )
+  ( 8 /DA7 )
+ )
+ ( /4A109EE9 TED_SOCKET_6x2 J9 OSC_6x2
+  ( 1 /+3.3V )
+  ( 2 /+5v )
+  ( 3 /GND )
+  ( 4 /CLK )
+  ( 5 /P8 )
+  ( 6 /P9 )
+  ( 7 /P10 )
+  ( 8 /P11 )
+  ( 9 /P12 )
+  ( 10 /P13 )
+  ( 11 /P14 )
+  ( 12 /P15 )
+ )
+ ( /4AD13DF1 TED_JMP_2x1 J10 JUMPER_2X1
+  ( 1 /SLWR )
+  ( 2 /RDY1_SLWR )
+ )
+ ( /4AEA7C6B TED_JMP_2x1 J11 JUMPER_2X1
+  ( 1 N-000003 )
+  ( 2 /CLK )
+ )
+ ( /4A0F798C TED_SM0805 R5 2M
+  ( 1 N-000005 )
+  ( 2 N-000029 )
+ )
+ ( /4A0F7984 TED_SM0805 R6 442
+  ( 1 N-000004 )
+  ( 2 N-000005 )
+ )
+ ( /4B047657 TED_SM0805 R7 10k
+  ( 1 /GND )
+  ( 2 /SLWR )
+ )
+ ( /4A078A90 TED_TSSOP20 U4 74VHC574
+  ( 1 /GND )
+  ( 2 /DA0 )
+  ( 3 /DA1 )
+  ( 4 /DA2 )
+  ( 5 /DA3 )
+  ( 6 /DA4 )
+  ( 7 /DA5 )
+  ( 8 /DA6 )
+  ( 9 /DA7 )
+  ( 10 /GND )
+  ( 11 /CLK )
+  ( 12 /P7 )
+  ( 13 /P6 )
+  ( 14 /P5 )
+  ( 15 /P4 )
+  ( 16 /P3 )
+  ( 17 /P2 )
+  ( 18 /P1 )
+  ( 19 /P0 )
+  ( 20 /+5v )
+ )
+ ( /4A07C638 TED_PSOP6 U5 CRYSTAL_DRIVER
+  ( 2 /GND )
+  ( 3 N-000029 )
+  ( 4 N-000005 )
+  ( 5 /+5v )
+  ( 6 N-000003 )
+ )
+ ( /4A0F7973 TED_crystal_SMT_13x5mm.emp X1 10MHz
+  ( 1 N-000029 )
+  ( 2 N-000004 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}

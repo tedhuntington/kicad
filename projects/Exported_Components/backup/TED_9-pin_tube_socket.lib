@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.3  Date: Sat 14 Aug 2010 11:46:09 PM PDT
+#
+# 9-pin_tube_socket
+#
+DEF 9-pin_tube_socket J 0 40 Y Y 1 F N
+F0 "J" 5 -580 60 H V C CNN
+F1 "9-pin_tube_socket" 0 615 60 H V C CNN
+F2 "~" -30 -655 60 H I C CNN
+F4 "~" 70 -645 60 H I C CNN
+DRAW
+C 0 0 500 0 1 0 N
+X 1 1 600 0 100 L 50 50 1 1 P
+X 2 2 535 250 100 L 50 50 1 1 P
+X 3 3 335 440 100 L 50 50 1 1 P
+X 4 4 -340 440 100 R 50 50 1 1 P
+X 5 5 -535 250 100 R 50 50 1 1 P
+X 6 6 -600 0 100 R 50 50 1 1 P
+X 7 7 -535 -250 100 R 50 50 1 1 P
+X 8 8 -320 -450 100 R 50 50 1 1 P
+X 9 9 320 -450 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

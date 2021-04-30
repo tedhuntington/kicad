@@ -1,0 +1,689 @@
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Tue 21 Jul 2015 09:09:07 PM PDT
+
+BeginCmp
+TimeStamp = /5563AB71;
+Reference = C1;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563F682;
+Reference = C2;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563AA5B;
+Reference = C3;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563F676;
+Reference = C4;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563CE0A;
+Reference = C5;
+ValeurCmp = .22uF;
+IdModule  = TED_SM0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = /523F200B;
+Reference = C6;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563F71D;
+Reference = C7;
+ValeurCmp = .22uF;
+IdModule  = TED_SM0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563C5E1;
+Reference = C8;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563F6F6;
+Reference = C9;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563C48F;
+Reference = C10;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563F6E4;
+Reference = C11;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563C904;
+Reference = C12;
+ValeurCmp = 100uF;
+IdModule  = TED_c_elec_8mm_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563F6FF;
+Reference = C13;
+ValeurCmp = 100uF;
+IdModule  = TED_c_elec_8mm_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /5562C185;
+Reference = C14;
+ValeurCmp = 4.7uF;
+IdModule  = TED_c_elec_4.3x4.3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5562C44A;
+Reference = C15;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563F986;
+Reference = C16;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563E96A;
+Reference = C17;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563F97A;
+Reference = C18;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563E95E;
+Reference = C19;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563FA21;
+Reference = C20;
+ValeurCmp = .22uF;
+IdModule  = TED_SM0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563EA05;
+Reference = C21;
+ValeurCmp = .22uF;
+IdModule  = TED_SM0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563F9FA;
+Reference = C22;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563E9DE;
+Reference = C23;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563F9E8;
+Reference = C24;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563E9CC;
+Reference = C25;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563FA03;
+Reference = C26;
+ValeurCmp = 100uF;
+IdModule  = TED_c_elec_8mm_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563E9E7;
+Reference = C27;
+ValeurCmp = 100uF;
+IdModule  = TED_c_elec_8mm_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /55641557;
+Reference = C28;
+ValeurCmp = 100uF;
+IdModule  = TED_c_elec_8mm_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563655B;
+Reference = C29;
+ValeurCmp = 0.1uF;
+IdModule  = TED_SM0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = /556369FD;
+Reference = C30;
+ValeurCmp = 0.1uF;
+IdModule  = TED_SM0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = /55635F16;
+Reference = C31;
+ValeurCmp = 18pF;
+IdModule  = TED_SM0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = /55635E85;
+Reference = C32;
+ValeurCmp = 18pF;
+IdModule  = TED_SM0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = /556364B5;
+Reference = C33;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = /556422AB;
+Reference = C34;
+ValeurCmp = 100uF;
+IdModule  = TED_c_elec_8mm_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /556424FC;
+Reference = C35;
+ValeurCmp = 100uF;
+IdModule  = TED_c_elec_8mm_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /556CFF23;
+Reference = C36;
+ValeurCmp = 0.1uF;
+IdModule  = TED_SM0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = /556D1EFA;
+Reference = C37;
+ValeurCmp = 1uF;
+IdModule  = TED_SM0603_C;
+EndCmp
+
+BeginCmp
+TimeStamp = /55642975;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /556D1259;
+Reference = FB1;
+ValeurCmp = 500ma;
+IdModule  = TED_SM0805_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A15896;
+Reference = H1;
+ValeurCmp = HOLE;
+IdModule  = TED_Hole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A158AA;
+Reference = H2;
+ValeurCmp = HOLE;
+IdModule  = TED_Hole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /55641343;
+Reference = H3;
+ValeurCmp = HOLE;
+IdModule  = TED_Hole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /55641349;
+Reference = H4;
+ValeurCmp = HOLE;
+IdModule  = TED_Hole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /55632B36;
+Reference = J1;
+ValeurCmp = TERMINAL_16X1;
+IdModule  = TED_TERMINAL_SPRING_2.54MM_16PIN_1989887;
+EndCmp
+
+BeginCmp
+TimeStamp = /5562C43D;
+Reference = J2;
+ValeurCmp = JUMPER_2X1;
+IdModule  = TED_HEADER_2x1_SMT;
+EndCmp
+
+BeginCmp
+TimeStamp = /55632B45;
+Reference = J3;
+ValeurCmp = TERMINAL_10X1;
+IdModule  = TED_TERMINAL_SPRING_2.54MM_10PIN_1989829;
+EndCmp
+
+BeginCmp
+TimeStamp = /55639763;
+Reference = J4;
+ValeurCmp = TERMINAL_8X1;
+IdModule  = TED_TERMINAL_SPRING_2.54MM_8PIN_1989803;
+EndCmp
+
+BeginCmp
+TimeStamp = /5562D002;
+Reference = J5;
+ValeurCmp = IDC_3X2;
+IdModule  = TED_IDC_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /556253EE;
+Reference = J6;
+ValeurCmp = USB;
+IdModule  = TED_USB_SMT_MINI;
+EndCmp
+
+BeginCmp
+TimeStamp = /5565015A;
+Reference = J7;
+ValeurCmp = TACTILE_SWITCH;
+IdModule  = TED_TACTILE_SWITCH_6x6;
+EndCmp
+
+BeginCmp
+TimeStamp = /556418A9;
+Reference = Q1;
+ValeurCmp = NMOSFET;
+IdModule  = TED_SO-8_FLAT_LEAD_CASE_488AA_STYLE1;
+EndCmp
+
+BeginCmp
+TimeStamp = /556422BF;
+Reference = Q2;
+ValeurCmp = NMOSFET;
+IdModule  = TED_SO-8_FLAT_LEAD_CASE_488AA_STYLE1;
+EndCmp
+
+BeginCmp
+TimeStamp = /55642510;
+Reference = Q3;
+ValeurCmp = NMOSFET;
+IdModule  = TED_SO-8_FLAT_LEAD_CASE_488AA_STYLE1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563B87F;
+Reference = R1;
+ValeurCmp = 50k;
+IdModule  = TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563B891;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563F6B1;
+Reference = R3;
+ValeurCmp = 50k;
+IdModule  = TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563F6B7;
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /5564314A;
+Reference = R5;
+ValeurCmp = 100k;
+IdModule  = TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /556438D4;
+Reference = R6;
+ValeurCmp = 100k;
+IdModule  = TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563B482;
+Reference = R7;
+ValeurCmp = 4.7k;
+IdModule  = TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563F6A3;
+Reference = R8;
+ValeurCmp = 4.7k;
+IdModule  = TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563CCA3;
+Reference = R9;
+ValeurCmp = 10k;
+IdModule  = TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563F70F;
+Reference = R10;
+ValeurCmp = 10k;
+IdModule  = TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563C09F;
+Reference = R11;
+ValeurCmp = 0.1;
+IdModule  = TED_SM0805_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563C0AB;
+Reference = R12;
+ValeurCmp = 0.1;
+IdModule  = TED_SM0805_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563F6C6;
+Reference = R13;
+ValeurCmp = 0.1;
+IdModule  = TED_SM0805_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563F6CD;
+Reference = R14;
+ValeurCmp = 0.1;
+IdModule  = TED_SM0805_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563F9B5;
+Reference = R15;
+ValeurCmp = 50k;
+IdModule  = TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563F9BB;
+Reference = R16;
+ValeurCmp = 10k;
+IdModule  = TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563E999;
+Reference = R17;
+ValeurCmp = 50k;
+IdModule  = TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563E99F;
+Reference = R18;
+ValeurCmp = 10k;
+IdModule  = TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /55643509;
+Reference = R19;
+ValeurCmp = 100k;
+IdModule  = TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /55643CAD;
+Reference = R20;
+ValeurCmp = 100k;
+IdModule  = TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563F9A7;
+Reference = R21;
+ValeurCmp = 4.7k;
+IdModule  = TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563E98B;
+Reference = R22;
+ValeurCmp = 4.7k;
+IdModule  = TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /5564009C;
+Reference = R23;
+ValeurCmp = 10k;
+IdModule  = TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563FA13;
+Reference = R24;
+ValeurCmp = 10k;
+IdModule  = TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563E9F7;
+Reference = R25;
+ValeurCmp = 10k;
+IdModule  = TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563F9CA;
+Reference = R26;
+ValeurCmp = 0.1;
+IdModule  = TED_SM0805_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563F9D1;
+Reference = R27;
+ValeurCmp = 0.1;
+IdModule  = TED_SM0805_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563E9AE;
+Reference = R28;
+ValeurCmp = 0.1;
+IdModule  = TED_SM0805_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563E9B5;
+Reference = R29;
+ValeurCmp = 0.1;
+IdModule  = TED_SM0805_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /556403F4;
+Reference = R30;
+ValeurCmp = 10k;
+IdModule  = TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /5564044E;
+Reference = R31;
+ValeurCmp = 10k;
+IdModule  = TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /556408AA;
+Reference = R32;
+ValeurCmp = 4.7k;
+IdModule  = TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /556408BE;
+Reference = R33;
+ValeurCmp = 4.7k;
+IdModule  = TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /55637A65;
+Reference = R34;
+ValeurCmp = 10k;
+IdModule  = TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /556418C7;
+Reference = R35;
+ValeurCmp = 10k;
+IdModule  = TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /556422CC;
+Reference = R36;
+ValeurCmp = 10k;
+IdModule  = TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /5564251D;
+Reference = R37;
+ValeurCmp = 10k;
+IdModule  = TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /55642989;
+Reference = R38;
+ValeurCmp = 1k;
+IdModule  = TED_SM0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /55630083;
+Reference = U1;
+ValeurCmp = A4982;
+IdModule  = TED_TSSOP24+PAD;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563F65E;
+Reference = U2;
+ValeurCmp = A4982;
+IdModule  = TED_TSSOP24+PAD;
+EndCmp
+
+BeginCmp
+TimeStamp = /5562EBCA;
+Reference = U3;
+ValeurCmp = FT232RL;
+IdModule  = TED_SSOP28;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563F962;
+Reference = U4;
+ValeurCmp = A4982;
+IdModule  = TED_TSSOP24+PAD;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563E946;
+Reference = U5;
+ValeurCmp = A4982;
+IdModule  = TED_TSSOP24+PAD;
+EndCmp
+
+BeginCmp
+TimeStamp = /5562B16C;
+Reference = U6;
+ValeurCmp = ATMEGA1284P;
+IdModule  = TED_TQFP44;
+EndCmp
+
+BeginCmp
+TimeStamp = /55635B9F;
+Reference = X1;
+ValeurCmp = 16MHz;
+IdModule  = TED_crystal_FA-20H;
+EndCmp
+
+EndListe

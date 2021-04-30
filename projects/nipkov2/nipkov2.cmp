@@ -1,0 +1,171 @@
+Cmp-Mod V01 Created by Cvpcb (20090530 SVN-R1798) date = Sat 01 Aug 2009 03:01:02 AM PDT
+
+BeginCmp
+TimeStamp = /49EA25FC;
+Reference = C2;
+ValeurCmp = 4.7uF;
+IdModule  = SM3216-18;
+EndCmp
+
+BeginCmp
+TimeStamp = /49E6D69C;
+Reference = C3;
+ValeurCmp = 680uF;
+IdModule  = TED_C_RADIAL_2cm_x_2cm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A18F084;
+Reference = C4;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A18F1D7;
+Reference = C5;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A18FA9E;
+Reference = C6;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /49E6C272;
+Reference = D1;
+ValeurCmp = tvs_5A_50V;
+IdModule  = TED_DO-201AD;
+EndCmp
+
+BeginCmp
+TimeStamp = /49E6C244;
+Reference = D2;
+ValeurCmp = 5V;
+IdModule  = TED_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A18DEF7;
+Reference = J1;
+ValeurCmp = TERMINAL_3.5MM_PCB_2PIN;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A18DF4C;
+Reference = J2;
+ValeurCmp = TERMINAL_3.5MM_PCB_2PIN;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A18DF40;
+Reference = J3;
+ValeurCmp = TERMINAL_3.5MM_PCB_2PIN;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A18DF4A;
+Reference = J4;
+ValeurCmp = TERMINAL_3.5MM_PCB_2PIN;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A18DF45;
+Reference = J5;
+ValeurCmp = TERMINAL_3.5MM_PCB_2PIN;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A18DF48;
+Reference = J6;
+ValeurCmp = TERMINAL_3.5MM_PCB_2PIN;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A73FC52;
+Reference = Q1;
+ValeurCmp = NMOSFET_GDS;
+IdModule  = TED_TO220_NOHS;
+EndCmp
+
+BeginCmp
+TimeStamp = /49E6CB3D;
+Reference = R2;
+ValeurCmp = 1k;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /49E6CB03;
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /49E6CB33;
+Reference = R4;
+ValeurCmp = 1k;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A0FBA6D;
+Reference = R5;
+ValeurCmp = 1k;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A18F3D5;
+Reference = R6;
+ValeurCmp = 1k;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A18F26A;
+Reference = R7;
+ValeurCmp = 1k;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A18F194;
+Reference = R8;
+ValeurCmp = 1k;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A73FD52;
+Reference = U1;
+ValeurCmp = 7805_NO_HS;
+IdModule  = TED_TO220_NOHS;
+EndCmp
+
+BeginCmp
+TimeStamp = /49E68302;
+Reference = U3;
+ValeurCmp = OPA353;
+IdModule  = TED_SO08;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A18EF63;
+Reference = U4;
+ValeurCmp = NE556;
+IdModule  = TED_DIP14;
+EndCmp
+
+EndListe

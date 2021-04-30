@@ -1,0 +1,42 @@
+EESchema-DOCLIB  Version 2.0  Thu 23 Apr 2009 03:00:51 AM EDT
+#
+$CMP 7812
+D Linear Regulator +5V
+K POWER REGUL
+F regulator/lm78*.*
+$ENDCMP
+#
+$CMP C
+D Condensateur non polarise
+$ENDCMP
+#
+$CMP DIODE
+D Diode simple
+K DEV DIODE
+$ENDCMP
+#
+$CMP IRF1405
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP NE555
+F ns/lm555.pdf
+$ENDCMP
+#
+$CMP OPA353
+D Op amp.
+K AmpliOp
+F ../docs/opa353
+$ENDCMP
+#
+$CMP R
+D Resistance
+K R DEV
+$ENDCMP
+#
+$CMP ZENER
+D Diode zener
+K DEV DIODE
+$ENDCMP
+#
+#End Doc Library

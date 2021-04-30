@@ -1,0 +1,7 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"H1,H1";"TED_Hole_2_4mm";2;"HOLE";;;
+2;"U1,U1,U1,U1,U1,U1";"TED_QFN16_3x5";6;"FXLS8471Q";;;
+3;"U2,U2,U2,U2,U2,U2";"TED_RJ12_855135002";6;"RJ12";;;
+4;"C4,C2,C2,C4,C2,C4,C2,C4,C2,C4,C2,C4";"TED_SM0603";12;".1uF";;;
+5;"C1,C1,C1,C1,C1,C1";"TED_SM0603";6;"1uF";;;
+6;"H1,H2,H1,H2,H1,H2,H1,H2";"TED_Hole_2_6mm";8;"HOLE";;;

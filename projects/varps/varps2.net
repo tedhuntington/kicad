@@ -1,0 +1,63 @@
+# EESchema Netlist Version 1.1 created  Sun 28 Jun 2009 06:38:55 AM PDT
+(
+ ( /4A476D16 $noname  U1 7809 {Lib=7809}
+  (    1 /V+ )
+  (    2 /GND )
+  (    3 N-000002 )
+  (    4 ? )
+ )
+ ( /4A476A82 $noname  R3 800 {Lib=R}
+  (    1 /Vout )
+  (    2 N-000002 )
+ )
+ ( /4A449EB7 TED_CONNECTOR_POWER_2.5mm  J3 DC_2.5mm_PCB {Lib=DC_2.5mm_PCB}
+  (    1 /V+ )
+  (    2 /GND )
+ )
+ ( /4A449E66 TED_TERMINAL_2mil_2PIN  J1 TERMINAL_2MIL_PCB_2PIN {Lib=TERMINAL_2MIL_PCB_2PIN}
+  (    1 /V+ )
+  (    2 /GND )
+ )
+ ( /4A449E62 TED_TERMINAL_2mil_2PIN  J2 TERMINAL_2mil_PCB_2PIN {Lib=TERMINAL_2mil_PCB_2PIN}
+  (    1 /Vout )
+  (    2 /GND )
+ )
+ ( /4A449CEE $noname  R2 1k {Lib=VAR_R}
+  (    1 /GND )
+  (    2 /Vout )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R3
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 2 "" ""
+ U1 3
+ R3 2
+Net 3 "/GND" "GND"
+ U1 2
+ J3 2
+ J1 2
+ J2 2
+ R2 1
+Net 4 "/Vout" "Vout"
+ R3 1
+ J2 1
+ R2 2
+Net 5 "/V+" "V+"
+ U1 1
+ J3 1
+ J1 1
+}
+#End

@@ -1,0 +1,34 @@
+Source,/home/tedh/kicad/projects/heat2sound_rx_rev01/heat2sound_rx_rev01.sch
+Kicad Rev,Eeschema 5.1.5-52549c5~86~ubuntu18.04.1
+Generated Date,Mon 07 Sep 2020 09:31:19 PM PDT
+
+Title,Low Offset Voltage Amplifier - Thermopile - Heart - Radio - etc MCP6v02
+Company,Not Set
+Revision,1.0
+Date Issue,14 jun 2010
+
+Reference,Value,Field1,Library,Library Ref
+R1,100,ted_resistors,R
+C1,.1uF,ted_capacitors,C(small)
+U1,MCP6V02,ted_ic,MCP6V02
+R3,10k,ted_resistors,R
+R4,100k,ted_resistors,R
+R2,100k,ted_resistors,R
+J5,3.5_STEREO,ted_connectors,3.5_STEREO
+J4,TERMINAL_3.5MM_PCB_2PIN,ted_connectors,TERMINAL_3.5MM_PCB_2PIN
+J3,JUMPER_3X1,ted_connectors,JUMPER_3X1
+S1,THERMOPILE_MLX90247,TED_thermopile_mlx90247,Thermopile_MLX90247
+J1,TERMINAL_3.5MM_PCB_2PIN,ted_connectors,TERMINAL_3.5MM_PCB_2PIN
+J2,DC_2.1mm,Jameco_GCD014A-R_or_Mouser_163_7620-E_or_163-2640-E(SMT),ted_connectors,DC_2.1mm
+U2,MIC,ted_microphones,MIC
+R5,1K,ted_resistors,R_small
+C3,1uF,ted_capacitors,C_POL_small
+U3,PAM8302A,ted_ic,PAM8302A
+C4,1uF,ted_capacitors,C(small)
+FB2,ferrite_bead,ted_inductors,ferrite_bead
+FB1,ferrite_bead,ted_inductors,ferrite_bead
+C6,220pF,ted_capacitors,C(small)
+C5,220pF,ted_capacitors,C(small)
+J6,TERMINAL_3.5MM_PCB_2PIN,ted_connectors,TERMINAL_3.5MM_PCB_2PIN
+R6,100,ted_resistors,R_small
+C2,1uF,ted_capacitors,C(small)

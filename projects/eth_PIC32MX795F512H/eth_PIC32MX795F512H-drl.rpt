@@ -1,0 +1,19 @@
+Drill report for /home/ted/kicad/projects/eth_PIC32MX795F512H/eth_PIC32MX795F512H.kicad_pcb
+Created on Sun 10 Nov 2013 04:29:02 PM PST
+Drill report for plated through holes :
+T1  0.50mm  0.020"  (54 holes)
+T2  0.81mm  0.032"  (6 holes)
+T3  0.89mm  0.035"  (8 holes)
+T4  1.00mm  0.039"  (4 holes)
+T5  1.70mm  0.067"  (2 holes)
+
+Total plated holes count 74
+
+
+Drill report for unplated through holes :
+T1  1.30mm  0.051"  (2 holes)
+T2  3.25mm  0.128"  (6 holes)
+
+Total unplated holes count 8
+
+

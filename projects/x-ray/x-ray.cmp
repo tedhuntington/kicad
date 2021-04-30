@@ -1,0 +1,164 @@
+Cmp-Mod V01 Created by CvPCB (20100330 SVN-R2491)-final date = Sun 05 Sep 2010 08:43:34 PM PDT
+
+BeginCmp
+TimeStamp = /4C0BD85A;
+Reference = C1;
+ValeurCmp = .1uF_50v;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C0BD84F;
+Reference = C2;
+ValeurCmp = .01uF_50v;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C54FDCE;
+Reference = D1;
+ValeurCmp = 15v;
+IdModule  = TED_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C6907A9;
+Reference = D3;
+ValeurCmp = 200v;
+IdModule  = TED_diode_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C69079E;
+Reference = D4;
+ValeurCmp = 100v;
+IdModule  = TED_diode_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C81FF55;
+Reference = D5;
+ValeurCmp = DIODE;
+IdModule  = TED_SOD-80_Minimelf;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BDE4964;
+Reference = J1;
+ValeurCmp = DC_2.1MM;
+IdModule  = TED_DC_2.1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C0BD9A4;
+Reference = J3;
+ValeurCmp = TERM_3.5MM_2PIN;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C0BFC7D;
+Reference = J5;
+ValeurCmp = TERM_3.5MM_2PIN;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C690165;
+Reference = J6;
+ValeurCmp = SPST_SWITCH;
+IdModule  = TED_JMP_2x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C69017E;
+Reference = J7;
+ValeurCmp = OCTAL_TUBE_SOCKET;
+IdModule  = TED_octal_tube_socket;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C69016C;
+Reference = J8;
+ValeurCmp = SPST_SWITCH;
+IdModule  = TED_JMP_2x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C690CD6;
+Reference = J9;
+ValeurCmp = TRM_3.5MM_2P;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C550B8C;
+Reference = MOV?1;
+ValeurCmp = 50v_cutoff;
+IdModule  = TED_varistor_MOV;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C0BD8C8;
+Reference = Q1;
+ValeurCmp = NMOSFET_GDS;
+IdModule  = TED_TO220_NOHS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C0BD7FF;
+Reference = R1;
+ValeurCmp = 5k;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C0BD807;
+Reference = R2;
+ValeurCmp = 100k;
+IdModule  = TED_VAR_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C690518;
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = TED_VAR_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C690553;
+Reference = R4;
+ValeurCmp = 240;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C68FF38;
+Reference = R5;
+ValeurCmp = 100k;
+IdModule  = TED_VAR_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C81FF79;
+Reference = R6;
+ValeurCmp = 1k;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C0BD728;
+Reference = U1;
+ValeurCmp = NE555;
+IdModule  = TED_DIP-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C690502;
+Reference = U2;
+ValeurCmp = LM317;
+IdModule  = TED_TO220_NOHS;
+EndCmp
+
+EndListe

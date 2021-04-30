@@ -1,0 +1,496 @@
+# EESchema Netlist Version 1.1 created  Mon 29 Mar 2010 08:31:31 AM PDT
+(
+ ( /4BB0C68E $noname  C1 10uF {Lib=C_POL}
+  (    1 /+5v )
+  (    2 /GND )
+ )
+ ( /4BB0990C $noname  J6 IDE_10X2 {Lib=IDE_10X2}
+  (    1 ? )
+  (    2 /P0_7 )
+  (    3 /P0_6 )
+  (    4 /P0_5 )
+  (    5 /P0_4 )
+  (    6 /P0_3 )
+  (    7 /P0_2 )
+  (    8 /P0_1 )
+  (    9 /P0_0 )
+  (   10 ? )
+  (   11 /+5v )
+  (   12 N-000004 )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+  (   17 ? )
+  (   18 ? )
+  (   19 ? )
+  (   20 /GND )
+ )
+ ( /4BB094DF $noname  R14 100k {Lib=R}
+  (    1 +12V )
+  (    2 N-000001 )
+ )
+ ( /4BB094DE $noname  Q20 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 /PWM4 )
+  (    2 /GND )
+  (    3 N-000001 )
+ )
+ ( /4BB09474 $noname  R12 100k {Lib=R}
+  (    1 +12V )
+  (    2 N-000013 )
+ )
+ ( /4BB09473 $noname  Q18 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 /PWM3 )
+  (    2 /GND )
+  (    3 N-000013 )
+ )
+ ( /4BB0941D $noname  R13 100k {Lib=R}
+  (    1 +12V )
+  (    2 N-000002 )
+ )
+ ( /4BB0941C $noname  Q19 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 /PWM2 )
+  (    2 /GND )
+  (    3 N-000002 )
+ )
+ ( /4BB09296 $noname  R11 100k {Lib=R}
+  (    1 +12V )
+  (    2 N-000012 )
+ )
+ ( /4BB09295 $noname  Q17 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 /PWM1 )
+  (    2 /GND )
+  (    3 N-000012 )
+ )
+ ( /4BB07EE1 TED_DIP-28  U1 PIC16F722 {Lib=PIC16F722}
+  (    1 /+5v )
+  (    2 /SENSE0 )
+  (    3 /SENSE1 )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 /GND )
+  (    9 ? )
+  (   10 ? )
+  (   11 /P0_0 )
+  (   12 /P0_1 )
+  (   13 /P0_2 )
+  (   14 /P0_3 )
+  (   15 /P0_4 )
+  (   16 /P0_5 )
+  (   17 /P0_6 )
+  (   18 /P0_7 )
+  (   19 /GND )
+  (   20 /+5v )
+  (   21 N-000004 )
+  (   22 ? )
+  (   23 ? )
+  (   24 ? )
+  (   25 /PWM1 )
+  (   26 /PWM2 )
+  (   27 /PWM3 )
+  (   28 /PWM4 )
+ )
+ ( /4B2401ED $noname  D2 TVS {Lib=TVS}
+  (    1 /MOTOR2_LEFT )
+  (    2 /MOTOR2_RIGHT )
+ )
+ ( /4B2401E7 $noname  D1 TVS {Lib=TVS}
+  (    1 /MOTOR_LEFT )
+  (    2 /MOTOR_RIGHT )
+ )
+ ( /4B2401DE $noname  R10 .001 {Lib=R}
+  (    1 /SENSE1 )
+  (    2 /GND )
+ )
+ ( /4B2401C7 $noname  R9 .001 {Lib=R}
+  (    1 /SENSE0 )
+  (    2 /GND )
+ )
+ ( /4B15F6DB $noname  Q9 PMOSFET_GDS {Lib=PMOSFET_GDS}
+  (    1 N-000009 )
+  (    2 /MOTOR2_RIGHT )
+  (    3 /+24v )
+ )
+ ( /4B15F6DA $noname  Q11 PMOSFET_GDS {Lib=PMOSFET_GDS}
+  (    1 N-000010 )
+  (    2 /MOTOR2_LEFT )
+  (    3 /+24v )
+ )
+ ( /4B15F6D1 $noname  R6 100k {Lib=R}
+  (    1 /+24v )
+  (    2 N-000009 )
+ )
+ ( /4B15F6D0 $noname  R8 100k {Lib=R}
+  (    1 /+24v )
+  (    2 N-000011 )
+ )
+ ( /4B15F6CF $noname  R5 100k {Lib=R}
+  (    1 /+24v )
+  (    2 N-000010 )
+ )
+ ( /4B15F6CE $noname  R7 100k {Lib=R}
+  (    1 /+24v )
+  (    2 N-000008 )
+ )
+ ( /4B15F6CD $noname  Q12 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 /PWM3 )
+  (    2 /GND )
+  (    3 N-000011 )
+ )
+ ( /4B15F6CC $noname  Q14 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 N-000011 )
+  (    2 +12V )
+  (    3 N-000009 )
+ )
+ ( /4B15F6CB $noname  Q10 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 /PWM4 )
+  (    2 /GND )
+  (    3 N-000008 )
+ )
+ ( /4B15F6CA $noname  Q13 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 N-000008 )
+  (    2 +12V )
+  (    3 N-000010 )
+ )
+ ( /4B15F6C9 $noname  Q16 NMOSFET_GDS {Lib=NMOSFET_GDS}
+  (    1 N-000001 )
+  (    2 /MOTOR2_RIGHT )
+  (    3 /SENSE1 )
+ )
+ ( /4B15F6C8 $noname  Q15 NMOSFET_GDS {Lib=NMOSFET_GDS}
+  (    1 N-000013 )
+  (    2 /MOTOR2_LEFT )
+  (    3 /SENSE1 )
+ )
+ ( /4B15F6C7 TED_SCREWLESS_TERM_2x1  J5 MOTOR2_L__R {Lib=TERMINAL_2mil_PCB_2PIN}
+  (    1 /MOTOR2_LEFT )
+  (    2 /MOTOR2_RIGHT )
+ )
+ ( /4B14AB2A $noname  Q1 PMOSFET_GDS {Lib=PMOSFET_GDS}
+  (    1 N-000005 )
+  (    2 /MOTOR_RIGHT )
+  (    3 /+24v )
+ )
+ ( /4B14AB23 $noname  Q3 PMOSFET_GDS {Lib=PMOSFET_GDS}
+  (    1 N-000006 )
+  (    2 /MOTOR_LEFT )
+  (    3 /+24v )
+ )
+ ( /4B14A2C5 TED_SCREWLESS_TERM_2x1  J3 0v__0v {Lib=TERMINAL_2MIL_PCB_2PIN}
+  (    1 /GND )
+  (    2 /GND )
+ )
+ ( /4B14A2BF TED_SCREWLESS_TERM_2x1  J2 24v_12v {Lib=TERMINAL_2MIL_PCB_2PIN}
+  (    1 /+24v )
+  (    2 +12V )
+ )
+ ( /4B14A1D9 $noname  R3 100k {Lib=R}
+  (    1 /+24v )
+  (    2 N-000005 )
+ )
+ ( /4B14A1D7 $noname  R4 100k {Lib=R}
+  (    1 /+24v )
+  (    2 N-000007 )
+ )
+ ( /4B14A1D0 $noname  R2 100k {Lib=R}
+  (    1 /+24v )
+  (    2 N-000006 )
+ )
+ ( /4B14A1C5 $noname  R1 100k {Lib=R}
+  (    1 /+24v )
+  (    2 N-000003 )
+ )
+ ( /4B14A188 $noname  Q6 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 /PWM1 )
+  (    2 /GND )
+  (    3 N-000007 )
+ )
+ ( /4B14A186 $noname  Q5 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 N-000007 )
+  (    2 +12V )
+  (    3 N-000005 )
+ )
+ ( /4B14A170 $noname  Q2 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 /PWM2 )
+  (    2 /GND )
+  (    3 N-000003 )
+ )
+ ( /4B14A168 $noname  Q4 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 N-000003 )
+  (    2 +12V )
+  (    3 N-000006 )
+ )
+ ( /4B14A155 $noname  Q8 NMOSFET_GDS {Lib=NMOSFET_GDS}
+  (    1 N-000002 )
+  (    2 /MOTOR_RIGHT )
+  (    3 /SENSE0 )
+ )
+ ( /4B14A152 $noname  Q7 NMOSFET_GDS {Lib=NMOSFET_GDS}
+  (    1 N-000012 )
+  (    2 /MOTOR_LEFT )
+  (    3 /SENSE0 )
+ )
+ ( /4B149665 TED_SCREWLESS_TERM_2x1  J4 MOTOR1_L__R {Lib=TERMINAL_2mil_PCB_2PIN}
+  (    1 /MOTOR_LEFT )
+  (    2 /MOTOR_RIGHT )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ R14 2
+ Q20 3
+ Q16 1
+Net 2 "" ""
+ R13 2
+ Q19 3
+ Q8 1
+Net 3 "" ""
+ R1 2
+ Q2 3
+ Q4 1
+Net 4 "" ""
+ J6 12
+ U1 21
+Net 5 "" ""
+ Q1 1
+ R3 2
+ Q5 3
+Net 6 "" ""
+ Q3 1
+ R2 2
+ Q4 3
+Net 7 "" ""
+ R4 2
+ Q6 3
+ Q5 1
+Net 8 "" ""
+ R7 2
+ Q10 3
+ Q13 1
+Net 9 "" ""
+ Q9 1
+ R6 2
+ Q14 3
+Net 10 "" ""
+ Q11 1
+ R5 2
+ Q13 3
+Net 11 "" ""
+ R8 2
+ Q12 3
+ Q14 1
+Net 12 "" ""
+ R11 2
+ Q17 3
+ Q7 1
+Net 13 "" ""
+ R12 2
+ Q18 3
+ Q15 1
+Net 14 "/GND" "GND"
+ C1 2
+ J6 20
+ Q20 2
+ Q18 2
+ Q19 2
+ Q17 2
+ U1 8
+ U1 19
+ R10 2
+ R9 2
+ Q12 2
+ Q10 2
+ J3 1
+ J3 2
+ Q6 2
+ Q2 2
+Net 24 "/P0_0" "P0_0"
+ J6 9
+ U1 11
+Net 25 "/P0_1" "P0_1"
+ J6 8
+ U1 12
+Net 26 "/P0_2" "P0_2"
+ J6 7
+ U1 13
+Net 27 "/P0_3" "P0_3"
+ J6 6
+ U1 14
+Net 28 "/P0_4" "P0_4"
+ J6 5
+ U1 15
+Net 29 "/P0_5" "P0_5"
+ J6 4
+ U1 16
+Net 30 "/P0_6" "P0_6"
+ J6 3
+ U1 17
+Net 31 "/P0_7" "P0_7"
+ J6 2
+ U1 18
+Net 38 "/PWM4" "PWM4"
+ Q20 1
+ U1 28
+ Q10 1
+Net 39 "+12V" "+12V"
+ R14 1
+ R12 1
+ R13 1
+ R11 1
+ Q14 2
+ Q13 2
+ J2 2
+ Q5 2
+ Q4 2
+Net 40 "/PWM3" "PWM3"
+ Q18 1
+ U1 27
+ Q12 1
+Net 44 "/SENSE1" "SENSE1"
+ U1 3
+ R10 1
+ Q16 3
+ Q15 3
+Net 45 "/SENSE0" "SENSE0"
+ U1 2
+ R9 1
+ Q8 3
+ Q7 3
+Net 46 "/MOTOR2 RIGHT" "MOTOR2 RIGHT"
+ D2 2
+ Q9 2
+ Q16 2
+ J5 2
+Net 47 "/MOTOR2 LEFT" "MOTOR2 LEFT"
+ D2 1
+ Q11 2
+ Q15 2
+ J5 1
+Net 48 "/+24v" "+24v"
+ Q9 3
+ Q11 3
+ R6 1
+ R8 1
+ R5 1
+ R7 1
+ Q1 3
+ Q3 3
+ J2 1
+ R3 1
+ R4 1
+ R2 1
+ R1 1
+Net 49 "/PWM1" "PWM1"
+ Q17 1
+ U1 25
+ Q6 1
+Net 50 "/PWM2" "PWM2"
+ Q19 1
+ U1 26
+ Q2 1
+Net 51 "/+5v" "+5v"
+ C1 1
+ J6 11
+ U1 20
+ U1 1
+Net 52 "/MOTOR RIGHT" "MOTOR RIGHT"
+ D1 2
+ Q1 2
+ Q8 2
+ J4 2
+Net 53 "/MOTOR LEFT" "MOTOR LEFT"
+ D1 1
+ Q3 2
+ Q7 2
+ J4 1
+}
+#End

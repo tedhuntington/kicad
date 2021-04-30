@@ -1,0 +1,94 @@
+Cmp-Mod V01 Created by CvPCB (20100330 SVN-R2491)-final date = Sat 28 Aug 2010 05:28:44 PM PDT
+
+BeginCmp
+TimeStamp = /4C54BCB9;
+Reference = J1;
+ValeurCmp = TRM_3.5MM_2P;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C54BF07;
+Reference = J2;
+ValeurCmp = TRM_3.5MM_2P;
+IdModule  = TED_TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C54BD09;
+Reference = R1;
+ValeurCmp = 7.5M;
+IdModule  = TED_axial_resistor_halfwatt;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C54BDD5;
+Reference = R2;
+ValeurCmp = 7.5M;
+IdModule  = TED_axial_resistor_halfwatt;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C54BDD7;
+Reference = R3;
+ValeurCmp = 7.5M;
+IdModule  = TED_axial_resistor_halfwatt;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C54BDB5;
+Reference = R4;
+ValeurCmp = 7.5M;
+IdModule  = TED_axial_resistor_halfwatt;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C54BDD4;
+Reference = R5;
+ValeurCmp = 7.5M;
+IdModule  = TED_axial_resistor_halfwatt;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C54BDD8;
+Reference = R6;
+ValeurCmp = 7.5M;
+IdModule  = TED_axial_resistor_halfwatt;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C54BDE2;
+Reference = R7;
+ValeurCmp = 7.5k;
+IdModule  = TED_axial_resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C54BDC6;
+Reference = R8;
+ValeurCmp = 7.5M;
+IdModule  = TED_axial_resistor_halfwatt;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C54BDD2;
+Reference = R9;
+ValeurCmp = 7.5M;
+IdModule  = TED_axial_resistor_halfwatt;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C54BDC5;
+Reference = R10;
+ValeurCmp = 7.5M;
+IdModule  = TED_axial_resistor_halfwatt;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C54BDD3;
+Reference = R11;
+ValeurCmp = 7.5M;
+IdModule  = TED_axial_resistor_halfwatt;
+EndCmp
+
+EndListe

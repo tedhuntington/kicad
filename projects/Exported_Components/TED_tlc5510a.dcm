@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  Date: Sat 09 Jan 2010 03:03:44 PM PST
+#
+$CMP TLC5510A
+D DAC (4 outputs)
+K DAC CAN
+$ENDCMP
+#
+#End Doc Library

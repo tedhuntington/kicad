@@ -1,0 +1,351 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "3 jan 2015"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 7480 2915 2    39   Output ~ 0
+SCL
+Wire Wire Line
+	7395 2915 7480 2915
+Text GLabel 7570 3155 2    39   Output ~ 0
+Vdd
+$Comp
+L accelgyro_mpu6050_rev02-rescue:GND #PWR01
+U 1 1 52503C6E
+P 7805 2845
+F 0 "#PWR01" H 7805 2920 30  0001 C CNN
+F 1 "GND" H 7805 2775 30  0000 C CNN
+F 2 "" H 7805 2845 60  0000 C CNN
+F 3 "" H 7805 2845 60  0000 C CNN
+	1    7805 2845
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7395 2755 7805 2755
+Wire Wire Line
+	7805 2755 7805 2845
+Wire Wire Line
+	7395 3155 7570 3155
+Text GLabel 7520 2835 2    39   BiDi ~ 0
+SDA
+Wire Wire Line
+	7395 2835 7520 2835
+Text GLabel 7480 2995 2    39   Input ~ 0
+INT
+Wire Wire Line
+	7480 2995 7395 2995
+$Comp
+L ted_capacitors:C(small) C1
+U 1 1 52959381
+P 5330 3965
+F 0 "C1" H 5355 4015 30  0000 L CNN
+F 1 "10nF" H 5355 3920 30  0000 L CNN
+F 2 "ted_capacitors:TED_SM0603_C" H 5330 3965 60  0001 C CNN
+F 3 "" H 5330 3965 60  0000 C CNN
+	1    5330 3965
+	1    0    0    -1  
+$EndComp
+$Comp
+L accelgyro_mpu6050_rev02-rescue:GND #PWR02
+U 1 1 529593C6
+P 6310 3535
+F 0 "#PWR02" H 6310 3610 30  0001 C CNN
+F 1 "GND" H 6310 3465 30  0000 C CNN
+F 2 "" H 6310 3535 60  0000 C CNN
+F 3 "" H 6310 3535 60  0000 C CNN
+	1    6310 3535
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6310 3450 6310 3535
+Wire Wire Line
+	5330 3615 5330 3850
+$Comp
+L ted_capacitors:C(small) C4
+U 1 1 52A5541B
+P 5570 3785
+F 0 "C4" H 5595 3835 30  0000 L CNN
+F 1 ".1uF" H 5595 3740 30  0000 L CNN
+F 2 "ted_capacitors:TED_SM0603_C" H 5570 3785 60  0001 C CNN
+F 3 "" H 5570 3785 60  0000 C CNN
+	1    5570 3785
+	1    0    0    -1  
+$EndComp
+$Comp
+L accelgyro_mpu6050_rev02-rescue:GND #PWR03
+U 1 1 52A55421
+P 5570 3920
+F 0 "#PWR03" H 5570 3995 30  0001 C CNN
+F 1 "GND" H 5570 3850 30  0000 C CNN
+F 2 "" H 5570 3920 60  0000 C CNN
+F 3 "" H 5570 3920 60  0000 C CNN
+	1    5570 3920
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5570 3835 5570 3920
+Text GLabel 5810 3700 3    39   Output ~ 0
+INT
+Wire Wire Line
+	5810 3700 5810 3615
+$Comp
+L accelgyro_mpu6050_rev02-rescue:GND #PWR04
+U 1 1 52A554A1
+P 5330 4100
+F 0 "#PWR04" H 5330 4175 30  0001 C CNN
+F 1 "GND" H 5330 4030 30  0000 C CNN
+F 2 "" H 5330 4100 60  0000 C CNN
+F 3 "" H 5330 4100 60  0000 C CNN
+	1    5330 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5330 4015 5330 4100
+$Comp
+L TED_holes:HOLE H1
+U 1 1 5365C78C
+P 4110 2010
+F 0 "H1" H 4110 1970 20  0000 C CNN
+F 1 "HOLE" H 4110 2040 20  0000 C CNN
+F 2 "ted_holes:TED_Hole_2_6mm" H 4110 2010 60  0001 C CNN
+F 3 "" H 4110 2010 60  0000 C CNN
+	1    4110 2010
+	1    0    0    -1  
+$EndComp
+Text Notes 5225 1645 0    39   ~ 0
+Vdd=3.3V
+Text GLabel 5340 2205 1    39   Input ~ 0
+SCL
+Wire Wire Line
+	5340 2290 5340 2205
+Text GLabel 5230 2215 1    39   BiDi ~ 0
+SDA
+Wire Wire Line
+	5230 2290 5230 2215
+Text Notes 4490 4575 0    39   ~ 0
+I2C address is 0x68 \n(shifted=d0 or d1, write or read)
+Text Notes 5790 4070 0    39   ~ 0
+INT is either totem pole\nor open-drain
+Text Notes 3790 2260 0    39   ~ 0
+SCL= 400khz
+$Comp
+L ted_connectors:RJ12 U2
+U 1 1 539B7C14
+P 7085 2955
+F 0 "U2" H 7085 2615 60  0000 C CNN
+F 1 "RJ12" H 7095 3285 60  0000 C CNN
+F 2 "ted_connectors:TED_RJ12_Through_Hole" H 7085 2955 60  0001 C CNN
+F 3 "" H 7085 2955 60  0000 C CNN
+	1    7085 2955
+	1    0    0    -1  
+$EndComp
+$Comp
+L TED_holes:HOLE H2
+U 1 1 539CBE67
+P 4260 2010
+F 0 "H2" H 4260 1970 20  0000 C CNN
+F 1 "HOLE" H 4260 2040 20  0000 C CNN
+F 2 "ted_holes:TED_Hole_2_6mm" H 4260 2010 60  0001 C CNN
+F 3 "" H 4260 2010 60  0000 C CNN
+	1    4260 2010
+	1    0    0    -1  
+$EndComp
+$Comp
+L ted_capacitors:C_POL_small C3
+U 1 1 54A72EF7
+P 6310 3390
+F 0 "C3" H 6325 3435 30  0000 L CNN
+F 1 "4.7uF" H 6325 3350 30  0000 L CNN
+F 2 "ted_capacitors:TED_SM2012_0805_ELEC_C" H 6310 3390 60  0001 C CNN
+F 3 "~" H 6310 3390 60  0000 C CNN
+	1    6310 3390
+	1    0    0    -1  
+$EndComp
+$Comp
+L accelgyro_mpu6050_rev02-rescue:GND #PWR05
+U 1 1 54A72FCA
+P 5690 3700
+F 0 "#PWR05" H 5690 3775 30  0001 C CNN
+F 1 "GND" H 5690 3630 30  0000 C CNN
+F 2 "" H 5690 3700 60  0000 C CNN
+F 3 "" H 5690 3700 60  0000 C CNN
+	1    5690 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5690 3615 5690 3700
+$Comp
+L ted_ic:MPU-6050 U1
+U 1 1 57C65137
+P 5500 2915
+F 0 "U1" H 4640 3495 60  0000 C CNN
+F 1 "MPU-6050" H 5470 2955 39  0000 C CNN
+F 2 "ted_ICs:TED_QFN24+1_NO_PASTE" H 5500 2915 60  0001 C CNN
+F 3 "" H 5500 2915 60  0000 C CNN
+	1    5500 2915
+	1    0    0    -1  
+$EndComp
+Text GLabel 6365 3210 2    39   Input ~ 0
+Vdd
+Wire Wire Line
+	6040 3210 6070 3210
+$Comp
+L accelgyro_mpu6050_rev02-rescue:GND #PWR06
+U 1 1 57C65421
+P 6235 2735
+F 0 "#PWR06" H 6235 2810 30  0001 C CNN
+F 1 "GND" H 6235 2665 30  0000 C CNN
+F 2 "" H 6235 2735 60  0000 C CNN
+F 3 "" H 6235 2735 60  0000 C CNN
+	1    6235 2735
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6235 2650 6235 2735
+Wire Wire Line
+	6040 2650 6235 2650
+NoConn ~ 6040 2760
+NoConn ~ 6040 2870
+NoConn ~ 6040 2980
+NoConn ~ 6040 3090
+NoConn ~ 4930 3055
+NoConn ~ 4930 2955
+NoConn ~ 4930 2860
+NoConn ~ 4930 2760
+$Comp
+L accelgyro_mpu6050_rev02-rescue:GND #PWR07
+U 1 1 57C656F4
+P 4810 2715
+F 0 "#PWR07" H 4810 2790 30  0001 C CNN
+F 1 "GND" H 4810 2645 30  0000 C CNN
+F 2 "" H 4810 2715 60  0000 C CNN
+F 3 "" H 4810 2715 60  0000 C CNN
+	1    4810 2715
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4810 2660 4810 2715
+Wire Wire Line
+	4930 2660 4810 2660
+Text GLabel 5270 3845 0    39   Input ~ 0
+Vdd
+Connection ~ 5330 3850
+Wire Wire Line
+	5570 3735 5570 3615
+Wire Wire Line
+	5330 3850 5270 3845
+$Comp
+L ted_capacitors:C(small) C5
+U 1 1 57C65F54
+P 6070 3380
+F 0 "C5" H 6095 3430 30  0000 L CNN
+F 1 ".1uF" H 6095 3335 30  0000 L CNN
+F 2 "ted_capacitors:TED_SM0603_C" H 6070 3380 60  0001 C CNN
+F 3 "" H 6070 3380 60  0000 C CNN
+	1    6070 3380
+	1    0    0    -1  
+$EndComp
+$Comp
+L accelgyro_mpu6050_rev02-rescue:GND #PWR08
+U 1 1 57C65F5A
+P 6070 3515
+F 0 "#PWR08" H 6070 3590 30  0001 C CNN
+F 1 "GND" H 6070 3445 30  0000 C CNN
+F 2 "" H 6070 3515 60  0000 C CNN
+F 3 "" H 6070 3515 60  0000 C CNN
+	1    6070 3515
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6070 3430 6070 3515
+Wire Wire Line
+	6070 3330 6070 3210
+Connection ~ 6070 3210
+$Comp
+L ted_capacitors:C(small) C2
+U 1 1 57C66146
+P 5740 1940
+F 0 "C2" H 5765 1990 30  0000 L CNN
+F 1 "2.2nF" H 5765 1895 30  0000 L CNN
+F 2 "ted_capacitors:TED_SM0603_C" H 5740 1940 60  0001 C CNN
+F 3 "" H 5740 1940 60  0000 C CNN
+	1    5740 1940
+	1    0    0    -1  
+$EndComp
+$Comp
+L accelgyro_mpu6050_rev02-rescue:GND #PWR09
+U 1 1 57C6614D
+P 5740 2075
+F 0 "#PWR09" H 5740 2150 30  0001 C CNN
+F 1 "GND" H 5740 2005 30  0000 C CNN
+F 2 "" H 5740 2075 60  0000 C CNN
+F 3 "" H 5740 2075 60  0000 C CNN
+	1    5740 2075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5740 1990 5740 2075
+Wire Wire Line
+	5655 2290 5655 1805
+Wire Wire Line
+	5655 1805 5740 1805
+Wire Wire Line
+	5740 1805 5740 1890
+NoConn ~ 5765 2290
+NoConn ~ 5555 2290
+NoConn ~ 5445 2290
+NoConn ~ 7395 3075
+$Comp
+L accelgyro_mpu6050_rev02-rescue:GND #PWR010
+U 1 1 57C66ABC
+P 5450 3700
+F 0 "#PWR010" H 5450 3775 30  0001 C CNN
+F 1 "GND" H 5450 3630 30  0000 C CNN
+F 2 "" H 5450 3700 60  0000 C CNN
+F 3 "" H 5450 3700 60  0000 C CNN
+	1    5450 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 3615 5450 3700
+NoConn ~ 4930 3155
+NoConn ~ 5210 3615
+Wire Wire Line
+	6310 3320 6310 3210
+Connection ~ 6310 3210
+$Comp
+L accelgyro_mpu6050_rev02-rescue:GND #PWR011
+U 1 1 57C68FF8
+P 4970 2225
+F 0 "#PWR011" H 4970 2300 30  0001 C CNN
+F 1 "GND" H 4970 2155 30  0000 C CNN
+F 2 "" H 4970 2225 60  0000 C CNN
+F 3 "" H 4970 2225 60  0000 C CNN
+	1    4970 2225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4970 2140 4970 2225
+Wire Wire Line
+	5100 2290 5100 2140
+Wire Wire Line
+	5100 2140 4970 2140
+Text Notes 6370 3505 0    39   ~ 0
+note: ali module uses 10uF tantulum (A106) see datasheet
+Wire Wire Line
+	5330 3850 5330 3915
+Wire Wire Line
+	6070 3210 6310 3210
+Wire Wire Line
+	6310 3210 6365 3210
+$EndSCHEMATC

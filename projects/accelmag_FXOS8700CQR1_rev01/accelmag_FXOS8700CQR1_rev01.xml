@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/ted/kicad/projects/accelmag_FXOS8700CQR1_rev01/accelmag_FXOS8700CQR1_rev01.sch</source>
+    <date>Sat 12 Dec 2015 03:59:07 PM PST</date>
+    <tool>Eeschema (2015-08-20 BZR 6109)-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>3 jan 2015</date>
+        <source>accelmag_FXOS8700CQR1_rev01.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>ted_capacitors:TED_SM0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52959381</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>.1uF</value>
+      <footprint>ted_capacitors:TED_SM0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52A5541B</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>HOLE</value>
+      <footprint>ted_holes:TED_Hole_2_6mm</footprint>
+      <libsource lib="TED_holes" part="HOLE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5365C78C</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>RJ12</value>
+      <footprint>ted_connectors:TED_RJ12_855135002</footprint>
+      <libsource lib="ted_connectors" part="RJ12"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>539B7C14</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>HOLE</value>
+      <footprint>ted_holes:TED_Hole_2_6mm</footprint>
+      <libsource lib="TED_holes" part="HOLE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>539CBE67</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>FXOS8700CQ</value>
+      <footprint>ted_ICs:TED_QFN16_3x5</footprint>
+      <libsource lib="ted_ic" part="FXOS8700CQ"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54A72EE3</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>4.7uF</value>
+      <footprint>ted_capacitors:TED_c_elec_4.3x4.3</footprint>
+      <libsource lib="ted_capacitors" part="C_POL_small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54A72EF7</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>ted_capacitors:TED_SM0603_C</footprint>
+      <libsource lib="ted_capacitors" part="C(small)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54A72FC4</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="ted_ic" part="FXOS8700CQ">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FXOS8700CQ</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDDIO" type="passive"/>
+        <pin num="2" name="BYP" type="output"/>
+        <pin num="3" name="Reserved" type="passive"/>
+        <pin num="4" name="SCL/SCLK" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="SDA/MOSI" type="BiDi"/>
+        <pin num="7" name="SA0/MISO" type="input"/>
+        <pin num="8" name="Crst" type="passive"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="SA1/CS_B" type="input"/>
+        <pin num="11" name="INT1" type="output"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="13" name="Reserved" type="passive"/>
+        <pin num="14" name="VDD" type="power_in"/>
+        <pin num="15" name="N/C" type="passive"/>
+        <pin num="16" name="RST" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ted_capacitors" part="C_POL_small">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_POL_small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ted_connectors" part="RJ12">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RJ12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TED_holes" part="HOLE">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">HOLE</field>
+      </fields>
+      <pins>
+        <pin num="~" name="~" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="ted_capacitors" part="C(small)">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C(small)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="ted_connectors">
+      <uri>/home/ted/kicad/projects/library/ted_connectors.lib</uri>
+    </library>
+    <library logical="TED_holes">
+      <uri>/home/ted/kicad/projects/library/TED_holes.lib</uri>
+    </library>
+    <library logical="ted_capacitors">
+      <uri>/home/ted/kicad/projects/library/ted_capacitors.lib</uri>
+    </library>
+    <library logical="ted_ic">
+      <uri>/home/ted/kicad/projects/library/ted_ic.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="U1" pin="12"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U1" pin="16"/>
+      <node ref="U1" pin="13"/>
+      <node ref="U1" pin="10"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="7"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="2" name="SCL">
+      <node ref="U1" pin="4"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="3" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="4" name="Net-(H2-Pad~)">
+      <node ref="H2" pin="~"/>
+    </net>
+    <net code="5" name="SDA">
+      <node ref="U2" pin="2"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="6" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="7" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="8" name="INT2">
+      <node ref="U2" pin="5"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="9" name="INT1">
+      <node ref="U1" pin="11"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="10" name="Vdd">
+      <node ref="U1" pin="1"/>
+      <node ref="U2" pin="6"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U1" pin="14"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="11" name="Net-(H1-Pad~)">
+      <node ref="H1" pin="~"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,19 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Regulator_1.8V
+#
+DEF Regulator_1.8V U 0 30 N Y 1 F N
+F0 "U" 20 -204 39 H V C CNN
+F1 "Regulator_1.8V" 3 154 39 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -99 -97 97 92 0 1 0 N
+X GND 1 0 -136 39 U 12 12 1 1 w
+X VO 2 137 49 39 L 12 12 1 1 w
+X VI 3 -139 46 39 R 12 12 1 1 W
+ENDDRAW
+ENDDEF
+#
+#End Library

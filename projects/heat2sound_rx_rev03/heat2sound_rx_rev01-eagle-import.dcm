@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP6V02
+D Op amp.
+K AmpliOp
+F ../docs/opa353
+$ENDCMP
+#
+#End Doc Library

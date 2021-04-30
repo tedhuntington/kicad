@@ -1,0 +1,241 @@
+(pcb /home/ted/kicad/projects/VoltageQuadrupler/VoltageQuadrupler.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(2013-08-24 BZR 4298)-stable")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (rect pcb 98451.7 -57246.5 158779 -117968)
+    )
+    (via "Via[0-1]_889:635_um")
+    (rule
+      (width 254)
+      (clearance 254.1)
+      (clearance 254.1 (type default_smd))
+      (clearance 63.5 (type smd_smd))
+    )
+  )
+  (placement
+    (component TED_ceramic_radial_5mm
+      (place C1 148501 -105004 front 0 (PN .1uF))
+      (place C2 148501 -105004 front 0 (PN .1uF))
+      (place C3 148501 -105004 front 0 (PN .1uF))
+    )
+    (component TED_C_RADIAL_ELECTROLYTIC_19mm
+      (place C4 148501 -105004 front 0 (PN "680uF 63v"))
+      (place C5 148501 -105004 front 0 (PN "680uF 63v"))
+      (place C6 148501 -105004 front 0 (PN "680uF 63v"))
+      (place C7 148501 -105004 front 0 (PN "680uF 63v"))
+    )
+    (component TED_diode_axial_2A_400V
+      (place D1 148501 -105004 front 0 (PN "200V 4A"))
+      (place D2 148501 -105004 front 0 (PN "200V 4A"))
+      (place D3 148501 -105004 front 0 (PN "200V 4A"))
+      (place D4 148501 -105004 front 0 (PN "200V 4A"))
+      (place D5 148501 -105004 front 0 (PN "200V 4A"))
+      (place D6 148501 -105004 front 0 (PN "200V 4A"))
+    )
+    (component TED_DC_2.1mm
+      (place J1 148501 -105004 front 0 (PN DC_2.1MM))
+    )
+    (component TED_TERMINAL_3.5MM_2PIN
+      (place J2 148501 -105004 front 0 (PN "3V 4V"))
+      (place J3 148501 -105004 front 0 (PN "1V 2V"))
+    )
+    (component "TED_DIP-8"
+      (place U1 103835 -98755.2 front 0 (PN NE555))
+    )
+    (component TED_axial_resistor_halfwatt
+      (place R1 144018 -63246 front 0 (PN 200))
+      (place R2 144018 -63246 front 0 (PN 390))
+    )
+  )
+  (library
+    (image TED_ceramic_radial_5mm
+      (outline (path signal 381  2500 -1000  -2500 -1000))
+      (outline (path signal 381  -2500 1000  2500 1000))
+      (outline (path signal 381  2500 1000  2500 -1000))
+      (outline (path signal 381  -2500 -1000  -2500 1000))
+      (pin Round[A]Pad_1000_um 1 -1500 0)
+      (pin Round[A]Pad_1000_um 2 1500 0)
+    )
+    (image TED_C_RADIAL_ELECTROLYTIC_19mm
+      (outline (path signal 381  9513.15 0  9047.54 -2939.72  7696.3 -5591.69  5591.69 -7696.3
+            2939.72 -9047.54  0 -9513.15  -2939.72 -9047.54  -5591.69 -7696.3
+            -7696.3 -5591.69  -9047.54 -2939.72  -9513.15 0  -9047.54 2939.72
+            -7696.3 5591.69  -5591.69 7696.3  -2939.72 9047.54  0 9513.15
+            2939.72 9047.54  5591.69 7696.3  7696.3 5591.69  9047.54 2939.72))
+      (outline (path signal 381  7099.3 6250  7099.3 -6151.18))
+      (pin Round[A]Pad_1397_um 1 -3750 0)
+      (pin Round[A]Pad_1397_um 2 3750 0)
+    )
+    (image TED_diode_axial_2A_400V
+      (outline (path signal 381  -3000 2750  -3000 -2750))
+      (outline (path signal 381  -4750 2750  4750 2750))
+      (outline (path signal 381  4750 2750  4750 -2750))
+      (outline (path signal 381  4750 -2750  -4750 -2750))
+      (outline (path signal 381  -4750 -2750  -4750 2750))
+      (pin Rect[A]Pad_3048x3048_um 1 -8500 0)
+      (pin Round[A]Pad_3048_um 2 8500 0)
+    )
+    (image TED_DC_2.1mm
+      (outline (path signal 381  -5842 4699  -5842 -4699))
+      (outline (path signal 381  -5842 -4699  5842 -4699))
+      (outline (path signal 381  5842 -4699  5842 4699))
+      (outline (path signal 381  5842 4699  -5842 4699))
+      (pin Round[A]Pad_4572_um 1 5842 0)
+      (pin Round[A]Pad_4572_um 2 -508 0)
+      (pin Round[A]Pad_4572_um 3 2667 -4699)
+    )
+    (image TED_TERMINAL_3.5MM_2PIN
+      (outline (path signal 381  -3500.12 3799.84  -3500.12 -3799.84))
+      (outline (path signal 381  -3500.12 -3799.84  3500.12 -3799.84))
+      (outline (path signal 381  3500.12 -3799.84  3500.12 3799.84))
+      (outline (path signal 381  3500.12 3799.84  -3500.12 3799.84))
+      (pin Round[A]Pad_1998.98_um 1 -1750.06 0)
+      (pin Round[A]Pad_1998.98_um 2 1750.06 0)
+    )
+    (image "TED_DIP-8"
+      (outline (path signal 99.06  -4288.02 -2032  -4301.92 -2119.76  -4342.26 -2198.92
+            -4405.08 -2261.74  -4484.24 -2302.08  -4572 -2315.98  -4659.76 -2302.08
+            -4738.92 -2261.74  -4801.74 -2198.92  -4842.08 -2119.76  -4855.98 -2032
+            -4842.08 -1944.24  -4801.74 -1865.08  -4738.92 -1802.26  -4659.76 -1761.92
+            -4572 -1748.02  -4484.24 -1761.92  -4405.08 -1802.26  -4342.26 -1865.08
+            -4301.92 -1944.24))
+      (outline (path signal 99.06  -5080 1016  -4318 1016))
+      (outline (path signal 99.06  -4318 1016  -4318 -1016))
+      (outline (path signal 99.06  -4318 -1016  -5080 -1016))
+      (outline (path signal 99.06  -5080 2540  5080 2540))
+      (outline (path signal 99.06  5080 2540  5080 -2540))
+      (outline (path signal 99.06  5080 -2540  -5080 -2540))
+      (outline (path signal 99.06  -5080 -2540  -5080 2540))
+      (pin Rect[A]Pad_1397x1397_um 1 -3810 -3810)
+      (pin Round[A]Pad_1397_um 2 -1270 -3810)
+      (pin Round[A]Pad_1397_um 3 1270 -3810)
+      (pin Round[A]Pad_1397_um 4 3810 -3810)
+      (pin Round[A]Pad_1397_um 5 3810 3810)
+      (pin Round[A]Pad_1397_um 6 1270 3810)
+      (pin Round[A]Pad_1397_um 7 -1270 3810)
+      (pin Round[A]Pad_1397_um 8 -3810 3810)
+    )
+    (image TED_axial_resistor_halfwatt
+      (outline (path signal 381  -4445 1529.08  4445 1529.08))
+      (outline (path signal 381  4445 1529.08  4445 -1544.32))
+      (outline (path signal 381  4445 -1544.32  -4445 -1544.32))
+      (outline (path signal 381  -4445 -1544.32  -4445 1529.08))
+      (pin Round[A]Pad_1524_um 1 -6375.4 -20.32)
+      (pin Round[A]Pad_1524_um 2 6350 -20.32)
+    )
+    (padstack Round[A]Pad_1000_um
+      (shape (circle F.Cu 1000))
+      (shape (circle B.Cu 1000))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1397_um
+      (shape (circle F.Cu 1397))
+      (shape (circle B.Cu 1397))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1524_um
+      (shape (circle F.Cu 1524))
+      (shape (circle B.Cu 1524))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1998.98_um
+      (shape (circle F.Cu 1998.98))
+      (shape (circle B.Cu 1998.98))
+      (attach off)
+    )
+    (padstack Round[A]Pad_3048_um
+      (shape (circle F.Cu 3048))
+      (shape (circle B.Cu 3048))
+      (attach off)
+    )
+    (padstack Round[A]Pad_4572_um
+      (shape (circle F.Cu 4572))
+      (shape (circle B.Cu 4572))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_3048x3048_um
+      (shape (rect F.Cu -1524 -1524 1524 1524))
+      (shape (rect B.Cu -1524 -1524 1524 1524))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1397x1397_um
+      (shape (rect F.Cu -698.5 -698.5 698.5 698.5))
+      (shape (rect B.Cu -698.5 -698.5 698.5 698.5))
+      (attach off)
+    )
+    (padstack "Via[0-1]_889:635_um"
+      (shape (circle F.Cu 889))
+      (shape (circle B.Cu 889))
+      (attach off)
+    )
+  )
+  (network
+    (net 2Vcc
+      (pins C5-1 D1-1 D3-2 D4-1 J3-1)
+    )
+    (net 3Vcc
+      (pins C6-1 D3-1 D5-2 D6-1 J2-2)
+    )
+    (net 4Vcc
+      (pins C7-1 D5-1 J2-1)
+    )
+    (net GND
+      (pins C1-2 C2-2 C3-2 C4-2 J1-1 U1-1)
+    )
+    (net "N-0000012"
+      (pins C1-1 U1-5)
+    )
+    (net "N-0000013"
+      (pins C2-1 U1-8)
+    )
+    (net "N-0000014"
+      (pins U1-7 R1-2 R2-1)
+    )
+    (net "N-000002"
+      (pins C6-2 D4-2)
+    )
+    (net "N-000004"
+      (pins C5-2 D2-2)
+    )
+    (net "N-000008"
+      (pins C7-2 D6-2)
+    )
+    (net "N-000009"
+      (pins C3-1 U1-2 U1-6 R2-2)
+    )
+    (net TimerOut
+      (pins C4-1 D1-2 D2-1 U1-3)
+    )
+    (class kicad_default "" 2Vcc 3Vcc 4Vcc GND "N-0000012" "N-0000013" "N-0000014"
+      "N-000002" "N-000004" "N-000008" "N-000009" TimerOut
+      (circuit
+        (use_via Via[0-1]_889:635_um)
+      )
+      (rule
+        (width 254)
+        (clearance 254.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

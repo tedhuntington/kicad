@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NMOSFET_GSD
+F transistors/mos/*.*
+$ENDCMP
+#
+#End Doc Library

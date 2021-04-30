@@ -1,0 +1,79 @@
+( pcb2gcode 1.1.4 )
+
+( This file uses 2 drill bit sizes. )
+
+G94     ( Inches per minute feed rate. )
+G20     ( Units == INCHES.             )
+G90     ( Absolute coordinates.        )
+S13000  ( RPM spindle speed.           )
+
+G00 Z1.57480 ( Retract )
+T1
+M5      ( Spindle stop.                )
+M6      ( Tool change.                 )
+(MSG, CHANGE TOOL BIT: to drill size 0.40000 mm)
+M0      ( Temporary machine stop.      )
+M3      ( Spindle on clockwise.        )
+
+G81 R0.78740 Z0.44094 F5.11811 X-5.11614 Y-4.44882
+X-5.11929 Y-4.53071
+X-5.15984 Y-4.78504
+X-5.17520 Y-4.20965
+X-5.23433 Y-4.21366
+X-5.28819 Y-3.82992
+X-5.33346 Y-4.04055
+X-5.34252 Y-4.21260
+X-5.35197 Y-4.88583
+X-5.35591 Y-4.26614
+X-5.36457 Y-4.34055
+X-5.38189 Y-3.94094
+X-5.44213 Y-3.95787
+X-5.44961 Y-4.15512
+X-5.46181 Y-4.50236
+X-5.46850 Y-4.89843
+X-5.57717 Y-4.51299
+X-5.58583 Y-4.20984
+X-5.63701 Y-4.23307
+X-5.75197 Y-4.25000
+X-5.75276 Y-4.65276
+X-5.76535 Y-4.39449
+X-5.77717 Y-4.18307
+X-5.79213 Y-3.87598
+X-5.80512 Y-4.31850
+
+
+G00 Z1.57480 ( Retract )
+T2
+M5      ( Spindle stop.                )
+M6      ( Tool change.                 )
+(MSG, CHANGE TOOL BIT: to drill size 1.00000 mm)
+M0      ( Temporary machine stop.      )
+M3      ( Spindle on clockwise.        )
+
+G81 R0.78740 Z0.44094 F5.11811 X-4.92835 Y-3.91220
+X-4.92835 Y-4.01220
+X-4.92835 Y-4.11220
+X-4.92835 Y-4.21220
+X-4.92835 Y-4.31220
+X-4.92835 Y-4.41220
+X-4.92835 Y-4.51220
+X-4.92835 Y-4.61220
+X-4.92835 Y-4.71220
+X-4.92835 Y-4.81220
+X-5.02835 Y-3.91220
+X-5.02835 Y-4.01220
+X-5.02835 Y-4.11220
+X-5.02835 Y-4.21220
+X-5.02835 Y-4.31220
+X-5.02835 Y-4.41220
+X-5.02835 Y-4.51220
+X-5.02835 Y-4.61220
+X-5.02835 Y-4.71220
+X-5.02835 Y-4.81220
+
+
+G00 Z1.57480 ( All done -- retract )
+
+M9 ( Coolant off. )
+M2 ( Program end. )
+

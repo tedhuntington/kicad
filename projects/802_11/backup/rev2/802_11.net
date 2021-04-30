@@ -1,0 +1,280 @@
+# EESchema Netlist Version 1.1 created  Mon 14 Jun 2010 10:52:28 AM PDT
+(
+ ( /4BDE4BE6 TED_SM0805 C1 1uF
+  ( 1 N-000018 )
+  ( 2 GND )
+ )
+ ( /4BDE4E7B TED_SM0805 C2 1uF
+  ( 1 /3.3v )
+  ( 2 GND )
+ )
+ ( /4BDE5195 TED_SM3216-18_POL C3 10uF
+  ( 1 /3.3v )
+  ( 2 GND )
+ )
+ ( /4BDE4E8A TED_SM0805 C4 1uF
+  ( 1 /3.3v )
+  ( 2 GND )
+ )
+ ( /4C035C08 TED_SM0805 C5 18pF
+  ( 1 N-000026 )
+  ( 2 GND )
+ )
+ ( /4C035DBA TED_SM0805 C6 .1uF
+  ( 1 /3.3v )
+  ( 2 GND )
+ )
+ ( /4C035C2D TED_SM0805 C7 18pF
+  ( 1 N-000022 )
+  ( 2 GND )
+ )
+ ( /4C035D95 TED_SM0805 C8 .1uF
+  ( 1 /3.3v )
+  ( 2 GND )
+ )
+ ( /4C035E50 TED_SM3216-18_POL C9 10uF_(tant)
+  ( 1 N-000023 )
+  ( 2 GND )
+ )
+ ( /4BDE4964 TED_DC_2.1mm J1 DC_2.1MM
+  ( 1 /5v )
+  ( 2 GND )
+ )
+ ( /4BDE48A9 TED_IDE_5x2 J2 IDE_5X2
+  ( 1 N-000046 )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 GND )
+  ( 6 ? )
+  ( 7 N-000019 )
+  ( 8 N-000031 )
+  ( 9 N-000020 )
+  ( 10 N-000030 )
+ )
+ ( /4C034F77 TED_HEADER_6x1 J3 HEADER_6X1
+  ( 1 /PRG_MCLR )
+  ( 2 /3.3v )
+  ( 3 GND )
+  ( 4 /IPSPDAT )
+  ( 5 /IPSPCLK )
+  ( 6 ? )
+ )
+ ( /4C036681 TED_TERMINAL_3.5MM_8PIN J5 TERMINAL_3.5MM_PCB_8PIN
+  ( 1 /3.3v )
+  ( 2 GND )
+  ( 3 N-000053 )
+  ( 4 N-000052 )
+  ( 5 N-000051 )
+  ( 6 N-000003 )
+  ( 7 N-000048 )
+  ( 8 N-000047 )
+ )
+ ( /4BDE4C1A TED_SM0805 R1 4.7k
+  ( 1 /3.3v )
+  ( 2 N-000018 )
+ )
+ ( /4BDE4EE3 TED_SM0805 R2 4.7k
+  ( 1 N-000043 )
+  ( 2 GND )
+ )
+ ( /4BDE505E TED_SM0805 R3 10M
+  ( 1 N-000044 )
+  ( 2 GND )
+ )
+ ( /4C0361D2 TED_SM0805 R4 10k
+  ( 1 /3.3v )
+  ( 2 N-000001 )
+ )
+ ( /4C034E4A TED_SM0805 R5 1M
+  ( 1 N-000027 )
+  ( 2 N-000026 )
+ )
+ ( /4C035BBB TED_SM0805 R6 442
+  ( 1 N-000022 )
+  ( 2 N-000027 )
+ )
+ ( /4C036866 TED_SM0805 R9 4.7k
+  ( 1 /3.3v )
+  ( 2 N-000047 )
+ )
+ ( /4C03685C TED_SM0805 R10 4.7k
+  ( 1 /3.3v )
+  ( 2 N-000048 )
+ )
+ ( /4C166BFF TED_SM0805 R11 10k
+  ( 1 /3.3v )
+  ( 2 /PRG_MCLR )
+ )
+ ( /4BDE497C TED_TO220_NOHS U1 REGULATOR_3.3V
+  ( 1 GND )
+  ( 2 /3.3v )
+  ( 3 /5v )
+ )
+ ( /4BDE62ED TED_ZG2100 U4 ZG2100
+  ( 1 GND )
+  ( 2 ? )
+  ( 3 N-000030 )
+  ( 4 N-000020 )
+  ( 5 N-000031 )
+  ( 6 N-000019 )
+  ( 7 N-000018 )
+  ( 8 ? )
+  ( 9 N-000043 )
+  ( 10 GND )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 ? )
+  ( 15 ? )
+  ( 16 GND )
+  ( 17 /3.3v )
+  ( 18 GND )
+  ( 19 GND )
+  ( 20 N-000044 )
+  ( 21 N-000043 )
+  ( 22 ? )
+  ( 23 N-000010 )
+  ( 24 ? )
+  ( 25 GND )
+  ( 26 ? )
+  ( 27 ? )
+  ( 28 GND )
+  ( 29 /3.3v )
+  ( 30 GND )
+  ( 31 ? )
+  ( 32 N-000012 )
+  ( 33 N-000001 )
+  ( 34 N-000007 )
+  ( 35 N-000042 )
+  ( 36 GND )
+ )
+ ( /4C034BA2 TED_DIP-28 U5 PIC24HJ16GP302
+  ( 1 /PRG_MCLR )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 /IPSPDAT )
+  ( 5 /IPSPCLK )
+  ( 6 N-000042 )
+  ( 7 N-000012 )
+  ( 8 GND )
+  ( 9 N-000026 )
+  ( 10 N-000027 )
+  ( 11 N-000007 )
+  ( 12 ? )
+  ( 13 /3.3v )
+  ( 14 N-000010 )
+  ( 15 ? )
+  ( 16 N-000001 )
+  ( 17 N-000048 )
+  ( 18 N-000047 )
+  ( 19 GND )
+  ( 20 N-000023 )
+  ( 21 ? )
+  ( 22 ? )
+  ( 23 N-000003 )
+  ( 24 N-000051 )
+  ( 25 N-000052 )
+  ( 26 N-000053 )
+  ( 27 GND )
+  ( 28 /3.3v )
+ )
+ ( /4C034E2D TED_crystal_SMT_13x5mm X1 10MHz
+  ( 1 N-000022 )
+  ( 2 N-000026 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}

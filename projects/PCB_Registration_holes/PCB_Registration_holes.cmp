@@ -1,0 +1,31 @@
+Cmp-Mod V01 Created by CvPcb (2013-08-24 BZR 4298)-stable date = Sun 01 Sep 2013 12:26:00 PM PDT
+
+BeginCmp
+TimeStamp = /52238D46;
+Reference = U1;
+ValeurCmp = HOLE;
+IdModule  = TED_Hole;
+EndCmp
+
+BeginCmp
+TimeStamp = /52238D6E;
+Reference = U2;
+ValeurCmp = HOLE;
+IdModule  = TED_Hole;
+EndCmp
+
+BeginCmp
+TimeStamp = /52238D5A;
+Reference = U3;
+ValeurCmp = HOLE;
+IdModule  = TED_Hole;
+EndCmp
+
+BeginCmp
+TimeStamp = /52238D82;
+Reference = U4;
+ValeurCmp = HOLE;
+IdModule  = TED_Hole;
+EndCmp
+
+EndListe

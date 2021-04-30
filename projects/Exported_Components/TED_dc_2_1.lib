@@ -1,0 +1,20 @@
+EESchema-LIBRARY Version 2.3  Date: Sun 10 May 2015 03:19:07 PM PDT
+#encoding utf-8
+#
+# DC_2.1mm
+#
+DEF DC_2.1mm J 0 40 Y Y 1 F N
+F0 "J" 0 -350 60 H V C CNN
+F1 "DC_2.1mm" 0 350 60 H V C CNN
+F2 "TED_DC_2.1mm" 0 -485 60 H I C CNN
+F3 "~" 0 0 60 H V C CNN
+F4 "Jameco_GCD014A-R_or_Mouser_163_7620-E_or_163-2640-E(SMT)" 70 -645 60 H I C CNN
+DRAW
+C 0 0 127 0 1 0 N
+S -415 270 415 -285 0 1 0 N
+X VCC 1 -230 -415 300 U 50 50 1 1 P
+X GND 2 205 -405 300 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

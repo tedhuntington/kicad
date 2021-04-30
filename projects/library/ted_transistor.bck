@@ -1,0 +1,31 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BJT_N_TYPE
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP IRF1405
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP MOSFET_N
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP NMOSFET2
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP NMOSFET_GSD
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP PMOSFET_DS
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP PMOSFET_GDS
+F transistors/mos/*.*
+$ENDCMP
+#
+#End Doc Library

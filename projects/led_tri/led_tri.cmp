@@ -1,0 +1,143 @@
+Cmp-Mod V01 Created by Cvpcb (20090530 SVN-R1798) date = Thu 03 Dec 2009 10:12:01 PM PST
+
+BeginCmp
+TimeStamp = /4B0F2397;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = TED_SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B0F2340;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = TED_SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B0F2541;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = TED_SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B0F2540;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = TED_SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B0F2551;
+Reference = D5;
+ValeurCmp = LED;
+IdModule  = TED_SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B0F2550;
+Reference = D6;
+ValeurCmp = LED;
+IdModule  = TED_SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B0F2553;
+Reference = D7;
+ValeurCmp = LED;
+IdModule  = TED_SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B0F2552;
+Reference = D8;
+ValeurCmp = LED;
+IdModule  = TED_SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B0F2558;
+Reference = D9;
+ValeurCmp = LED;
+IdModule  = TED_SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B0F2557;
+Reference = D10;
+ValeurCmp = LED;
+IdModule  = TED_SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B0F255A;
+Reference = D11;
+ValeurCmp = LED;
+IdModule  = TED_SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B0F2559;
+Reference = D12;
+ValeurCmp = LED;
+IdModule  = TED_SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B0F255C;
+Reference = D13;
+ValeurCmp = LED;
+IdModule  = TED_SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B0F255B;
+Reference = D14;
+ValeurCmp = LED;
+IdModule  = TED_SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B0F255E;
+Reference = D15;
+ValeurCmp = LED;
+IdModule  = TED_SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B0F255D;
+Reference = D16;
+ValeurCmp = LED;
+IdModule  = TED_SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B0F22C3;
+Reference = J1;
+ValeurCmp = DC_2.5mm_PCB;
+IdModule  = TED_CONNECTOR_POWER_2.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B18A76E;
+Reference = J2;
+ValeurCmp = SPST_Switch;
+IdModule  = TED_SWITCH_SPST_MPB-129;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B0F2411;
+Reference = R1;
+ValeurCmp = 255;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B0F2320;
+Reference = U1;
+ValeurCmp = 7805_NO_HS;
+IdModule  = TED_TO220_NOHS;
+EndCmp
+
+EndListe

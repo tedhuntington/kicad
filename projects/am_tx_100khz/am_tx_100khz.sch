@@ -1,0 +1,425 @@
+EESchema Schematic File Version 2  date Sun 28 Mar 2010 12:30:56 AM PDT
+LIBS:ted_capacitors,ted_connectors,ted_device,ted_diodes,ted_ic,ted_opamp,ted_power,ted_regulators,ted_resistors,ted_switches,ted_transistor,ted_inductors,ted_sensors
+EELAYER 24  0
+EELAYER END
+$Descr User 11000 8500
+Sheet 1 1
+Title "AM Transmitter (~80-95khz)"
+Date "28 mar 2010"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Connection ~ 1870 3120
+Text GLabel 2650 2800 2    30   Input ~ 0
+Vcc
+Text GLabel 3985 1905 2    30   Input ~ 0
+Vcc
+Text GLabel 2670 1455 2    30   Input ~ 0
+Vcc
+Connection ~ 1925 1060
+Text Notes 2890 1435 0    50   ~ 0
+(audio from soundcard is +1v to -1v)
+Text Notes 1310 4760 0    100  ~ 0
+Use Op Amps to amplify audio and oscillator instead?
+Wire Wire Line
+	4460 2800 4460 2840
+Kmarq B 4460 2840 "Warning Pin power_in not driven (Net 1)" F=1
+$Comp
+L GND #PWR01
+U 1 1 4BAEF4C6
+P 4460 2840
+F 0 "#PWR01" H 4460 2840 30  0001 C CNN
+F 1 "GND" H 4460 2770 30  0000 C CNN
+	1    4460 2840
+	1    0    0    -1  
+$EndComp
+Connection ~ 3990 2480
+Wire Wire Line
+	3990 2480 4465 2480
+Wire Wire Line
+	4465 2480 4465 2525
+Wire Wire Line
+	3430 2650 3600 2650
+Connection ~ 2675 2025
+Wire Wire Line
+	2930 2085 2930 2025
+Wire Wire Line
+	2930 2025 2675 2025
+Connection ~ 2655 3370
+Wire Wire Line
+	2945 3485 2945 3370
+Wire Wire Line
+	2945 3370 2655 3370
+Wire Wire Line
+	1410 3250 1410 3120
+Wire Wire Line
+	1410 3120 2265 3120
+Connection ~ 1870 3585
+Wire Wire Line
+	2110 3645 2110 3585
+Wire Wire Line
+	2110 3585 1870 3585
+Wire Wire Line
+	2650 2830 2650 2785
+Wire Wire Line
+	2655 3415 2655 3330
+Wire Wire Line
+	2655 3330 2650 3330
+Wire Wire Line
+	2655 3675 2655 3715
+Wire Wire Line
+	2285 2195 2225 2195
+Wire Wire Line
+	2225 2195 2225 1625
+Wire Wire Line
+	2225 1625 1745 1625
+Wire Wire Line
+	1745 1625 1745 1060
+Wire Wire Line
+	1745 1060 1960 1060
+Wire Wire Line
+	2670 1480 2670 1435
+Connection ~ 2540 1060
+Wire Wire Line
+	2185 665  2185 620 
+Wire Wire Line
+	2185 620  2540 620 
+Wire Wire Line
+	2540 840  2540 1060
+Wire Wire Line
+	2540 1060 2360 1060
+Wire Wire Line
+	1925 1460 1925 1520
+Wire Wire Line
+	1600 1305 1600 1225
+Wire Wire Line
+	1600 1225 1460 1225
+Wire Wire Line
+	1585 1660 1470 1660
+Wire Wire Line
+	1585 2060 1585 2100
+Wire Wire Line
+	2675 2065 2675 1980
+Wire Wire Line
+	2675 1980 2670 1980
+Wire Wire Line
+	2675 2325 2675 2365
+Wire Wire Line
+	1870 3520 1870 3645
+Wire Wire Line
+	2265 3120 2265 3545
+Wire Wire Line
+	1410 3845 1410 4045
+Wire Wire Line
+	2945 3985 2945 4045
+Wire Wire Line
+	2945 4045 1410 4045
+Connection ~ 1870 4045
+Wire Wire Line
+	3985 1935 3985 1890
+Wire Wire Line
+	3990 2520 3990 2435
+Wire Wire Line
+	3990 2435 3985 2435
+Wire Wire Line
+	3990 2780 3990 2820
+Wire Wire Line
+	2895 3170 2895 3370
+Connection ~ 2895 3370
+Wire Wire Line
+	3395 3170 3430 3170
+Wire Wire Line
+	3430 3170 3430 2085
+Connection ~ 3430 2650
+$Comp
+L R R5
+U 1 1 4BAEF473
+P 3145 3170
+F 0 "R5" V 3225 3170 50  0000 C CNN
+F 1 "1k" V 3145 3170 50  0000 C CNN
+	1    3145 3170
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 4BAEF45A
+P 3180 2085
+F 0 "R2" V 3260 2085 50  0000 C CNN
+F 1 "1k" V 3180 2085 50  0000 C CNN
+	1    3180 2085
+	0    1    1    0   
+$EndComp
+Kmarq B 3990 2820 "Warning Pin power_in not driven (Net 1)" F=1
+$Comp
+L GND #PWR02
+U 1 1 4BAEF3E6
+P 3990 2820
+F 0 "#PWR02" H 3990 2820 30  0001 C CNN
+F 1 "GND" H 3990 2750 30  0000 C CNN
+	1    3990 2820
+	1    0    0    -1  
+$EndComp
+$Comp
+L Vcc #PWR03
+U 1 1 4BAEF3E5
+P 3985 1890
+F 0 "#PWR03" H 3985 1840 20  0001 C CNN
+F 1 "Vcc" H 3985 1990 30  0000 C CNN
+	1    3985 1890
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 4BAEF3E4
+P 3985 2185
+F 0 "R3" V 4065 2185 50  0000 C CNN
+F 1 "100" V 3985 2185 50  0000 C CNN
+	1    3985 2185
+	1    0    0    -1  
+$EndComp
+$Comp
+L BJT_N_TYPE Q2
+U 1 1 4BAEF3E3
+P 3825 2650
+F 0 "Q2" H 3875 2410 60  0000 R CNN
+F 1 "BJT_N_TYPE" H 4075 2870 60  0001 R CNN
+	1    3825 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R6
+U 1 1 4BAEF37C
+P 2945 3735
+F 0 "R6" V 3025 3735 50  0000 C CNN
+F 1 "1k" V 2945 3735 50  0000 C CNN
+	1    2945 3735
+	1    0    0    -1  
+$EndComp
+Text Notes 1345 4255 0    100  ~ 0
+Colpitts oscillator
+$Comp
+L VAR_INDUCTOR L1
+U 1 1 4BAEF300
+P 1410 3545
+F 0 "L1" H 1415 3480 60  0000 C CNN
+F 1 ".56-.80uH" H 1445 3645 60  0000 C CNN
+	1    1410 3545
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 4BAEF1D0
+P 2110 3645
+F 0 "#PWR04" H 2110 3645 30  0001 C CNN
+F 1 "GND" H 2110 3575 30  0000 C CNN
+	1    2110 3645
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C4
+U 1 1 4BAEF1A2
+P 1870 3845
+F 0 "C4" H 1920 3945 50  0000 L CNN
+F 1 "10uF" H 1920 3745 50  0000 L CNN
+	1    1870 3845
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 4BAEF19F
+P 1870 3320
+F 0 "C3" H 1920 3420 50  0000 L CNN
+F 1 "10uF" H 1920 3220 50  0000 L CNN
+	1    1870 3320
+	1    0    0    -1  
+$EndComp
+Kmarq B 2655 3715 "Warning Pin power_in not driven (Net 1)" F=1
+$Comp
+L GND #PWR05
+U 1 1 4BAEF17E
+P 2655 3715
+F 0 "#PWR05" H 2655 3715 30  0001 C CNN
+F 1 "GND" H 2655 3645 30  0000 C CNN
+	1    2655 3715
+	1    0    0    -1  
+$EndComp
+$Comp
+L Vcc #PWR06
+U 1 1 4BAEF17D
+P 2650 2785
+F 0 "#PWR06" H 2650 2735 20  0001 C CNN
+F 1 "Vcc" H 2650 2885 30  0000 C CNN
+	1    2650 2785
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 4BAEF17C
+P 2650 3080
+F 0 "R4" V 2730 3080 50  0000 C CNN
+F 1 "100" V 2650 3080 50  0000 C CNN
+	1    2650 3080
+	1    0    0    -1  
+$EndComp
+$Comp
+L BJT_N_TYPE Q3
+U 1 1 4BAEF17B
+P 2490 3545
+F 0 "Q3" H 2540 3305 60  0000 R CNN
+F 1 "BJT_N_TYPE" H 2740 3765 60  0001 R CNN
+	1    2490 3545
+	1    0    0    -1  
+$EndComp
+Kmarq B 2675 2365 "Warning Pin power_in not driven (Net 1)" F=1
+$Comp
+L GND #PWR07
+U 1 1 4BAEF113
+P 2675 2365
+F 0 "#PWR07" H 2675 2365 30  0001 C CNN
+F 1 "GND" H 2675 2295 30  0000 C CNN
+	1    2675 2365
+	1    0    0    -1  
+$EndComp
+$Comp
+L Vcc #PWR08
+U 1 1 4BAEF0DD
+P 2670 1435
+F 0 "#PWR08" H 2670 1385 20  0001 C CNN
+F 1 "Vcc" H 2670 1535 30  0000 C CNN
+	1    2670 1435
+	1    0    0    -1  
+$EndComp
+$Comp
+L DC_2.1mm J10
+U 1 1 4BAC0857
+P 1055 1430
+F 0 "J10" H 1055 880 60  0000 C CNN
+F 1 "DC_2.1mm" H 1045 1820 60  0000 C CNN
+F 2 "DC_2.1mm" H 1055 945 60  0001 C CNN
+F 4 "Jameco_GCD014A-R_or_Mouser_163_7620-E_or_163-2640-E(SMT)" H 1125 785 60  0001 C CNN "Field1"
+	1    1055 1430
+	0    -1   -1   0   
+$EndComp
+Kmarq B 1585 2100 "Warning Pin power_in not driven (Net 1)" F=1
+$Comp
+L GND #PWR09
+U 1 1 4BAC6442
+P 1585 2100
+F 0 "#PWR09" H 1585 2100 30  0001 C CNN
+F 1 "GND" H 1585 2030 30  0000 C CNN
+	1    1585 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_POL C1
+U 1 1 4BAC642F
+P 1585 1860
+F 0 "C1" H 1635 1960 50  0000 L CNN
+F 1 "10uF" H 1635 1760 50  0000 L CNN
+	1    1585 1860
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 4BAC207A
+P 2670 1730
+F 0 "R1" V 2750 1730 50  0000 C CNN
+F 1 "100" V 2670 1730 50  0000 C CNN
+	1    2670 1730
+	1    0    0    -1  
+$EndComp
+Text GLabel 1540 1660 1    30   Input ~ 0
+VCC
+$Comp
+L GND #PWR010
+U 1 1 4BAC4BD1
+P 1600 1305
+F 0 "#PWR010" H 1600 1305 30  0001 C CNN
+F 1 "GND" H 1600 1235 30  0000 C CNN
+	1    1600 1305
+	1    0    0    -1  
+$EndComp
+Text GLabel 1600 1260 0    30   Input ~ 0
+GND
+Text Notes 1610 930  0    50   ~ 0
+(shifts voltage +.7v)
+$Comp
+L C C2
+U 1 1 4BAEEEE3
+P 2160 1060
+F 0 "C2" H 2210 1160 50  0000 L CNN
+F 1 ".1uF" H 2210 960 50  0000 L CNN
+	1    2160 1060
+	0    1    1    0   
+$EndComp
+Text GLabel 1925 1495 0    30   Input ~ 0
+GND
+$Comp
+L GND #PWR011
+U 1 1 4BAEEEBD
+P 1925 1520
+F 0 "#PWR011" H 1925 1520 30  0001 C CNN
+F 1 "GND" H 1925 1450 30  0000 C CNN
+	1    1925 1520
+	1    0    0    -1  
+$EndComp
+Text GLabel 2185 640  0    30   Input ~ 0
+GND
+$Comp
+L GND #PWR012
+U 1 1 4BAEEE82
+P 2185 665
+F 0 "#PWR012" H 2185 665 30  0001 C CNN
+F 1 "GND" H 2185 595 30  0000 C CNN
+	1    2185 665 
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D1
+U 1 1 4BAEEE45
+P 1925 1260
+F 0 "D1" H 1925 1360 40  0000 C CNN
+F 1 "DIODE" H 1925 1160 40  0000 C CNN
+	1    1925 1260
+	0    -1   -1   0   
+$EndComp
+Text Notes 575  925  0    100  ~ 0
+POWER IN
+Text Notes 3145 1325 0    100  ~ 0
+AUDIO IN
+Text Notes 5200 2745 0    100  ~ 0
+ANTENNA
+$Comp
+L 3.5_STEREO J14
+U 1 1 4BAC5A70
+P 2970 840
+F 0 "J14" H 2975 465 60  0000 C CNN
+F 1 "3.5_STEREO" H 2988 1255 60  0000 C CNN
+F 2 "TED_3.5_Stereo" H 3075 290 60  0001 C CNN
+	1    2970 840 
+	-1   0    0    1   
+$EndComp
+$Comp
+L BJT_N_TYPE Q1
+U 1 1 4BAC2CFD
+P 2510 2195
+F 0 "Q1" H 2560 1955 60  0000 R CNN
+F 1 "BJT_N_TYPE" H 2760 2415 60  0001 R CNN
+	1    2510 2195
+	1    0    0    -1  
+$EndComp
+$Comp
+L TERMINAL_3.5MM_PCB_2PIN J8
+U 1 1 4B491031
+P 4850 2665
+F 0 "J8" H 4800 2215 60  0000 C CNN
+F 1 "TERMINAL_3.5MM_PCB_2PIN" H 4840 2890 60  0000 C CNN
+F 2 "TED_TERMINAL_3.5MM_2PIN" H 4915 2135 60  0001 C CNN
+	1    4850 2665
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

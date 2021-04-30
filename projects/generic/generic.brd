@@ -1,0 +1,68 @@
+PCBNEW-BOARD Version 1 date Sat 18 Jul 2009 05:52:34 PM PDT
+
+# Created by Pcbnew(20090530 SVN-R1798)
+
+$GENERAL
+LayerCount 2
+Ly 1FFF8001
+Links 0
+NoConn 0
+Di 0 0 117000 82670
+Ndraw 0
+Ntrack 0
+Nzone 0
+Nmodule 0
+Nnets 1
+$EndGENERAL
+
+$SHEETDESCR
+Sheet A4 11700 8267
+Title ""
+Date "19 jul 2009"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndSHEETDESCR
+
+$SETUP
+InternalUnit 0.000100 INCH
+ZoneGridSize 250
+Layers 2
+Layer[0] Copper signal
+Layer[15] Component signal
+TrackWidth 100
+TrackWidthHistory 100
+TrackWidthHistory 200
+TrackClearence 60
+ZoneClearence 200
+DrawSegmWidth 39
+EdgeSegmWidth 39
+ViaSize 450
+ViaDrill 250
+ViaAltDrill 250
+ViaSizeHistory 450
+MicroViaSize 200
+MicroViaDrill 80
+MicroViasAllowed 0
+TextPcbWidth 120
+TextPcbSize 600 800
+EdgeModWidth 39
+TextModSize 600 600
+TextModWidth 39
+PadSize 157 394
+PadDrill 0
+AuxiliaryAxisOrg 0 0
+$EndSETUP
+
+$EQUIPOT
+Na 0 ""
+St ~
+$EndEQUIPOT
+$TRACK
+$EndTRACK
+$ZONE
+$EndZONE
+$EndBOARD

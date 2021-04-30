@@ -1,0 +1,380 @@
+# EESchema Netlist Version 1.1 created  Fri 26 Jun 2009 07:19:00 PM PDT
+(
+ ( /4A45736E $noname  R5 300 {Lib=R_SMALL}
+  (    1 N-000007 )
+  (    2 N-000002 )
+ )
+ ( /4A457325 $noname  R6 200 {Lib=R_SMALL}
+  (    1 N-000022 )
+  (    2 N-000007 )
+ )
+ ( /4A45729A $noname  R7 100 {Lib=R_small}
+  (    1 N-000022 )
+  (    2 /GND )
+ )
+ ( /4A45719F TED_TERMINAL_3.5MM_2PIN  J10 Term {Lib=TERMINAL_3.5MM_PCB_2PIN}
+  (    1 N-000002 )
+  (    2 N-000007 )
+ )
+ ( /4A3DE397 $noname  C9 100pF {Lib=C(small)}
+  (    1 /GND )
+  (    2 N-000003 )
+ )
+ ( /4A3DE375 $noname  R2 50 {Lib=R_small}
+  (    1 N-000003 )
+  (    2 N-000006 )
+ )
+ ( /4A3DDEB0 $noname  C7 4.7uF {Lib=C_POL_small}
+  (    1 /+5v )
+  (    2 /GND )
+ )
+ ( /4A3DDEA9 $noname  C5 4.7uF {Lib=C_POL_small}
+  (    1 /+5v )
+  (    2 /GND )
+ )
+ ( /4A3DDE93 $noname  C3 4.7uF {Lib=C_POL_small}
+  (    1 /+5v )
+  (    2 /GND )
+ )
+ ( /4A3DDCCF $noname  C8 4.7uF {Lib=C_POL_small}
+  (    1 /+4v )
+  (    2 /GND )
+ )
+ ( /4A3C6B95 $noname  U1 7804 {Lib=7804}
+  (    1 /GND )
+  (    2 /+5v )
+  (    3 /+4v )
+ )
+ ( /4A18B228 $noname  C4 4.7uF {Lib=C_POL_SMALL}
+  (    1 /+5v )
+  (    2 /GND )
+ )
+ ( /4A18B200 $noname  C2 4.7uF {Lib=C_POL_small}
+  (    1 /+4v )
+  (    2 /GND )
+ )
+ ( /4A18B1DA $noname  C6 .1uF {Lib=C(small)}
+  (    1 /+4v )
+  (    2 /GND )
+ )
+ ( /4A189CCA $noname  R4 10k {Lib=R}
+  (    1 /+5v )
+  (    2 N-000004 )
+ )
+ ( /4A189CB6 $noname  R3 10k {Lib=R}
+  (    1 /+5v )
+  (    2 N-000005 )
+ )
+ ( /4A109EE9 $noname  J9 OSC_6x2 {Lib=OSC_6x2}
+  (    1 ? )
+  (    2 /+5v )
+  (    3 /GND )
+  (    4 /CLK )
+  (    5 /P8 )
+  (    6 /P9 )
+  (    7 /P10 )
+  (    8 /P11 )
+  (    9 /P12 )
+  (   10 /P13 )
+  (   11 /P14 )
+  (   12 /P15 )
+ )
+ ( /4A07B409 TERMINAL_3.5MM_8PIN  J8 TERMINAL_3.5MM_PCB_8PIN {Lib=TERMINAL_3.5MM_PCB_8PIN}
+  (    1 /DA0 )
+  (    2 /DA1 )
+  (    3 /DA2 )
+  (    4 /DA3 )
+  (    5 /DA4 )
+  (    6 /DA5 )
+  (    7 /DA6 )
+  (    8 /DA7 )
+ )
+ ( /4A07B3F0 TERMINAL_3.5MM_2PIN  J1 Term {Lib=TERM2}
+  (    1 N-000022 )
+  (    2 /GND )
+ )
+ ( /4A07B386 TED_CONNECTOR_STEREO_3.5  J3 3.5_STEREO_SMT2 {Lib=3.5_STEREO_SMT2}
+  (    2 /GND )
+  (    3 N-000022 )
+  (    4 N-000022 )
+ )
+ ( /4A07B376 TED_RCA_MONO_220572  J5 RCA_MONO_PC {Lib=RCA_MONO_PC}
+  (    1 /GND )
+  (    2 N-000022 )
+ )
+ ( /4A07AFB1 $noname  J6 SPDT_Switch {Lib=SPDT_Switch}
+  (    1 N-000005 )
+  (    2 /GND )
+  (    3 N-000004 )
+ )
+ ( /4A079626 $noname  U3 OPA353 {Lib=OPA353}
+  (    2 N-000006 )
+  (    3 N-000022 )
+  (    4 /GND )
+  (    6 N-000006 )
+  (    7 /+4v )
+ )
+ ( /4A078A90 $noname  U4 74VHC574 {Lib=74VHC574}
+  (    1 N-000004 )
+  (    2 /DA0 )
+  (    3 /DA1 )
+  (    4 /DA2 )
+  (    5 /DA3 )
+  (    6 /DA4 )
+  (    7 /DA5 )
+  (    8 /DA6 )
+  (    9 /DA7 )
+  (   10 /GND )
+  (   11 /CLK )
+  (   12 /P15 )
+  (   13 /P14 )
+  (   14 /P13 )
+  (   15 /P12 )
+  (   16 /P11 )
+  (   17 /P10 )
+  (   18 /P9 )
+  (   19 /P8 )
+  (   20 /+5v )
+ )
+ ( /4A078A63 $noname  U2 TLC5510A {Lib=TLC5510A}
+  (    1 N-000005 )
+  (    2 /GND )
+  (    3 /P15 )
+  (    4 /P14 )
+  (    5 /P13 )
+  (    6 /P12 )
+  (    7 /P11 )
+  (    8 /P10 )
+  (    9 /P9 )
+  (   10 /P8 )
+  (   11 /+5v )
+  (   12 /CLK )
+  (   13 /+5v )
+  (   14 /+5v )
+  (   15 /+5v )
+  (   16 /+5v )
+  (   17 /+4v )
+  (   18 /+5v )
+  (   19 N-000003 )
+  (   20 /GND )
+  (   21 /GND )
+  (   22 /GND )
+  (   23 /GND )
+  (   24 /GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R5
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 2 "" ""
+ R5 2
+ J10 1
+Net 3 "" ""
+ C9 2
+ R2 1
+ U2 19
+Net 4 "" ""
+ R4 2
+ J6 3
+ U4 1
+Net 5 "" ""
+ R3 2
+ J6 1
+ U2 1
+Net 6 "" ""
+ R2 2
+ U3 6
+ U3 2
+Net 7 "" ""
+ R5 1
+ R6 2
+ J10 2
+Net 8 "/GND" "GND"
+ R7 2
+ C9 1
+ C7 2
+ C5 2
+ C3 2
+ C8 2
+ U1 1
+ C4 2
+ C2 2
+ C6 2
+ J9 3
+ J1 2
+ J3 2
+ J5 1
+ J6 2
+ U3 4
+ U4 10
+ U2 24
+ U2 2
+ U2 21
+ U2 20
+ U2 23
+ U2 22
+Net 9 "/+5v" "+5v"
+ C7 1
+ C5 1
+ C3 1
+ U1 2
+ C4 1
+ R4 1
+ R3 1
+ J9 2
+ U4 20
+ U2 13
+ U2 11
+ U2 16
+ U2 18
+ U2 15
+ U2 14
+Net 11 "/CLK" "CLK"
+ J9 4
+ U4 11
+ U2 12
+Net 12 "/+4v" "+4v"
+ C8 1
+ U1 3
+ C2 1
+ C6 1
+ U3 7
+ U2 17
+Net 13 "/DA7" "DA7"
+ J8 8
+ U4 9
+Net 14 "/DA6" "DA6"
+ J8 7
+ U4 8
+Net 15 "/DA5" "DA5"
+ J8 6
+ U4 7
+Net 16 "/DA4" "DA4"
+ J8 5
+ U4 6
+Net 17 "/DA3" "DA3"
+ J8 4
+ U4 5
+Net 18 "/DA2" "DA2"
+ J8 3
+ U4 4
+Net 19 "/DA1" "DA1"
+ J8 2
+ U4 3
+Net 20 "/DA0" "DA0"
+ J8 1
+ U4 2
+Net 22 "" ""
+ R6 1
+ R7 1
+ J1 1
+ J3 3
+ J3 4
+ J5 2
+ U3 3
+Net 23 "/P8" "P8"
+ J9 5
+ U4 19
+ U2 10
+Net 24 "/P9" "P9"
+ J9 6
+ U4 18
+ U2 9
+Net 25 "/P10" "P10"
+ J9 7
+ U4 17
+ U2 8
+Net 26 "/P11" "P11"
+ J9 8
+ U4 16
+ U2 7
+Net 27 "/P12" "P12"
+ J9 9
+ U4 15
+ U2 6
+Net 28 "/P13" "P13"
+ J9 10
+ U4 14
+ U2 5
+Net 29 "/P14" "P14"
+ J9 11
+ U4 13
+ U2 4
+Net 30 "/P15" "P15"
+ J9 12
+ U4 12
+ U2 3
+}
+#End

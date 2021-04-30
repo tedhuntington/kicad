@@ -1,0 +1,94 @@
+Cmp-Mod V01 Created by Cvpcb (20090530 SVN-R1798) date = Fri 22 Jan 2010 06:11:32 AM PST
+
+BeginCmp
+TimeStamp = /4B3C71BF;
+Reference = C11;
+ValeurCmp = 10uF;
+IdModule  = TED_SM3216-18_POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B59813D;
+Reference = J4;
+ValeurCmp = 3.5_STEREO_SMT;
+IdModule  = TED_3.5_Stereo;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B598186;
+Reference = J5;
+ValeurCmp = Visible_or_Infrared;
+IdModule  = TED_JMP_3x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B5986E1;
+Reference = J6;
+ValeurCmp = DC_2.1mm;
+IdModule  = TED_DC_2.1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B59A065;
+Reference = J7;
+ValeurCmp = 3.5_STEREO_SMT;
+IdModule  = TED_3.5_Stereo;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B59AD26;
+Reference = J8;
+ValeurCmp = Sensors_or_AudioIn;
+IdModule  = TED_JMP_3x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B597E64;
+Reference = R11;
+ValeurCmp = 10k;
+IdModule  = TED_VAR_R2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B59AA41;
+Reference = R12;
+ValeurCmp = 20k;
+IdModule  = TED_VAR_R2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B59A145;
+Reference = R13;
+ValeurCmp = PIR;
+IdModule  = TED_PIR_RE200B;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B59A13C;
+Reference = R14;
+ValeurCmp = Photoresistor;
+IdModule  = TED_photo-resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B59AAF4;
+Reference = R15;
+ValeurCmp = 1k;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4ADD1850;
+Reference = U6;
+ValeurCmp = 7805_NO_HS;
+IdModule  = TED_TO220_NOHS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B59AA9D;
+Reference = U7;
+ValeurCmp = OPA353;
+IdModule  = TED_SOIC-8;
+EndCmp
+
+EndListe

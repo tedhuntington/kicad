@@ -1,0 +1,74 @@
+PCBNEW-LibModule-V1  Fri 11 Oct 2013 09:42:29 PM PDT
+# encoding utf-8
+Units mm
+$INDEX
+TED_Hole
+TED_Hole_3.25mm
+TED_Hole_3.5mm
+TED_Hole_3mm
+$EndINDEX
+$MODULE TED_Hole
+Po 0 0 0 15 52239442 00000000 ~~
+Li TED_Hole
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -2 1 1 0 0.15 N V 21 N "Hole"
+T1 0 2 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "1" C 2.5 2.5 0 0 0
+Dr 2.5 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE TED_Hole
+$MODULE TED_Hole_3.25mm
+Po 0 0 0 15 5258D2A4 00000000 ~~
+Li TED_Hole_3.25mm
+Sc 0
+AR 
+Op 0 0 0
+T0 -0.05 -2.55 1 1 0 0.15 N V 21 N "Hole"
+T1 0.25 2.6 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "1" C 3.25 3.25 0 0 0
+Dr 3.25 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE TED_Hole_3.25mm
+$MODULE TED_Hole_3.5mm
+Po 0 0 0 15 5258D327 00000000 ~~
+Li TED_Hole_3.5mm
+Sc 0
+AR 
+Op 0 0 0
+T0 -0.1 -2.7 1 1 0 0.15 N V 21 N "Hole"
+T1 0.275 2.75 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "1" C 3.5 3.5 0 0 0
+Dr 3.5 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE TED_Hole_3.5mm
+$MODULE TED_Hole_3mm
+Po 0 0 0 15 524517EE 00000000 ~~
+Li TED_Hole_3mm
+Sc 0
+AR 
+Op 0 0 0
+T0 -0.05 -2.425 1 1 0 0.15 N V 21 N "Hole"
+T1 0.25 2.6 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "1" C 3 3 0 0 0
+Dr 3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE TED_Hole_3mm
+$EndLIBRARY

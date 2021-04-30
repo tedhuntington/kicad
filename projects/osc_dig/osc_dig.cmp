@@ -1,0 +1,115 @@
+Cmp-Mod V01 Created by Cvpcb (20090530 SVN-R1798) date = Wed 18 Nov 2009 02:35:35 PM PST
+
+BeginCmp
+TimeStamp = /4A0FA1E2;
+Reference = C1;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A0F79AA;
+Reference = C10;
+ValeurCmp = 36pf;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A0F79BB;
+Reference = C11;
+ValeurCmp = 36pf;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A400E6F;
+Reference = J2;
+ValeurCmp = JUMPER_2X1;
+IdModule  = TED_JMP_2x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A025F78;
+Reference = J4;
+ValeurCmp = FX2_18x2;
+IdModule  = TED_FEM_SOCKET_18x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A400D2D;
+Reference = J7;
+ValeurCmp = JUMPER_2X1;
+IdModule  = TED_JMP_2x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A07B409;
+Reference = J8;
+ValeurCmp = TERMINAL_3.5MM_PCB_8PIN;
+IdModule  = TED_TERMINAL_3.5MM_8PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A109EE9;
+Reference = J9;
+ValeurCmp = OSC_6x2;
+IdModule  = TED_SOCKET_6x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AD13DF1;
+Reference = J10;
+ValeurCmp = JUMPER_2X1;
+IdModule  = TED_JMP_2x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AEA7C6B;
+Reference = J11;
+ValeurCmp = JUMPER_2X1;
+IdModule  = TED_JMP_2x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A0F798C;
+Reference = R5;
+ValeurCmp = 2M;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A0F7984;
+Reference = R6;
+ValeurCmp = 442;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B047657;
+Reference = R7;
+ValeurCmp = 10k;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A078A90;
+Reference = U4;
+ValeurCmp = 74VHC574;
+IdModule  = TED_TSSOP20;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A07C638;
+Reference = U5;
+ValeurCmp = CRYSTAL_DRIVER;
+IdModule  = TED_PSOP6;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A0F7973;
+Reference = X1;
+ValeurCmp = 10MHz;
+IdModule  = TED_crystal_SMT_13x5mm.emp;
+EndCmp
+
+EndListe

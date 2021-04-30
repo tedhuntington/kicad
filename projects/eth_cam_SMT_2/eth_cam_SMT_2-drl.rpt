@@ -1,0 +1,17 @@
+Drill report for /home/ted/kicad/projects/eth_cam_SMT_2/eth_cam_SMT_2.kicad_pcb
+Created on Fri 06 Dec 2013 09:15:46 PM PST
+Drill report for plated through holes :
+T1  0.40mm  0.016"  (78 holes)
+T2  0.60mm  0.024"  (5 holes)
+T3  1.00mm  0.039"  (6 holes)
+
+Total plated holes count 89
+
+
+Drill report for unplated through holes :
+T1  1.70mm  0.067"  (2 holes)
+T2  3.25mm  0.128"  (6 holes)
+
+Total unplated holes count 8
+
+

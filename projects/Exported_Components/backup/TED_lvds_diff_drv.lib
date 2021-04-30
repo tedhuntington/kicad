@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# LVDS_Diff_Drv
+#
+DEF LVDS_Diff_Drv U 0 20 Y Y 1 F N
+F0 "U" -75 -360 70 H V C CNN
+F1 "LVDS_Diff_Drv" 50 325 70 H V C CNN
+F2 "" 430 -725 60 H V C CNN
+F3 "" 430 -725 60 H V C CNN
+DRAW
+T 0 15 -5 60 0 0 0 D  Normal 0 C C
+P 4 0 1 0  -75 160  -75 -160  165 0  -75 160 N
+X VDD 1 -40 255 118 D 39 20 1 1 W
+X GND 2 -40 -255 118 U 39 20 1 1 W
+X OUT- 3 240 -75 157 L 39 20 1 1 O I
+X OUT+ 4 235 60 157 L 39 20 1 1 O
+X TTL_IN 5 -195 0 118 R 39 20 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

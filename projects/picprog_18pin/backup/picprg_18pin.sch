@@ -1,0 +1,640 @@
+EESchema Schematic File Version 2  date Sat 16 Jan 2010 02:21:59 AM PST
+LIBS:ted_capacitors,ted_connectors,ted_device,ted_diodes,ted_ic,ted_opamp,ted_power,ted_regulators,ted_resistors,ted_switches,ted_transistor,picprg_18pin-cache
+EELAYER 24  0
+EELAYER END
+$Descr User 11000 8500
+Sheet 1 1
+Title "PIC Programmer"
+Date "31 dec 2009"
+Rev ""
+Comp ""
+Comment1 "for PIC16F718 and PIC16F84A"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 1750 5650 0    100  ~ 0
+Add LED for +12v and +5v@PIC and PIC_MCLR
+Wire Wire Line
+	9650 1200 9650 1350
+Text Label 9650 1270 0    30   ~ 0
++5v
+$Comp
+L +5V #PWR01
+U 1 1 4B3C71FC
+P 9650 1200
+F 0 "#PWR01" H 9650 1150 20  0001 C CNN
+F 1 "+5V" H 9650 1300 30  0000 C CNN
+	1    9650 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 1750 9650 1875
+Text Label 9650 1820 0    30   ~ 0
+GND
+$Comp
+L GND #PWR02
+U 1 1 4B3C71E8
+P 9650 1875
+F 0 "#PWR02" H 9650 1875 30  0001 C CNN
+F 1 "GND" H 9650 1805 30  0000 C CNN
+	1    9650 1875
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_POL C11
+U 1 1 4B3C71BF
+P 9650 1550
+F 0 "C11" H 9700 1650 50  0000 L CNN
+F 1 "10uF" H 9700 1450 50  0000 L CNN
+	1    9650 1550
+	1    0    0    -1  
+$EndComp
+Text Notes 5870 1030 0    60   ~ 0
+11-13.5v
+Wire Wire Line
+	6075 2915 6075 3040
+Text Label 6075 2985 0    30   ~ 0
+GND
+$Comp
+L GND #PWR03
+U 1 1 4B35AE64
+P 6075 3040
+F 0 "#PWR03" H 6075 3040 30  0001 C CNN
+F 1 "GND" H 6075 2970 30  0000 C CNN
+	1    6075 3040
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6260 2820 6160 2820
+Wire Wire Line
+	6160 2820 6160 2440
+Connection ~ 6075 2440
+Wire Wire Line
+	6160 2440 6075 2440
+Connection ~ 6305 1795
+Connection ~ 6930 1780
+Wire Wire Line
+	6930 1780 6475 1780
+Wire Wire Line
+	6475 1780 6475 1295
+Wire Wire Line
+	6475 1295 6305 1295
+Wire Wire Line
+	6075 1890 6075 1795
+Wire Wire Line
+	6210 1795 6210 1705
+Wire Wire Line
+	6210 1705 6140 1705
+Wire Wire Line
+	5610 2630 5610 2730
+Wire Wire Line
+	6260 2420 6185 2420
+Wire Wire Line
+	6185 2420 6185 2255
+Wire Wire Line
+	5610 3160 5610 3285
+Wire Wire Line
+	6310 4070 6310 2970
+Wire Wire Line
+	4950 3325 4575 3325
+Wire Wire Line
+	4950 3425 6010 3425
+Wire Wire Line
+	4950 3225 4780 3225
+Wire Wire Line
+	7950 2325 7950 2240
+Wire Wire Line
+	7625 2235 7700 2235
+Wire Wire Line
+	6825 2235 6385 2235
+Connection ~ 6140 4195
+Wire Wire Line
+	6140 4195 6140 3860
+Wire Wire Line
+	6140 3860 6600 3860
+Wire Wire Line
+	6540 4195 6615 4195
+Wire Wire Line
+	6110 4600 6110 4735
+Wire Wire Line
+	6615 4595 6615 4730
+Wire Wire Line
+	9535 3380 9375 3380
+Wire Wire Line
+	6310 4070 6600 4070
+Wire Wire Line
+	5740 1705 5740 1840
+Wire Wire Line
+	6930 1505 6930 1885
+Wire Wire Line
+	7955 1590 7955 1885
+Wire Wire Line
+	7955 1885 6930 1885
+Wire Wire Line
+	8400 3970 8800 3970
+Wire Wire Line
+	8800 3970 8800 4905
+Wire Wire Line
+	8800 4905 5880 4905
+Wire Wire Line
+	5880 4905 5880 3520
+Wire Wire Line
+	1905 170  1905 215 
+Wire Wire Line
+	1905 215  1925 215 
+Wire Wire Line
+	7500 4350 7500 4485
+Wire Wire Line
+	6010 3425 6010 4790
+Wire Wire Line
+	6010 4790 8705 4790
+Wire Wire Line
+	8705 4790 8705 4060
+Wire Wire Line
+	8705 4060 8400 4060
+Wire Wire Line
+	9535 3880 9535 4015
+Wire Wire Line
+	6175 4195 6110 4195
+Wire Wire Line
+	6110 4195 6110 4200
+Wire Wire Line
+	6600 3970 6580 3970
+Wire Wire Line
+	6580 3970 6580 4195
+Connection ~ 6580 4195
+Wire Wire Line
+	7500 2800 7500 2950
+Wire Wire Line
+	8400 3380 8970 3380
+Wire Wire Line
+	4780 3225 4780 3075
+Wire Wire Line
+	4575 3325 4575 3465
+Wire Wire Line
+	7225 2535 7225 2595
+Wire Wire Line
+	8710 2125 8830 2125
+Wire Wire Line
+	8710 2525 8815 2525
+Wire Wire Line
+	5880 3520 4950 3520
+Wire Wire Line
+	7205 1510 7205 1730
+Wire Wire Line
+	7205 1730 8975 1730
+Wire Wire Line
+	8975 1730 8975 1580
+Wire Wire Line
+	8975 1580 8390 1580
+Wire Wire Line
+	8860 1805 8860 1730
+Connection ~ 8860 1730
+Wire Wire Line
+	6310 2970 7020 2970
+Wire Wire Line
+	7020 2970 7020 2620
+Wire Wire Line
+	4950 3125 5110 3125
+Wire Wire Line
+	5110 3125 5110 2940
+Wire Wire Line
+	5110 2940 5310 2940
+Wire Wire Line
+	5775 2695 5610 2695
+Connection ~ 5610 2695
+Wire Wire Line
+	5610 1965 5610 2130
+Wire Wire Line
+	6075 2485 6075 2390
+Wire Wire Line
+	6075 1795 6385 1795
+Wire Wire Line
+	6385 1795 6385 2235
+Connection ~ 6210 1795
+Text Label 5685 2695 0    60   ~ 0
+T1
+Kmarq B 6825 2235 "Warning Pin power_in not driven (Net 18)" F=1
+Kmarq B 8815 2525 "Error: Pin power_out connected to Pin power_out (net 17)" F=2
+Kmarq B 8830 2125 "Error: Pin power_out connected to Pin power_out (net 16)" F=2
+Kmarq B 7700 2235 "Error: Pin power_out connected to Pin power_out (net 16)" F=2
+Kmarq B 7225 2535 "Error: Pin power_out connected to Pin power_out (net 12)" F=2
+Kmarq B 7950 2240 "Error: Pin power_out connected to Pin power_out (net 9)" F=2
+Kmarq B 6185 2255 "Error: Pin power_out connected to Pin power_out (net 9)" F=2
+Kmarq B 5610 1965 "Error: Pin power_out connected to Pin power_out (net 9)" F=2
+Kmarq B 6305 1795 "Warning Pin passive Unconnected" F=1
+Text Notes 5675 1650 0    60   ~ 0
+5w axial
+Text Notes 5830 1475 0    60   ~ 0
+.5w axial
+$Comp
+L R R11
+U 1 1 4B35ADAD
+P 6305 1545
+F 0 "R11" V 6385 1545 50  0000 C CNN
+F 1 "390" V 6305 1545 50  0000 C CNN
+	1    6305 1545
+	1    0    0    -1  
+$EndComp
+Text Label 5610 2055 0    30   ~ 0
++5v
+$Comp
+L +5V #PWR04
+U 1 1 4B35AD3D
+P 5610 1965
+F 0 "#PWR04" H 5610 1915 20  0001 C CNN
+F 1 "+5V" H 5610 2065 30  0000 C CNN
+	1    5610 1965
+	1    0    0    -1  
+$EndComp
+$Comp
+L NMOSFET_GSD Q2
+U 1 1 4B35ACDD
+P 5510 2940
+F 0 "Q2" H 5510 2700 60  0000 R CNN
+F 1 "NMOSFET_GSD" H 5840 3210 60  0001 R CNN
+	1    5510 2940
+	1    0    0    -1  
+$EndComp
+$Comp
+L NMOSFET_GSD Q1
+U 1 1 4B35ACB9
+P 5975 2695
+F 0 "Q1" H 5975 2455 60  0000 R CNN
+F 1 "NMOSFET_GSD" H 6305 2965 60  0001 R CNN
+	1    5975 2695
+	1    0    0    -1  
+$EndComp
+$Comp
+L ZENER D6
+U 1 1 4B35AC4D
+P 5940 1705
+F 0 "D6" H 5825 1740 50  0000 C CNN
+F 1 "12v" H 6060 1735 50  0000 C CNN
+	1    5940 1705
+	1    0    0    -1  
+$EndComp
+$Comp
+L TERMINAL_3.5MM_PCB_2PIN J7
+U 1 1 4B35AC32
+P 7070 1120
+F 0 "J7" H 7020 670 60  0000 C CNN
+F 1 "TERMINAL_3.5MM_PCB_2PIN" H 7060 1345 60  0000 C CNN
+F 2 "TED_TERMINAL_3.5MM_2PIN" H 7135 590 60  0001 C CNN
+	1    7070 1120
+	1    0    0    -1  
+$EndComp
+$Comp
+L HEADER_6X1 J8
+U 1 1 4B35AC0F
+P 4950 3375
+F 0 "J8" H 4950 3265 30  0000 C CNN
+F 1 "HEADER_6X1" H 4945 3495 30  0000 C CNN
+	1    4950 3375
+	0    1    1    0   
+$EndComp
+Text Label 6160 2675 0    30   ~ 0
+T2
+Text Label 6185 2345 0    30   ~ 0
++5v
+$Comp
+L +5V #PWR05
+U 1 1 4AE59C69
+P 6185 2255
+F 0 "#PWR05" H 6185 2205 20  0001 C CNN
+F 1 "+5V" H 6185 2355 30  0000 C CNN
+	1    6185 2255
+	1    0    0    -1  
+$EndComp
+Text Notes 6230 2900 0    30   ~ 0
+Program/Reset
+Text Notes 6220 2390 0    30   ~ 0
+Run
+$Comp
+L SPDT_Switch J6
+U 1 1 4AE59BAD
+P 6650 2620
+F 0 "J6" H 6650 2290 60  0000 C CNN
+F 1 "SPDT_Switch" H 6710 2940 60  0000 C CNN
+F 2 "SPDT_Switch" H 6550 2190 60  0000 C CNN
+F 4 "Mouser_661-1101m2s3aqe2" H 6730 2165 60  0001 C CNN "Field1"
+	1    6650 2620
+	1    0    0    -1  
+$EndComp
+Text Label 5610 3230 0    30   ~ 0
+GND
+$Comp
+L GND #PWR06
+U 1 1 4AE59B53
+P 5610 3285
+F 0 "#PWR06" H 5610 3285 30  0001 C CNN
+F 1 "GND" H 5610 3215 30  0000 C CNN
+	1    5610 3285
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R10
+U 1 1 4AE59B47
+P 5610 2380
+F 0 "R10" V 5690 2380 50  0000 C CNN
+F 1 "10k" V 5610 2380 50  0000 C CNN
+	1    5610 2380
+	1    0    0    -1  
+$EndComp
+Text Label 6475 1545 0    30   ~ 0
+Vin
+Text Label 8975 1650 0    30   ~ 0
+GND
+$Comp
+L GND #PWR07
+U 1 1 4ADE89A8
+P 8860 1805
+F 0 "#PWR07" H 8860 1805 30  0001 C CNN
+F 1 "GND" H 8860 1735 30  0000 C CNN
+	1    8860 1805
+	1    0    0    -1  
+$EndComp
+Text Label 6310 3155 0    60   ~ 0
+MCLR_PIN
+$Comp
+L +5V #PWR08
+U 1 1 4ADE7E5B
+P 7700 2235
+F 0 "#PWR08" H 7700 2185 20  0001 C CNN
+F 1 "+5V" H 7700 2335 30  0000 C CNN
+	1    7700 2235
+	1    0    0    -1  
+$EndComp
+Text Label 7950 2290 0    30   ~ 0
++5v
+Text Label 4750 3325 0    30   ~ 0
+GND
+NoConn ~ 4950 3620
+Text Label 5130 2940 0    60   ~ 0
+MCLR
+Text Label 7660 2235 0    30   ~ 0
++5v_ext
+Text Label 8745 2125 0    30   ~ 0
++5v_ext
+Text Label 8745 2525 0    30   ~ 0
++5v_usb
+$Comp
+L +5V #PWR09
+U 1 1 4ADD1C02
+P 8815 2525
+F 0 "#PWR09" H 8815 2475 20  0001 C CNN
+F 1 "+5V" H 8815 2625 30  0000 C CNN
+	1    8815 2525
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR010
+U 1 1 4ADD1BE7
+P 7950 2240
+F 0 "#PWR010" H 7950 2190 20  0001 C CNN
+F 1 "+5V" H 7950 2340 30  0000 C CNN
+	1    7950 2240
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR011
+U 1 1 4ADD1BC8
+P 8830 2125
+F 0 "#PWR011" H 8830 2075 20  0001 C CNN
+F 1 "+5V" H 8830 2225 30  0000 C CNN
+	1    8830 2125
+	1    0    0    -1  
+$EndComp
+$Comp
+L SPDT_Switch J5
+U 1 1 4ADD1B90
+P 8320 2325
+F 0 "J5" H 8320 1995 60  0000 C CNN
+F 1 "SPDT_Switch" H 8380 2645 60  0000 C CNN
+F 2 "SPDT_Switch" H 8220 1895 60  0000 C CNN
+F 4 "Mouser_661-1101m2s3aqe2" H 8400 1870 60  0001 C CNN "Field1"
+	1    8320 2325
+	-1   0    0    1   
+$EndComp
+Text Label 7225 2580 0    30   ~ 0
+GND
+Text Label 6545 2235 0    60   ~ 0
++12v
+$Comp
+L GND #PWR012
+U 1 1 4ADD1874
+P 7225 2595
+F 0 "#PWR012" H 7225 2595 30  0001 C CNN
+F 1 "GND" H 7225 2525 30  0000 C CNN
+	1    7225 2595
+	1    0    0    -1  
+$EndComp
+$Comp
+L 7805_NO_HS U6
+U 1 1 4ADD1850
+P 7225 2285
+F 0 "U6" H 7375 2089 60  0000 C CNN
+F 1 "7805_NO_HS" H 7225 2485 60  0000 C CNN
+	1    7225 2285
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR013
+U 1 1 4ABEFCD0
+P 4575 3465
+F 0 "#PWR013" H 4575 3465 30  0001 C CNN
+F 1 "GND" H 4575 3395 30  0000 C CNN
+	1    4575 3465
+	1    0    0    -1  
+$EndComp
+Text Label 4780 3100 0    30   ~ 0
++5v_usb
+$Comp
+L +5V #PWR014
+U 1 1 4ABEFB1C
+P 4780 3075
+F 0 "#PWR014" H 4780 3025 20  0001 C CNN
+F 1 "+5V" H 4780 3175 30  0000 C CNN
+	1    4780 3075
+	1    0    0    -1  
+$EndComp
+Text Label 6615 4675 0    60   ~ 0
+GND
+Text Label 6110 4685 0    60   ~ 0
+GND
+Text Label 9535 3960 0    60   ~ 0
+GND
+Text Label 5740 1760 0    60   ~ 0
+GND
+Text Label 8645 3380 0    60   ~ 0
+TestLED
+Text Label 5390 3425 0    60   ~ 0
+IPSPDAT
+Text Label 5290 3520 0    60   ~ 0
+IPSPCLK
+Text Notes 4590 6360 0    100  ~ 0
+Programs PIC16F718, PIC16F84A
+Text Notes 5450 7150 0    100  ~ 0
+pic16f7x 28pin (1=MCLR, 27=PGC, 28=PGD)
+Text Label 7500 4445 0    30   ~ 0
+GND
+Text Label 7500 2870 0    30   ~ 0
++5v
+NoConn ~ 8400 3870
+NoConn ~ 6600 3320
+NoConn ~ 6600 3410
+NoConn ~ 6600 3510
+NoConn ~ 6600 3610
+NoConn ~ 6600 3700
+NoConn ~ 8400 3780
+NoConn ~ 8400 3680
+NoConn ~ 8400 3580
+NoConn ~ 8400 3480
+$Comp
+L GND #PWR015
+U 1 1 4A63BC1A
+P 6110 4735
+F 0 "#PWR015" H 6110 4735 30  0001 C CNN
+F 1 "GND" H 6110 4665 30  0000 C CNN
+	1    6110 4735
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR016
+U 1 1 4A63BC12
+P 6615 4730
+F 0 "#PWR016" H 6615 4730 30  0001 C CNN
+F 1 "GND" H 6615 4660 30  0000 C CNN
+	1    6615 4730
+	1    0    0    -1  
+$EndComp
+$Comp
+L CRYSTAL X2
+U 1 1 4A63BBCD
+P 6360 4195
+F 0 "X2" H 6360 4345 60  0000 C CNN
+F 1 "20MHz" H 6360 4045 40  0000 C CNN
+	1    6360 4195
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C10
+U 1 1 4A63BBC6
+P 6615 4395
+F 0 "C10" H 6665 4495 50  0000 L CNN
+F 1 "18pF" H 6665 4295 50  0000 L CNN
+	1    6615 4395
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C9
+U 1 1 4A63BBA9
+P 6110 4400
+F 0 "C9" H 6160 4500 50  0000 L CNN
+F 1 "18pF" H 6160 4300 50  0000 L CNN
+	1    6110 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR017
+U 1 1 4A63B98B
+P 9535 4015
+F 0 "#PWR017" H 9535 4015 30  0001 C CNN
+F 1 "GND" H 9535 3945 30  0000 C CNN
+	1    9535 4015
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R9
+U 1 1 4A63B974
+P 9535 3630
+F 0 "R9" V 9615 3630 50  0000 C CNN
+F 1 "560" V 9535 3630 50  0000 C CNN
+	1    9535 3630
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D5
+U 1 1 4A63B971
+P 9175 3380
+F 0 "D5" H 9180 3290 40  0000 C CNN
+F 1 "LED" H 9165 3495 40  0000 C CNN
+	1    9175 3380
+	1    0    0    -1  
+$EndComp
+Text Notes 7415 6530 0    100  ~ 0
+PA0->ERROR (RED LED)
+Text Notes 7410 6745 0    100  ~ 0
+RB0->TEST 1 SEC ON/OFF LED
+Text Notes 7405 6335 0    100  ~ 0
+PD2->SUCCESS (GREEN LED)
+$Comp
+L GND #PWR018
+U 1 1 4A63A62C
+P 5740 1840
+F 0 "#PWR018" H 5740 1840 30  0001 C CNN
+F 1 "GND" H 5740 1770 30  0000 C CNN
+	1    5740 1840
+	1    0    0    -1  
+$EndComp
+Text Notes 6870 685  0    100  ~ 0
+12+V power source
+$Comp
+L DC_2.5mm_PCB J3
+U 1 1 4A63A46A
+P 8185 1175
+F 0 "J3" H 8185 625 60  0000 C CNN
+F 1 "DC_2.5mm_PCB" H 8175 1565 60  0000 C CNN
+F 2 "TED_CONNECTOR_POWER_2.5mm" H 8185 690 60  0001 C CNN
+F 4 "Jameco_GCD014A-R_or_Mouser_163.5013" H 8255 530 60  0001 C CNN "Field1"
+	1    8185 1175
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R6
+U 1 1 4A63A2B6
+P 6075 2140
+F 0 "R6" V 6155 2140 50  0000 C CNN
+F 1 "10k" V 6075 2140 50  0000 C CNN
+	1    6075 2140
+	1    0    0    -1  
+$EndComp
+Text Notes 7410 6110 0    100  ~ 0
+PD1->MCLR (RESET)
+Text Notes 7410 5905 0    100  ~ 0
+PB7->RB7 (DATA)
+Text Notes 7390 5710 0    100  ~ 0
+PD0->RB6 (CLK)
+Text Label 8705 4480 0    30   ~ 0
+IPSPDAT
+Text Label 8800 4255 0    30   ~ 0
+IPSPCLK
+$Comp
+L GND #PWR019
+U 1 1 4A639BE8
+P 7500 4485
+F 0 "#PWR019" H 7500 4485 30  0001 C CNN
+F 1 "GND" H 7500 4415 30  0000 C CNN
+	1    7500 4485
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR020
+U 1 1 4A639A65
+P 7500 2800
+F 0 "#PWR020" H 7500 2750 20  0001 C CNN
+F 1 "+5V" H 7500 2900 30  0000 C CNN
+	1    7500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L PIC16F716 U5
+U 1 1 4A639A4F
+P 7500 3650
+F 0 "U5" H 7700 3130 60  0000 C CNN
+F 1 "PIC16F716" H 7170 4180 60  0000 C CNN
+	1    7500 3650
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

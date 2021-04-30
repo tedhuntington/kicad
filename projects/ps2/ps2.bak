@@ -1,0 +1,192 @@
+EESchema Schematic File Version 2  date Mon 05 Apr 2010 01:57:53 AM PDT
+LIBS:ted_capacitors
+LIBS:ted_connectors
+LIBS:ted_device
+LIBS:ted_diodes
+LIBS:ted_ic
+LIBS:ted_opamp
+LIBS:ted_power
+LIBS:ted_regulators
+LIBS:ted_resistors
+LIBS:ted_switches
+LIBS:ted_transistor
+LIBS:ted_inductors
+LIBS:ted_sensors
+EELAYER 24  0
+EELAYER END
+$Descr User 11000 8500
+Sheet 1 1
+Title "Power Supply 2"
+Date "5 apr 2010"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 1685 2520 0    30   ~ 0
+note: 10-50 ohm  did not work - too much current?\n200ohm=2.7v, 100ohm=2.9v
+Text Notes 1820 2435 0    30   ~ 0
+1/2w
+Text Notes 1405 2030 0    30   ~ 0
+1/2w
+Text GLabel 2165 2205 0    30   Input ~ 0
+2.8v
+Text GLabel 2110 2000 0    30   Input ~ 0
+3.3v
+Connection ~ 1920 2015
+Wire Wire Line
+	1735 2015 1920 2015
+Wire Wire Line
+	1735 2015 1735 2180
+Connection ~ 1510 2180
+Wire Wire Line
+	1735 2180 1510 2180
+Wire Wire Line
+	2165 2675 2165 2730
+Connection ~ 1635 1660
+Wire Wire Line
+	1635 2275 1635 1660
+Wire Wire Line
+	1920 2015 1920 2000
+Wire Wire Line
+	1920 2000 2200 2000
+Wire Wire Line
+	1920 1660 1920 1450
+Wire Wire Line
+	1920 1660 1470 1660
+Wire Wire Line
+	1920 1225 1920 1350
+Wire Wire Line
+	1920 1225 1460 1225
+Wire Wire Line
+	1920 1350 2205 1350
+Wire Wire Line
+	2205 1350 2205 1245
+Connection ~ 1920 1350
+Wire Wire Line
+	1920 1450 2200 1450
+Wire Wire Line
+	2200 1450 2200 1520
+Connection ~ 1920 1450
+Wire Wire Line
+	2195 2275 2135 2275
+Connection ~ 2165 2275
+Connection ~ 1510 1660
+Wire Wire Line
+	2165 2275 2165 2115
+Wire Wire Line
+	2165 2115 1920 2115
+Wire Wire Line
+	1510 2600 1510 2655
+Wire Wire Line
+	1510 2160 1510 2200
+$Comp
+L GND #PWR01
+U 1 1 4BAC0FD6
+P 1510 2655
+F 0 "#PWR01" H 1510 2655 30  0001 C CNN
+F 1 "GND" H 1510 2585 30  0000 C CNN
+	1    1510 2655
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 4BAC0FCB
+P 2165 2730
+F 0 "#PWR02" H 2165 2730 30  0001 C CNN
+F 1 "GND" H 2165 2660 30  0000 C CNN
+	1    2165 2730
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 4BAC0F11
+P 1885 2275
+F 0 "R2" V 1965 2275 50  0000 C CNN
+F 1 "100" V 1885 2275 50  0000 C CNN
+	1    1885 2275
+	0    1    1    0   
+$EndComp
+$Comp
+L R R1
+U 1 1 4BAC0EFD
+P 1510 1910
+F 0 "R1" V 1590 1910 50  0000 C CNN
+F 1 "100" V 1510 1910 50  0000 C CNN
+	1    1510 1910
+	1    0    0    -1  
+$EndComp
+$Comp
+L ZENER D2
+U 1 1 4BAC0EE3
+P 2165 2475
+F 0 "D2" H 2050 2510 50  0000 C CNN
+F 1 "2.8V" H 2285 2505 50  0000 C CNN
+	1    2165 2475
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ZENER D1
+U 1 1 4BAC0EC3
+P 1510 2400
+F 0 "D1" H 1395 2435 50  0000 C CNN
+F 1 "3.3V" H 1630 2430 50  0000 C CNN
+	1    1510 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L JUMPER_2X1 J11
+U 1 1 4BAC0EA1
+P 1920 2065
+F 0 "J11" H 1920 1955 30  0000 C CNN
+F 1 "JUMPER_2X1" H 1915 2185 30  0000 C CNN
+	1    1920 2065
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TERMINAL_3.5MM_PCB_2PIN J12
+U 1 1 4BAC0E85
+P 2585 2140
+F 0 "J12" H 2535 1690 60  0000 C CNN
+F 1 "TERMINAL_3.5MM_PCB_2PIN" H 2575 2365 60  0000 C CNN
+F 2 "TED_TERMINAL_3.5MM_2PIN" H 2650 1610 60  0001 C CNN
+	1    2585 2140
+	0    1    1    0   
+$EndComp
+Text GLabel 1920 1600 0    30   Input ~ 0
+VCC
+Text GLabel 1920 1255 0    30   Input ~ 0
+GND
+$Comp
+L JUMPER_2X1 J9
+U 1 1 4BAC0890
+P 1920 1400
+F 0 "J9" H 1920 1290 30  0000 C CNN
+F 1 "JUMPER_2X1" H 1915 1520 30  0000 C CNN
+	1    1920 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DC_2.1mm J10
+U 1 1 4BAC0857
+P 1055 1430
+F 0 "J10" H 1055 880 60  0000 C CNN
+F 1 "DC_2.1mm" H 1045 1820 60  0000 C CNN
+F 2 "DC_2.1mm" H 1055 945 60  0001 C CNN
+F 4 "Jameco_GCD014A-R_or_Mouser_163_7620-E_or_163-2640-E(SMT)" H 1125 785 60  0001 C CNN "Field1"
+	1    1055 1430
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TERMINAL_3.5MM_PCB_2PIN J8
+U 1 1 4B491031
+P 2590 1385
+F 0 "J8" H 2540 935 60  0000 C CNN
+F 1 "TERMINAL_3.5MM_PCB_2PIN" H 2580 1610 60  0000 C CNN
+F 2 "TED_TERMINAL_3.5MM_2PIN" H 2655 855 60  0001 C CNN
+	1    2590 1385
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

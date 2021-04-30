@@ -1,0 +1,344 @@
+# EESchema Netlist Version 1.1 created  Fri 14 Aug 2009 09:20:41 PM PDT
+(
+ ( /4A62C97F TED_SM0805 C1 .1uF
+  ( 1 /+5v )
+  ( 2 /GND )
+ )
+ ( /4A62CC20 TED_SM0805 C2 .1uF
+  ( 1 /+3.3v )
+  ( 2 /GND )
+ )
+ ( /4A62C64E TED_SM0805 C3 .1uF
+  ( 1 /+3.3v )
+  ( 2 /GND )
+ )
+ ( /4A62C5AD TED_SM3216-18_POL C4 2.2uF
+  ( 1 /+3.3v )
+  ( 2 /GND )
+ )
+ ( /4A62C9B6 TED_SM3216-18_POL C5 10uF_low_ESR
+  ( 1 /+3.3v )
+  ( 2 /GND )
+ )
+ ( /4A62C4BB TED_SM0805 C6 12pF
+  ( 1 /XTALOUT )
+  ( 2 /GND )
+ )
+ ( /4A62C4AA TED_SM0805 C7 12pF
+  ( 1 /XTALIN )
+  ( 2 /GND )
+ )
+ ( /4A62C5F4 TED_SM0805 C8 .1uF
+  ( 1 N-000011 )
+  ( 2 /GND )
+ )
+ ( /4A63BBA9 TED_SM0805 C9 18pF
+  ( 1 N-000018 )
+  ( 2 /GND )
+ )
+ ( /4A63BBC6 TED_SM0805 C10 18pF
+  ( 1 N-000004 )
+  ( 2 /GND )
+ )
+ ( /4A62CAC3 TED_SM1206 D1 RED_LED
+  ( 1 N-000010 )
+  ( 2 /GND )
+ )
+ ( /4A62CAA7 TED_SM1206 D2 GREEN_LED
+  ( 1 N-000009 )
+  ( 2 /GND )
+ )
+ ( /4A63B8CD TED_SM1206 D3 RED_LED
+  ( 1 N-000019 )
+  ( 2 N-000006 )
+ )
+ ( /4A63B8C7 TED_SM1206 D4 GREEN_LED
+  ( 1 N-000005 )
+  ( 2 N-000016 )
+ )
+ ( /4A63B971 TED_SM1206 D5 LED
+  ( 1 N-000003 )
+  ( 2 N-000017 )
+ )
+ ( /4A627253 TED_USB_SMT J1 USB
+  ( 1 /+5v )
+  ( 2 /DMINUS )
+  ( 3 /DPLUS )
+  ( 4 /GND )
+  ( 5 N-000011 )
+ )
+ ( /4A63A441 TED_SCREWLESS_TERM_2x1 J2 TERMINAL_2mil_PCB_2PIN
+  ( 1 N-000008 )
+  ( 2 /GND )
+ )
+ ( /4A63A46A TED_CONNECTOR_POWER_2.5mm J3 DC_2.5mm_PCB
+  ( 1 N-000008 )
+  ( 2 /GND )
+ )
+ ( /4A63A1A2 TED_SOT-23_3pin Q1 NMOSFET_GSD
+  ( 1 N-000014 )
+  ( 2 /GND )
+  ( 3 N-000015 )
+ )
+ ( /4A62CAC9 TED_SM0805 R1 560
+  ( 1 N-000010 )
+  ( 2 /+5v )
+ )
+ ( /4A62CAF2 TED_SM0805 R2 390
+  ( 1 N-000009 )
+  ( 2 /+3.3v )
+ )
+ ( /4A62C330 TED_SM0805 R3 2.2k
+  ( 1 /+3.3v )
+  ( 2 /SDA )
+ )
+ ( /4A62C341 TED_SM0805 R4 2.2k
+  ( 1 /+3.3v )
+  ( 2 /SCL )
+ )
+ ( /4A62C3A6 TED_SM0805 R5 100k
+  ( 1 /+3.3v )
+  ( 2 N-000012 )
+ )
+ ( /4A63A2B6 TED_SM0805 R6 10k
+  ( 1 N-000007 )
+  ( 2 N-000015 )
+ )
+ ( /4A63B8F1 TED_SM0805 R7 560
+  ( 1 /GND )
+  ( 2 N-000006 )
+ )
+ ( /4A63B8D9 TED_SM0805 R8 560
+  ( 1 /GND )
+  ( 2 N-000016 )
+ )
+ ( /4A63B974 TED_SM0805 R9 560
+  ( 1 N-000017 )
+  ( 2 /GND )
+ )
+ ( /4A629397 TED_SSOP56 U1 CY7C68013A
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 /GND )
+  ( 5 ? )
+  ( 6 /+3.3v )
+  ( 7 /GND )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 /+3.3v )
+  ( 11 /XTALOUT )
+  ( 12 /XTALIN )
+  ( 13 /GND )
+  ( 14 /+3.3v )
+  ( 15 /DPLUS )
+  ( 16 /DMINUS )
+  ( 17 /GND )
+  ( 18 /+3.3v )
+  ( 19 /GND )
+  ( 20 ? )
+  ( 21 /GND )
+  ( 22 /SCL )
+  ( 23 /SDA )
+  ( 24 /+3.3v )
+  ( 25 ? )
+  ( 26 ? )
+  ( 27 ? )
+  ( 28 ? )
+  ( 29 ? )
+  ( 30 ? )
+  ( 31 ? )
+  ( 32 /IPSPDAT )
+  ( 33 /GND )
+  ( 34 /+3.3v )
+  ( 35 /GND )
+  ( 36 ? )
+  ( 37 ? )
+  ( 38 ? )
+  ( 39 /+3.3v )
+  ( 40 N-000019 )
+  ( 41 ? )
+  ( 42 ? )
+  ( 43 ? )
+  ( 44 ? )
+  ( 45 ? )
+  ( 46 ? )
+  ( 47 ? )
+  ( 48 /GND )
+  ( 49 N-000012 )
+  ( 50 /+3.3v )
+  ( 51 /GND )
+  ( 52 /IPSPCLK )
+  ( 53 N-000014 )
+  ( 54 N-000005 )
+  ( 55 ? )
+  ( 56 ? )
+ )
+ ( /4A62B5C2 TED_3v_DPAK U2 Regulator_3.3V
+  ( 1 /GND )
+  ( 2 /+3.3v )
+  ( 3 /+5v )
+ )
+ ( /4A62AD37 TED_DIP-8 U3 EPROM
+  ( 1 /+3.3v )
+  ( 2 /GND )
+  ( 3 /GND )
+  ( 4 /GND )
+  ( 5 /SDA )
+  ( 6 /SCL )
+  ( 7 /GND )
+  ( 8 /+3.3v )
+ )
+ ( /4A63A5E0 TED_TO220_NOHS U4 7812
+  ( 1 N-000008 )
+  ( 2 /GND )
+  ( 3 N-000007 )
+ )
+ ( /4A639A4F TED_DIP-18 U5 PIC16F716
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 N-000015 )
+  ( 5 /GND )
+  ( 6 N-000003 )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 ? )
+  ( 12 /IPSPCLK )
+  ( 13 /IPSPDAT )
+  ( 14 /+5v )
+  ( 15 N-000004 )
+  ( 16 N-000018 )
+  ( 17 ? )
+  ( 18 ? )
+ )
+ ( /4A62C3F8 TED_crystal_SMT_13x5mm X1 24MHz
+  ( 1 /XTALOUT )
+  ( 2 /XTALIN )
+ )
+ ( /4A63BBCD TED_crystal_SMT_13x5mm X2 20MHz
+  ( 1 N-000018 )
+  ( 2 N-000004 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component D3
+ D?
+ S*
+$endlist
+$component D4
+ D?
+ S*
+$endlist
+$component D5
+ D?
+ S*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}

@@ -1,0 +1,241 @@
+Cmp-Mod V01 Created by Cvpcb (20090530 SVN-R1798) date = Sat 12 Dec 2009 05:11:00 PM PST
+
+BeginCmp
+TimeStamp = /4B2401E7;
+Reference = D1;
+ValeurCmp = TVS;
+IdModule  = TED_DO-214AA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B2401ED;
+Reference = D2;
+ValeurCmp = TVS;
+IdModule  = TED_DO-214AA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B12B0AE;
+Reference = J1;
+ValeurCmp = IDE_5x2;
+IdModule  = TED_IDE_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B14A2BF;
+Reference = J2;
+ValeurCmp = 24v_12v;
+IdModule  = TED_SCREWLESS_TERM_2x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B14A2C5;
+Reference = J3;
+ValeurCmp = 0v__0v;
+IdModule  = TED_SCREWLESS_TERM_2x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B149665;
+Reference = J4;
+ValeurCmp = MOTOR1_L__R;
+IdModule  = TED_SCREWLESS_TERM_2x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B15F6C7;
+Reference = J5;
+ValeurCmp = MOTOR2_L__R;
+IdModule  = TED_SCREWLESS_TERM_2x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B14AB2A;
+Reference = Q1;
+ValeurCmp = PMOSFET_GDS;
+IdModule  = TED_TO220_NOHS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B14A170;
+Reference = Q2;
+ValeurCmp = NMOSFET_GSD;
+IdModule  = TED_SOT-23_3pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B14AB23;
+Reference = Q3;
+ValeurCmp = PMOSFET_GDS;
+IdModule  = TED_TO220_NOHS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B14A168;
+Reference = Q4;
+ValeurCmp = NMOSFET_GSD;
+IdModule  = TED_SOT-23_3pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B14A186;
+Reference = Q5;
+ValeurCmp = NMOSFET_GSD;
+IdModule  = TED_SOT-23_3pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B14A188;
+Reference = Q6;
+ValeurCmp = NMOSFET_GSD;
+IdModule  = TED_SOT-23_3pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B14A152;
+Reference = Q7;
+ValeurCmp = NMOSFET_GDS;
+IdModule  = TED_TO220_NOHS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B14A155;
+Reference = Q8;
+ValeurCmp = NMOSFET_GDS;
+IdModule  = TED_TO220_NOHS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B15F6DB;
+Reference = Q9;
+ValeurCmp = PMOSFET_GDS;
+IdModule  = TED_TO220_NOHS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B15F6CB;
+Reference = Q10;
+ValeurCmp = NMOSFET_GSD;
+IdModule  = TED_SOT-23_3pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B15F6DA;
+Reference = Q11;
+ValeurCmp = PMOSFET_GDS;
+IdModule  = TED_TO220_NOHS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B15F6CD;
+Reference = Q12;
+ValeurCmp = NMOSFET_GSD;
+IdModule  = TED_SOT-23_3pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B15F6CA;
+Reference = Q13;
+ValeurCmp = NMOSFET_GSD;
+IdModule  = TED_SOT-23_3pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B15F6CC;
+Reference = Q14;
+ValeurCmp = NMOSFET_GSD;
+IdModule  = TED_SOT-23_3pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B15F6C8;
+Reference = Q15;
+ValeurCmp = NMOSFET_GDS;
+IdModule  = TED_TO220_NOHS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B15F6C9;
+Reference = Q16;
+ValeurCmp = NMOSFET_GDS;
+IdModule  = TED_TO220_NOHS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B14A1C5;
+Reference = R1;
+ValeurCmp = 100k;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B14A1D0;
+Reference = R2;
+ValeurCmp = 100k;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B14A1D9;
+Reference = R3;
+ValeurCmp = 100k;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B14A1D7;
+Reference = R4;
+ValeurCmp = 100k;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B15F6CF;
+Reference = R5;
+ValeurCmp = 100k;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B15F6D1;
+Reference = R6;
+ValeurCmp = 100k;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B15F6CE;
+Reference = R7;
+ValeurCmp = 100k;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B15F6D0;
+Reference = R8;
+ValeurCmp = 100k;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B2401C7;
+Reference = R9;
+ValeurCmp = .001;
+IdModule  = TED_SM2512;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B2401DE;
+Reference = R10;
+ValeurCmp = .001;
+IdModule  = TED_SM2512;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B135B90;
+Reference = U1;
+ValeurCmp = PIC18F4331/4431;
+IdModule  = TED_DIP-40;
+EndCmp
+
+EndListe

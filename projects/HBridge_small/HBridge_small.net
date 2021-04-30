@@ -1,0 +1,211 @@
+# EESchema Netlist Version 1.1 created  Tue 17 Aug 2010 10:07:39 PM PDT
+(
+ ( /4BDE5195 TED_SM3216-18_POL C3 10uF_10v
+  ( 1 /3.3v )
+  ( 2 GND )
+ )
+ ( /4C035C08 TED_SM0805 C5 18pF
+  ( 1 N-000019 )
+  ( 2 GND )
+ )
+ ( /4C035C2D TED_SM0805 C7 18pF
+  ( 1 N-000018 )
+  ( 2 GND )
+ )
+ ( /4C035D95 TED_SM0805 C8 .1uF_10v
+  ( 1 /3.3v )
+  ( 2 GND )
+ )
+ ( /4C035E50 TED_SM3216-18_POL C9 10uF_tant
+  ( 1 N-000020 )
+  ( 2 GND )
+ )
+ ( /4C68F9AE TED_SM0805 C10 .1uF
+  ( 1 N-000007 )
+  ( 2 N-000023 )
+ )
+ ( /4C68F9DA TED_SM0805 C11 .1uF
+  ( 1 /5v )
+  ( 2 GND )
+ )
+ ( /4C68F9ED TED_SM0805 C12 .1uF
+  ( 1 N-000021 )
+  ( 2 GND )
+ )
+ ( /4C42225D TED_SM1206 D3 LED
+  ( 1 N-000010 )
+  ( 2 GND )
+ )
+ ( /4BDE4964 TED_DC_2.1mm J1 DC_2.1MM
+  ( 1 /5v )
+  ( 2 GND )
+ )
+ ( /4C034F77 TED_HEADER_6x1 J3 HEADER_6X1
+  ( 1 /PRG_MCLR )
+  ( 2 /3.3v )
+  ( 3 GND )
+  ( 4 /IPSPDAT )
+  ( 5 /IPSPCLK )
+  ( 6 ? )
+ )
+ ( /4C1C04EE TED_SPST_FSM4JSMA J10 SPST_BUTTON
+  ( 1 GND )
+  ( 2 /PRG_MCLR )
+ )
+ ( /4C1C03FF TED_TERMINAL_3.5MM_2PIN J11 TRM_3.5MM_2P
+  ( 1 /SDI )
+  ( 2 GND )
+ )
+ ( /4C1C03F2 TED_TERMINAL_3.5MM_2PIN J12 TRM_3.5MM_2P
+  ( 1 /3.3v )
+  ( 2 /5v )
+ )
+ ( /4C1C03FA TED_TERMINAL_3.5MM_2PIN J13 TRM_3.5MM_2P
+  ( 1 /SCK )
+  ( 2 /SDO )
+ )
+ ( /4C68F600 TED_TERMINAL_3.5MM_2PIN J14 TRM_3.5MM_2P
+  ( 1 N-000024 )
+  ( 2 N-000025 )
+ )
+ ( /4C034E4A TED_SM0805 R5 1M
+  ( 1 N-000005 )
+  ( 2 N-000019 )
+ )
+ ( /4C035BBB TED_SM0805 R6 442
+  ( 1 N-000018 )
+  ( 2 N-000005 )
+ )
+ ( /4C167328 TED_SM0805 R8 10k
+  ( 1 /PRG_MCLR )
+  ( 2 /3.3v )
+ )
+ ( /4C42223B TED_SM0805 R15 300
+  ( 1 N-000010 )
+  ( 2 N-000011 )
+ )
+ ( /4C68F919 TED_SM3264 R16 .01
+  ( 1 N-000002 )
+  ( 2 GND )
+ )
+ ( /4BDE497C TED_TO220_NOHS U1 REGULATOR_3.3V
+  ( 1 GND )
+  ( 2 /3.3v )
+  ( 3 /5v )
+ )
+ ( /4C04AB40 TED_DIP-18 U4 PIC24HJ12GP201
+  ( 1 /PRG_MCLR )
+  ( 2 N-000002 )
+  ( 3 N-000026 )
+  ( 4 /IPSPDAT )
+  ( 5 /IPSPCLK )
+  ( 6 N-000019 )
+  ( 7 N-000005 )
+  ( 8 /SCK )
+  ( 9 N-000006 )
+  ( 10 N-000011 )
+  ( 11 /SDO )
+  ( 12 /SDI )
+  ( 13 GND )
+  ( 14 N-000020 )
+  ( 15 /SDO )
+  ( 16 /SDI )
+  ( 17 GND )
+  ( 18 /3.3v )
+ )
+ ( /4C68F497 TED_SSOP16 U5 DRV8800
+  ( 1 /5v )
+  ( 2 N-000026 )
+  ( 3 N-000026 )
+  ( 4 GND )
+  ( 5 /5v )
+  ( 6 N-000006 )
+  ( 7 N-000025 )
+  ( 8 N-000002 )
+  ( 9 /5v )
+  ( 10 N-000024 )
+  ( 11 N-000023 )
+  ( 12 N-000007 )
+  ( 13 GND )
+  ( 14 N-000021 )
+  ( 15 ? )
+  ( 16 ? )
+ )
+ ( /4C034E2D TED_crystal_SMT_13x5mm X1 10MHz
+  ( 1 N-000018 )
+  ( 2 N-000019 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component D3
+ D?
+ S*
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R16
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}

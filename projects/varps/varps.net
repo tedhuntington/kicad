@@ -1,0 +1,37 @@
+# EESchema Netlist Version 1.1 created  Fri 26 Jun 2009 04:33:26 AM PDT
+(
+ ( /4A449E66 TED_SCREWLESS_TERM_2x1 J1 TERMINAL_2MIL_PCB_2PIN
+  ( 1 /V+ )
+  ( 2 /GND )
+ )
+ ( /4A449E62 TED_SCREWLESS_TERM_2x1 J2 TERMINAL_2mil_PCB_2PIN
+  ( 1 /Vout )
+  ( 2 /GND )
+ )
+ ( /4A449EB7 TED_CONNECTOR_POWER_2.5mm J3 DC_2.5mm_PCB
+  ( 1 /V+ )
+  ( 2 /GND )
+ )
+ ( /4A449CE3 TED_VAR_R2 R1 VAR_R
+  ( 1 /Vout )
+  ( 2 /V+ )
+ )
+ ( /4A449CEE TED_VAR_R2 R2 VAR_R
+  ( 1 /GND )
+  ( 2 /Vout )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}

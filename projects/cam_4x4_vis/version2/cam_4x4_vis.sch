@@ -1,0 +1,1095 @@
+EESchema Schematic File Version 2  date Tue 12 Jan 2010 11:47:29 PM PST
+LIBS:ted_capacitors,ted_connectors,ted_device,ted_diodes,ted_ic,ted_opamp,ted_power,ted_regulators,ted_resistors,ted_switches,ted_transistor,ted_inductors,ted_sensors
+EELAYER 24  0
+EELAYER END
+$Descr User 11000 8500
+Sheet 1 1
+Title "Cam 4x4 Visible Spectrum"
+Date "27 sep 2009"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 7800 800  0    100  ~ 0
+heat=re200b  (PIR)
+Text Notes 7700 650  0    100  ~ 0
+visible=photocell (Jameco #202403)
+NoConn ~ 1060 3830
+Wire Wire Line
+	600  3990 1060 3990
+Wire Wire Line
+	600  3990 600  1575
+Wire Wire Line
+	1060 4150 660  4150
+Wire Wire Line
+	660  4150 660  1375
+Wire Wire Line
+	1060 3910 735  3910
+Wire Wire Line
+	735  3910 735  2725
+Wire Wire Line
+	2080 3650 2080 3595
+Wire Wire Line
+	2080 3595 1920 3595
+Wire Wire Line
+	2660 4720 2660 4780
+Connection ~ 2220 4535
+Wire Wire Line
+	2660 4320 2440 4320
+Wire Wire Line
+	2440 4320 2440 4535
+Wire Wire Line
+	815  2625 815  2725
+Wire Wire Line
+	600  1575 815  1575
+Wire Wire Line
+	825  4250 825  4310
+Wire Wire Line
+	825  4310 1060 4310
+Connection ~ 815  2725
+Wire Wire Line
+	660  1375 815  1375
+Wire Bus Line
+	4000 3450 3615 3450
+Wire Bus Line
+	3615 3450 3615 4035
+Wire Bus Line
+	3615 4035 2020 4035
+Wire Bus Line
+	2020 4335 2020 3775
+Wire Wire Line
+	880  3530 880  3420
+Wire Wire Line
+	4100 4100 3945 4100
+Wire Wire Line
+	3945 4100 3945 1325
+Wire Wire Line
+	3945 1325 3820 1325
+Wire Wire Line
+	4100 2100 3960 2100
+Wire Wire Line
+	3960 2100 3960 1225
+Wire Wire Line
+	3960 1225 3820 1225
+Wire Wire Line
+	2215 1325 2420 1325
+Wire Wire Line
+	3120 880  3120 845 
+Wire Wire Line
+	1515 3075 1515 3120
+Wire Wire Line
+	4800 4600 4800 4540
+Connection ~ 6200 6580
+Wire Wire Line
+	6200 6580 5840 6580
+Wire Wire Line
+	5840 6580 5840 6070
+Wire Wire Line
+	5840 6070 5405 6070
+Wire Wire Line
+	4800 2785 4800 2855
+Wire Wire Line
+	7850 5585 7850 5670
+Wire Wire Line
+	7850 5670 5775 5670
+Wire Wire Line
+	5775 5670 5775 3900
+Wire Wire Line
+	5775 3900 5500 3900
+Wire Wire Line
+	6890 5585 6890 5615
+Wire Wire Line
+	6890 5615 5870 5615
+Wire Wire Line
+	5870 5615 5870 3700
+Wire Wire Line
+	5870 3700 5500 3700
+Wire Wire Line
+	7820 4400 7820 4505
+Wire Wire Line
+	7820 4505 5970 4505
+Wire Wire Line
+	5970 4505 5970 3500
+Wire Wire Line
+	5970 3500 5500 3500
+Wire Wire Line
+	6885 4400 6885 4435
+Wire Wire Line
+	6885 4435 6070 4435
+Wire Wire Line
+	6070 4435 6070 3300
+Wire Wire Line
+	6070 3300 5500 3300
+Wire Wire Line
+	7810 3075 7810 3185
+Wire Wire Line
+	7810 3185 5725 3185
+Wire Wire Line
+	5725 3185 5725 1900
+Wire Wire Line
+	5725 1900 5500 1900
+Wire Wire Line
+	6890 3075 6890 3115
+Wire Wire Line
+	6890 3115 5810 3115
+Wire Wire Line
+	5810 3115 5810 1700
+Wire Wire Line
+	5810 1700 5500 1700
+Wire Wire Line
+	7810 1810 7810 1920
+Wire Wire Line
+	7810 1920 5895 1920
+Wire Wire Line
+	5895 1920 5895 1500
+Wire Wire Line
+	5895 1500 5500 1500
+Wire Wire Line
+	6890 1810 6890 1845
+Wire Wire Line
+	6890 1845 6010 1845
+Wire Wire Line
+	6010 1845 6010 1300
+Wire Wire Line
+	6010 1300 5500 1300
+Connection ~ 6200 4620
+Wire Wire Line
+	8110 3295 6200 3295
+Wire Wire Line
+	8120 4620 6200 4620
+Wire Wire Line
+	7185 4045 7185 4190
+Wire Wire Line
+	8120 4045 8120 4190
+Connection ~ 7190 5805
+Connection ~ 7690 5805
+Wire Wire Line
+	6710 5250 6710 5375
+Wire Wire Line
+	7690 5250 7690 5375
+Wire Wire Line
+	6700 2755 6700 2865
+Wire Wire Line
+	7680 2755 7680 2865
+Wire Wire Line
+	7665 1525 7665 1600
+Wire Wire Line
+	8110 1525 8110 1600
+Connection ~ 8280 3545
+Wire Wire Line
+	6710 4750 8280 4750
+Wire Wire Line
+	8280 4750 8280 1025
+Wire Wire Line
+	6700 2255 8280 2255
+Wire Wire Line
+	8280 1025 6375 1025
+Wire Wire Line
+	6200 6645 6200 6495
+Wire Wire Line
+	8280 3545 6705 3545
+Connection ~ 8280 2255
+Wire Wire Line
+	6700 1525 6700 1600
+Wire Wire Line
+	7190 1525 7190 1600
+Connection ~ 6700 1025
+Connection ~ 7665 1025
+Connection ~ 7190 1025
+Connection ~ 8110 1025
+Connection ~ 7665 2030
+Connection ~ 7190 2030
+Connection ~ 7190 2255
+Connection ~ 7680 2255
+Connection ~ 8110 2255
+Connection ~ 8120 3545
+Connection ~ 7690 3545
+Connection ~ 7185 3545
+Connection ~ 8150 4750
+Connection ~ 7690 4750
+Connection ~ 7190 4750
+Wire Wire Line
+	8110 2755 8110 2865
+Wire Wire Line
+	7190 2755 7190 2865
+Connection ~ 7680 3295
+Connection ~ 7190 3295
+Wire Wire Line
+	8150 5250 8150 5375
+Wire Wire Line
+	7190 5250 7190 5375
+Wire Wire Line
+	7690 4045 7690 4190
+Wire Wire Line
+	6705 4045 6705 4190
+Connection ~ 6200 5805
+Wire Wire Line
+	8110 2030 6200 2030
+Wire Wire Line
+	6200 2030 6200 5995
+Connection ~ 6200 3295
+Connection ~ 6700 2030
+Connection ~ 6700 3295
+Connection ~ 6705 4620
+Connection ~ 7185 4620
+Connection ~ 7690 4620
+Connection ~ 6710 5805
+Wire Wire Line
+	5500 1200 6070 1200
+Wire Wire Line
+	6070 1200 6070 1810
+Wire Wire Line
+	6070 1810 6400 1810
+Wire Wire Line
+	5500 1400 5950 1400
+Wire Wire Line
+	5950 1400 5950 1880
+Wire Wire Line
+	5950 1880 7365 1880
+Wire Wire Line
+	7365 1880 7365 1810
+Wire Wire Line
+	5500 1600 5860 1600
+Wire Wire Line
+	5860 1600 5860 3075
+Wire Wire Line
+	5860 3075 6400 3075
+Wire Wire Line
+	5500 1800 5765 1800
+Wire Wire Line
+	5765 1800 5765 3150
+Wire Wire Line
+	5765 3150 7380 3150
+Wire Wire Line
+	7380 3150 7380 3075
+Wire Wire Line
+	5500 3200 6125 3200
+Wire Wire Line
+	6125 3200 6125 4400
+Wire Wire Line
+	6125 4400 6405 4400
+Wire Wire Line
+	5500 3400 6020 3400
+Wire Wire Line
+	6020 3400 6020 4465
+Wire Wire Line
+	6020 4465 7390 4465
+Wire Wire Line
+	7390 4465 7390 4400
+Wire Wire Line
+	5500 3600 5925 3600
+Wire Wire Line
+	5925 3600 5925 5585
+Wire Wire Line
+	5925 5585 6410 5585
+Wire Wire Line
+	5500 3800 5820 3800
+Wire Wire Line
+	5820 3800 5820 5640
+Wire Wire Line
+	5820 5640 7390 5640
+Wire Wire Line
+	7390 5640 7390 5585
+Wire Wire Line
+	4800 710  4800 855 
+Wire Wire Line
+	1515 825  1515 875 
+Wire Wire Line
+	5420 6580 5735 6580
+Wire Wire Line
+	5735 6580 5735 5805
+Wire Wire Line
+	5735 5805 8150 5805
+Wire Wire Line
+	4800 2580 4800 2540
+Wire Wire Line
+	3120 2645 3120 2565
+Wire Wire Line
+	2215 1225 2420 1225
+Wire Wire Line
+	2420 2125 2420 2610
+Wire Wire Line
+	2420 2610 3120 2610
+Connection ~ 3120 2610
+Connection ~ 2420 2225
+Wire Wire Line
+	4100 2200 4100 2565
+Wire Wire Line
+	4100 2565 4800 2565
+Connection ~ 4800 2565
+Wire Wire Line
+	4100 4200 4100 4575
+Wire Wire Line
+	4100 4575 4800 4575
+Connection ~ 4800 4575
+Wire Wire Line
+	2220 4535 2220 4435
+Wire Wire Line
+	815  1275 700  1275
+Wire Wire Line
+	815  1475 635  1475
+Wire Wire Line
+	815  2725 735  2725
+Wire Bus Line
+	4000 4000 4000 1100
+Wire Wire Line
+	1920 4315 1920 4535
+Wire Wire Line
+	1920 4535 2440 4535
+Wire Wire Line
+	1060 3590 1060 3420
+Wire Wire Line
+	1060 3420 880  3420
+Wire Wire Line
+	1060 4230 700  4230
+Wire Wire Line
+	700  4230 700  1275
+Wire Wire Line
+	635  1475 635  4070
+Wire Wire Line
+	635  4070 1060 4070
+NoConn ~ 1060 3750
+NoConn ~ 1060 3670
+$Comp
+L GND #PWR01
+U 1 1 4ABF9DDA
+P 2660 4780
+F 0 "#PWR01" H 2660 4780 30  0001 C CNN
+F 1 "GND" H 2660 4710 30  0000 C CNN
+	1    2660 4780
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_POL C1
+U 1 1 4ABF9DAF
+P 2660 4520
+F 0 "C1" H 2710 4620 50  0000 L CNN
+F 1 "4.7uF" H 2710 4420 50  0000 L CNN
+	1    2660 4520
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V(OUT) #PWR02
+U 1 1 4ABF9D5A
+P 825 4250
+F 0 "#PWR02" H 825 4200 20  0001 C CNN
+F 1 "+5V(OUT)" H 825 4400 30  0001 C CNN
+	1    825  4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V(out) #PWR03
+U 1 1 4ABF9D51
+P 2220 4435
+F 0 "#PWR03" H 2220 4385 20  0001 C CNN
+F 1 "+5V(out)" H 2220 4585 30  0001 C CNN
+	1    2220 4435
+	1    0    0    -1  
+$EndComp
+Text Label 825  4280 0    30   ~ 0
++5v
+Text Label 735  2840 0    30   ~ 0
+B4_EN_0
+Text Label 600  1620 0    30   ~ 0
+B3_ADDR0_3
+Text Label 635  1530 0    30   ~ 0
+B2_ADDR0_2
+Text Label 660  1430 0    30   ~ 0
+B1_ADDR0_1
+Text Label 700  1330 0    30   ~ 0
+B0_ADDR0_0
+Kmarq B 4800 710  "Error: Pin power_out connected to Pin power_out (net 73)" F=2
+Kmarq B 4800 2785 "Error: Pin power_out connected to Pin power_out (net 73)" F=2
+Kmarq B 1515 825  "Error: Pin power_out connected to Pin power_out (net 73)" F=2
+Kmarq B 3120 845  "Error: Pin power_out connected to Pin power_out (net 73)" F=2
+Kmarq B 2220 4435 "Error: Pin power_out connected to Pin power_out (net 73)" F=2
+Text Label 4100 3900 0    30   ~ 0
+D7
+Text Label 4100 3800 0    30   ~ 0
+D6
+Text Label 4100 3700 0    30   ~ 0
+D5
+Text Label 4100 3600 0    30   ~ 0
+D4
+Text Label 4100 3500 0    30   ~ 0
+D3
+Text Label 4100 3400 0    30   ~ 0
+D2
+Text Label 4100 3300 0    30   ~ 0
+D1
+Text Label 1920 4235 0    30   ~ 0
+D0
+Text Label 1920 4155 0    30   ~ 0
+D1
+Text Label 1920 4075 0    30   ~ 0
+D2
+Text Label 1920 3995 0    30   ~ 0
+D3
+Text Label 1920 3915 0    30   ~ 0
+D4
+Text Label 1920 3835 0    30   ~ 0
+D5
+Text Label 1920 3755 0    30   ~ 0
+D6
+Text Label 1920 3675 0    30   ~ 0
+D7
+Text Label 4100 3200 0    30   ~ 0
+D0
+Entry Wire Line
+	4000 3900 4100 3800
+Text Label 5550 3900 0    30   ~ 0
+dot_04_04
+Text Label 5545 3800 0    30   ~ 0
+dot_04_03
+Text Label 5545 3700 0    30   ~ 0
+dot_04_02
+Text Label 5535 3600 0    30   ~ 0
+dot_04_01
+Text Label 5540 3500 0    30   ~ 0
+dot_03_04
+Text Label 5540 3400 0    30   ~ 0
+dot_03_03
+Text Label 5535 3300 0    30   ~ 0
+dot_03_02
+Text Label 5535 3200 0    30   ~ 0
+dot_03_01
+Text Label 5605 1900 0    30   ~ 0
+dot_02_04
+Text Label 5585 1800 0    30   ~ 0
+dot_02_03
+Text Label 5595 1700 0    30   ~ 0
+dot_02_02
+Text Label 5590 1600 0    30   ~ 0
+dot_02_01
+Text Label 5575 1500 0    30   ~ 0
+dot_01_04
+Text Label 5610 1400 0    30   ~ 0
+dot_01_03
+Text Label 5605 1300 0    30   ~ 0
+dot_01_02
+Text Label 5590 1200 0    30   ~ 0
+dot_01_01
+NoConn ~ 3820 1925
+NoConn ~ 3820 1825
+NoConn ~ 3820 1725
+NoConn ~ 3820 1625
+NoConn ~ 3820 1525
+NoConn ~ 3820 1425
+NoConn ~ 2215 2725
+NoConn ~ 2215 2625
+NoConn ~ 2215 2525
+NoConn ~ 2215 2425
+NoConn ~ 2215 2325
+NoConn ~ 2215 2225
+NoConn ~ 2215 2125
+NoConn ~ 2215 2025
+NoConn ~ 2420 1925
+NoConn ~ 2215 1925
+NoConn ~ 2215 1825
+NoConn ~ 2420 1825
+NoConn ~ 2420 1725
+NoConn ~ 2215 1725
+NoConn ~ 2420 1625
+NoConn ~ 2215 1625
+NoConn ~ 2215 1525
+NoConn ~ 2420 1525
+NoConn ~ 2420 1425
+NoConn ~ 2215 1425
+Text Notes 585  4270 1    100  ~ 0
+B0-B7
+Text Notes 2490 4440 3    100  ~ 0
+D0-D7
+Text Label 2535 4035 0    30   ~ 0
+ADDR1[0..7]
+Text Label 2300 1325 0    30   ~ 0
+Y1_4_16
+Text Label 2310 1225 0    30   ~ 0
+Y0_4_16
+Text Label 4000 4100 0    30   ~ 0
+LE1
+Text Label 4025 2100 0    30   ~ 0
+LE0
+Text Label 4100 1900 0    30   ~ 0
+D7
+Text Label 4100 1800 0    30   ~ 0
+D6
+Text Label 4100 1700 0    30   ~ 0
+D5
+Text Label 4100 1600 0    30   ~ 0
+D4
+Text Label 4100 1500 0    30   ~ 0
+D3
+Text Label 4100 1400 0    30   ~ 0
+D2
+Text Label 4100 1300 0    30   ~ 0
+D1
+Text Label 4100 1200 0    30   ~ 0
+D0
+Text Label 4800 2820 0    30   ~ 0
++5v
+Text Label 1515 3105 0    30   ~ 0
+GND
+Text Label 2755 2610 0    30   ~ 0
+GND
+Text Label 4800 775  0    30   ~ 0
++5v
+Text Label 6575 1025 0    30   ~ 0
++5v
+Text Label 5860 5805 0    30   ~ 0
+AnalogOut
+Text Label 6100 6580 0    30   ~ 0
+GND
+Text Label 4540 2565 0    30   ~ 0
+GND
+Text Label 4430 4575 0    30   ~ 0
+GND
+Text Label 880  3500 0    30   ~ 0
+GND
+Text Label 2190 4535 0    30   ~ 0
++5v
+Text Label 3120 855  0    30   ~ 0
++5v
+Text Label 1515 845  0    30   ~ 0
++5v
+Text Notes 850  4750 0    100  ~ 0
+Male 20-pin IDE
+Entry Wire Line
+	1920 4235 2020 4335
+Entry Wire Line
+	1920 4155 2020 4255
+Entry Wire Line
+	1920 4075 2020 4175
+Entry Wire Line
+	1920 3995 2020 4095
+Entry Wire Line
+	1920 3915 2020 4015
+Entry Wire Line
+	1920 3835 2020 3935
+Entry Wire Line
+	1920 3755 2020 3855
+Entry Wire Line
+	1920 3675 2020 3775
+$Comp
+L GND #PWR04
+U 1 1 4ABB376B
+P 2080 3650
+F 0 "#PWR04" H 2080 3650 30  0001 C CNN
+F 1 "GND" H 2080 3580 30  0000 C CNN
+	1    2080 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 4ABB3768
+P 880 3530
+F 0 "#PWR05" H 880 3530 30  0001 C CNN
+F 1 "GND" H 880 3460 30  0000 C CNN
+	1    880  3530
+	1    0    0    -1  
+$EndComp
+$Comp
+L IDE_10x2 J1
+U 1 1 4ABB36DF
+P 1490 3955
+F 0 "J1" H 1485 3715 60  0000 C CNN
+F 1 "IDE_10x2" V 1490 4000 60  0000 C CNN
+	1    1490 3955
+	1    0    0    -1  
+$EndComp
+Text Notes 1050 6150 0    100  ~ 0
+Power Supply?
+Text Notes 4465 5735 0    100  ~ 0
+Analog Output
+Text Notes 6850 820  0    100  ~ 0
+pixel array
+Text Notes 4290 1060 0    100  ~ 0
+8-bit buffers
+Text Notes 970  1130 0    100  ~ 0
+4-16 Decoder
+Text Notes 2445 1110 0    100  ~ 0
+Inverter
+$Comp
+L GND #PWR06
+U 1 1 4ABB02DB
+P 3120 2645
+F 0 "#PWR06" H 3120 2645 30  0001 C CNN
+F 1 "GND" H 3120 2575 30  0000 C CNN
+	1    3120 2645
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR07
+U 1 1 4ABB02D4
+P 3120 845
+F 0 "#PWR07" H 3120 795 20  0001 C CNN
+F 1 "+5V" H 3120 945 30  0000 C CNN
+	1    3120 845 
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC540 U2
+U 1 1 4ABB02BA
+P 3120 1725
+F 0 "U2" H 3260 1100 60  0000 C CNN
+F 1 "74HC540" H 3120 1455 60  0000 C CNN
+	1    3120 1725
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 4ABB0204
+P 4800 4600
+F 0 "#PWR08" H 4800 4600 30  0001 C CNN
+F 1 "GND" H 4800 4530 30  0000 C CNN
+	1    4800 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR09
+U 1 1 4ABB01FE
+P 4800 2580
+F 0 "#PWR09" H 4800 2580 30  0001 C CNN
+F 1 "GND" H 4800 2510 30  0000 C CNN
+	1    4800 2580
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR010
+U 1 1 4ABB01F1
+P 1515 3120
+F 0 "#PWR010" H 1515 3120 30  0001 C CNN
+F 1 "GND" H 1515 3050 30  0000 C CNN
+	1    1515 3120
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR011
+U 1 1 4ABB01C1
+P 1515 825
+F 0 "#PWR011" H 1515 775 20  0001 C CNN
+F 1 "+5V" H 1515 925 30  0000 C CNN
+	1    1515 825 
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR012
+U 1 1 4ABB01B9
+P 4800 2785
+F 0 "#PWR012" H 4800 2735 20  0001 C CNN
+F 1 "+5V" H 4800 2885 30  0000 C CNN
+	1    4800 2785
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR013
+U 1 1 4ABB01B2
+P 4800 710
+F 0 "#PWR013" H 4800 660 20  0001 C CNN
+F 1 "+5V" H 4800 810 30  0000 C CNN
+	1    4800 710 
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR014
+U 1 1 4ABB01A8
+P 6375 1025
+F 0 "#PWR014" H 6375 975 20  0001 C CNN
+F 1 "+5V" H 6375 1125 30  0000 C CNN
+	1    6375 1025
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	4000 3800 4100 3700
+Entry Wire Line
+	4000 3700 4100 3600
+Entry Wire Line
+	4000 3600 4100 3500
+Entry Wire Line
+	4000 3500 4100 3400
+Entry Wire Line
+	4000 3400 4100 3300
+Entry Wire Line
+	4000 3300 4100 3200
+Entry Wire Line
+	4000 4000 4100 3900
+Entry Wire Line
+	4000 1800 4100 1900
+Entry Wire Line
+	4000 1700 4100 1800
+Entry Wire Line
+	4000 1600 4100 1700
+Entry Wire Line
+	4000 1500 4100 1600
+Entry Wire Line
+	4000 1400 4100 1500
+Entry Wire Line
+	4000 1300 4100 1400
+Entry Wire Line
+	4000 1200 4100 1300
+Entry Wire Line
+	4000 1100 4100 1200
+$Comp
+L RCA_MONO_PC J2
+U 1 1 4AB9A5E8
+P 4990 6360
+F 0 "J2" H 5060 5985 60  0000 C CNN
+F 1 "RCA_MONO_PC" H 5008 6775 60  0000 C CNN
+F 2 "TED_RCA_MONO_220572" H 5065 5715 60  0001 C CNN
+F 3 "rca_220572.pdf" H 5110 5810 60  0001 C CNN
+F 4 "Jameco_220572" H 5075 5905 60  0001 C CNN "Field1"
+	1    4990 6360
+	1    0    0    -1  
+$EndComp
+$Comp
+L Photoresistor F1
+U 1 1 4AB98EEB
+P 6700 1275
+F 0 "F1" V 6780 1275 50  0000 C CNN
+F 1 "Photoresistor" V 6700 1275 30  0000 C CNN
+F 4 "Jameco 202403" V 6860 1290 60  0001 C CNN "Field1"
+	1    6700 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74VHC154 U1
+U 1 1 4AB9A1DD
+P 1515 1975
+F 0 "U1" H 1415 2075 60  0000 C CNN
+F 1 "74VHC154" H 1365 1825 60  0000 C CNN
+	1    1515 1975
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74VHC573 U4
+U 1 1 4AB9A10D
+P 4800 3700
+F 0 "U4" H 4940 3075 60  0000 C CNN
+F 1 "74VHC573" H 4800 3430 60  0000 C CNN
+	1    4800 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74VHC573 U3
+U 1 1 4AB9A105
+P 4800 1700
+F 0 "U3" H 4940 1075 60  0000 C CNN
+F 1 "74VHC573" H 4800 1430 60  0000 C CNN
+	1    4800 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L NMOSFET_GSD Q16
+U 1 1 4AB992F1
+P 8050 5585
+F 0 "Q16" H 8050 5345 60  0000 R CNN
+F 1 "NMOSFET_GSD" H 8380 5855 60  0001 R CNN
+	1    8050 5585
+	1    0    0    -1  
+$EndComp
+$Comp
+L NMOSFET_GSD Q15
+U 1 1 4AB992EF
+P 7590 5585
+F 0 "Q15" H 7590 5345 60  0000 R CNN
+F 1 "NMOSFET_GSD" H 7920 5855 60  0001 R CNN
+	1    7590 5585
+	1    0    0    -1  
+$EndComp
+$Comp
+L NMOSFET_GSD Q14
+U 1 1 4AB992ED
+P 7090 5585
+F 0 "Q14" H 7090 5345 60  0000 R CNN
+F 1 "NMOSFET_GSD" H 7420 5855 60  0001 R CNN
+	1    7090 5585
+	1    0    0    -1  
+$EndComp
+$Comp
+L NMOSFET_GSD Q13
+U 1 1 4AB992EB
+P 6610 5585
+F 0 "Q13" H 6610 5345 60  0000 R CNN
+F 1 "NMOSFET_GSD" H 6940 5855 60  0001 R CNN
+	1    6610 5585
+	1    0    0    -1  
+$EndComp
+$Comp
+L NMOSFET_GSD Q12
+U 1 1 4AB992E8
+P 8020 4400
+F 0 "Q12" H 8020 4160 60  0000 R CNN
+F 1 "NMOSFET_GSD" H 8350 4670 60  0001 R CNN
+	1    8020 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L NMOSFET_GSD Q11
+U 1 1 4AB992E6
+P 7590 4400
+F 0 "Q11" H 7590 4160 60  0000 R CNN
+F 1 "NMOSFET_GSD" H 7920 4670 60  0001 R CNN
+	1    7590 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L NMOSFET_GSD Q10
+U 1 1 4AB992E2
+P 7085 4400
+F 0 "Q10" H 7085 4160 60  0000 R CNN
+F 1 "NMOSFET_GSD" H 7415 4670 60  0001 R CNN
+	1    7085 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L NMOSFET_GSD Q9
+U 1 1 4AB992E0
+P 6605 4400
+F 0 "Q9" H 6605 4160 60  0000 R CNN
+F 1 "NMOSFET_GSD" H 6935 4670 60  0001 R CNN
+	1    6605 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L NMOSFET_GSD Q8
+U 1 1 4AB992D1
+P 8010 3075
+F 0 "Q8" H 8010 2835 60  0000 R CNN
+F 1 "NMOSFET_GSD" H 8340 3345 60  0001 R CNN
+	1    8010 3075
+	1    0    0    -1  
+$EndComp
+$Comp
+L NMOSFET_GSD Q7
+U 1 1 4AB992CC
+P 7580 3075
+F 0 "Q7" H 7580 2835 60  0000 R CNN
+F 1 "NMOSFET_GSD" H 7910 3345 60  0001 R CNN
+	1    7580 3075
+	1    0    0    -1  
+$EndComp
+$Comp
+L NMOSFET_GSD Q6
+U 1 1 4AB992C9
+P 7090 3075
+F 0 "Q6" H 7090 2835 60  0000 R CNN
+F 1 "NMOSFET_GSD" H 7420 3345 60  0001 R CNN
+	1    7090 3075
+	1    0    0    -1  
+$EndComp
+$Comp
+L NMOSFET_GSD Q5
+U 1 1 4AB992C7
+P 6600 3075
+F 0 "Q5" H 6600 2835 60  0000 R CNN
+F 1 "NMOSFET_GSD" H 6930 3345 60  0001 R CNN
+	1    6600 3075
+	1    0    0    -1  
+$EndComp
+$Comp
+L NMOSFET_GSD Q4
+U 1 1 4AB992C4
+P 8010 1810
+F 0 "Q4" H 8010 1570 60  0000 R CNN
+F 1 "NMOSFET_GSD" H 8340 2080 60  0001 R CNN
+	1    8010 1810
+	1    0    0    -1  
+$EndComp
+$Comp
+L NMOSFET_GSD Q3
+U 1 1 4AB992C2
+P 7565 1810
+F 0 "Q3" H 7565 1570 60  0000 R CNN
+F 1 "NMOSFET_GSD" H 7895 2080 60  0001 R CNN
+	1    7565 1810
+	1    0    0    -1  
+$EndComp
+$Comp
+L NMOSFET_GSD Q2
+U 1 1 4AB992C0
+P 7090 1810
+F 0 "Q2" H 7090 1570 60  0000 R CNN
+F 1 "NMOSFET_GSD" H 7420 2080 60  0001 R CNN
+	1    7090 1810
+	1    0    0    -1  
+$EndComp
+$Comp
+L NMOSFET_GSD Q1
+U 1 1 4AB992BE
+P 6600 1810
+F 0 "Q1" H 6600 1570 60  0000 R CNN
+F 1 "NMOSFET_GSD" H 6930 2080 60  0001 R CNN
+	1    6600 1810
+	1    0    0    -1  
+$EndComp
+$Comp
+L VAR_R R1
+U 1 1 4AB99057
+P 6200 6245
+F 0 "R1" V 6280 6245 50  0000 C CNN
+F 1 "10k" V 6200 6245 50  0000 C CNN
+	1    6200 6245
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR015
+U 1 1 4AB99042
+P 6200 6645
+F 0 "#PWR015" H 6200 6645 30  0001 C CNN
+F 1 "GND" H 6200 6575 30  0000 C CNN
+	1    6200 6645
+	1    0    0    -1  
+$EndComp
+$Comp
+L PHOTORESISTOR F16
+U 1 1 4AB98F1A
+P 8150 5000
+F 0 "F16" V 8230 5000 50  0000 C CNN
+F 1 "PHOTORESISTOR" V 8150 5000 30  0000 C CNN
+F 4 "Jameco 202403" V 8310 5015 60  0001 C CNN "Field1"
+	1    8150 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L PHOTORESISTOR F15
+U 1 1 4AB98F18
+P 7690 5000
+F 0 "F15" V 7770 5000 50  0000 C CNN
+F 1 "PHOTORESISTOR" V 7690 5000 30  0000 C CNN
+F 4 "Jameco 202403" V 7850 5015 60  0001 C CNN "Field1"
+	1    7690 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L PHOTORESISTOR F14
+U 1 1 4AB98F16
+P 7190 5000
+F 0 "F14" V 7270 5000 50  0000 C CNN
+F 1 "PHOTORESISTOR" V 7190 5000 30  0000 C CNN
+F 4 "Jameco 202403" V 7350 5015 60  0001 C CNN "Field1"
+	1    7190 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L PHOTORESISTOR F13
+U 1 1 4AB98F14
+P 6710 5000
+F 0 "F13" V 6790 5000 50  0000 C CNN
+F 1 "PHOTORESISTOR" V 6710 5000 30  0000 C CNN
+F 4 "Jameco 202403" V 6870 5015 60  0001 C CNN "Field1"
+	1    6710 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L PHOTORESISTOR F12
+U 1 1 4AB98F11
+P 8120 3795
+F 0 "F12" V 8200 3795 50  0000 C CNN
+F 1 "PHOTORESISTOR" V 8120 3795 30  0000 C CNN
+F 4 "Jameco 202403" V 8280 3810 60  0001 C CNN "Field1"
+	1    8120 3795
+	1    0    0    -1  
+$EndComp
+$Comp
+L PHOTORESISTOR F11
+U 1 1 4AB98F0E
+P 7690 3795
+F 0 "F11" V 7770 3795 50  0000 C CNN
+F 1 "PHOTORESISTOR" V 7690 3795 30  0000 C CNN
+F 4 "Jameco 202403" V 7850 3810 60  0001 C CNN "Field1"
+	1    7690 3795
+	1    0    0    -1  
+$EndComp
+$Comp
+L PHOTORESISTOR F10
+U 1 1 4AB98F0B
+P 7185 3795
+F 0 "F10" V 7265 3795 50  0000 C CNN
+F 1 "PHOTORESISTOR" V 7185 3795 30  0000 C CNN
+F 4 "Jameco 202403" V 7345 3810 60  0001 C CNN "Field1"
+	1    7185 3795
+	1    0    0    -1  
+$EndComp
+$Comp
+L PHOTORESISTOR F9
+U 1 1 4AB98F09
+P 6705 3795
+F 0 "F9" V 6785 3795 50  0000 C CNN
+F 1 "PHOTORESISTOR" V 6705 3795 30  0000 C CNN
+F 4 "Jameco 202403" V 6865 3810 60  0001 C CNN "Field1"
+	1    6705 3795
+	1    0    0    -1  
+$EndComp
+$Comp
+L PHOTORESISTOR F8
+U 1 1 4AB98F06
+P 8110 2505
+F 0 "F8" V 8190 2505 50  0000 C CNN
+F 1 "PHOTORESISTOR" V 8110 2505 30  0000 C CNN
+F 4 "Jameco 202403" V 8270 2520 60  0001 C CNN "Field1"
+	1    8110 2505
+	1    0    0    -1  
+$EndComp
+$Comp
+L PHOTORESISTOR F7
+U 1 1 4AB98F04
+P 7680 2505
+F 0 "F7" V 7760 2505 50  0000 C CNN
+F 1 "PHOTORESISTOR" V 7680 2505 30  0000 C CNN
+F 4 "Jameco 202403" V 7840 2520 60  0001 C CNN "Field1"
+	1    7680 2505
+	1    0    0    -1  
+$EndComp
+$Comp
+L PHOTORESISTOR F6
+U 1 1 4AB98F02
+P 7190 2505
+F 0 "F6" V 7270 2505 50  0000 C CNN
+F 1 "PHOTORESISTOR" V 7190 2505 30  0000 C CNN
+F 4 "Jameco 202403" V 7350 2520 60  0001 C CNN "Field1"
+	1    7190 2505
+	1    0    0    -1  
+$EndComp
+$Comp
+L PHOTORESISTOR F5
+U 1 1 4AB98F00
+P 6700 2505
+F 0 "F5" V 6780 2505 50  0000 C CNN
+F 1 "PHOTORESISTOR" V 6700 2505 30  0000 C CNN
+F 4 "Jameco 202403" V 6860 2520 60  0001 C CNN "Field1"
+	1    6700 2505
+	1    0    0    -1  
+$EndComp
+$Comp
+L PHOTORESISTOR F4
+U 1 1 4AB98EFD
+P 8110 1275
+F 0 "F4" V 8190 1275 50  0000 C CNN
+F 1 "PHOTORESISTOR" V 8110 1275 30  0000 C CNN
+F 4 "Jameco 202403" V 8270 1290 60  0001 C CNN "Field1"
+	1    8110 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L PHOTORESISTOR F3
+U 1 1 4AB98EFA
+P 7665 1275
+F 0 "F3" V 7745 1275 50  0000 C CNN
+F 1 "PHOTORESISTOR" V 7665 1275 30  0000 C CNN
+F 4 "Jameco 202403" V 7825 1290 60  0001 C CNN "Field1"
+	1    7665 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L PHOTORESISTOR F2
+U 1 1 4AB98EF6
+P 7190 1275
+F 0 "F2" V 7270 1275 50  0000 C CNN
+F 1 "PHOTORESISTOR" V 7190 1275 30  0000 C CNN
+F 4 "Jameco 202403" V 7350 1290 60  0001 C CNN "Field1"
+	1    7190 1275
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# LVDS_Differential_Receiver
+#
+DEF LVDS_Differential_Receiver U 0 20 Y Y 1 F N
+F0 "U" -75 -360 70 H V C CNN
+F1 "LVDS_Differential_Receiver" 50 325 70 H V C CNN
+F2 "" 430 -725 60 H V C CNN
+F3 "" 430 -725 60 H V C CNN
+DRAW
+T 0 15 -5 60 0 0 0 R  Normal 0 C C
+P 18 0 0 0  -75 45  -45 45  -45 35  -35 30  -50 25  -35 20  -50 15  -35 10  -50 5  -35 0  -50 -5  -35 -10  -50 -15  -35 -20  -50 -25  -40 -30  -40 -45  -75 -45 N
+P 4 0 1 0  -75 160  -75 -160  165 0  -75 160 N
+X VDD 1 -40 255 118 D 39 20 1 1 W
+X GND 2 -40 -255 118 U 39 20 1 1 W
+X IN+ 3 -195 45 118 R 39 20 1 1 I
+X IN- 4 -195 -45 118 R 39 20 1 1 I
+X TTL_OUT 5 280 0 118 L 39 20 1 1 O
+ENDDRAW
+ENDDEF
+#
+#End Library

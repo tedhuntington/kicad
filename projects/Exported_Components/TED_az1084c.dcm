@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AZ1084C
+D LDO Regulator
+K POWER REGUL
+$ENDCMP
+#
+#End Doc Library

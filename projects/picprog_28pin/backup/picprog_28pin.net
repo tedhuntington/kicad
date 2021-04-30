@@ -1,0 +1,245 @@
+# EESchema Netlist Version 1.1 created  Wed 30 Dec 2009 05:23:48 PM PST
+(
+ ( /4B3BFC45 $noname  C11 10uF {Lib=C_POL}
+  (    1 /+5v )
+  (    2 /GND )
+ )
+ ( /4B3BFBC0 $noname  R12 1M {Lib=R}
+  (    1 /OSC1 )
+  (    2 /OSC2 )
+ )
+ ( /4B35A4C0 TED_TERMINAL_3.5MM_2PIN  J8 TERMINAL_3.5MM_PCB_2PIN {Lib=TERMINAL_3.5MM_PCB_2PIN}
+  (    1 /Vin )
+  (    2 /GND )
+ )
+ ( /4B358FCD $noname  D6 12v {Lib=ZENER}
+  (    1 /+12v )
+  (    2 /GND )
+ )
+ ( /4B358FBD $noname  R11 390 {Lib=R}
+  (    1 /Vin )
+  (    2 /+12v )
+ )
+ ( /4B358EF0 $noname  Q1 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 /T1 )
+  (    2 /GND )
+  (    3 /T2 )
+ )
+ ( /4B358EE9 $noname  Q2 NMOSFET_GSD {Lib=NMOSFET_GSD}
+  (    1 /PRG_MCLR )
+  (    2 /GND )
+  (    3 /T1 )
+ )
+ ( /4B358E85 $noname  J7 HEADER_6X1 {Lib=HEADER_6X1}
+  (    1 /PRG_MCLR )
+  (    2 /+5v_usb )
+  (    3 /GND )
+  (    4 /IPSPDAT )
+  (    5 /IPSPCLK )
+  (    6 ? )
+ )
+ ( /4AEDC35C $noname  U7 PIC18F2455 {Lib=PIC18F2455}
+  (    1 /MCLR_PIN )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 /GND )
+  (    9 /OSC1 )
+  (   10 /OSC2 )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+  (   17 ? )
+  (   18 ? )
+  (   19 /GND )
+  (   20 /+5v )
+  (   21 /TestLED )
+  (   22 ? )
+  (   23 ? )
+  (   24 ? )
+  (   25 ? )
+  (   26 ? )
+  (   27 /IPSPCLK )
+  (   28 /IPSPDAT )
+ )
+ ( /4AE59BAD SPDT_Switch  J6 SPDT_Switch {Lib=SPDT_Switch}
+  (    1 /+5v )
+  (    2 /MCLR_PIN )
+  (    3 /T2 )
+ )
+ ( /4AE59B47 $noname  R10 10k {Lib=R}
+  (    1 /+5v )
+  (    2 /T1 )
+ )
+ ( /4ADD1B90 SPDT_Switch  J5 SPDT_Switch {Lib=SPDT_Switch}
+  (    1 /+5v_usb )
+  (    2 /+5v )
+  (    3 /+5v_ext )
+ )
+ ( /4ADD1850 $noname  U6 7805_NO_HS {Lib=7805_NO_HS}
+  (    1 /+12v )
+  (    2 /GND )
+  (    3 /+5v_ext )
+ )
+ ( /4A63BBCD $noname  X2 20MHz {Lib=CRYSTAL}
+  (    1 /OSC1 )
+  (    2 /OSC2 )
+ )
+ ( /4A63BBC6 $noname  C10 18pF {Lib=C}
+  (    1 /OSC2 )
+  (    2 /GND )
+ )
+ ( /4A63BBA9 $noname  C9 18pF {Lib=C}
+  (    1 /OSC1 )
+  (    2 /GND )
+ )
+ ( /4A63B974 $noname  R9 560 {Lib=R}
+  (    1 N-000005 )
+  (    2 /GND )
+ )
+ ( /4A63B971 $noname  D5 LED {Lib=LED}
+  (    1 /TestLED )
+  (    2 N-000005 )
+ )
+ ( /4A63A46A TED_CONNECTOR_POWER_2.5mm  J3 DC_2.5mm_PCB {Lib=DC_2.5mm_PCB}
+  (    1 /Vin )
+  (    2 /GND )
+ )
+ ( /4A63A2B6 $noname  R6 10k {Lib=R}
+  (    1 /+12v )
+  (    2 /T2 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+$endlist
+$component D6
+ D?
+ SO*
+ SM*
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+$endlist
+$component D5
+ D?
+ S*
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "/+5v" "+5v"
+ C11 1
+ U7 20
+ J6 1
+ R10 1
+ J5 2
+Net 2 "/GND" "GND"
+ C11 2
+ J8 2
+ D6 2
+ Q1 2
+ Q2 2
+ J7 3
+ U7 19
+ U7 8
+ U6 2
+ C10 2
+ C9 2
+ R9 2
+ J3 2
+Net 5 "" ""
+ R9 1
+ D5 2
+Net 6 "/T1" "T1"
+ Q1 1
+ Q2 3
+ R10 2
+Net 7 "/T2" "T2"
+ Q1 3
+ J6 3
+ R6 2
+Net 8 "/PRG_MCLR" "PRG_MCLR"
+ Q2 1
+ J7 1
+Net 10 "/OSC2" "OSC2"
+ R12 2
+ U7 10
+ X2 2
+ C10 1
+Net 11 "/OSC1" "OSC1"
+ R12 1
+ U7 9
+ X2 1
+ C9 1
+Net 30 "/Vin" "Vin"
+ J8 1
+ R11 1
+ J3 1
+Net 31 "/MCLR_PIN" "MCLR_PIN"
+ U7 1
+ J6 2
+Net 32 "/+5v_ext" "+5v_ext"
+ J5 3
+ U6 3
+Net 33 "/+5v_usb" "+5v_usb"
+ J7 2
+ J5 1
+Net 34 "/+12v" "+12v"
+ D6 1
+ R11 2
+ U6 1
+ R6 1
+Net 35 "/TestLED" "TestLED"
+ U7 21
+ D5 1
+Net 36 "/IPSPDAT" "IPSPDAT"
+ J7 4
+ U7 28
+Net 37 "/IPSPCLK" "IPSPCLK"
+ J7 5
+ U7 27
+}
+#End

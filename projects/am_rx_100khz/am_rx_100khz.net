@@ -1,0 +1,132 @@
+# EESchema Netlist Version 1.1 created  Sun 28 Mar 2010 01:36:39 AM PDT
+(
+ ( /4BAC642F TED_SM3216-18_POL C1 10uF
+  ( 1 N-000007 )
+  ( 2 GND )
+ )
+ ( /4BAEF19F TED_SM0805 C2 10uF
+  ( 1 N-000010 )
+  ( 2 N-000006 )
+ )
+ ( /4BAEF1A2 TED_SM0805 C3 10uF
+  ( 1 N-000006 )
+  ( 2 GND )
+ )
+ ( /4BAEEEE3 TED_SM0805 C4 .1uF
+  ( 1 N-000001 )
+  ( 2 N-000005 )
+ )
+ ( /4BAF0F11 TED_SM0805 C5 .01uF
+  ( 1 N-000002 )
+  ( 2 GND )
+ )
+ ( /4BAEEE45 TED_SOD-80_Minimelf D1 DIODE
+  ( 1 N-000005 )
+  ( 2 GND )
+ )
+ ( /4B491031 TED_TERMINAL_3.5MM_2PIN J1 TERMINAL_3.5MM_PCB_2PIN
+  ( 1 ? )
+  ( 2 N-000010 )
+ )
+ ( /4BAC0857 TED_DC_2.1mm J2 DC_2.1mm
+  ( 1 N-000007 )
+  ( 2 GND )
+ )
+ ( /4BAC5A70 TED_3.5_Stereo_ASJ-5-3 J3 3.5_STEREO
+  ( 1 N-000001 )
+  ( 2 N-000002 )
+  ( 3 N-000002 )
+ )
+ ( /4BAEF300 TED_VAR_INDUCTOR L1 .56-.80uH
+  ( 1 N-000010 )
+  ( 2 GND )
+ )
+ ( /4BAEF17B TED_TO-18 Q1 BJT_N_TYPE
+  ( 1 GND )
+  ( 2 N-000010 )
+  ( 3 N-000003 )
+ )
+ ( /4BAC2CFD TED_TO-18 Q2 BJT_N_TYPE
+  ( 1 GND )
+  ( 2 N-000003 )
+  ( 3 N-000004 )
+ )
+ ( /4BAF0903 TED_SM0805 R1 10k
+  ( 1 N-000007 )
+  ( 2 N-000010 )
+ )
+ ( /4BAF0908 TED_SM0805 R2 2k
+  ( 1 N-000010 )
+  ( 2 GND )
+ )
+ ( /4BAEF17C TED_SM0805 R3 100
+  ( 1 N-000007 )
+  ( 2 N-000003 )
+ )
+ ( /4BAC207A TED_SM0805 R4 100
+  ( 1 N-000007 )
+  ( 2 N-000004 )
+ )
+ ( /4BAF0EE9 TED_SM0805 R5 300
+  ( 1 N-000002 )
+  ( 2 N-000004 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}

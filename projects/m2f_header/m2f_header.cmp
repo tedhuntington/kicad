@@ -1,0 +1,17 @@
+Cmp-Mod V01 Created by CvPcb (2013-08-24 BZR 4298)-stable date = Thu 21 Nov 2013 07:44:58 PM PST
+
+BeginCmp
+TimeStamp = /528ED30F;
+Reference = J1;
+ValeurCmp = HEADER_10X2;
+IdModule  = TED_HEADER_10x2_TOP_SIDE;
+EndCmp
+
+BeginCmp
+TimeStamp = /5277C82A;
+Reference = J2;
+ValeurCmp = HEADER_10X2;
+IdModule  = TED_HEADER_10x2_BOTTOM_SIDE;
+EndCmp
+
+EndListe

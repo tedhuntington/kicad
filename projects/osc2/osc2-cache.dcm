@@ -1,0 +1,37 @@
+EESchema-DOCLIB  Version 2.0  Tue 16 Jun 2009 08:11:47 PM PDT
+#
+$CMP 74VHC574
+D 8 bits Register, 3 state Out
+K TTL REG DFF DFF8 3State
+$ENDCMP
+#
+$CMP C
+D Condensateur non polarise
+$ENDCMP
+#
+$CMP C(small)
+D Condensateur non polarise
+$ENDCMP
+#
+$CMP OPA353
+D Op amp.
+K AmpliOp
+F ../docs/opa353
+$ENDCMP
+#
+$CMP R
+D Resistance
+K R DEV
+$ENDCMP
+#
+$CMP TLC5510A
+D DAC (4 outputs)
+K DAC CAN
+$ENDCMP
+#
+$CMP ZENER
+D Diode zener
+K DEV DIODE
+$ENDCMP
+#
+#End Doc Library

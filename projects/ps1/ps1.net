@@ -1,0 +1,16 @@
+# EESchema Netlist Version 1.1 created  Thu 25 Mar 2010 06:12:25 PM PDT
+(
+ ( /4B491031 TED_TERMINAL_3.5MM_2PIN J8 TERMINAL_3.5MM_PCB_2PIN
+  ( 1 N-000001 )
+  ( 2 N-000002 )
+ )
+ ( /4BAC0890 TED_JMP_2x1 J9 JUMPER_2X1
+  ( 1 N-000002 )
+  ( 2 N-000001 )
+ )
+ ( /4BAC0857 TED_DC_2.1mm J10 DC_2.1mm
+  ( 1 N-000002 )
+  ( 2 N-000001 )
+ )
+)
+*

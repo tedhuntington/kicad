@@ -1,0 +1,22 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; 
+charset=UTF-8"><meta http-equiv="Last-Modified" content="Sun, 22 Aug 
+2010 23:54:57 GMT"><meta http-equiv="Expires" content="Mon, 22 Aug 2011 
+23:54:57 GMT"></head><body id="body"><script type="text/javascript" src="led_hkje_files/SYS-RA_vjo_e68111684369_1_en_US.js"></script><script type="text/javascript">vjo.dsf.error.ErrorHandlerManager.register(new vjo.dsf.error.DefaultErrorHandler());
+vjo.dsf.error.ErrorHandlerManager.enableOnError(true);
+</script><script>
+vjo.ctype('vjo.darwin.pres.buying.cmp.userdescription.UserDescriptionCheckMessages').needs('vjo.dsf.EventDispatcher').props({checkMessages:function(){var hash=window.location.hash;var tId;if(hash!==null||hash!==""||hash!=="undefined"){var cmp=parent.parent.vjo.Registry.get("UserDescription");if(cmp){if(hash!=="#bl"){if(tId){window.clearTimeout(tId);}
+cmp.updateAegis(hash);}else{if(tId){window.clearTimeout(tId);}
+cmp.updateStatus();}}else{tId=window.setTimeout(vjo.hitch(this,this.checkMessages),1000);}}}}).inits(function(){vjo.dsf.EventDispatcher.addEventListener(window,"load",function(){vjo.darwin.pres.buying.cmp.userdescription.UserDescriptionCheckMessages.checkMessages();});}).endType();
+</script><!--ud.re`j5671,RcmdId ViewItemDescV4,RlogId p4%60bo7%60jtb9%3Fud.re%60j5671-12a9dba7648--><script type="text/javascript">
+vjo.ctype("vjo.darwin.tracking.sojourner.SojData").props({sojD:null}).endType();
+
+
+vjo.ctype("vjo.darwin.tracking.sojourner.CalData").props({setData:function(svcId,data){if(!svcId||!data){return;}
+this.cal[svcId]=data;},getData:function(svcId){if(svcId){return this.cal[svcId];}}}).inits(function(){this.cal={};}).endType();
+
+
+vjo.ctype("vjo.darwin.tracking.sojourner.TrackingRespHdl").needs(["vjo.darwin.tracking.sojourner.SojData","vjo.darwin.tracking.sojourner.CalData"]).props({handleResponse:function(msg){if(msg.errors&&msg.errors.length>0){this.vj$.SojData.sojD="";}
+if(msg.response&&msg.response.dataMap&&msg.response.dataMap.SOJDATA){this.vj$.SojData.sojD=msg.response.dataMap.SOJDATA;}
+if(msg.response&&msg.response.dataMap&&msg.response.dataMap.TDATA){this.vj$.CalData.setData(msg.svcId,msg.response.dataMap.TDATA);}}}).endType();
+
+</script></body></html>

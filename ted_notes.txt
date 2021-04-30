@@ -1,0 +1,56 @@
+to make BOM:
+click on BOM
+copy and paste python command in "Command Line:"
+(note do not use ~ for home path- needs to be absolute path)
+click on "Generate"
+to view open browser to file:////home/tedh/kicad/projects/EthAccelTouchGPS_rev04/EthAccelTouchGPS_rev04_BOM.xml
+
+python /home/tedh/kicad/scripts/bom-in-python/ky/bom_example_ted.py /home/tedh/kicad/projects/accelgyro_mpu6050_rev01/accelgyro_mpu6050_rev01.xml /home/tedh/kicad/projects/accelgyro_mpu6050_rev01/accelgyro_mpu6050_rev01_BOM.xml
+
+python /home/tedh/kicad/scripts/bom-in-python/ky/bom_example_ted.py /home/tedh/kicad/projects/EthAccelTouchGPS_rev04/EthAccelTouchGPS_rev04.xml /home/tedh/kicad/projects/EthAccelTouchGPS_rev04/EthAccelTouchGPS_rev04_BOM.xml
+
+python /home/ted/kicad/scripts/bom-in-python/ky/bom_example_ted.py /home/ted/kicad/projects/accelmag_FXOS8700CQR1_rev01/accelmag_FXOS8700CQR1_rev01.xml /home/ted/kicad/projects/accelmag_FXOS8700CQR1_rev01/accelmag_FXOS8700CQR1_rev01_BOM.xml
+
+
+python /home/ted/kicad/scripts/bom-in-python/ky/bom_example_ted.py /home/ted/kicad/projects/EthPower_rev03/EthPower_rev03.xml /home/ted/kicad/projects/EthPower_rev03/EthPower_rev03_BOM.xml
+
+
+name plugin "csv" and enter in Command line:
+python /home/ted/kicad/scripts/bom-in-python/ky/bom_example_ted.py /home/ted/kicad/projects/ethernet_PIC32MX664F064H/ethernet_PIC32MX664F064H.xml /home/ted/kicad/projects/ethernet_PIC32MX664F064H/ethernet_PIC32MX664F064H_BOM.xml
+click "Generate" (to make the .csv file)
+
+
+name plugin "csv" and enter in Command line:
+python /home/ted/kicad/scripts/bom-in-python/ky/bom_example_ted.py /home/ted/kicad/projects/melzisquare_rev02/melzisquare_rev02.xml /home/ted/kicad/projects/melzisquare_rev02/melzisquare_rev02_BOM.xml
+
+Win:
+python c:\temparea\ted\kicad\scripts\bom-in-python\ky\bom_example_ted.py c:\temparea\ted\kicad\projects\melzisquare_rev02\melzisquare_rev02.xml c:\temparea\ted\kicad\projects\melzisquare_rev02\melzisquare_rev02_BOM.xml
+
+earlier versions:
+click on Add Plugin: 
+name plugin "csv" and enter in Command line:
+python /home/ted/kicad/scripts/bom-in-python/ky/bom_example5.py /home/ted/kicad/projects/ethernet_PIC32MX664F064H/ethernet_PIC32MX664F064H.xml /home/ted/kicad/projects/ethernet_PIC32MX664F064H/ethernet_PIC32MX664F064H_BOM.xml
+click "Generate" (to make the .csv file)
+
+click on Add Plugin:
+name plugin "python" and enter in Command line:
+python /home/ted/kicad/scripts/bom-in-python/ky/bom_example5.py /home/ted/kicad/projects/ethernet_PIC32MX664F064H/ethernet_PIC32MX664F064H.xml /home/ted/kicad/projects/ethernet_PIC32MX664F064H/ethernet_PIC32MX664F064H_BOM.xml
+click "Generate" (to make the .xml file)
+
+
+xsltproc -o ./ethernet_BOM.csv /usr/local/lib/kicad/plugins/bom2csv.xsl ./ethernet_PIC32MX664F064H.xml
+with full path:
+xsltproc -o /home/ted/kicad/projects/ethernet_PIC32MX664F064H/ethernet_PIC32MX664F064H.csv /usr/local/lib/kicad/plugins/bom2csv.xsl /home/ted/kicad/projects/ethernet_PIC32MX664F064H/ethernet_PIC32MX664F064H.xml
+
+
+also for an xml - groups components:
+python /home/ted/kicad/scripts/bom-in-python/ky/bom_example5.py /home/ted/kicad/projects/ethernet_PIC32MX664F064H/ethernet_PIC32MX664F064H.xml /home/ted/kicad/projects/ethernet_PIC32MX664F064H/ethernet_PIC32MX664F064H_BOM.xml
+
+todo:
+make format similar to Microchip format:
+
+(DNP-is apparently do not place)
+see TCPIP reference design BOM
+
+DNP,Qty,Description,Reference,Footprint,Mfgr,Mfgr PN, Dist, Dist PN, ROHS?
+

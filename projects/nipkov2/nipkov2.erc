@@ -1,0 +1,17 @@
+ERC control (Sat 02 May 2009 10:54:20 PM PDT)
+
+***** Sheet / (Root) 
+ERC: Warning Pin power_in not driven (Net 29) (X= 5.295 inches, Y= 5.065 inches
+ERC: Warning Pin power_in not driven (Net 27) (X= 1.550 inches, Y= 4.145 inches
+ERC: Warning Pin passive not driven (Net 23) (X= 5.765 inches, Y= 2.395 inches
+ERC: Warning Pin power_in not driven (Net 18) (X= 6.285 inches, Y= 5.130 inches
+ERC: Warning Pin power_in not driven (Net 17) (X= 6.125 inches, Y= 3.080 inches
+ERC: Warning Pin passive not driven (Net 15) (X= 4.000 inches, Y= 6.400 inches
+ERC: Warning Pin input not driven (Net 13) (X= 1.450 inches, Y= 5.750 inches
+ERC: Warning Pin power_in not driven (Net 12) (X= 1.850 inches, Y= 5.935 inches
+ERC: Warning Pin power_in not driven (Net 9) (X= 2.390 inches, Y= 4.845 inches
+ERC: Warning Pin power_in not driven (Net 6) (X= 5.995 inches, Y= 3.880 inches
+ERC: Warning Pin power_in not driven (Net 4) (X= 6.220 inches, Y= 6.615 inches
+ERC: Warning Pin power_in not driven (Net 2) (X= 2.945 inches, Y= 6.555 inches
+
+ >> Errors ERC: 12

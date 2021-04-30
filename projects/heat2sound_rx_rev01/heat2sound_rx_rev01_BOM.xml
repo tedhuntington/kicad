@@ -1,0 +1,20 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>heat2sound_rx_rev01 BOM</title>
+</head>
+<body>
+<h1>heat2sound_rx_rev01</h1>
+<h2></h2>
+<p>Mon 07 Sep 2020 10:16:13 PM PDT</p>
+<p>Eeschema 5.1.5-52549c5~86~ubuntu18.04.1</p>
+<p><b>Component Count:</b>24</p>
+<table>
+<tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th></tr><tr><td>C1, </td><td>1</td><td>.1uF</td><td>capacitors:SM0603_C</td></tr><tr><td>C3, </td><td>1</td><td>1uF</td><td>capacitors:SM0603_C</td></tr><tr><td>C4, C2, </td><td>2</td><td>1uF</td><td>capacitors:SM0603_C</td></tr><tr><td>C6, C5, </td><td>2</td><td>220pF</td><td>capacitors:SM0603_C</td></tr><tr><td>FB2, FB1, </td><td>2</td><td>ferrite_bead</td><td>resistors:SM0603_R</td></tr><tr><td>J1, </td><td>1</td><td>TERMINAL_3.5MM_PCB_2PIN</td><td>connectors:HEADER_2x1</td></tr><tr><td>J2, </td><td>1</td><td>DC_2.1mm</td><td>connectors:2.1mm_DC_SMD</td></tr><tr><td>J3, </td><td>1</td><td>JUMPER_3X1</td><td>connectors:HEADER_3x1</td></tr><tr><td>J4, J6, </td><td>2</td><td>TERMINAL_3.5MM_PCB_2PIN</td><td>connectors:TERMINAL_3.5MM_2PIN</td></tr><tr><td>J5, </td><td>1</td><td>3.5_STEREO</td><td>connectors:3.5_Stereo_STX-3150-3N-1</td></tr><tr><td>R1, </td><td>1</td><td>100</td><td>resistors:SM0603_R</td></tr><tr><td>R3, </td><td>1</td><td>10k</td><td>resistors:SM0603_R</td></tr><tr><td>R4, R2, </td><td>2</td><td>100k</td><td>resistors:SM0603_R</td></tr><tr><td>R5, </td><td>1</td><td>1K</td><td>resistors:SM0603_R</td></tr><tr><td>R6, </td><td>1</td><td>100</td><td>resistors:SM0603_R</td></tr><tr><td>S1, </td><td>1</td><td>THERMOPILE_MLX90247</td><td>connectors:HEADER_2x2_THERMO</td></tr><tr><td>U1, </td><td>1</td><td>MCP6V02</td><td>ICs:SOIC-8</td></tr><tr><td>U2, </td><td>1</td><td>MIC</td><td>connectors:HEADER_2x1</td></tr><tr><td>U3, </td><td>1</td><td>PAM8302A</td><td>Package_SO:MSOP-8_3x3mm_P0.65mm</td></tr><!--TABLEROW-->
+</table>
+</body>
+</html>
+

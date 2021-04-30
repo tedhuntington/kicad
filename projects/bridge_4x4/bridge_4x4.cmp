@@ -1,0 +1,31 @@
+Cmp-Mod V01 Created by Cvpcb (20090530 SVN-R1798) date = Sun 27 Sep 2009 09:47:12 AM PDT
+
+BeginCmp
+TimeStamp = /4ABB36DF;
+Reference = J1;
+ValeurCmp = IDE_10x2;
+IdModule  = TED_IDE_10x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4ABF9492;
+Reference = J2;
+ValeurCmp = JUMPER_2X1;
+IdModule  = TED_JMP_2x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4ABF9435;
+Reference = J3;
+ValeurCmp = HEADER_8X1;
+IdModule  = TED_HEADER_8x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4ABF942A;
+Reference = J4;
+ValeurCmp = HEADER_8X1;
+IdModule  = TED_HEADER_8x1;
+EndCmp
+
+EndListe

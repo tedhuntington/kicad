@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name lit2snd_tx-rescue)(type Legacy)(uri ${KIPRJMOD}/lit2snd_tx-rescue.lib)(options "")(descr ""))
+)

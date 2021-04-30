@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0  Sun 30 Aug 2009 10:02:05 PM PDT
+#
+$CMP C
+D Condensateur non polarise
+$ENDCMP
+#
+$CMP Regulator_2.8V
+D Linear Regulator +5V
+K POWER REGUL
+F regulator/lm78*.*
+$ENDCMP
+#
+#End Doc Library

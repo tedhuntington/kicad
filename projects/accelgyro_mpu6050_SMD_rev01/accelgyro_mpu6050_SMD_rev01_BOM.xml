@@ -1,0 +1,20 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>accelgyro_mpu6050_SMD_rev01 BOM</title>
+</head>
+<body>
+<h1>accelgyro_mpu6050_SMD_rev01</h1>
+<h2></h2>
+<p>Sun 23 Jul 2017 10:05:59 AM PDT</p>
+<p>Eeschema 4.0.6-e0-6349~53~ubuntu16.04.1</p>
+<p><b>Component Count:</b>9</p>
+<table>
+<tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th></tr><tr><td>C1, </td><td>1</td><td>10nF</td><td>capacitors:SM0603_C</td></tr><tr><td>C2, </td><td>1</td><td>2.2nF</td><td>capacitors:SM0603_C</td></tr><tr><td>C3, </td><td>1</td><td>4.7uF</td><td>capacitors:SM3216_1206_ELEC_C</td></tr><tr><td>C4, C5, </td><td>2</td><td>.1uF</td><td>capacitors:SM0603_C</td></tr><tr><td>H1, H2, </td><td>2</td><td>HOLE</td><td>holes:Hole_2_6mm</td></tr><tr><td>U1, </td><td>1</td><td>MPU-6050</td><td>ICs:QFN24+1_NO_PASTE</td></tr><tr><td>U2, </td><td>1</td><td>RJ12</td><td>connectors:RJ12_855135002</td></tr><!--TABLEROW-->
+</table>
+</body>
+</html>
+

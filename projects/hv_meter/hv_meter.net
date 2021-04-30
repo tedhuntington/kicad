@@ -1,0 +1,114 @@
+# EESchema Netlist Version 1.1 created  Sat 28 Aug 2010 05:28:44 PM PDT
+(
+ ( /4C54BCB9 TED_TERMINAL_3.5MM_2PIN J1 TRM_3.5MM_2P
+  ( 1 GND )
+  ( 2 N-000011 )
+ )
+ ( /4C54BF07 TED_TERMINAL_3.5MM_2PIN J2 TRM_3.5MM_2P
+  ( 1 N-000012 )
+  ( 2 GND )
+ )
+ ( /4C54BD09 TED_axial_resistor_halfwatt R1 7.5M
+  ( 1 N-000010 )
+  ( 2 N-000011 )
+ )
+ ( /4C54BDD5 TED_axial_resistor_halfwatt R2 7.5M
+  ( 1 N-000004 )
+  ( 2 N-000003 )
+ )
+ ( /4C54BDD7 TED_axial_resistor_halfwatt R3 7.5M
+  ( 1 N-000002 )
+  ( 2 N-000003 )
+ )
+ ( /4C54BDB5 TED_axial_resistor_halfwatt R4 7.5M
+  ( 1 N-000009 )
+  ( 2 N-000010 )
+ )
+ ( /4C54BDD4 TED_axial_resistor_halfwatt R5 7.5M
+  ( 1 N-000006 )
+  ( 2 N-000004 )
+ )
+ ( /4C54BDD8 TED_axial_resistor_halfwatt R6 7.5M
+  ( 1 N-000012 )
+  ( 2 N-000002 )
+ )
+ ( /4C54BDE2 TED_axial_resistor R7 7.5k
+  ( 1 GND )
+  ( 2 N-000012 )
+ )
+ ( /4C54BDC6 TED_axial_resistor_halfwatt R8 7.5M
+  ( 1 N-000008 )
+  ( 2 N-000009 )
+ )
+ ( /4C54BDD2 TED_axial_resistor_halfwatt R9 7.5M
+  ( 1 N-000005 )
+  ( 2 N-000006 )
+ )
+ ( /4C54BDC5 TED_axial_resistor_halfwatt R10 7.5M
+  ( 1 N-000007 )
+  ( 2 N-000008 )
+ )
+ ( /4C54BDD3 TED_axial_resistor_halfwatt R11 7.5M
+  ( 1 N-000007 )
+  ( 2 N-000005 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}

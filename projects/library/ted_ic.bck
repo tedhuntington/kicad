@@ -1,0 +1,200 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74HC540
+D 8 bits Register, 3 state Out
+K TTL REG DFF DFF8 3State
+$ENDCMP
+#
+$CMP 74VHC154
+D 8 bits Register, 3 state Out
+K TTL REG DFF DFF8 3State
+$ENDCMP
+#
+$CMP 74VHC573
+D 8 bits Register, 3 state Out
+K TTL REG DFF DFF8 3State
+$ENDCMP
+#
+$CMP 74VHC574
+D 8 bits Register, 3 state Out
+K TTL REG DFF DFF8 3State
+$ENDCMP
+#
+$CMP AD8628
+D Op amp.
+K AmpliOp
+F ../docs/opa353
+$ENDCMP
+#
+$CMP AD8629
+D Op amp.
+K AmpliOp
+F ../docs/opa353
+$ENDCMP
+#
+$CMP AP3012
+F ns/lm555.pdf
+$ENDCMP
+#
+$CMP AP3429_A
+F ns/lm555.pdf
+$ENDCMP
+#
+$CMP ATSAME53J20A-AU
+D TQFP64, 1M Flash, 256K RAM, 120MHz, CortexM4
+K ARM 32bit Microcontroller 120MHz CortexM4
+F http://ww1.microchip.com/downloads/en/DeviceDoc/SAM-D5xE5x-Family-Datasheet-01507B.pdf
+$ENDCMP
+#
+$CMP ATSAME53N20A-AU
+D TQFP100, 1M Flash, 256K RAM, 120MHz, CortexM4
+K ARM 32bit Microcontroller 120MHz CortexM4
+F http://ww1.microchip.com/downloads/en/DeviceDoc/SAM-D5xE5x-Family-Datasheet-01507B.pdf
+$ENDCMP
+#
+$CMP ATSAME54P20A-AU
+D TQFP100, 1M Flash, 256K RAM, 120MHz, CortexM4
+K ARM 32bit Microcontroller 120MHz CortexM4
+F http://ww1.microchip.com/downloads/en/DeviceDoc/SAM-D5xE5x-Family-Datasheet-01507B.pdf
+$ENDCMP
+#
+$CMP BME280
+F ns/lm555.pdf
+$ENDCMP
+#
+$CMP DHT22_AM2303
+F ns/lm555.pdf
+$ENDCMP
+#
+$CMP FAN7382
+F ns/lm555.pdf
+$ENDCMP
+#
+$CMP HIP4081A
+F ns/lm555.pdf
+$ENDCMP
+#
+$CMP LM2596-12
+D Switch mode voltage regulator
+$ENDCMP
+#
+$CMP LM2596-3.3
+D Switch mode voltage regulator
+$ENDCMP
+#
+$CMP LM358
+D Op amp.
+K AmpliOp
+F ../docs/opa353
+$ENDCMP
+#
+$CMP LTC4414
+F ns/lm555.pdf
+$ENDCMP
+#
+$CMP MCP6V02
+D Op amp.
+K AmpliOp
+F ../docs/opa353
+$ENDCMP
+#
+$CMP MCP73113
+D Op amp.
+K AmpliOp
+F ../docs/opa353
+$ENDCMP
+#
+$CMP MCP7940N
+F ns/lm555.pdf
+$ENDCMP
+#
+$CMP NE555
+F ns/lm555.pdf
+$ENDCMP
+#
+$CMP NE556
+F ns/lm555.pdf
+$ENDCMP
+#
+$CMP NJM2073
+F ns/lm555.pdf
+$ENDCMP
+#
+$CMP OPA353
+D Op amp.
+K AmpliOp
+F ../docs/opa353
+$ENDCMP
+#
+$CMP SAMD20G14A-AU
+D TQFP48, 16K Flash, 2K RAM, 48MHz, CortexM0+
+K ARM 32bit Microcontroller 48MHz CortexM0+
+F http://www.atmel.com/Images/Atmel-42129-SAM-D20_Datasheet.pdf
+$ENDCMP
+#
+$CMP SAMD20G15A-AU
+D TQFP48, 32K Flash, 4K RAM, 48MHz, CortexM0+
+K ARM 32bit Microcontroller 48MHz CortexM0+
+F http://www.atmel.com/Images/Atmel-42129-SAM-D20_Datasheet.pdf
+$ENDCMP
+#
+$CMP SAMD20G16A-AU
+D TQFP48, 64K Flash, 8K RAM, 48MHz, CortexM0+
+K ARM 32bit Microcontroller 48MHz CortexM0+
+F http://www.atmel.com/Images/Atmel-42129-SAM-D20_Datasheet.pdf
+$ENDCMP
+#
+$CMP SAMD20G17A-AU
+D TQFP48, 128K Flash, 16K RAM, 48MHz, CortexM0+
+K ARM 32bit Microcontroller 48MHz CortexM0+
+F http://www.atmel.com/Images/Atmel-42129-SAM-D20_Datasheet.pdf
+$ENDCMP
+#
+$CMP SAMD20G18A-AU
+D TQFP48, 256K Flash, 32K RAM, 48MHz, CortexM0+
+K ARM 32bit Microcontroller 48MHz CortexM0+
+F http://www.atmel.com/Images/Atmel-42129-SAM-D20_Datasheet.pdf
+$ENDCMP
+#
+$CMP SAME54N20A-AU
+D TQFP100, 1M Flash, 256K RAM, 120MHz, CortexM4F
+K ARM 32bit Microcontroller 120MHz CortexM4F
+F http://ww1.microchip.com/downloads/en/DeviceDoc/SAM-D5xE5x-Family-Datasheet-01507B.pdf
+$ENDCMP
+#
+$CMP TLC5510A
+D DAC (4 outputs)
+K DAC CAN
+$ENDCMP
+#
+$CMP ULN2801A
+D Darlington Transistor Arrays
+K darlington transistor array
+F http://www.promelec.ru/pdf/1536.pdf
+$ENDCMP
+#
+$CMP ULN2802A
+D Darlington Transistor Arrays
+K darlington transistor array
+F http://www.promelec.ru/pdf/1536.pdf
+$ENDCMP
+#
+$CMP ULN2803A
+D Darlington Transistor Arrays
+K darlington transistor array
+F http://www.ti.com/lit/ds/symlink/uln2803a.pdf
+$ENDCMP
+#
+$CMP ULN2804A
+D Darlington Transistor Arrays
+K darlington transistor array
+F http://www.promelec.ru/pdf/1536.pdf
+$ENDCMP
+#
+$CMP ULN2805A
+D Darlington Transistor Arrays
+K darlington transistor array
+F http://www.promelec.ru/pdf/1536.pdf
+$ENDCMP
+#
+#End Doc Library

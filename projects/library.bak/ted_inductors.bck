@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  Date: 5/15/2015 4:02:43 PM
+#
+$CMP FERRITE_BEAD
+D Resistance
+K R DEV
+$ENDCMP
+#
+#End Doc Library

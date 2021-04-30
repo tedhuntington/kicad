@@ -1,0 +1,20 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>EthSwitch8_rev01 BOM</title>
+</head>
+<body>
+<h1>EthSwitch8_rev01</h1>
+<h2></h2>
+<p>Wed 23 Aug 2017 09:49:18 AM PDT</p>
+<p>Eeschema 4.0.6-e0-6349~53~ubuntu16.04.1</p>
+<p><b>Component Count:</b>112</p>
+<table>
+<tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th></tr><tr><td>C26, C25, C1, </td><td>3</td><td>220uf</td><td>capacitors:SM3528_1311_ELEC_C</td></tr><tr><td>C47, C48, </td><td>2</td><td>16pF</td><td>capacitors:SM0603_C</td></tr><tr><td>C8, C10, C12, C14, C16, C18, C20, C22, C24, C7, C9, C11, C13, C15, C17, C19, C21, C2, C49, C4, C23, C54, C57, C60, C63, C66, </td><td>26</td><td>0.1uF</td><td>capacitors:SM0603_C</td></tr><tr><td>D1, </td><td>1</td><td>LED</td><td>led:SM1206_LED</td></tr><tr><td>FB1, FB2, </td><td>2</td><td>500mA</td><td>resistors:SM0805_R</td></tr><tr><td>H1, H2, H3, H4, </td><td>4</td><td>HOLE</td><td>holes:Hole_3mm</td></tr><tr><td>J1, </td><td>1</td><td>Terminal_2x1</td><td>connectors:TERMINAL_SPRING_2.54MM_2PIN_1989748</td></tr><tr><td>J2, J3, </td><td>2</td><td>HEADER_2X1</td><td>connectors:HEADER_2x1</td></tr><tr><td>P1, P2, P3, P4, P5, P6, P7, P8, P9, P10, P11, P12, P13, </td><td>13</td><td>TEST_PAD</td><td>test_pads:TEST_PAD</td></tr><tr><td>R10, R9, R7, R8, R14, R13, R11, R12, R29, R28, R24, R26, R33, R32, R30, R31, R37, R36, R34, R35, R41, R40, R38, R39, R45, R44, R42, R43, R49, R48, R46, R47, </td><td>32</td><td>49.9</td><td>resistors:SM0603_R</td></tr><tr><td>R22, R20, R94, R93, R95, </td><td>5</td><td>10k</td><td>resistors:SM0603_R</td></tr><tr><td>R4, </td><td>1</td><td>2k 1%</td><td>resistors:SM0603_R</td></tr><tr><td>R6, R5, R27, R25, R23, R21, R19, R17, R15, </td><td>9</td><td>249</td><td>resistors:SM0603_R</td></tr><tr><td>U1, </td><td>1</td><td>AZ1084C</td><td>regulators:TO252-2</td></tr><tr><td>U3, </td><td>1</td><td>RTL8309SB_PQFP</td><td></td></tr><tr><td>U4, U6, U8, U10, U7, U9, U11, U5, </td><td>8</td><td>RJ45_12_PIN_UP</td><td>connectors:RJ45_12pin_Up_Bottom</td></tr><tr><td>X1, </td><td>1</td><td>25Mhz</td><td>crystals:crystal_FA-20H</td></tr><!--TABLEROW-->
+</table>
+</body>
+</html>
+

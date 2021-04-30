@@ -1,0 +1,273 @@
+(pcb /home/ted/kicad/projects/motor_L293D/motor_L293D.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(2013-08-24 BZR 4298)-stable")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (rect pcb 136097 -51522.7 170431 -113407)
+    )
+    (via "Via[0-1]_889:635_um")
+    (rule
+      (width 250)
+      (clearance 250.1)
+      (clearance 250.1 (type default_smd))
+      (clearance 62.5 (type smd_smd))
+    )
+  )
+  (placement
+    (component SO20
+      (place U7 164590 -89790 front 270 (PN L293DD))
+      (place U6 164720 -71500 front 270 (PN L293DD))
+      (place U5 164590 -106270 front 270 (PN L293DD))
+    )
+    (component TED_HEADER_9x2_TOP
+      (place J2 145670 -86740 front 270 (PN HEADER_9X2))
+    )
+    (component TED_DC_2.1mm_SMT
+      (place J1 145420 -63880 front 90 (PN "Motor DC_2.1MM"))
+    )
+    (component TED_SM0805
+      (place C24 155960 -84940 front 270 (PN .1uF))
+      (place C23 156350 -67610 front 270 (PN .1uF))
+      (place C22 156580 -102320 front 270 (PN .1uF))
+    )
+    (component TED_HEADER_5x2_SMT
+      (place J5 145290 -106680 front 270 (PN HEADER_5X2))
+    )
+  )
+  (library
+    (image SO20
+      (outline (path signal 127  6350 -3683  6350 3683))
+      (outline (path signal 127  -6350 3683  -6350 -3683))
+      (outline (path signal 127  6350 -3683  -6350 -3683))
+      (outline (path signal 127  -6350 3683  6350 3683))
+      (outline (path signal 127  -6350 635  -5080 635))
+      (outline (path signal 127  -5080 635  -5080 -635))
+      (outline (path signal 127  -5080 -635  -6350 -635))
+      (pin Rect[T]Pad_508x1270_um 11 5715 4826)
+      (pin Rect[T]Pad_508x1270_um 12 4445 4826)
+      (pin Rect[T]Pad_508x1270_um 13 3175 4826)
+      (pin Rect[T]Pad_508x1270_um 14 1905 4826)
+      (pin Rect[T]Pad_508x1270_um 15 635 4826)
+      (pin Rect[T]Pad_508x1270_um 16 -635 4826)
+      (pin Rect[T]Pad_508x1270_um 17 -1905 4826)
+      (pin Rect[T]Pad_508x1270_um 18 -3175 4826)
+      (pin Rect[T]Pad_508x1270_um 19 -4445 4826)
+      (pin Rect[T]Pad_508x1270_um 20 -5715 4826)
+      (pin Rect[T]Pad_508x1270_um 1 -5715 -4826)
+      (pin Rect[T]Pad_508x1270_um 2 -4445 -4826)
+      (pin Rect[T]Pad_508x1270_um 3 -3175 -4826)
+      (pin Rect[T]Pad_508x1270_um 4 -1905 -4826)
+      (pin Rect[T]Pad_508x1270_um 5 -635 -4826)
+      (pin Rect[T]Pad_508x1270_um 6 635 -4826)
+      (pin Rect[T]Pad_508x1270_um 7 1905 -4826)
+      (pin Rect[T]Pad_508x1270_um 8 3175 -4826)
+      (pin Rect[T]Pad_508x1270_um 9 4445 -4826)
+      (pin Rect[T]Pad_508x1270_um 10 5715 -4826)
+    )
+    (image TED_HEADER_9x2_TOP
+      (outline (path signal 50.8  -11430 2540  11430 2540))
+      (outline (path signal 50.8  11430 -2540  -11430 -2540))
+      (outline (path signal 50.8  -11425 -2540  -11425 2540))
+      (outline (path signal 50.8  11430 2540  11430 -2540))
+      (pin Round[T]Pad_1524_um 13 2540 1270)
+      (pin Round[T]Pad_1524_um 12 5080 1270)
+      (pin Round[T]Pad_1524_um 11 7620 1270)
+      (pin Round[T]Pad_1524_um 10 10160 1270)
+      (pin Round[T]Pad_1524_um 9 10160 -1270)
+      (pin Round[T]Pad_1524_um 8 7620 -1270)
+      (pin Round[T]Pad_1524_um 7 5080 -1270)
+      (pin Round[T]Pad_1524_um 6 2540 -1270)
+      (pin Round[T]Pad_1524_um 1 -10160 -1270)
+      (pin Round[T]Pad_1524_um 2 -7620 -1270)
+      (pin Round[T]Pad_1524_um 3 -5080 -1270)
+      (pin Round[T]Pad_1524_um 4 -2540 -1270)
+      (pin Round[T]Pad_1524_um 5 0 -1270)
+      (pin Round[T]Pad_1524_um 14 0 1270)
+      (pin Round[T]Pad_1524_um 15 -2540 1270)
+      (pin Round[T]Pad_1524_um 16 -5080 1270)
+      (pin Round[T]Pad_1524_um 17 -7620 1270)
+      (pin Round[T]Pad_1524_um 18 -10160 1270)
+    )
+    (image TED_DC_2.1mm_SMT
+      (outline (path signal 150  3600 0  3596.33 -23.176  3585.68 -44.084  3569.08 -60.676
+            3548.18 -71.329  3525 -75  3501.82 -71.329  3480.92 -60.676
+            3464.32 -44.084  3453.67 -23.176  3450 0  3453.67 23.176  3464.32 44.084
+            3480.92 60.676  3501.82 71.329  3525 75  3548.18 71.329  3569.08 60.676
+            3585.68 44.084  3596.33 23.176))
+      (outline (path signal 150  4375.37 0  4333.75 -262.778  4212.96 -499.834  4024.83 -687.962
+            3787.78 -808.748  3525 -850.368  3262.22 -808.748  3025.17 -687.962
+            2837.04 -499.834  2716.25 -262.778  2674.63 0  2716.25 262.778
+            2837.04 499.834  3025.17 687.962  3262.22 808.748  3525 850.368
+            3787.78 808.748  4024.83 687.962  4212.96 499.834  4333.75 262.778))
+      (outline (path signal 200.66  -9800 6502.4  5000 6502.4))
+      (outline (path signal 200.66  5000 6502.4  5000 -6502.4))
+      (outline (path signal 150  5000 -6502.4  -9800 -6502.4))
+      (outline (path signal 200.66  -9800 -6502.4  -9800 6502.4))
+      (pin Round[T]Pad_2200_um 4 -4500 0)
+      (pin Rect[T]Pad_1998.98x1998.98_um 3 0 -5400)
+      (pin Rect[T]Pad_1998.98x1998.98_um 3@1 -6100 -5400)
+      (pin Rect[T]Pad_1998.98x1998.98_um 2 0 5415.28)
+      (pin Rect[T]Pad_1998.98x1998.98_um 1 -6100 5400)
+      (pin Round[T]Pad_2200_um 4@1 0 0)
+    )
+    (image TED_SM0805
+      (outline (path signal 127  -508 -762  -1524 -762))
+      (outline (path signal 127  -1524 -762  -1524 762))
+      (outline (path signal 127  -1524 762  -508 762))
+      (outline (path signal 127  508 762  1524 762))
+      (outline (path signal 127  1524 762  1524 -762))
+      (outline (path signal 127  1524 -762  508 -762))
+      (pin Rect[T]Pad_889x1397_um 1 -952.5 0)
+      (pin Rect[T]Pad_889x1397_um 2 952.5 0)
+    )
+    (image TED_HEADER_5x2_SMT
+      (outline (path signal 254  6350 3810  -6350 3810))
+      (outline (path signal 254  6350 3810  6350 -3810))
+      (outline (path signal 254  6350 -3810  -6350 -3810))
+      (outline (path signal 254  -6350 -3810  -6350 3810))
+      (pin Rect[T]Pad_990.6x2540_um 1 -5080 -2540)
+      (pin Rect[T]Pad_990.6x2540_um 2 -2540 -2540)
+      (pin Rect[T]Pad_990.6x2540_um 3 0 -2540)
+      (pin Rect[T]Pad_990.6x2540_um 4 2540 -2540)
+      (pin Rect[T]Pad_990.6x2540_um 5 5080 -2540)
+      (pin Rect[T]Pad_990.6x2540_um 6 5080 2540)
+      (pin Rect[T]Pad_990.6x2540_um 7 2540 2540)
+      (pin Rect[T]Pad_990.6x2540_um 8 0 2540)
+      (pin Rect[T]Pad_990.6x2540_um 9 -2540 2540)
+      (pin Rect[T]Pad_990.6x2540_um 10 -5080 2540)
+    )
+    (padstack Round[T]Pad_1524_um
+      (shape (circle F.Cu 1524))
+      (attach off)
+    )
+    (padstack Round[T]Pad_2200_um
+      (shape (circle F.Cu 2200))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_508x1270_um
+      (shape (rect F.Cu -254 -635 254 635))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_889x1397_um
+      (shape (rect F.Cu -444.5 -698.5 444.5 698.5))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_990.6x2540_um
+      (shape (rect F.Cu -495.3 -1270 495.3 1270))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1998.98x1998.98_um
+      (shape (rect F.Cu -999.49 -999.49 999.49 999.49))
+      (attach off)
+    )
+    (padstack "Via[0-1]_889:635_um"
+      (shape (circle F.Cu 889))
+      (shape (circle B.Cu 889))
+      (attach off)
+    )
+  )
+  (network
+    (net +5v_Vbus
+      (pins U7-11 U7-20 U7-1 U6-11 U6-20 U6-1 U5-11 U5-20 U5-1 J2-11 C24-1 C23-1 C22-1)
+    )
+    (net GND
+      (pins U7-14 U7-15 U7-16 U7-17 U7-4 U7-5 U7-6 U7-7 U6-14 U6-15 U6-16 U6-17 U6-4
+        U6-5 U6-6 U6-7 U5-14 U5-15 U5-16 U5-17 U5-4 U5-5 U5-6 U5-7 J2-9 J1-2 C24-2
+        C23-2 C22-2)
+    )
+    (net "ICSPCLK_M1-"
+      (pins U6-9 J2-18)
+    )
+    (net ICSPDAT_M1+
+      (pins U6-2 J2-1)
+    )
+    (net M2+
+      (pins U6-12 J2-2)
+    )
+    (net "M2-"
+      (pins U6-19 J2-17)
+    )
+    (net M3+
+      (pins U7-2 J2-3)
+    )
+    (net "M3-"
+      (pins U7-9 J2-16)
+    )
+    (net M4+
+      (pins U7-12 J2-4)
+    )
+    (net "M4-"
+      (pins U7-19 J2-15)
+    )
+    (net M5+
+      (pins U5-12 U5-2 J2-5)
+    )
+    (net "M5-"
+      (pins U5-19 U5-9 J2-14)
+    )
+    (net Motor1+
+      (pins U6-3 J5-1)
+    )
+    (net "Motor1-"
+      (pins U6-8 J5-10)
+    )
+    (net Motor2+
+      (pins U6-13 J5-2)
+    )
+    (net "Motor2-"
+      (pins U6-18 J5-9)
+    )
+    (net Motor3+
+      (pins U7-3 J5-3)
+    )
+    (net "Motor3-"
+      (pins U7-8 J5-8)
+    )
+    (net Motor4+
+      (pins U7-13 J5-4)
+    )
+    (net "Motor4-"
+      (pins U7-18 J5-7)
+    )
+    (net Motor5+
+      (pins U5-13 U5-3 J5-5)
+    )
+    (net "Motor5-"
+      (pins U5-18 U5-8 J5-6)
+    )
+    (net Vin
+      (pins U7-10 U6-10 U5-10 J1-1)
+    )
+    (class kicad_default "" +5v_Vbus GND "ICSPCLK_M1-" ICSPDAT_M1+ M2+ "M2-"
+      M3+ "M3-" M4+ "M4-" M5+ "M5-" Motor1+ "Motor1-" Motor2+ "Motor2-" Motor3+
+      "Motor3-" Motor4+ "Motor4-" Motor5+ "Motor5-" Vin
+      (circuit
+        (use_via Via[0-1]_889:635_um)
+      )
+      (rule
+        (width 250)
+        (clearance 250.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

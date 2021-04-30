@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SAME54N20A-AU
+D TQFP100, 1M Flash, 256K RAM, 120MHz, CortexM4F
+K ARM 32bit Microcontroller 120MHz CortexM4F
+F http://ww1.microchip.com/downloads/en/DeviceDoc/SAM-D5xE5x-Family-Datasheet-01507B.pdf
+$ENDCMP
+#
+#End Doc Library

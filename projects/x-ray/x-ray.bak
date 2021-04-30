@@ -1,0 +1,614 @@
+EESchema Schematic File Version 2  date Sun 05 Sep 2010 10:25:17 PM PDT
+LIBS:ted_capacitors
+LIBS:ted_connectors
+LIBS:ted_device
+LIBS:ted_diodes
+LIBS:ted_ic
+LIBS:ted_opamp
+LIBS:ted_power
+LIBS:ted_regulators
+LIBS:ted_resistors
+LIBS:ted_switches
+LIBS:ted_transistor
+LIBS:ted_inductors
+LIBS:ted_sensors
+LIBS:ted_transformers
+LIBS:ted_circuit_protect
+LIBS:x-ray-cache
+EELAYER 24  0
+EELAYER END
+$Descr User 11000 8500
+Sheet 1 1
+Title "555 Timer Variable Output"
+Date "6 sep 2010"
+Rev "4"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 3920 4145 0    50   ~ 0
+add  another transistor?
+$Comp
+L GND #PWR?
+U 1 1 4C847AE9
+P 2520 6205
+F 0 "#PWR?" H 2520 6205 30  0001 C CNN
+F 1 "GND" H 2520 6135 30  0000 C CNN
+	1    2520 6205
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2520 6205 2520 6120
+Connection ~ 3400 6805
+Wire Wire Line
+	3080 6805 3400 6805
+Wire Wire Line
+	3080 7060 3080 6805
+Wire Wire Line
+	4620 4760 3350 4760
+Wire Wire Line
+	3400 6890 3400 6720
+Wire Wire Line
+	5385 4760 6095 4760
+Wire Wire Line
+	3845 6480 3845 6595
+Wire Wire Line
+	1600 4450 1695 4450
+Wire Wire Line
+	765  4880 765  4450
+Wire Wire Line
+	2635 2890 2635 3005
+Connection ~ 3350 3820
+Wire Wire Line
+	3625 3880 3625 3820
+Wire Wire Line
+	3625 3820 3350 3820
+Wire Wire Line
+	2890 3360 2890 3000
+Wire Wire Line
+	1520 4090 1520 3975
+Wire Wire Line
+	870  3925 870  3970
+Wire Wire Line
+	870  3970 1245 3970
+Wire Wire Line
+	3350 4760 3350 4305
+Wire Wire Line
+	6090 5035 5995 5035
+Wire Wire Line
+	2890 4085 3050 4085
+Wire Wire Line
+	2890 3000 3045 3000
+Wire Wire Line
+	4435 3190 4435 3240
+Wire Wire Line
+	4435 3010 4555 3010
+Wire Wire Line
+	4555 3010 4555 3165
+Wire Wire Line
+	4655 2860 4655 2925
+Wire Wire Line
+	2830 2725 2830 2610
+Wire Wire Line
+	1595 2960 1595 2845
+Wire Wire Line
+	1160 2855 1160 3035
+Wire Wire Line
+	1160 3035 785  3035
+Wire Wire Line
+	785  3035 785  2990
+Wire Wire Line
+	2830 2610 3045 2610
+Wire Wire Line
+	2660 3145 2660 3190
+Wire Wire Line
+	2660 3190 3035 3190
+Wire Wire Line
+	4520 2575 4520 2620
+Wire Wire Line
+	4655 2620 4435 2620
+Connection ~ 4520 2620
+Wire Wire Line
+	4655 2890 4555 2890
+Connection ~ 4655 2890
+Wire Wire Line
+	4555 2890 4555 2800
+Wire Wire Line
+	4555 2800 4435 2800
+Wire Wire Line
+	3045 2780 2990 2780
+Wire Wire Line
+	2990 2780 2990 2840
+Wire Wire Line
+	2990 2840 2725 2840
+Wire Wire Line
+	2725 2840 2725 2730
+Wire Wire Line
+	2725 2730 2635 2730
+Wire Wire Line
+	4435 3340 4435 3455
+Wire Wire Line
+	5995 5035 5995 5150
+Wire Wire Line
+	4555 3165 4895 3165
+Wire Wire Line
+	4895 3165 4895 2250
+Wire Wire Line
+	4895 2250 2635 2250
+Wire Wire Line
+	2635 2250 2635 2790
+Connection ~ 2635 2730
+Connection ~ 4655 3165
+Wire Wire Line
+	2490 3935 2490 4050
+Wire Wire Line
+	3625 4380 3625 4495
+Wire Wire Line
+	3625 4495 3350 4495
+Connection ~ 3350 4495
+Connection ~ 2890 3935
+Wire Wire Line
+	1200 4750 1200 4880
+Wire Wire Line
+	1200 4880 1005 4880
+Wire Wire Line
+	635  4450 800  4450
+Connection ~ 765  4450
+Wire Wire Line
+	635  4690 635  4805
+Wire Wire Line
+	1695 4450 1695 4405
+Wire Wire Line
+	2800 6120 2520 6120
+Wire Wire Line
+	3080 7385 3080 7300
+Wire Wire Line
+	3400 5520 3400 5320
+Wire Wire Line
+	3400 5320 2300 5320
+Wire Wire Line
+	2300 5805 2300 5720
+Wire Wire Line
+	3400 7375 3400 7290
+Wire Wire Line
+	6075 6040 6075 5765
+Wire Wire Line
+	2890 4245 2890 3760
+Connection ~ 2890 4085
+Wire Wire Line
+	2890 4745 2890 4860
+Wire Wire Line
+	3350 3875 3350 3380
+$Comp
+L GND #PWR?
+U 1 1 4C81FF94
+P 2890 4860
+F 0 "#PWR?" H 2890 4860 30  0001 C CNN
+F 1 "GND" H 2890 4790 30  0000 C CNN
+	1    2890 4860
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4C81FF79
+P 2890 4495
+F 0 "R?" V 2970 4495 50  0000 C CNN
+F 1 "1k" V 2890 4495 50  0000 C CNN
+	1    2890 4495
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 4C81FF55
+P 2890 3560
+F 0 "D?" H 2890 3660 40  0000 C CNN
+F 1 "DIODE" H 2890 3460 40  0000 C CNN
+	1    2890 3560
+	0    1    1    0   
+$EndComp
+$Comp
+L TRM_3.5MM_2P J9
+U 1 1 4C690CD6
+P 6465 5905
+F 0 "J9" H 6415 5455 60  0000 C CNN
+F 1 "TRM_3.5MM_2P" H 6455 6130 60  0000 C CNN
+F 2 "TED_TERMINAL_3.5MM_2PIN" H 6530 5375 60  0001 C CNN
+	1    6465 5905
+	0    1    1    0   
+$EndComp
+Text Notes 7430 2000 2    100  ~ 0
+Important: \nVerify voltage = 11-22kV\nVerify current = 50uA
+Text Notes 6835 5890 0    100  ~ 0
+-High Volt from Ignition Coil\n-Tube Anode
+$Comp
+L GND #PWR01
+U 1 1 4C6907D6
+P 3400 7375
+F 0 "#PWR01" H 3400 7375 30  0001 C CNN
+F 1 "GND" H 3400 7305 30  0000 C CNN
+	1    3400 7375
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 4C6907CF
+P 2300 5805
+F 0 "#PWR02" H 2300 5805 30  0001 C CNN
+F 1 "GND" H 2300 5735 30  0000 C CNN
+	1    2300 5805
+	1    0    0    -1  
+$EndComp
+$Comp
+L ZENER D3
+U 1 1 4C6907A9
+P 2300 5520
+F 0 "D3" H 2185 5555 50  0000 C CNN
+F 1 "200v" H 2420 5550 50  0000 C CNN
+	1    2300 5520
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ZENER D4
+U 1 1 4C69079E
+P 3400 7090
+F 0 "D4" H 3285 7125 50  0000 C CNN
+F 1 "100v" H 3520 7120 50  0000 C CNN
+	1    3400 7090
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 4C690773
+P 3080 7385
+F 0 "#PWR03" H 3080 7385 30  0001 C CNN
+F 1 "GND" H 3080 7315 30  0000 C CNN
+	1    3080 7385
+	1    0    0    -1  
+$EndComp
+Text GLabel 1965 4880 2    50   UnSpc ~ 0
+heater_on
+$Comp
+L GND #PWR04
+U 1 1 4C69069E
+P 3845 6595
+F 0 "#PWR04" H 3845 6595 30  0001 C CNN
+F 1 "GND" H 3845 6525 30  0000 C CNN
+	1    3845 6595
+	1    0    0    -1  
+$EndComp
+Text GLabel 3860 5775 2    50   UnSpc ~ 0
+heater_on
+Text GLabel 1200 4830 2    50   UnSpc ~ 0
+heater
+Text Label 1650 4450 0    30   ~ 0
+5v
+$Comp
+L +5V #PWR05
+U 1 1 4C6905B4
+P 1695 4405
+F 0 "#PWR05" H 1695 4355 20  0001 C CNN
+F 1 "+5V" H 1695 4505 30  0000 C CNN
+	1    1695 4405
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 4C6905A4
+P 635 4805
+F 0 "#PWR06" H 635 4805 30  0001 C CNN
+F 1 "GND" H 635 4735 30  0000 C CNN
+	1    635  4805
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_SMALL R4
+U 1 1 4C690553
+P 885 4880
+F 0 "R4" V 925 4890 30  0000 C CNN
+F 1 "240" V 885 4880 30  0000 C CNN
+	1    885  4880
+	0    1    1    0   
+$EndComp
+$Comp
+L VAR_R_SMALL R3
+U 1 1 4C690518
+P 635 4570
+F 0 "R3" V 675 4580 30  0000 C CNN
+F 1 "10k" V 635 4570 15  0000 C CNN
+	1    635  4570
+	-1   0    0    1   
+$EndComp
+$Comp
+L LM317 U2
+U 1 1 4C690502
+P 1200 4500
+F 0 "U2" H 1350 4304 60  0000 C CNN
+F 1 "LM317" H 1200 4700 60  0000 C CNN
+	1    1200 4500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2940 5770
+NoConn ~ 2950 6480
+NoConn ~ 4000 6120
+$Comp
+L OCTAL_TUBE_SOCKET J7
+U 1 1 4C69017E
+P 3400 6120
+F 0 "J7" H 3400 5440 60  0000 C CNN
+F 1 "OCTAL_TUBE_SOCKET" H 3440 6795 60  0000 C CNN
+F 2 "~" H 3370 5465 60  0001 C CNN
+F 3 "~" H 3470 5475 60  0001 C CNN
+	1    3400 6120
+	1    0    0    -1  
+$EndComp
+$Comp
+L SPST_SWITCH J8
+U 1 1 4C69016C
+P 5015 4760
+F 0 "J8" H 5000 4655 60  0000 C CNN
+F 1 "SPST_SWITCH" H 5065 5020 60  0000 C CNN
+	1    5015 4760
+	1    0    0    -1  
+$EndComp
+$Comp
+L SPST_SWITCH J6
+U 1 1 4C690165
+P 1595 4880
+F 0 "J6" H 1580 4775 60  0000 C CNN
+F 1 "SPST_SWITCH" H 1645 5140 60  0000 C CNN
+	1    1595 4880
+	1    0    0    -1  
+$EndComp
+$Comp
+L VAR_R_SMALL R5
+U 1 1 4C68FF38
+P 3080 7180
+F 0 "R5" V 3120 7190 30  0000 C CNN
+F 1 "100k" V 3080 7180 15  0000 C CNN
+	1    3080 7180
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOV MOV?1
+U 1 1 4C550B8C
+P 3625 4130
+F 0 "MOV?1" V 3705 4130 50  0000 C CNN
+F 1 "50v cutoff" V 3625 4130 50  0000 C CNN
+F 2 "TED_varistor_MOV" V 3775 4085 60  0000 C CNN
+	1    3625 4130
+	1    0    0    -1  
+$EndComp
+Text Notes 1860 4220 0    50   ~ 0
+protects against voltage>+15v
+Text Notes 2240 3460 0    50   ~ 0
+protects against voltage<-11.4 (-Vr)
+$Comp
+L GND #PWR07
+U 1 1 4C54FDE1
+P 2490 4050
+F 0 "#PWR07" H 2490 4050 30  0001 C CNN
+F 1 "GND" H 2490 3980 30  0000 C CNN
+	1    2490 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L ZENER D1
+U 1 1 4C54FDCE
+P 2690 3935
+F 0 "D1" H 2575 3970 50  0000 C CNN
+F 1 "15v" H 2810 3965 50  0000 C CNN
+	1    2690 3935
+	1    0    0    -1  
+$EndComp
+Text Label 4550 2620 0    30   ~ 0
+5v
+$Comp
+L GND #PWR08
+U 1 1 4C0BFC9E
+P 1520 4090
+F 0 "#PWR08" H 1520 4090 30  0001 C CNN
+F 1 "GND" H 1520 4020 30  0000 C CNN
+	1    1520 4090
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR09
+U 1 1 4C0BFC92
+P 870 3925
+F 0 "#PWR09" H 870 3875 20  0001 C CNN
+F 1 "+5V" H 870 4025 30  0000 C CNN
+	1    870  3925
+	1    0    0    -1  
+$EndComp
+Text Label 985  3970 0    30   ~ 0
+5v
+$Comp
+L TERM_3.5MM_2PIN J5
+U 1 1 4C0BFC7D
+P 1385 3585
+F 0 "J5" H 1335 3135 60  0000 C CNN
+F 1 "TERM_3.5MM_2PIN" H 1375 3810 60  0000 C CNN
+F 2 "TED_TERM_3.5MM_2PIN" H 1450 3055 60  0001 C CNN
+	1    1385 3585
+	1    0    0    -1  
+$EndComp
+Text Notes 6875 4980 0    100  ~ 0
+Ignition coil
+$Comp
+L GND #PWR010
+U 1 1 4C0BDBAD
+P 5995 5150
+F 0 "#PWR010" H 5995 5150 30  0001 C CNN
+F 1 "GND" H 5995 5080 30  0000 C CNN
+	1    5995 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L TERM_3.5MM_2PIN J3
+U 1 1 4C0BD9A4
+P 6480 4900
+F 0 "J3" H 6430 4450 60  0000 C CNN
+F 1 "TERM_3.5MM_2PIN" H 6470 5125 60  0000 C CNN
+F 2 "TED_TERM_3.5MM_2PIN" H 6545 4370 60  0001 C CNN
+	1    6480 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L +5V #PWR011
+U 1 1 4C0BD8D1
+P 3350 3380
+F 0 "#PWR011" H 3350 3330 20  0001 C CNN
+F 1 "+5V" H 3350 3480 30  0000 C CNN
+	1    3350 3380
+	1    0    0    -1  
+$EndComp
+Text Label 3350 3455 0    30   ~ 0
+5v
+$Comp
+L NMOSFET_GDS Q1
+U 1 1 4C0BD8C8
+P 3250 4085
+F 0 "Q1" H 3250 3845 60  0000 R CNN
+F 1 "NMOSFET_GDS" H 3580 4355 60  0001 R CNN
+	1    3250 4085
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR012
+U 1 1 4C0BD890
+P 4435 3455
+F 0 "#PWR012" H 4435 3455 30  0001 C CNN
+F 1 "GND" H 4435 3385 30  0000 C CNN
+	1    4435 3455
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR013
+U 1 1 4C0BD869
+P 2635 3005
+F 0 "#PWR013" H 2635 3005 30  0001 C CNN
+F 1 "GND" H 2635 2935 30  0000 C CNN
+	1    2635 3005
+	1    0    0    -1  
+$EndComp
+$Comp
+L C(SMALL) C1
+U 1 1 4C0BD85A
+P 2635 2840
+F 0 "C1" H 2660 2890 30  0000 L CNN
+F 1 ".1uF 50v" H 2660 2795 30  0000 L CNN
+	1    2635 2840
+	1    0    0    -1  
+$EndComp
+$Comp
+L C(SMALL) C2
+U 1 1 4C0BD84F
+P 4435 3290
+F 0 "C2" H 4460 3340 30  0000 L CNN
+F 1 ".01uF 50v" H 4460 3245 30  0000 L CNN
+	1    4435 3290
+	1    0    0    -1  
+$EndComp
+$Comp
+L VAR_R_SMALL R2
+U 1 1 4C0BD807
+P 4655 3045
+F 0 "R2" V 4695 3055 30  0000 C CNN
+F 1 "100k" V 4655 3045 15  0000 C CNN
+	1    4655 3045
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_SMALL R1
+U 1 1 4C0BD7FF
+P 4655 2740
+F 0 "R1" V 4695 2750 30  0000 C CNN
+F 1 "1k" V 4655 2740 30  0000 C CNN
+	1    4655 2740
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR014
+U 1 1 4C0BD7CE
+P 4520 2575
+F 0 "#PWR014" H 4520 2525 20  0001 C CNN
+F 1 "+5V" H 4520 2675 30  0000 C CNN
+	1    4520 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR015
+U 1 1 4C0BD7B9
+P 2660 3145
+F 0 "#PWR015" H 2660 3095 20  0001 C CNN
+F 1 "+5V" H 2660 3245 30  0000 C CNN
+	1    2660 3145
+	1    0    0    -1  
+$EndComp
+Text Label 2775 3190 0    30   ~ 0
+5v
+$Comp
+L GND #PWR016
+U 1 1 4C0BD788
+P 2830 2725
+F 0 "#PWR016" H 2830 2725 30  0001 C CNN
+F 1 "GND" H 2830 2655 30  0000 C CNN
+	1    2830 2725
+	1    0    0    -1  
+$EndComp
+$Comp
+L NE555 U1
+U 1 1 4C0BD728
+P 3735 2890
+F 0 "U1" H 3735 2990 70  0000 C CNN
+F 1 "NE555" H 3735 2790 70  0000 C CNN
+	1    3735 2890
+	1    0    0    -1  
+$EndComp
+Text Notes 670  1105 0    100  ~ 0
+555 Timer Variable Output
+$Comp
+L GND #PWR017
+U 1 1 4C04B451
+P 2660 8005
+F 0 "#PWR017" H 2660 8005 30  0001 C CNN
+F 1 "GND" H 2660 7935 30  0000 C CNN
+	1    2660 8005
+	1    0    0    -1  
+$EndComp
+Text Notes 900  1950 0    100  ~ 0
+16v max DC IN
+Text Label 900  3035 0    30   ~ 0
+5v
+$Comp
+L GND #PWR018
+U 1 1 4BDE50CE
+P 1595 2960
+F 0 "#PWR018" H 1595 2960 30  0001 C CNN
+F 1 "GND" H 1595 2890 30  0000 C CNN
+	1    1595 2960
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR019
+U 1 1 4BDE50C7
+P 785 2990
+F 0 "#PWR019" H 785 2940 20  0001 C CNN
+F 1 "+5V" H 785 3090 30  0000 C CNN
+	1    785  2990
+	1    0    0    -1  
+$EndComp
+$Comp
+L DC_2.1MM J1
+U 1 1 4BDE4964
+P 1390 2440
+F 0 "J1" H 1390 1890 60  0000 C CNN
+F 1 "DC_2.1MM" H 1380 2830 60  0000 C CNN
+F 2 "TED_DC_2.1mm" H 1390 1955 60  0001 C CNN
+F 3 "Jameco_GCD014A-R_or_Mouser_163_7620-E_or_163-2640-E(SMT)" H 1460 1795 60  0001 C CNN
+	1    1390 2440
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,31 @@
+Info: Backing up file "/home/tedh/kicad/projects/heat2sound_rev01/sym-lib-table" to file "/home/tedh/kicad/projects/heat2sound_rev01/rescue-backup/sym-lib-table-2020-08-11-21-20-40".
+Info: Backing up file "/home/tedh/kicad/projects/heat2sound_rev01/heat2sound_rev01.sch" to file "/home/tedh/kicad/projects/heat2sound_rev01/rescue-backup/heat2sound_rev01-2020-08-11-21-20-40.sch".
+Info: Backing up file "/home/tedh/kicad/projects/heat2sound_rev01/heat2sound_rev01.pro" to file "/home/tedh/kicad/projects/heat2sound_rev01/rescue-backup/heat2sound_rev01-2020-08-11-21-20-40.pro".
+Info: Backing up file "/home/tedh/kicad/projects/heat2sound_rev01/heat2sound_rev01-cache.lib" to file "/home/tedh/kicad/projects/heat2sound_rev01/rescue-backup/heat2sound_rev01-cache-2020-08-11-21-20-40.lib".
+Info: Backing up file "/home/tedh/kicad/projects/heat2sound_rev01/heat2sound_rev01-rescue.lib" to file "/home/tedh/kicad/projects/heat2sound_rev01/rescue-backup/heat2sound_rev01-rescue-2020-08-11-21-20-40.lib".
+Info: Backing up file "/home/tedh/kicad/projects/heat2sound_rev01/heat2sound_rev01-rescue.dcm" to file "/home/tedh/kicad/projects/heat2sound_rev01/rescue-backup/heat2sound_rev01-rescue-2020-08-11-21-20-40.dcm".
+Warning: No symbol "R" found in symbol library table.
+Warning: No symbol "C(SMALL)" found in symbol library table.
+Warning: No symbol "+5V" found in symbol library table.
+Warning: No symbol "GND" found in symbol library table.
+Warning: No symbol "MCP6V02" found in symbol library table.
+Warning: No symbol "R" found in symbol library table.
+Warning: No symbol "R" found in symbol library table.
+Warning: No symbol "GND" found in symbol library table.
+Warning: No symbol "GND" found in symbol library table.
+Warning: No symbol "TRANSFORMER" found in symbol library table.
+Warning: No symbol "GND" found in symbol library table.
+Warning: No symbol "GND" found in symbol library table.
+Warning: No symbol "GND" found in symbol library table.
+Warning: No symbol "GND" found in symbol library table.
+Warning: No symbol "GND" found in symbol library table.
+Warning: No symbol "GND" found in symbol library table.
+Warning: No symbol "+5V" found in symbol library table.
+Warning: No symbol "R" found in symbol library table.
+Warning: No symbol "3.5_STEREO" found in symbol library table.
+Warning: No symbol "TERMINAL_3.5MM_PCB_2PIN" found in symbol library table.
+Warning: No symbol "JUMPER_3X1" found in symbol library table.
+Warning: No symbol "THERMOPILE_MLX90247" found in symbol library table.
+Warning: No symbol "TERMINAL_3.5MM_PCB_2PIN" found in symbol library table.
+Warning: No symbol "DC_2.1mm" found in symbol library table.
+Info: Symbol library table mapping complete!

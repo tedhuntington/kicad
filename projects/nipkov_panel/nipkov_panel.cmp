@@ -1,0 +1,59 @@
+Cmp-Mod V01 Genere par PcbNew le Mon 25 May 2009 07:40:02 PM PDT
+
+BeginCmp
+TimeStamp = /4A01164B;
+Reference = J1;
+ValeurCmp = TERMINAL_3.5MM_PCB;
+IdModule  = TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A011659;
+Reference = J2;
+ValeurCmp = TERMINAL_3.5MM_PCB;
+IdModule  = TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A011650;
+Reference = J3;
+ValeurCmp = TERMINAL_3.5MM_PCB;
+IdModule  = TERMINAL_3.5MM_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A010726;
+Reference = J4;
+ValeurCmp = 3.5_STEREO_SMT2;
+IdModule  = TED_3.5_STEREO;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A010D3B;
+Reference = J5;
+ValeurCmp = RCA_MONO_PC;
+IdModule  = TED_RCA_MONO_220572;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A01434D;
+Reference = J6;
+ValeurCmp = SPDT_Switch;
+IdModule  = SPDT_Switch;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A010F6A;
+Reference = J7;
+ValeurCmp = DC_2.5mm_PCB;
+IdModule  = TED_CONNECTOR_POWER_2.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A011664;
+Reference = J8;
+ValeurCmp = TERMINAL_3.5MM_PCB;
+IdModule  = TERMINAL_3.5MM_2PIN;
+EndCmp
+
+EndListe

@@ -1,0 +1,557 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/kicad/!svn/ver/1676/trunk/kicad-library/library
+END
+graphic.dcm
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/graphic.dcm
+END
+neg_power_symbol.sym
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/neg_power_symbol.sym
+END
+adc-dac.lib
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/adc-dac.lib
+END
+nand.sym
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/nand.sym
+END
+power_symbol.sym
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/power_symbol.sym
+END
+ttl_ieee.dcm
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/ttl_ieee.dcm
+END
+cypress.lib
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/cypress.lib
+END
+motorola.dcm
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/kicad/!svn/ver/1589/trunk/kicad-library/library/motorola.dcm
+END
+gennum.lib
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/gennum.lib
+END
+elec-unifil.dcm
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/elec-unifil.dcm
+END
+conn.lib
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/kicad/!svn/ver/1306/trunk/kicad-library/library/conn.lib
+END
+microchip1.lib
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/microchip1.lib
+END
+audio.dcm
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/kicad/!svn/ver/1589/trunk/kicad-library/library/audio.dcm
+END
+device.lib
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/kicad/!svn/ver/1657/trunk/kicad-library/library/device.lib
+END
+ampli_op.sym
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/ampli_op.sym
+END
+memory.dcm
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/memory.dcm
+END
+linear.dcm
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/linear.dcm
+END
+analog_switches.dcm
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/analog_switches.dcm
+END
+xilinx.dcm
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/kicad/!svn/ver/1589/trunk/kicad-library/library/xilinx.dcm
+END
+siliconi.lib
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/siliconi.lib
+END
+digital-audio.lib
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/digital-audio.lib
+END
+microchip.lib
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/kicad/!svn/ver/1161/trunk/kicad-library/library/microchip.lib
+END
+special.dcm
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/kicad/!svn/ver/1589/trunk/kicad-library/library/special.dcm
+END
+regul.lib
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/kicad/!svn/ver/1613/trunk/kicad-library/library/regul.lib
+END
+pspice.dcm
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/pspice.dcm
+END
+opto.lib
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/kicad/!svn/ver/1281/trunk/kicad-library/library/opto.lib
+END
+texas.dcm
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/texas.dcm
+END
+dsp.dcm
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/dsp.dcm
+END
+brooktre.lib
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/brooktre.lib
+END
+cmos_ieee.lib
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/cmos_ieee.lib
+END
+transistors.dcm
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/kicad/!svn/ver/1635/trunk/kicad-library/library/transistors.dcm
+END
+power.dcm
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/kicad/!svn/ver/1161/trunk/kicad-library/library/power.dcm
+END
+et-ou.sym
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/et-ou.sym
+END
+contrib.dcm
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/contrib.dcm
+END
+pnp.sym
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/kicad/!svn/ver/1636/trunk/kicad-library/library/pnp.sym
+END
+microcontrollers.lib
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/microcontrollers.lib
+END
+interface.lib
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/kicad/!svn/ver/1272/trunk/kicad-library/library/interface.lib
+END
+SymbolsSimilarEN60617+oldDIN617.dcm
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/kicad/!svn/ver/1645/trunk/kicad-library/library/SymbolsSimilarEN60617+oldDIN617.dcm
+END
+valves.lib
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/kicad/!svn/ver/1225/trunk/kicad-library/library/valves.lib
+END
+display.dcm
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/kicad/!svn/ver/1676/trunk/kicad-library/library/display.dcm
+END
+atmel.lib
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/kicad/!svn/ver/1613/trunk/kicad-library/library/atmel.lib
+END
+cmos4000.dcm
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/kicad/!svn/ver/926/trunk/kicad-library/library/cmos4000.dcm
+END
+philips.dcm
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/kicad/!svn/ver/1589/trunk/kicad-library/library/philips.dcm
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/makefile
+END
+adc-dac.dcm
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/adc-dac.dcm
+END
+74xx.lib
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/kicad/!svn/ver/1589/trunk/kicad-library/library/74xx.lib
+END
+intel.lib
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/intel.lib
+END
+buffer.sym
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/buffer.sym
+END
+graphic.lib
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/graphic.lib
+END
+gennum.dcm
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/gennum.dcm
+END
+conn.dcm
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/kicad/!svn/ver/1306/trunk/kicad-library/library/conn.dcm
+END
+ttl_ieee.lib
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/ttl_ieee.lib
+END
+microchip1.dcm
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/microchip1.dcm
+END
+motorola.lib
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/kicad/!svn/ver/1589/trunk/kicad-library/library/motorola.lib
+END
+hc11.lib
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/hc11.lib
+END
+elec-unifil.lib
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/elec-unifil.lib
+END
+device.dcm
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/kicad/!svn/ver/1657/trunk/kicad-library/library/device.dcm
+END
+audio.lib
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/kicad/!svn/ver/1589/trunk/kicad-library/library/audio.lib
+END
+and.sym
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/and.sym
+END
+memory.lib
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/memory.lib
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/kicad/!svn/ver/1242/trunk/kicad-library/library/CMakeLists.txt
+END
+digital-audio.dcm
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/digital-audio.dcm
+END
+microchip.dcm
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/kicad/!svn/ver/1161/trunk/kicad-library/library/microchip.dcm
+END
+linear.lib
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/linear.lib
+END
+analog_switches.lib
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/analog_switches.lib
+END
+xor.sym
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/xor.sym
+END
+regul.dcm
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/kicad/!svn/ver/1613/trunk/kicad-library/library/regul.dcm
+END
+xilinx.lib
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/kicad/!svn/ver/1589/trunk/kicad-library/library/xilinx.lib
+END
+special.lib
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/kicad/!svn/ver/1589/trunk/kicad-library/library/special.lib
+END
+or.sym
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/or.sym
+END
+pspice.lib
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/pspice.lib
+END
+brooktre.dcm
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/brooktre.dcm
+END
+texas.lib
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/texas.lib
+END
+cmos_ieee.dcm
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/cmos_ieee.dcm
+END
+dsp.lib
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/dsp.lib
+END
+transistors.lib
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/kicad/!svn/ver/1635/trunk/kicad-library/library/transistors.lib
+END
+power.lib
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/kicad/!svn/ver/1161/trunk/kicad-library/library/power.lib
+END
+microcontrollers.dcm
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/microcontrollers.dcm
+END
+interface.dcm
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/interface.dcm
+END
+npn.sym
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/kicad/!svn/ver/1636/trunk/kicad-library/library/npn.sym
+END
+smalland.sym
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/smalland.sym
+END
+valves.dcm
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/kicad/!svn/ver/1225/trunk/kicad-library/library/valves.dcm
+END
+inv.sym
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/inv.sym
+END
+atmel.dcm
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/kicad/!svn/ver/1613/trunk/kicad-library/library/atmel.dcm
+END
+contrib.lib
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/contrib.lib
+END
+SymbolsSimilarEN60617+oldDIN617.lib
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/kicad/!svn/ver/1645/trunk/kicad-library/library/SymbolsSimilarEN60617+oldDIN617.lib
+END
+display.lib
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/kicad/!svn/ver/1676/trunk/kicad-library/library/display.lib
+END
+cmos4000.lib
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/kicad/!svn/ver/926/trunk/kicad-library/library/cmos4000.lib
+END
+74xx.dcm
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/kicad/!svn/ver/1589/trunk/kicad-library/library/74xx.dcm
+END
+intel.dcm
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/kicad/!svn/ver/850/trunk/kicad-library/library/intel.dcm
+END
+philips.lib
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/kicad/!svn/ver/1589/trunk/kicad-library/library/philips.lib
+END
+7segm_display.sym
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/kicad/!svn/ver/1676/trunk/kicad-library/library/7segm_display.sym
+END

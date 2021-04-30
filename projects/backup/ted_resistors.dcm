@@ -1,0 +1,38 @@
+EESchema-DOCLIB  Version 2.0  Date: Sat 31 Jul 2010 10:47:43 PM PDT
+#
+$CMP MOV
+D Resistance
+K R DEV
+$ENDCMP
+#
+$CMP Photoresistor
+D Resistance
+K R DEV
+$ENDCMP
+#
+$CMP R
+D Resistance
+K R DEV
+$ENDCMP
+#
+$CMP R_small
+D Resistance
+K R DEV
+$ENDCMP
+#
+$CMP VAR_R
+D Resistance
+K R DEV
+$ENDCMP
+#
+$CMP VAR_R3
+D Resistance
+K R DEV
+$ENDCMP
+#
+$CMP Var_R_small
+D Resistance
+K R DEV
+$ENDCMP
+#
+#End Doc Library

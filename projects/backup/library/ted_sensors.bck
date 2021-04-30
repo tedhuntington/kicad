@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  Date: Sat 29 May 2010 08:11:22 PM PDT
+#
+$CMP Photoresistor
+D Resistance
+K R DEV
+$ENDCMP
+#
+#End Doc Library

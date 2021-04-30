@@ -1,0 +1,45 @@
+Cmp-Mod V01 Created by CvPCB (20100330 SVN-R2491)-final date = Fri 18 Jun 2010 05:28:35 PM PDT
+
+BeginCmp
+TimeStamp = /4A6D659C;
+Reference = C1;
+ValeurCmp = 3.3nF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A6D65A4;
+Reference = C2;
+ValeurCmp = 3.3nF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A6D65A2;
+Reference = C3;
+ValeurCmp = 3.3nF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A6D6556;
+Reference = C4;
+ValeurCmp = .1uF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C1C0E3D;
+Reference = J1;
+ValeurCmp = HEADER_6X1;
+IdModule  = TED_HEADER_6x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A6D5A4B;
+Reference = U1;
+ValeurCmp = MMA733;
+IdModule  = TED_LGA-14;
+EndCmp
+
+EndListe

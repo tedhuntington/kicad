@@ -1,0 +1,55 @@
+#!/bin/bash
+echo copykp origfolder newfolder
+cp -pr $1 $2
+#cd $2
+#rename files
+mv $2/$1 $2/$2
+mv $2/$1.brd $2/$2.brd
+mv $2/$1.cmp $2/$2.cmp
+mv $2/$1.net $2/$2.net
+mv $2/$1.pro $2/$2.pro
+mv $2/$1.sch $2/$2.sch
+mv $2/$1_page2.sch $2/$2_page2.sch
+mv $2/$1_page3.sch $2/$2_page3.sch
+mv $2/$1_page4.sch $2/$2_page4.sch
+mv $2/$1_page5.sch $2/$2_page5.sch
+mv $2/$1_page6.sch $2/$2_page6.sch
+mv $2/$1_page7.sch $2/$2_page7.sch
+mv $2/$1_page8.sch $2/$2_page8.sch
+mv $2/$1_page9.sch $2/$2_page9.sch
+mv $2/$1.stf $2/$2.stf
+mv $2/$1.kicad_pcb $2/$2.kicad_pcb
+
+#need better script to go through and replace match for all files
+
+rm -rf $2/*.bak
+rm -rf $2/*-bak
+rm -rf $2/*.ps
+rm -rf $2/*.jpg
+rm -rf $2/*pcbbrd
+rm -rf $2/*cache.*
+rm -rf $2/*savepcb.brd
+rm -rf $2/*.erc
+rm -rf $2/backup
+rm -rf $2/*.plt
+rm -rf $2/*.gbl
+rm -rf $2/*.gbp
+rm -rf $2/*.gtl
+rm -rf $2/*.gtp
+rm -rf $2/*.gbr
+rm -rf $2/*.gbs
+rm -rf $2/*.gbo
+rm -rf $2/*.gts
+rm -rf $2/*.gto
+rm -rf $2/*.rpt
+rm -rf $2/*.png
+rm -rf $2/*.pho
+rm -rf $2/*.drl
+rm -rf $2/*.ngc
+rm -rf $2/*.csv
+rm -rf $2/*.xml
+rm -rf $2/*.dsn
+rm -rf $2/*.ses
+rm -rf $2/itead/*
+
+

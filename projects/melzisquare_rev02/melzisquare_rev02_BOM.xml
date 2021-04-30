@@ -1,0 +1,19 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>KiCad BOM Example 5</title>
+</head>
+<body>
+<h1>/home/ted/kicad/projects/melzisquare_rev02/melzisquare_rev02.sch</h1>
+<p>Sun 08 Nov 2015 02:00:33 PM PST</p>
+<p>Eeschema (2015-08-20 BZR 6109)-product</p>
+<p><b>Component Count:</b>98</p>
+<table>
+<tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th></tr><tr><td>C12, C27, C13, C26, C28, C34, C35, </td><td>7</td><td>100uF</td><td>capacitors:c_elec_8mm_SMD</td></tr><tr><td>C14, </td><td>1</td><td>4.7uF</td><td>capacitors:c_elec_4x5.3</td></tr><tr><td>C29, C30, C36, </td><td>3</td><td>0.1uF</td><td>capacitors:SM0603_C</td></tr><tr><td>C32, C31, </td><td>2</td><td>18pF</td><td>capacitors:SM0603_C</td></tr><tr><td>C37, </td><td>1</td><td>1uF</td><td>capacitors:SM0603_C</td></tr><tr><td>C5, C21, C7, C20, </td><td>4</td><td>.22uF</td><td>capacitors:SM0603_C</td></tr><tr><td>C6, C15, C33, C3, C1, C10, C8, C19, C17, C25, C23, C4, C2, C11, C9, C18, C16, C24, C22, </td><td>19</td><td>.1uF</td><td>capacitors:SM0603_C</td></tr><tr><td>D1, </td><td>1</td><td>LED</td><td>led:LED-1206</td></tr><tr><td>FB1, </td><td>1</td><td>500ma</td><td>resistors:SM0805_R</td></tr><tr><td>H1, H2, H3, H4, </td><td>4</td><td>HOLE</td><td>holes:Hole_3mm</td></tr><tr><td>J1, </td><td>1</td><td>TERMINAL_16X1</td><td>connectors:TERMINAL_SPRING_2.54MM_16PIN_1989887</td></tr><tr><td>J2, </td><td>1</td><td>JUMPER_2X1</td><td>connectors:HEADER_2x1_SMT</td></tr><tr><td>J3, </td><td>1</td><td>TERMINAL_10X1</td><td>connectors:TERMINAL_SPRING_2.54MM_10PIN_1989829</td></tr><tr><td>J4, </td><td>1</td><td>TERMINAL_8X1</td><td>connectors:TERMINAL_SPRING_2.54MM_8PIN_1989803</td></tr><tr><td>J5, </td><td>1</td><td>IDC_3X2</td><td>connectors:IDC_3x2</td></tr><tr><td>J6, </td><td>1</td><td>USB</td><td>connectors:USB_SMT_MINI</td></tr><tr><td>J7, </td><td>1</td><td>TACTILE_SWITCH</td><td>connectors:TACTILE_SWITCH_6x6</td></tr><tr><td>Q1, Q2, Q3, </td><td>3</td><td>NMOSFET</td><td>transistors:SO-8_FLAT_LEAD_CASE_488AA_STYLE1</td></tr><tr><td>R1, R17, R3, R15, </td><td>4</td><td>50k</td><td>resistors:SM0603_R</td></tr><tr><td>R11, R12, R28, R29, R13, R14, R26, R27, </td><td>8</td><td>0.1</td><td>resistors:SM0805_R</td></tr><tr><td>R34, R2, R9, R18, R25, R4, R10, R16, R24, R23, R30, R31, R35, R36, R37, </td><td>15</td><td>10k</td><td>resistors:SM0603_R</td></tr><tr><td>R38, </td><td>1</td><td>1k</td><td>resistors:SM0603_R</td></tr><tr><td>R5, R19, R6, R20, </td><td>4</td><td>100k</td><td>resistors:SM0603_R</td></tr><tr><td>R7, R22, R8, R21, R32, R33, </td><td>6</td><td>4.7k</td><td>resistors:SM0603_R</td></tr><tr><td>U1, U5, U2, U4, </td><td>4</td><td>A4982</td><td>ICs:TSSOP24+PAD</td></tr><tr><td>U3, </td><td>1</td><td>FT232RL</td><td>ICs:SSOP28</td></tr><tr><td>U6, </td><td>1</td><td>ATMEGA1284P</td><td>ICs:TQFP44</td></tr><tr><td>X1, </td><td>1</td><td>16MHz</td><td>crystals:crystal_FA-20H</td></tr><!--TABLEROW-->
+</table>
+</body>
+</html>
+

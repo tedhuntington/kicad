@@ -1,0 +1,21 @@
+EESchema-LIBRARY Version 2.3  Date: Wed 01 Jul 2009 06:34:34 PM PDT
+#
+# Photoresistor
+#
+DEF Photoresistor R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Photoresistor" 0 0 30 V V C CNN
+F4 "Jameco 202403" 160 15 60 V I C CNN
+$FPLIST
+ R?
+ SM0603
+ SM0805
+$ENDFPLIST
+DRAW
+S -40 150 40 -150 0 1 8 N
+X ~ 1 0 250 100 D 60 60 1 1 P
+X ~ 2 0 -250 100 U 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

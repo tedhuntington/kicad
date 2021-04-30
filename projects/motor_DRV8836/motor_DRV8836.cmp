@@ -1,0 +1,66 @@
+Cmp-Mod V01 Created by CvPcb (2013-08-24 BZR 4298)-stable date = Sun 01 Dec 2013 01:58:01 PM PST
+
+BeginCmp
+TimeStamp = /529BB0DE;
+Reference = C1;
+ValeurCmp = 10uF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /529BB0F7;
+Reference = C2;
+ValeurCmp = 10uF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /524CF7DE;
+Reference = C3;
+ValeurCmp = 10uF;
+IdModule  = TED_SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52503907;
+Reference = J1;
+ValeurCmp = Motor DC_2.1MM;
+IdModule  = TED_DC_2.1mm_SMT;
+EndCmp
+
+BeginCmp
+TimeStamp = /5290DDD9;
+Reference = J2;
+ValeurCmp = HEADER_10X2;
+IdModule  = TED_HEADER_10x2_BOTTOM_SIDE;
+EndCmp
+
+BeginCmp
+TimeStamp = /52427105;
+Reference = J5;
+ValeurCmp = HEADER_5X2;
+IdModule  = TED_HEADER_5x2_SMT;
+EndCmp
+
+BeginCmp
+TimeStamp = /529BAB70;
+Reference = U1;
+ValeurCmp = DRV8836;
+IdModule  = TED_WSON-12;
+EndCmp
+
+BeginCmp
+TimeStamp = /529BAB89;
+Reference = U2;
+ValeurCmp = DRV8836;
+IdModule  = TED_WSON-12;
+EndCmp
+
+BeginCmp
+TimeStamp = /529BA23B;
+Reference = U3;
+ValeurCmp = DRV8836;
+IdModule  = TED_WSON-12;
+EndCmp
+
+EndListe

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/tedh/kicad/projects/DC2_1_To_USBA_and_Header_rev02/DC2_1_To_USBA_and_Header_rev02.sch</source>
+    <date>Thu 20 Jul 2017 09:30:34 PM PDT</date>
+    <tool>Eeschema 4.0.6-e0-6349~53~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>2 jun 2015</date>
+        <source>DC2_1_To_USBA_and_Header_rev02.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J2">
+      <value>DC_2.1mm_3pin</value>
+      <footprint>ted_connectors:TED_2.1mm_DC_SMD</footprint>
+      <libsource lib="ted_connectors" part="DC_2.1mm_3pin"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CD4F87</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>USB</value>
+      <footprint>ted_connectors:TED_USB_A_SMD</footprint>
+      <libsource lib="ted_connectors" part="USB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D124C7</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>DC_2.1mm_3pin</value>
+      <footprint>ted_connectors:TED_2.1mm_DC_SMD</footprint>
+      <libsource lib="ted_connectors" part="DC_2.1mm_3pin"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59717F1F</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>JUMPER_2X1</value>
+      <footprint>ted_connectors:TED_HEADER_2x1</footprint>
+      <libsource lib="ted_connectors" part="JUMPER_2X1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59717F33</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="ted_connectors" part="DC_2.1mm_3pin">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DC_2.1mm_3pin</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="SHUNT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ted_connectors" part="JUMPER_2X1">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">JUMPER_2X1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ted_connectors" part="USB">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+5V" type="power_in"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="ted_connectors">
+      <uri>/home/tedh/kicad/projects/library/ted_connectors.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="2" name="Net-(J3-Pad2)">
+      <node ref="J4" pin="2"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="3" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="4" name="Net-(J4-Pad3)">
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="5" name="Net-(J1-Pad4)">
+      <node ref="J2" pin="2"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="6" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="8" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="9" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+    </net>
+  </nets>
+</export>

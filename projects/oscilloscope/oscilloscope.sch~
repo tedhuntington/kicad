@@ -1,0 +1,254 @@
+EESchema Schematic File Version 2  date Mon 11 May 2009 12:15:33 AM PDT
+LIBS:power,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves,ted_capacitors,ted_conn,ted_connectors,ted_device,ted_diodes,ted_ic,ted_opamp,ted_power,ted_regulators,ted_resistors,ted_switches,ted_transistor
+EELAYER 24  0
+EELAYER END
+$Descr User 11000 8500
+Sheet 1 1
+Title "Oscilloscope"
+Date "11 may 2009"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 2715 2435 0    40   ~ 0
+PB0
+Wire Wire Line
+	2715 2495 2715 2435
+Wire Wire Line
+	4730 2065 4730 2135
+Text Label 4730 2135 0    40   ~ 0
+PB0
+Text Notes 5800 6700 0    60   ~ 0
+Analog In 2
+Text Notes 750  6750 0    60   ~ 0
+Analog In 1
+Text Notes 7750 7250 0    60   ~ 0
+Analog In 2
+RCA
+Text Notes 6850 7250 0    60   ~ 0
+Analog In 2
+3.5 mm
+Text Notes 2800 7250 0    60   ~ 0
+Analog In 1
+RCA
+Text Notes 1850 7250 0    60   ~ 0
+Analog In 1
+3.5mm
+Text Notes 9100 6600 0    60   ~ 0
+Digital In 2
+Text Notes 4150 6650 0    60   ~ 0
+Digital In 1
+Text Notes 5650 6550 0    60   ~ 0
+30v 15v 5v GND
+Text Notes 650  6600 0    60   ~ 0
+30v 15v 5v GND
+Text Notes 5010 5510 0    60   ~ 0
+Analog-Digital 2
+Text Notes 620  5570 0    60   ~ 0
+Analog-Digital 1
+$Comp
+L CRYSTAL_DRIVER U1
+U 1 1 4A07C638
+P 7500 1450
+F 0 "U1" H 7510 1030 60  0000 C CNN
+F 1 "CRYSTAL_DRIVER" H 7500 1890 60  0000 C CNN
+F 2 "PSOP06" H 7500 810 60  0001 C CNN
+F 3 "crystal_driver_sn74lvc1gx04.pdf" H 7510 1030 60  0001 C CNN
+F 4 "sn74lvc1gx04" H 7480 930 60  0000 C CNN "Field1"
+	1    7500 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L TERMINAL_3.5MM_PCB_8PIN J4
+U 1 1 4A07B48A
+P 9450 6150
+F 0 "J4" H 9400 5700 60  0000 C CNN
+F 1 "TERMINAL_3.5MM_PCB_8PIN" H 9490 6395 60  0000 C CNN
+F 2 "TERMINAL_3.5MM_8PIN" H 9485 5615 60  0001 C CNN
+	1    9450 6150
+	1    0    0    1   
+$EndComp
+$Comp
+L RCA_MONO_PC J11
+U 1 1 4A07B469
+P 8045 6585
+F 0 "J11" H 8115 6210 60  0000 C CNN
+F 1 "RCA_MONO_PC" H 8063 7000 60  0000 C CNN
+F 2 "TED_RCA_MONO_220572" H 8120 5940 60  0001 C CNN
+F 3 "rca_220572.pdf" H 8165 6035 60  0001 C CNN
+F 4 "Jameco_220572" H 8130 6130 60  0001 C CNN "Field1"
+	1    8045 6585
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 3.5_STEREO_SMT2 J13
+U 1 1 4A07B457
+P 7145 6610
+F 0 "J13" H 7150 6235 60  0000 C CNN
+F 1 "3.5_STEREO_SMT2" H 7163 7025 60  0000 C CNN
+F 2 "TED_CONNECTOR_STEREO_3.5" H 7250 6060 60  0001 C CNN
+F 4 "Mouser_161-3935-E" H 7220 6160 60  0001 C CNN "Field1"
+	1    7145 6610
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TERM2 J7
+U 1 1 4A07B447
+P 6350 6205
+F 0 "J7" H 6300 5755 60  0000 C CNN
+F 1 "TERM2" H 6340 6430 60  0000 C CNN
+F 2 "TERMINAL_3.5MM_2PIN" H 6415 5675 60  0001 C CNN
+	1    6350 6205
+	1    0    0    1   
+$EndComp
+$Comp
+L TERM2 J6
+U 1 1 4A07B43E
+P 5870 6205
+F 0 "J6" H 5820 5755 60  0000 C CNN
+F 1 "TERM2" H 5860 6430 60  0000 C CNN
+F 2 "TERMINAL_3.5MM_2PIN" H 5935 5675 60  0001 C CNN
+	1    5870 6205
+	1    0    0    1   
+$EndComp
+$Comp
+L TERMINAL_3.5MM_PCB_8PIN J5
+U 1 1 4A07B409
+P 4430 6195
+F 0 "J5" H 4380 5745 60  0000 C CNN
+F 1 "TERMINAL_3.5MM_PCB_8PIN" H 4470 6440 60  0000 C CNN
+F 2 "TERMINAL_3.5MM_8PIN" H 4465 5660 60  0001 C CNN
+	1    4430 6195
+	1    0    0    1   
+$EndComp
+$Comp
+L TERM2 J9
+U 1 1 4A07B3F0
+P 1380 6230
+F 0 "J9" H 1330 5780 60  0000 C CNN
+F 1 "TERM2" H 1370 6455 60  0000 C CNN
+F 2 "TERMINAL_3.5MM_2PIN" H 1445 5700 60  0001 C CNN
+	1    1380 6230
+	1    0    0    1   
+$EndComp
+$Comp
+L TERM2 J8
+U 1 1 4A07B3E3
+P 890 6230
+F 0 "J8" H 840 5780 60  0000 C CNN
+F 1 "TERM2" H 880 6455 60  0000 C CNN
+F 2 "TERMINAL_3.5MM_2PIN" H 955 5700 60  0001 C CNN
+	1    890  6230
+	1    0    0    1   
+$EndComp
+$Comp
+L 3.5_STEREO_SMT2 J10
+U 1 1 4A07B386
+P 2170 6585
+F 0 "J10" H 2175 6210 60  0000 C CNN
+F 1 "3.5_STEREO_SMT2" H 2188 7000 60  0000 C CNN
+F 2 "TED_CONNECTOR_STEREO_3.5" H 2275 6035 60  0001 C CNN
+F 4 "Mouser_161-3935-E" H 2245 6135 60  0001 C CNN "Field1"
+	1    2170 6585
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RCA_MONO_PC J12
+U 1 1 4A07B376
+P 3055 6600
+F 0 "J12" H 3125 6225 60  0000 C CNN
+F 1 "RCA_MONO_PC" H 3073 7015 60  0000 C CNN
+F 2 "TED_RCA_MONO_220572" H 3130 5955 60  0001 C CNN
+F 3 "rca_220572.pdf" H 3175 6050 60  0001 C CNN
+F 4 "Jameco_220572" H 3140 6145 60  0001 C CNN "Field1"
+	1    3055 6600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SPDT_Switch J2
+U 1 1 4A07AFD7
+P 5565 5060
+F 0 "J2" H 5565 4730 60  0000 C CNN
+F 1 "SPDT_Switch" H 5555 5450 60  0000 C CNN
+F 4 "Mouser_661-1101m2s3aqe2" H 5645 4605 60  0001 C CNN "Part Number"
+	1    5565 5060
+	1    0    0    -1  
+$EndComp
+$Comp
+L SPDT_Switch J3
+U 1 1 4A07AFB1
+P 1105 5100
+F 0 "J3" H 1105 4770 60  0000 C CNN
+F 1 "SPDT_Switch" H 1095 5490 60  0000 C CNN
+F 4 "Mouser_661-1101m2s3aqe2" H 1185 4645 60  0001 C CNN "Part Number"
+	1    1105 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L OPA353 U6
+U 1 1 4A079635
+P 6985 5115
+F 0 "U6" H 7135 5415 70  0000 C CNN
+F 1 "OPA353" H 7135 5315 70  0000 C CNN
+	1    6985 5115
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OPA353 U7
+U 1 1 4A079626
+P 2600 5300
+F 0 "U7" H 2750 5600 70  0000 C CNN
+F 1 "OPA353" H 2750 5500 70  0000 C CNN
+	1    2600 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74VHC574 U2
+U 1 1 4A078ABC
+P 8570 3315
+F 0 "U2" H 8710 2690 60  0000 C CNN
+F 1 "74VHC574" H 8570 3045 60  0000 C CNN
+	1    8570 3315
+	0    -1   1    0   
+$EndComp
+$Comp
+L TLC5510A U5
+U 1 1 4A078AA2
+P 6350 3460
+F 0 "U5" H 6355 2380 70  0000 C CNN
+F 1 "TLC5510A" H 6320 4370 70  0000 C CNN
+	1    6350 3460
+	0    1    -1   0   
+$EndComp
+$Comp
+L 74VHC574 U3
+U 1 1 4A078A90
+P 4215 3405
+F 0 "U3" H 4355 2780 60  0000 C CNN
+F 1 "74VHC574" H 4215 3135 60  0000 C CNN
+	1    4215 3405
+	0    -1   1    0   
+$EndComp
+$Comp
+L TLC5510A U4
+U 1 1 4A078A63
+P 1975 3445
+F 0 "U4" H 1980 2365 70  0000 C CNN
+F 1 "TLC5510A" H 1945 4355 70  0000 C CNN
+	1    1975 3445
+	0    1    -1   0   
+$EndComp
+$Comp
+L FX2_18x2 J1
+U 1 1 4A025F78
+P 3030 1490
+F 0 "J1" H 3030 2540 60  0000 C CNN
+F 1 "FX2_18x2" V 3030 1490 50  0000 C CNN
+F 2 "FEM_SOCKET_18x2" H 2970 2600 60  0001 C CNN
+	1    3030 1490
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC

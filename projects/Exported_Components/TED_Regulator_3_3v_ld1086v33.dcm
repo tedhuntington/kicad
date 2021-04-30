@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0  Date: Sat 28 Nov 2009 12:31:18 AM PST
+#
+$CMP LD1086V33
+D Linear Regulator +5V
+K POWER REGUL
+F regulator/lm78*.*
+$ENDCMP
+#
+#End Doc Library

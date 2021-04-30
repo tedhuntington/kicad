@@ -1,0 +1,40 @@
+EESchema-DOCLIB  Version 2.0  Sun 30 Aug 2009 06:41:11 PM PDT
+#
+$CMP 7804
+D Linear Regulator +5V
+K POWER REGUL
+F regulator/lm78*.*
+$ENDCMP
+#
+$CMP C
+D Condensateur non polarise
+$ENDCMP
+#
+$CMP LED
+D Diode simple
+K DEV DIODE
+$ENDCMP
+#
+$CMP OPA353
+D Op amp.
+K AmpliOp
+F ../docs/opa353
+$ENDCMP
+#
+$CMP R
+D Resistance
+K R DEV
+$ENDCMP
+#
+$CMP Regulator_3.3V
+D Linear Regulator +5V
+K POWER REGUL
+F regulator/lm78*.*
+$ENDCMP
+#
+$CMP TLC5510A
+D DAC (4 outputs)
+K DAC CAN
+$ENDCMP
+#
+#End Doc Library

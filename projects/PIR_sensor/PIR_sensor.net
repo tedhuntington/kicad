@@ -1,0 +1,30 @@
+# EESchema Netlist Version 1.1 created  Sun 26 Jul 2009 09:32:28 PM PDT
+(
+ ( /4A6D2D1B TED_SCREWLESS_TERM_2x1  J2 Ground {Lib=TERMINAL_2mil_PCB_2PIN}
+  (    1 N-000001 )
+  (    2 N-000001 )
+ )
+ ( /4A6D2CE5 $noname  R1 PIR {Lib=PIR}
+  (    1 N-000003 )
+  (    2 N-000002 )
+  (    3 N-000001 )
+ )
+ ( /4A449E62 TED_TERMINAL_2mil_2PIN  J1 Drain_Source {Lib=TERMINAL_2mil_PCB_2PIN}
+  (    1 N-000003 )
+  (    2 N-000002 )
+ )
+)
+*
+{ Pin List by Nets
+Net 1 "" ""
+ J2 1
+ J2 2
+ R1 3
+Net 2 "" ""
+ R1 2
+ J1 2
+Net 3 "" ""
+ R1 1
+ J1 1
+}
+#End

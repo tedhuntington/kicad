@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Battery_Charger_10S
+#
+DEF Battery_Charger_10S U 0 40 Y Y 1 F N
+F0 "U" 0 -200 60 H V C CNN
+F1 "Battery_Charger_10S" 100 400 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -1200 600 1200 -600 0 1 0 N
+X Discharge 1 -1400 200 200 R 50 50 1 1 w
+X Charge 2 -1400 -200 200 R 50 50 1 1 w
+X B1+ ~ 800 -800 200 U 50 50 1 1 w
+X B1- ~ 1000 -800 200 U 50 50 1 1 w
+X B10+ ~ -1000 -800 200 U 50 50 1 1 w
+X B2+ ~ 600 -800 200 U 50 50 1 1 w
+X B3+ ~ 400 -800 200 U 50 50 1 1 w
+X B4+ ~ 200 -800 200 U 50 50 1 1 w
+X B5+ ~ 0 -800 200 U 50 50 1 1 w
+X B6+ ~ -200 -800 200 U 50 50 1 1 w
+X B7+ ~ -400 -800 200 U 50 50 1 1 w
+X B8+ ~ -600 -800 200 U 50 50 1 1 w
+X B9+ ~ -800 -800 200 U 50 50 1 1 w
+X Battery- ~ 1400 0 200 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+#End Library

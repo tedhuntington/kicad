@@ -1,0 +1,163 @@
+# EESchema Netlist Version 1.1 created  Sat 10 Jul 2010 06:21:29 PM PDT
+(
+ ( /4C1BC03F $noname  C3 10uF {Lib=C_POL_SMALL}
+  (    1 N-000014 )
+  (    2 N-000017 )
+ )
+ ( /4C1BC00F $noname  C2 10uF {Lib=C_POL_SMALL}
+  (    1 N-000009 )
+  (    2 N-000015 )
+ )
+ ( /4C1BBFFB $noname  R3 10k {Lib=R}
+  (    1 N-000015 )
+  (    2 GND )
+ )
+ ( /4C1BBFA6 $noname  J6 JUMPER_3X1 {Lib=JUMPER_3X1}
+  (    1 N-000005 )
+  (    2 N-000014 )
+  (    3 N-000007 )
+ )
+ ( /4C01DF2F $noname  T1 TRANSFORMER {Lib=TRANSFORMER}
+  (    1 N-000012 )
+  (    2 GND )
+  (    3 ? )
+  (    4 N-000016 )
+  (    5 ? )
+  (    6 N-000013 )
+ )
+ ( /4C01DB36 $noname  R2 10M {Lib=R}
+  (    1 N-000012 )
+  (    2 N-000017 )
+ )
+ ( /4C01DB2F $noname  R1 10k {Lib=R}
+  (    1 N-000017 )
+  (    2 GND )
+ )
+ ( /4C01DB16 $noname  C1 .1uF {Lib=C(SMALL)}
+  (    1 N-000011 )
+  (    2 GND )
+ )
+ ( /4C01DA25 TED_3.5_Stereo_ASJ-5-3  J5 3.5_STEREO {Lib=3.5_STEREO}
+  (    1 N-000016 )
+  (    2 N-000013 )
+  (    3 N-000013 )
+ )
+ ( /4C01D9BA TED_TERMINAL_3.5MM_2PIN  J4 TERMINAL_3.5MM_PCB_2PIN {Lib=TERMINAL_3.5MM_PCB_2PIN}
+  (    1 N-000012 )
+  (    2 GND )
+ )
+ ( /4C01D9A1 $noname  U1 OPAMP {Lib=OPAMP}
+  (    2 N-000017 )
+  (    3 N-000015 )
+  (    4 GND )
+  (    6 N-000012 )
+  (    7 N-000011 )
+ )
+ ( /4C01D810 $noname  J3 JUMPER_3X1 {Lib=JUMPER_3X1}
+  (    1 N-000006 )
+  (    2 N-000009 )
+  (    3 N-000008 )
+ )
+ ( /4C01D7F8 MLX90247  S1 THERMOPILE_MLX90247 {Lib=THERMOPILE_MLX90247}
+  (    1 N-000008 )
+  (    2 ? )
+  (    3 N-000007 )
+  (    4 ? )
+ )
+ ( /4BAC20CF TED_TERMINAL_3.5MM_2PIN  J1 TERMINAL_3.5MM_PCB_2PIN {Lib=TERMINAL_3.5MM_PCB_2PIN}
+  (    1 N-000005 )
+  (    2 N-000006 )
+ )
+ ( /4BAC0857 DC_2.1mm  J2 DC_2.1mm {Lib=DC_2.1mm}
+  (    1 N-000011 )
+  (    2 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 5 "" ""
+ J6 1
+ J1 1
+Net 6 "" ""
+ J3 1
+ J1 2
+Net 7 "" ""
+ S1 3
+ J6 3
+Net 8 "" ""
+ J3 3
+ S1 1
+Net 9 "" ""
+ J3 2
+ C2 1
+Net 10 "GND" "GND"
+ R1 2
+ C1 2
+ J4 2
+ R3 2
+ J2 2
+ U1 4
+ T1 2
+Net 11 "" ""
+ J2 1
+ U1 7
+ C1 1
+Net 12 "" ""
+ T1 1
+ J4 1
+ U1 6
+ R2 1
+Net 13 "" ""
+ T1 6
+ J5 3
+ J5 2
+Net 14 "" ""
+ J6 2
+ C3 1
+Net 15 "" ""
+ C2 2
+ R3 1
+ U1 3
+Net 16 "" ""
+ J5 1
+ T1 4
+Net 17 "" ""
+ C3 2
+ R2 2
+ R1 1
+ U1 2
+}
+#End
